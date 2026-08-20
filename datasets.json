@@ -688,10 +688,10 @@
     "shortName": "CLEVRER",
     "year": 2020,
     "summary": "面向视频物理与因果推理的合成基准，通过碰撞和运动事件考察描述、解释、预测与反事实推理能力，尤其适合诊断模型是否学习到可组合的物理因果机制。",
-    "primaryTask": "Physical & Causal Reasoning",
-    "primaryTaskZh": "物理与因果推理",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
     "secondaryTasks": [
-      "World Model Evaluation & Diagnostics"
+      "Physical & Causal Reasoning"
     ],
     "domain": [
       "Physics / Science"

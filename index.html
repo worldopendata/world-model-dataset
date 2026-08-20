@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按研究任务组织的世界模型开放数据集目录">
+  <title>WorldModel Data Atlas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="WorldModel Data Atlas 首页"><span class="brand-mark">WM</span><span>Data Atlas</span></a>
+    <nav><a href="#catalog">数据目录</a><a href="#method">方法说明</a><a class="github" href="https://github.com/knightnemo/Awesome-World-Models" target="_blank" rel="noreferrer">参考项目 ↗</a></nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A TASK-FIRST CATALOG FOR WORLD MODELS</p>
+        <h1>从研究问题出发，<br><em>找到真正适合的数据。</em></h1>
+        <p class="lede">不是按论文年份堆叠链接，而是用任务、领域与模态建立一张可检索的世界模型数据地图。</p>
+        <a class="primary-button" href="#catalog">浏览首批数据集 <span>↓</span></a>
+      </div>
+      <div class="hero-graphic" aria-label="任务、领域、模态三层分类示意">
+        <div class="orbit orbit-a"><span>Task</span></div>
+        <div class="orbit orbit-b"><span>Domain</span></div>
+        <div class="orbit orbit-c"><span>Modality</span></div>
+        <div class="core">WORLD<br>MODEL</div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="目录统计">
+      <div><strong id="metricDatasets">05</strong><span>Curated datasets</span></div>
+      <div><strong id="metricTasks">05</strong><span>Primary tasks</span></div>
+      <div><strong id="metricDomains">05</strong><span>Research domains</span></div>
+      <div><strong>100%</strong><span>Human reviewed</span></div>
+    </section>
+
+    <section class="catalog" id="catalog">
+      <div class="section-heading">
+        <div><p class="eyebrow">CURATED CATALOG · V0.1</p><h2>代表性开放数据集</h2></div>
+        <p>每个数据集只有一个 Primary Task，其他用途通过标签表达。当前按年份倒排。</p>
+      </div>
+      <div class="toolbar">
+        <label class="search"><span>⌕</span><input id="searchInput" type="search" placeholder="搜索名称、机构、任务或模态…" autocomplete="off"></label>
+        <label><span class="sr-only">按任务筛选</span><select id="taskFilter"><option value="">全部任务</option></select></label>
+        <label><span class="sr-only">按领域筛选</span><select id="domainFilter"><option value="">全部领域</option></select></label>
+        <button id="resetButton" type="button">重置</button>
+      </div>
+      <div class="result-line"><span id="resultCount">5 个数据集</span><span>↓ 按时间倒排</span></div>
+      <div id="datasetGrid" class="dataset-grid" aria-live="polite"></div>
+      <p id="emptyState" class="empty" hidden>没有匹配的数据集，试试清除筛选条件。</p>
+    </section>
+
+    <section class="method" id="method">
+      <div><p class="eyebrow">OUR METHOD</p><h2>一个主任务，多个事实标签。</h2></div>
+      <div class="method-grid">
+        <article><span>01</span><h3>Primary Task</h3><p>回答“它主要训练或评测什么能力”，每条记录只选一个。</p></article>
+        <article><span>02</span><h3>Domain Tags</h3><p>描述数据发生在哪里，例如机器人、驾驶、游戏或物理科学。</p></article>
+        <article><span>03</span><h3>Modality Tags</h3><p>准确说明数据提供的视频、动作、状态、点云与语言等信号。</p></article>
+      </div>
+    </section>
+  </main>
+  <footer><span>WorldModel Data Atlas · Preview 0.1</span><span>Evidence over hype. Structure over accumulation.</span></footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

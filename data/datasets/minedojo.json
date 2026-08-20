@@ -1,0 +1,43 @@
+{
+  "id": "minedojo",
+  "name": "MineDojo",
+  "shortName": "MineDojo",
+  "year": 2022,
+  "summary": "围绕 Minecraft 开放世界构建的大规模多模态知识与交互平台，结合玩家视频、文本知识、社区讨论及可实时交互的仿真环境，适合长期探索和开放域智能体研究。",
+  "primaryTask": "Action-Conditioned Dynamics",
+  "primaryTaskZh": "动作条件动力学",
+  "secondaryTasks": [
+    "Decision-Making & Agent Trajectories"
+  ],
+  "domain": [
+    "Games / Virtual Environments"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Action",
+    "Audio",
+    "Text",
+    "Game State"
+  ],
+  "structure": [
+    "Interaction Episodes",
+    "Simulation Rollouts"
+  ],
+  "source": [
+    "Simulation",
+    "Human Demonstration"
+  ],
+  "scale": "730K+ videos · ~19K hours · 6K+ wiki pages · 340K+ discussions",
+  "organizations": "Stanford, NVIDIA, Caltech, MIT",
+  "license": "MIT for code; source media and Minecraft assets have separate terms",
+  "access": "Open / source-dependent",
+  "rating": 5,
+  "verdict": "开放世界交互试验场",
+  "wmNote": "适合交互式游戏世界模型和长时程 agent。数据来源复杂，代码许可不等于所有视频、文本与游戏资产均采用 MIT 许可。",
+  "links": {
+    "homepage": "https://minedojo.org/",
+    "paper": "https://arxiv.org/abs/2206.01356",
+    "code": "https://github.com/MineDojo/MineDojo",
+    "download": "https://minedojo.org/"
+  }
+}

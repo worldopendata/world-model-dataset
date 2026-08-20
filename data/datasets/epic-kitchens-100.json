@@ -1,0 +1,41 @@
+{
+  "id": "epic-kitchens-100",
+  "name": "EPIC-KITCHENS-100",
+  "shortName": "EPIC-KITCHENS-100",
+  "year": 2022,
+  "summary": "大规模第一人称厨房活动数据集，提供连续视频、动作分段、名词与动词标注及多项预测任务，适合研究人类手物交互和下一动作预测。",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Egocentric / Human"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Audio",
+    "Action Labels",
+    "Language"
+  ],
+  "structure": [
+    "Temporal Sequences"
+  ],
+  "source": [
+    "Real-world",
+    "Human Demonstration"
+  ],
+  "scale": "100 hours · 90K action segments · 700 variable-length videos",
+  "organizations": "University of Bristol and University of Catania",
+  "license": "EPIC-KITCHENS data license; research use conditions apply",
+  "access": "Application / agreement required",
+  "rating": "5",
+  "verdict": "厨房行为预测基准",
+  "wmNote": "动作与物体标签细致，适合短期行为建模；场景集中在厨房且数据使用需遵守专门协议。",
+  "links": {
+    "homepage": "https://epic-kitchens.github.io/2021",
+    "paper": "https://arxiv.org/abs/2006.13256",
+    "code": "https://github.com/epic-kitchens/epic-kitchens-100-annotations",
+    "download": "https://epic-kitchens.github.io/2021"
+  }
+}

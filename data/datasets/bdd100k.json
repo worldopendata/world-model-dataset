@@ -1,0 +1,40 @@
+{
+  "id": "bdd100k",
+  "name": "BDD100K",
+  "shortName": "BDD100K",
+  "year": 2020,
+  "summary": "覆盖多城市、天气与时段的大规模驾驶视频数据集，提供目标检测、车道线、可行驶区域、跟踪等多任务标注，适合研究视觉动态表示和复杂道路分布泛化。",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "Spatial & Spatiotemporal World Modeling"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "RGB Video",
+    "2D Boxes",
+    "Segmentation",
+    "Lane Markings"
+  ],
+  "structure": [
+    "Temporal Sequences"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "100K driving videos · 40 seconds each · 10 tasks",
+  "organizations": "UC Berkeley",
+  "license": "BDD100K license; non-commercial research conditions apply",
+  "access": "Registration required",
+  "rating": "4",
+  "verdict": "多样化驾驶视频",
+  "wmNote": "视觉场景覆盖广，适合视频预训练和分布鲁棒性研究；缺少同步 LiDAR 与直接控制信号。",
+  "links": {
+    "homepage": "https://bdd-data.berkeley.edu/",
+    "paper": "https://arxiv.org/abs/1805.04687",
+    "code": "https://github.com/bdd100k/bdd100k",
+    "download": "https://bdd-data.berkeley.edu/"
+  }
+}

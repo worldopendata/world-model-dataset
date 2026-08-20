@@ -1,0 +1,43 @@
+{
+  "id": "clevrer",
+  "name": "CLEVRER",
+  "shortName": "CLEVRER",
+  "year": 2020,
+  "summary": "面向视频物理与因果推理的合成基准，通过碰撞和运动事件考察描述、解释、预测与反事实推理能力，尤其适合诊断模型是否学习到可组合的物理因果机制。",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Physics / Science"
+  ],
+  "modalities": [
+    "Synthetic Video",
+    "Object Metadata",
+    "Trajectory",
+    "Logic Program",
+    "QA"
+  ],
+  "structure": [
+    "QA / Diagnostic Cases",
+    "Simulation Rollouts"
+  ],
+  "source": [
+    "Simulation",
+    "Synthetic / Generated"
+  ],
+  "scale": "20K five-second videos · 300K+ descriptive and causal questions",
+  "organizations": "MIT CSAIL, DeepMind, Harvard",
+  "license": "Research dataset terms; verify individual assets and code separately",
+  "access": "Open download",
+  "rating": 5,
+  "verdict": "反事实物理诊断",
+  "wmNote": "非常适合测试碰撞事件、因果解释和反事实预测。场景高度受控，不能直接代表复杂真实世界中的物理泛化能力。",
+  "links": {
+    "homepage": "https://clevrer.csail.mit.edu/",
+    "paper": "https://arxiv.org/abs/1910.01442",
+    "code": "https://github.com/clevrer/clevrer",
+    "download": "http://clevrer.csail.mit.edu/"
+  }
+}

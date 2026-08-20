@@ -1,0 +1,40 @@
+{
+  "id": "kitti",
+  "name": "KITTI",
+  "shortName": "KITTI",
+  "year": 2012,
+  "summary": "自动驾驶领域最经典的多传感器数据集之一，提供双目相机、LiDAR、GPS/IMU 和多类评测任务，适合建立深度、场景流、里程计与三维动态建模的可比基线。",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "Stereo RGB",
+    "LiDAR",
+    "GPS / IMU",
+    "3D Boxes"
+  ],
+  "structure": [
+    "Temporal Sequences"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "22 stereo sequences · 200K+ 3D object annotations across benchmarks",
+  "organizations": "Karlsruhe Institute of Technology and Toyota Technological Institute",
+  "license": "CC BY-NC-SA 3.0 for dataset; benchmark terms apply",
+  "access": "Open download",
+  "rating": "4",
+  "verdict": "经典驾驶几何基准",
+  "wmNote": "数据规模不大但工具链与历史基线极丰富，适合几何组件验证，不适合作为现代大模型的唯一训练源。",
+  "links": {
+    "homepage": "https://www.cvlibs.net/datasets/kitti/",
+    "paper": "https://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
+    "code": "https://github.com/utiasSTARS/pykitti",
+    "download": "https://www.cvlibs.net/datasets/kitti/"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cater",
+  "name": "CATER",
+  "shortName": "CATER",
+  "year": 2020,
+  "summary": "由可组合物体运动生成的合成视频数据集，强调时空关系、动作组合和被遮挡目标的定位，适合研究对象中心的动态表示及长期状态追踪。",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": [
+    "Spatial & Spatiotemporal World Modeling"
+  ],
+  "domain": [
+    "Physics / Science"
+  ],
+  "modalities": [
+    "Synthetic Video",
+    "Object State",
+    "Action Labels",
+    "3D Metadata"
+  ],
+  "structure": [
+    "Simulation Rollouts"
+  ],
+  "source": [
+    "Synthetic / Generated"
+  ],
+  "scale": "~5,500 videos · compositional actions · dense metadata",
+  "organizations": "IBM Research and MIT",
+  "license": "Dataset and code research terms; verify repository license",
+  "access": "Open download",
+  "rating": "4",
+  "verdict": "对象中心时空推理",
+  "wmNote": "精确元数据适合对象级世界状态学习；视觉和动作类型高度程序化，真实域泛化有限。",
+  "links": {
+    "homepage": "https://rohitgirdhar.github.io/CATER/",
+    "paper": "https://arxiv.org/abs/1910.04744",
+    "code": "https://github.com/rohitgirdhar/CATER",
+    "download": "https://rohitgirdhar.github.io/CATER/"
+  }
+}

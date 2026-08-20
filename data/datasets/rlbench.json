@@ -1,0 +1,41 @@
+{
+  "id": "rlbench",
+  "name": "RLBench",
+  "shortName": "RLBench",
+  "year": 2020,
+  "summary": "基于 CoppeliaSim 的大规模机器人操作学习套件，提供大量可程序化任务、示范轨迹和多视角视觉观测，可用于强化学习、模仿学习以及可控世界模型评测。",
+  "primaryTask": "Decision-Making & Agent Trajectories",
+  "primaryTaskZh": "决策与智能体轨迹",
+  "secondaryTasks": [
+    "Action-Conditioned Dynamics"
+  ],
+  "domain": [
+    "Robotics / Embodied AI"
+  ],
+  "modalities": [
+    "RGB-D",
+    "Action",
+    "Robot State",
+    "Language"
+  ],
+  "structure": [
+    "Simulation Rollouts",
+    "Agent Trajectories"
+  ],
+  "source": [
+    "Simulation"
+  ],
+  "scale": "100+ manipulation tasks · demonstrations generated on demand",
+  "organizations": "Imperial College London and collaborators",
+  "license": "MIT code license; simulator and assets have separate terms",
+  "access": "Open generation toolkit",
+  "rating": "4",
+  "verdict": "可程序化操作任务库",
+  "wmNote": "任务覆盖广且可重复生成，适合快速实验和消融；仿真视觉与物理仍存在 sim-to-real 差距。",
+  "links": {
+    "homepage": "https://sites.google.com/view/rlbench",
+    "paper": "https://arxiv.org/abs/1909.12271",
+    "code": "https://github.com/stepjam/RLBench",
+    "download": "https://github.com/stepjam/RLBench"
+  }
+}

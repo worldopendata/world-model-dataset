@@ -28,7 +28,15 @@ Then open `http://localhost:8080`.
 
 ## Data maintenance
 
-Dataset records live in `datasets.json`; the interface is generated in the browser. Keep one primary task per dataset and use tags for secondary tasks, domains, and modalities.
+The canonical records live in `data/datasets/`, one JSON file per dataset. Keep one primary task per dataset and use tags for secondary tasks, domains, and modalities.
+
+After adding or editing a record, regenerate the browser catalog:
+
+```bash
+npm run build
+```
+
+Commit both the source record and generated `datasets.json`. The build script validates required fields and duplicate IDs before publishing.
 
 ## Deployment
 

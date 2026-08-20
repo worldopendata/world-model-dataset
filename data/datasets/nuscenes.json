@@ -1,0 +1,41 @@
+{
+  "id": "nuscenes",
+  "name": "nuScenes",
+  "shortName": "nuScenes",
+  "year": 2019,
+  "summary": "覆盖波士顿与新加坡城市道路的多传感器自动驾驶数据集，提供同步环视相机、LiDAR、RADAR、定位和三维标注，适合多视角时空建模、占用预测与驾驶世界模型研究。",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Predictive & Generative Dynamics"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "RGB Video",
+    "LiDAR",
+    "RADAR",
+    "IMU / GPS",
+    "3D Boxes"
+  ],
+  "structure": [
+    "Multi-view Sequences"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "1,000 scenes × 20 s · 1.4M images · 400K point-cloud frames",
+  "organizations": "Motional (formerly nuTonomy)",
+  "license": "CC BY-NC-SA 4.0 · non-commercial",
+  "access": "Registration required",
+  "rating": 5,
+  "verdict": "多传感器 4D 基准",
+  "wmNote": "传感器同步与标定质量高，适合多视角一致性生成、BEV 和 occupancy 预测。缺少直接的油门、制动和方向盘控制信号。",
+  "links": {
+    "homepage": "https://www.nuscenes.org/",
+    "paper": "https://arxiv.org/abs/1903.11027",
+    "code": "https://github.com/nutonomy/nuscenes-devkit",
+    "download": "https://www.nuscenes.org/nuscenes"
+  }
+}

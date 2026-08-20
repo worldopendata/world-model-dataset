@@ -1,0 +1,40 @@
+{
+  "id": "something-something-v2",
+  "name": "Something-Something V2",
+  "shortName": "Something-Something V2",
+  "year": 2018,
+  "summary": "由人类执行日常物体交互构成的大规模短视频数据集，类别强调推动、放置、遮挡等细粒度时间变化，是学习动作结果与时序因果线索的常用资源。",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "Physical & Causal Reasoning"
+  ],
+  "domain": [
+    "Egocentric / Human"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Action Labels",
+    "Text Templates"
+  ],
+  "structure": [
+    "Temporal Sequences"
+  ],
+  "source": [
+    "Real-world",
+    "Human Demonstration"
+  ],
+  "scale": "220K+ videos · 174 action classes",
+  "organizations": "Twenty Billion Neurons",
+  "license": "Dataset license and access agreement; commercial use requires review",
+  "access": "Registration required",
+  "rating": "4",
+  "verdict": "细粒度人类物体交互",
+  "wmNote": "动作类别依赖时间顺序，适合动态表征预训练；缺少机器人控制与显式物理状态。",
+  "links": {
+    "homepage": "https://developer.qualcomm.com/software/ai-datasets/something-something",
+    "paper": "https://arxiv.org/abs/1706.04261",
+    "code": "https://github.com/Showmax/kinetics-downloader",
+    "download": "https://developer.qualcomm.com/software/ai-datasets/something-something"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ego4d",
+  "name": "Ego4D",
+  "shortName": "Ego4D",
+  "year": 2022,
+  "summary": "由 Meta AI 联合全球高校采集的大规模第一人称真实生活视频数据集，其短期物体交互预判与长期动作预测任务，为人类行为、手物交互和具身未来预测提供了重要基准。",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Egocentric / Human"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Audio",
+    "3D Mesh",
+    "Gaze",
+    "IMU",
+    "Language"
+  ],
+  "structure": [
+    "Temporal Sequences"
+  ],
+  "source": [
+    "Real-world",
+    "Human Demonstration"
+  ],
+  "scale": "3,670 hours · 900+ participants · 74 locations across 9 countries",
+  "organizations": "Meta AI (FAIR), UT Austin, CMU, and collaborators",
+  "license": "Ego4D License Agreement · application-based research access",
+  "access": "Application required",
+  "rating": 5,
+  "verdict": "第一人称未来预测",
+  "wmNote": "适合手—物交互和长期行为预测。下载规模大且需要签署协议，建议按官方 CLI 只获取目标 benchmark 的片段。",
+  "links": {
+    "homepage": "https://ego4d-data.org/",
+    "paper": "https://arxiv.org/abs/2110.07058",
+    "code": "https://github.com/facebookresearch/Ego4d",
+    "download": "https://ego4d-data.org/docs/start-here/"
+  }
+}

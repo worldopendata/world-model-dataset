@@ -1,0 +1,42 @@
+{
+  "id": "physion",
+  "name": "Physion",
+  "shortName": "Physion",
+  "year": 2021,
+  "summary": "用于直觉物理学习和评测的合成视频数据集，通过碰撞、支撑、包含和形变等场景测试模型能否预测物体间接触及后续动态。",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Physics / Science"
+  ],
+  "modalities": [
+    "Synthetic Video",
+    "Depth",
+    "Segmentation",
+    "Object State"
+  ],
+  "structure": [
+    "Simulation Rollouts",
+    "Diagnostic Cases"
+  ],
+  "source": [
+    "Simulation",
+    "Synthetic / Generated"
+  ],
+  "scale": "8 physical scenarios · thousands of controlled simulations",
+  "organizations": "MIT and IBM Research",
+  "license": "Research use terms; simulator assets may have separate restrictions",
+  "access": "Open download",
+  "rating": "5",
+  "verdict": "直觉物理预测基准",
+  "wmNote": "场景设计直接针对物理推理，适合表征诊断；合成域和二元接触判断不能覆盖真实世界全部物理复杂性。",
+  "links": {
+    "homepage": "https://physion-benchmark.github.io/",
+    "paper": "https://arxiv.org/abs/2106.08261",
+    "code": "https://github.com/cogtoolslab/physics-benchmarking-neurips2021",
+    "download": "https://physion-benchmark.github.io/"
+  }
+}

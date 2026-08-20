@@ -1,0 +1,43 @@
+{
+  "id": "habitat-matterport-3d",
+  "name": "Habitat-Matterport 3D",
+  "shortName": "Habitat-Matterport 3D",
+  "year": 2021,
+  "summary": "面向具身导航与室内模拟的高质量三维场景数据，结合 Habitat 平台可生成视觉、深度、语义和智能体轨迹，用于空间记忆、导航规划与交互式世界建模。",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Decision-Making & Agent Trajectories"
+  ],
+  "domain": [
+    "Robotics / Embodied AI",
+    "Urban / 3D Scene"
+  ],
+  "modalities": [
+    "3D Mesh",
+    "RGB-D",
+    "Semantic Labels",
+    "Agent Pose"
+  ],
+  "structure": [
+    "Simulation Rollouts",
+    "3D Scenes"
+  ],
+  "source": [
+    "Real-world Capture",
+    "Simulation"
+  ],
+  "scale": "1,000 high-resolution building-scale 3D scans",
+  "organizations": "Meta AI and Matterport",
+  "license": "HM3D Dataset License; access agreement and non-commercial restrictions",
+  "access": "Application required",
+  "rating": "5",
+  "verdict": "大规模室内具身场景",
+  "wmNote": "几何质量和 Habitat 工具链适合导航世界模型；访问协议严格，且动态交互需由模拟器生成。",
+  "links": {
+    "homepage": "https://aihabitat.org/datasets/hm3d/",
+    "paper": "https://arxiv.org/abs/2109.08238",
+    "code": "https://github.com/facebookresearch/habitat-sim",
+    "download": "https://aihabitat.org/datasets/hm3d/"
+  }
+}

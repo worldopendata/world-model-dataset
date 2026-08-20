@@ -1,0 +1,42 @@
+{
+  "id": "droid",
+  "name": "DROID",
+  "shortName": "DROID",
+  "year": 2024,
+  "summary": "大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。",
+  "primaryTask": "Decision-Making & Agent Trajectories",
+  "primaryTaskZh": "决策与智能体轨迹",
+  "secondaryTasks": [
+    "Action-Conditioned Dynamics"
+  ],
+  "domain": [
+    "Robotics / Embodied AI"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Action",
+    "Robot State",
+    "Language"
+  ],
+  "structure": [
+    "Interaction Episodes",
+    "Agent Trajectories"
+  ],
+  "source": [
+    "Real-world",
+    "Teleoperation"
+  ],
+  "scale": "76K trajectories · 350 hours · 564 scenes · 86 tasks",
+  "organizations": "DROID collaboration led by Stanford",
+  "license": "Dataset terms apply; verify downstream and third-party restrictions",
+  "access": "Open download",
+  "rating": "5",
+  "verdict": "多场景真实机器人轨迹",
+  "wmNote": "适合研究跨场景操作和动作条件转移；不同采集地点带来有价值的分布差异，也增加了数据清洗与标定成本。",
+  "links": {
+    "homepage": "https://droid-dataset.github.io/",
+    "paper": "https://arxiv.org/abs/2403.12945",
+    "code": "https://github.com/droid-dataset/droid",
+    "download": "https://droid-dataset.github.io/"
+  }
+}

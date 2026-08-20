@@ -1,0 +1,40 @@
+{
+  "id": "robonet",
+  "name": "RoboNet",
+  "shortName": "RoboNet",
+  "year": 2020,
+  "summary": "汇集多所实验室机器人交互视频的跨平台数据集，通过不同机械臂、视角、物体和实验设置提供视觉动力学训练信号，重点考察视频预测与控制的跨机器人泛化。",
+  "primaryTask": "Action-Conditioned Dynamics",
+  "primaryTaskZh": "动作条件动力学",
+  "secondaryTasks": [
+    "Decision-Making & Agent Trajectories"
+  ],
+  "domain": [
+    "Robotics / Embodied AI"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Action",
+    "Robot State"
+  ],
+  "structure": [
+    "Interaction Episodes"
+  ],
+  "source": [
+    "Real-world",
+    "Autonomous Agent"
+  ],
+  "scale": "15M video frames · 7 robot platforms · 4 laboratories",
+  "organizations": "UC Berkeley, Stanford, Google, UPenn",
+  "license": "Research use; component data terms may vary",
+  "access": "Open download",
+  "rating": "4",
+  "verdict": "跨机器人视觉动力学",
+  "wmNote": "非常适合动作条件视频预测和跨平台迁移，但数据年代较早，动作语义与现代统一格式需要额外适配。",
+  "links": {
+    "homepage": "https://www.robonet.wiki/",
+    "paper": "https://arxiv.org/abs/1910.11215",
+    "code": "https://github.com/SudeepDasari/RoboNet",
+    "download": "https://www.robonet.wiki/"
+  }
+}

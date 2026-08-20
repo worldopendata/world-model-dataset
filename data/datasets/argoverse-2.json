@@ -1,0 +1,41 @@
+{
+  "id": "argoverse-2",
+  "name": "Argoverse 2",
+  "shortName": "Argoverse 2",
+  "year": 2023,
+  "summary": "面向自动驾驶感知、运动预测和地图理解的多任务数据集合，包含传感器序列、丰富高清地图及大量运动场景，强调复杂城市中的长尾行为与轨迹预测。",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Predictive & Generative Dynamics"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "RGB Video",
+    "LiDAR",
+    "Maps",
+    "Trajectories",
+    "3D Boxes"
+  ],
+  "structure": [
+    "Multi-view Sequences"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "1,000 sensor logs · 250K motion scenarios · 6 cities",
+  "organizations": "Argo AI and Carnegie Mellon University",
+  "license": "Argoverse Terms of Use; research-oriented access",
+  "access": "Open download",
+  "rating": "5",
+  "verdict": "地图增强运动预测",
+  "wmNote": "适合结合地图、交通参与者与传感器观测建模未来；不同子集的字段和任务需要分别处理。",
+  "links": {
+    "homepage": "https://www.argoverse.org/av2.html",
+    "paper": "https://arxiv.org/abs/2301.00493",
+    "code": "https://github.com/argoverse/av2-api",
+    "download": "https://www.argoverse.org/av2.html"
+  }
+}

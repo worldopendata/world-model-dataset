@@ -1,0 +1,42 @@
+{
+  "id": "ego-exo4d",
+  "name": "Ego-Exo4D",
+  "shortName": "Ego-Exo4D",
+  "year": 2024,
+  "summary": "同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Decision-Making & Agent Trajectories"
+  ],
+  "domain": [
+    "Egocentric / Human"
+  ],
+  "modalities": [
+    "Multi-view RGB Video",
+    "Audio",
+    "Language",
+    "Camera Pose",
+    "3D Annotations"
+  ],
+  "structure": [
+    "Multi-view Sequences"
+  ],
+  "source": [
+    "Real-world",
+    "Human Demonstration"
+  ],
+  "scale": "1,400+ hours · 800+ participants · 13 cities",
+  "organizations": "Meta and international academic consortium",
+  "license": "Ego-Exo4D License Agreement; approved access required",
+  "access": "Application required",
+  "rating": "5",
+  "verdict": "第一与第三人称同步技能",
+  "wmNote": "同步多视角为视角不变世界表示提供稀缺监督；下载和许可门槛较高，且不是机器人动作数据。",
+  "links": {
+    "homepage": "https://ego-exo4d-data.org/",
+    "paper": "https://arxiv.org/abs/2311.18259",
+    "code": "https://github.com/facebookresearch/Ego4d",
+    "download": "https://ego-exo4d-data.org/"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "bair-robot-pushing",
+  "name": "BAIR Robot Pushing",
+  "shortName": "BAIR Robot Pushing",
+  "year": 2016,
+  "summary": "经典机器人推物视频数据集，记录机械臂在桌面环境中执行随机推动动作的连续图像与控制信号，长期作为动作条件视频预测和随机未来建模的基础基准。",
+  "primaryTask": "Action-Conditioned Dynamics",
+  "primaryTaskZh": "动作条件动力学",
+  "secondaryTasks": [
+    "Predictive & Generative Dynamics"
+  ],
+  "domain": [
+    "Robotics / Embodied AI"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Action"
+  ],
+  "structure": [
+    "Interaction Episodes"
+  ],
+  "source": [
+    "Real-world",
+    "Autonomous Agent"
+  ],
+  "scale": "~44K training sequences · 30 frames per sequence",
+  "organizations": "UC Berkeley",
+  "license": "Distributed through TensorFlow Datasets; source terms should be checked",
+  "access": "Open download",
+  "rating": "3",
+  "verdict": "经典动作视频预测基准",
+  "wmNote": "规模和分辨率已落后于现代数据，但任务简单、基线丰富，仍适合验证动作条件预测模型。",
+  "links": {
+    "homepage": "https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small",
+    "paper": "https://arxiv.org/abs/1605.07157",
+    "code": "https://github.com/tensorflow/datasets",
+    "download": "https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "movi",
+  "name": "MOVi",
+  "shortName": "MOVi",
+  "year": 2022,
+  "summary": "使用 Kubric 生成的多对象视频系列，提供精确实例分割、深度、光流和三维属性，覆盖不同复杂度设置，适合对象发现、跟踪与可解释动态建模。",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Predictive & Generative Dynamics"
+  ],
+  "domain": [
+    "Physics / Science"
+  ],
+  "modalities": [
+    "Synthetic Video",
+    "Depth",
+    "Optical Flow",
+    "Segmentation",
+    "3D State"
+  ],
+  "structure": [
+    "Simulation Rollouts"
+  ],
+  "source": [
+    "Simulation",
+    "Synthetic / Generated"
+  ],
+  "scale": "Multiple variants with up to hundreds of thousands of generated clips",
+  "organizations": "Google Research",
+  "license": "Apache-2.0 generator; released datasets follow project terms",
+  "access": "Open download",
+  "rating": "5",
+  "verdict": "密集真值动态场景",
+  "wmNote": "几乎完整的像素与对象真值非常适合对象中心模型；合成渲染偏差需要与真实视频联合使用。",
+  "links": {
+    "homepage": "https://github.com/google-research/kubric",
+    "paper": "https://arxiv.org/abs/2203.12602",
+    "code": "https://github.com/google-research/kubric",
+    "download": "https://www.tensorflow.org/datasets/catalog/movi_a"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "intphys",
+  "name": "IntPhys",
+  "shortName": "IntPhys",
+  "year": 2018,
+  "summary": "面向视觉直觉物理评测的合成数据集，通过可能与不可能的场景测试物体恒存、遮挡和支撑关系，避免模型只依赖单帧外观线索。",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Physics / Science"
+  ],
+  "modalities": [
+    "Synthetic Video",
+    "Depth",
+    "Segmentation",
+    "Scene Metadata"
+  ],
+  "structure": [
+    "Diagnostic Cases"
+  ],
+  "source": [
+    "Simulation",
+    "Synthetic / Generated"
+  ],
+  "scale": "Controlled videos across object permanence, shape and support scenarios",
+  "organizations": "Meta AI Research",
+  "license": "Research dataset terms; verify current download agreement",
+  "access": "Open download",
+  "rating": "4",
+  "verdict": "违反物理检测",
+  "wmNote": "适合评测物体恒存和视觉合理性，但任务规模与视觉复杂度有限，主要用于诊断而非大规模预训练。",
+  "links": {
+    "homepage": "https://intphys.cognitive-ml.fr/",
+    "paper": "https://arxiv.org/abs/1803.07616",
+    "code": "https://github.com/rronan/IntPhys",
+    "download": "https://intphys.cognitive-ml.fr/"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "minerl",
+  "name": "MineRL",
+  "shortName": "MineRL",
+  "year": 2019,
+  "summary": "基于 Minecraft 的人类示范与交互数据集，记录长时视频、键鼠动作和游戏状态，最初用于样本高效强化学习竞赛，也适合开放世界动作模型和长程规划研究。",
+  "primaryTask": "Decision-Making & Agent Trajectories",
+  "primaryTaskZh": "决策与智能体轨迹",
+  "secondaryTasks": [
+    "Action-Conditioned Dynamics"
+  ],
+  "domain": [
+    "Games / Virtual Environments"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Action",
+    "Game State",
+    "Reward"
+  ],
+  "structure": [
+    "Agent Trajectories",
+    "Interaction Episodes"
+  ],
+  "source": [
+    "Simulation",
+    "Human Demonstration"
+  ],
+  "scale": "60M+ state-action pairs · 500+ hours of demonstrations",
+  "organizations": "Carnegie Mellon University and collaborators",
+  "license": "MIT for code; Minecraft EULA and dataset terms also apply",
+  "access": "Open download",
+  "rating": "4",
+  "verdict": "开放世界人类示范",
+  "wmNote": "动作和状态对齐适合长时策略与动力学建模；依赖特定 Minecraft 版本和游戏许可。",
+  "links": {
+    "homepage": "https://minerl.io/",
+    "paper": "https://arxiv.org/abs/1907.13440",
+    "code": "https://github.com/minerllabs/minerl",
+    "download": "https://minerl.io/docs/tutorials/data_sampling/"
+  }
+}

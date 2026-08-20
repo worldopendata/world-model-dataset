@@ -3,3 +3,7 @@
 @media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:65px}.hero-graphic{display:none}.metrics{grid-template-columns:repeat(2,1fr)}.metrics div:nth-child(2){border-right:0}.toolbar{grid-template-columns:1fr 1fr}.search{grid-column:1/-1}.dataset-grid{grid-template-columns:1fr}.section-heading{display:block}.section-heading>p{margin-top:20px}.method-grid{grid-template-columns:1fr}.topbar nav a:not(.github){display:none}}
 @media(max-width:560px){.hero{min-height:540px}.hero h1{font-size:47px}.metrics{margin:0;border-radius:0}.metrics div{padding:20px}.catalog{padding-top:75px}.toolbar{grid-template-columns:1fr}.search{grid-column:auto}.card{padding:21px}.detail{grid-template-columns:1fr;gap:2px}footer{display:block}footer span{display:block;margin:7px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.orbit{animation:none}.card{transition:none}}
+.dataset-grid{grid-template-columns:minmax(0,1fr)}
+.summary{min-height:0}
+.details{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px}
+@media(max-width:560px){.details{grid-template-columns:1fr}}

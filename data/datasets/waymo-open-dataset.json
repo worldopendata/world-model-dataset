@@ -1,0 +1,41 @@
+{
+  "id": "waymo-open-dataset",
+  "name": "Waymo Open Dataset",
+  "shortName": "Waymo Open Dataset",
+  "year": 2019,
+  "summary": "高质量自动驾驶多传感器数据集，覆盖摄像头、LiDAR、地图、三维检测和运动预测场景，能够支持动态占用、未来轨迹以及闭环驾驶世界表示研究。",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Predictive & Generative Dynamics"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "RGB Video",
+    "LiDAR",
+    "Maps",
+    "3D Boxes",
+    "Trajectories"
+  ],
+  "structure": [
+    "Multi-view Sequences"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "2,030 perception segments · 103K motion scenarios",
+  "organizations": "Waymo",
+  "license": "Waymo Dataset License Agreement; non-commercial restrictions apply",
+  "access": "Registration required",
+  "rating": "5",
+  "verdict": "高质量驾驶时空数据",
+  "wmNote": "传感器和标注质量突出，适合 3D/4D 感知与运动预测；授权和下载体量需要在项目规划中提前考虑。",
+  "links": {
+    "homepage": "https://waymo.com/open/",
+    "paper": "https://arxiv.org/abs/1912.04838",
+    "code": "https://github.com/waymo-research/waymo-open-dataset",
+    "download": "https://waymo.com/open/download/"
+  }
+}

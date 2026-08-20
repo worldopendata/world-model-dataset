@@ -1,0 +1,47 @@
+{
+  "id": "shapestacks",
+  "name": "ShapeStacks",
+  "shortName": "ShapeStacks",
+  "year": 2018,
+  "summary": "通过程序化堆叠不同形状物体生成的合成数据和工具，重点研究稳定性、支撑关系及从图像推断三维物理结构。",
+  "summaryEn": "A procedurally generated dataset and toolkit of stacked shapes for reasoning about stability, support relations, and 3D physical structure from images.",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Physics / Science"
+  ],
+  "modalities": [
+    "Synthetic Video",
+    "3D State",
+    "Object Metadata",
+    "Simulation State"
+  ],
+  "structure": [
+    "Simulation Rollouts",
+    "Diagnostic Cases"
+  ],
+  "source": [
+    "Simulation",
+    "Synthetic / Generated"
+  ],
+  "scale": "20K+ procedurally generated stack configurations",
+  "scaleZh": "2 万+ 个程序生成的堆叠配置",
+  "organizations": "University of Oxford",
+  "organizationsZh": "牛津大学",
+  "license": "Open-source generator; asset and dataset terms documented in repository",
+  "licenseZh": "开源生成器；资产和数据条款见代码仓库",
+  "access": "Open generation toolkit",
+  "accessZh": "开放生成工具",
+  "rating": 4,
+  "verdict": "稳定性与支撑关系诊断",
+  "verdictEn": "Stability and support diagnostics",
+  "wmNote": "适合测试三维物理结构理解；外观和动力学高度受控，不覆盖复杂材料和接触。",
+  "wmNoteEn": "Useful for 3D stability reasoning, with limited appearance, material, and contact complexity.",
+  "links": {
+    "paper": "https://arxiv.org/abs/1804.08018",
+    "code": "https://github.com/ogroth/shapestacks"
+  }
+}

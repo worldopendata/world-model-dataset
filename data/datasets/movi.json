@@ -34,10 +34,8 @@
   "verdict": "密集真值动态场景",
   "wmNote": "几乎完整的像素与对象真值非常适合对象中心模型；合成渲染偏差需要与真实视频联合使用。",
   "links": {
-    "homepage": "https://github.com/google-research/kubric",
     "paper": "https://arxiv.org/abs/2203.12602",
-    "code": "https://github.com/google-research/kubric",
-    "download": "https://www.tensorflow.org/datasets/catalog/movi_a"
+    "code": "https://github.com/google-research/kubric"
   },
   "summaryEn": "A family of Kubric-generated multi-object videos with instance masks, depth, optical flow, and 3D attributes for object discovery and interpretable dynamics.",
   "verdictEn": "Dense-ground-truth dynamic scenes",

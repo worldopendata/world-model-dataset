@@ -37,8 +37,7 @@
     "links": {
       "homepage": "https://droid-dataset.github.io/",
       "paper": "https://arxiv.org/abs/2403.12945",
-      "code": "https://github.com/droid-dataset/droid",
-      "download": "https://droid-dataset.github.io/"
+      "code": "https://github.com/droid-dataset/droid"
     },
     "summaryEn": "A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.",
     "verdictEn": "Multi-site real robot trajectories",
@@ -86,8 +85,7 @@
     "links": {
       "homepage": "https://ego-exo4d-data.org/",
       "paper": "https://arxiv.org/abs/2311.18259",
-      "code": "https://github.com/facebookresearch/Ego4d",
-      "download": "https://ego-exo4d-data.org/"
+      "code": "https://github.com/facebookresearch/Ego4d"
     },
     "summaryEn": "A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.",
     "verdictEn": "Synchronized ego-exo skills",
@@ -134,8 +132,7 @@
     "links": {
       "homepage": "https://www.argoverse.org/av2.html",
       "paper": "https://arxiv.org/abs/2301.00493",
-      "code": "https://github.com/argoverse/av2-api",
-      "download": "https://www.argoverse.org/av2.html"
+      "code": "https://github.com/argoverse/av2-api"
     },
     "summaryEn": "A multimodal autonomous-driving collection for perception, motion forecasting, and map understanding, with sensor logs, HD maps, and diverse urban motion scenarios.",
     "verdictEn": "Map-aware motion forecasting",
@@ -182,8 +179,7 @@
     "links": {
       "homepage": "https://rail-berkeley.github.io/bridgedata/",
       "paper": "https://arxiv.org/abs/2308.12952",
-      "code": "https://github.com/rail-berkeley/bridge_data_v2",
-      "download": "https://rail-berkeley.github.io/bridgedata/"
+      "code": "https://github.com/rail-berkeley/bridge_data_v2"
     },
     "summaryEn": "A large multi-task robot manipulation dataset collected in real kitchens and workspaces, with diverse trajectories and language labels for imitation and generalist policy learning.",
     "verdictEn": "General-purpose manipulation benchmark",
@@ -231,8 +227,7 @@
     "links": {
       "homepage": "https://robotics-transformer-x.github.io/",
       "paper": "https://arxiv.org/abs/2310.08864",
-      "code": "https://github.com/google-deepmind/open_x_embodiment",
-      "download": "https://huggingface.co/datasets/openx-embodiment"
+      "code": "https://github.com/google-deepmind/open_x_embodiment"
     },
     "summaryEn": "A large cross-embodiment collection assembled by Google DeepMind and more than 30 research institutions. It unifies real robot interactions across platforms, tasks, and environments for generalist embodied learning.",
     "verdictEn": "Infrastructure for embodied intelligence",
@@ -281,8 +276,7 @@
     "links": {
       "homepage": "https://calvin.cs.uni-freiburg.de/",
       "paper": "https://arxiv.org/abs/2112.03227",
-      "code": "https://github.com/mees/calvin",
-      "download": "https://github.com/mees/calvin"
+      "code": "https://github.com/mees/calvin"
     },
     "summaryEn": "A long-horizon language-conditioned robot benchmark in a controlled tabletop environment, with continuous interaction trajectories and compositional task sequences.",
     "verdictEn": "Long-horizon language control",
@@ -331,8 +325,7 @@
     "links": {
       "homepage": "https://ego4d-data.org/",
       "paper": "https://arxiv.org/abs/2110.07058",
-      "code": "https://github.com/facebookresearch/Ego4d",
-      "download": "https://ego4d-data.org/docs/start-here/"
+      "code": "https://github.com/facebookresearch/Ego4d"
     },
     "summaryEn": "A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.",
     "verdictEn": "First-person future prediction",
@@ -379,8 +372,7 @@
     "links": {
       "homepage": "https://epic-kitchens.github.io/2021",
       "paper": "https://arxiv.org/abs/2006.13256",
-      "code": "https://github.com/epic-kitchens/epic-kitchens-100-annotations",
-      "download": "https://epic-kitchens.github.io/2021"
+      "code": "https://github.com/epic-kitchens/epic-kitchens-100-annotations"
     },
     "summaryEn": "A large first-person kitchen activity dataset with continuous video, action segments, verb-noun labels, and anticipation benchmarks for hand-object interaction.",
     "verdictEn": "Kitchen behavior forecasting",
@@ -429,8 +421,7 @@
     "links": {
       "homepage": "https://minedojo.org/",
       "paper": "https://arxiv.org/abs/2206.01356",
-      "code": "https://github.com/MineDojo/MineDojo",
-      "download": "https://minedojo.org/"
+      "code": "https://github.com/MineDojo/MineDojo"
     },
     "summaryEn": "A large multimodal knowledge and interaction platform built around Minecraft, combining player videos, text knowledge, community discussions, and a live simulation environment for open-world agents.",
     "verdictEn": "Open-world interaction testbed",
@@ -476,10 +467,8 @@
     "verdict": "密集真值动态场景",
     "wmNote": "几乎完整的像素与对象真值非常适合对象中心模型；合成渲染偏差需要与真实视频联合使用。",
     "links": {
-      "homepage": "https://github.com/google-research/kubric",
       "paper": "https://arxiv.org/abs/2203.12602",
-      "code": "https://github.com/google-research/kubric",
-      "download": "https://www.tensorflow.org/datasets/catalog/movi_a"
+      "code": "https://github.com/google-research/kubric"
     },
     "summaryEn": "A family of Kubric-generated multi-object videos with instance masks, depth, optical flow, and 3D attributes for object discovery and interpretable dynamics.",
     "verdictEn": "Dense-ground-truth dynamic scenes",
@@ -528,8 +517,7 @@
     "links": {
       "homepage": "https://aihabitat.org/datasets/hm3d/",
       "paper": "https://arxiv.org/abs/2109.08238",
-      "code": "https://github.com/facebookresearch/habitat-sim",
-      "download": "https://aihabitat.org/datasets/hm3d/"
+      "code": "https://github.com/facebookresearch/habitat-sim"
     },
     "summaryEn": "A collection of high-quality building-scale 3D scans for embodied navigation and indoor simulation, supporting generated RGB-D, semantic, and agent trajectories through Habitat.",
     "verdictEn": "Large-scale embodied indoor scenes",
@@ -577,8 +565,7 @@
     "links": {
       "homepage": "https://physion-benchmark.github.io/",
       "paper": "https://arxiv.org/abs/2106.08261",
-      "code": "https://github.com/cogtoolslab/physics-benchmarking-neurips2021",
-      "download": "https://physion-benchmark.github.io/"
+      "code": "https://github.com/cogtoolslab/physics-benchmarking-neurips2021"
     },
     "summaryEn": "A synthetic intuitive-physics dataset covering collisions, support, containment, and deformation, designed to test whether models can predict object contact and dynamics.",
     "verdictEn": "Intuitive physics prediction",
@@ -624,8 +611,7 @@
     "links": {
       "homepage": "https://bdd-data.berkeley.edu/",
       "paper": "https://arxiv.org/abs/1805.04687",
-      "code": "https://github.com/bdd100k/bdd100k",
-      "download": "https://bdd-data.berkeley.edu/"
+      "code": "https://github.com/bdd100k/bdd100k"
     },
     "summaryEn": "A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.",
     "verdictEn": "Diverse driving video",
@@ -671,8 +657,7 @@
     "links": {
       "homepage": "https://rohitgirdhar.github.io/CATER/",
       "paper": "https://arxiv.org/abs/1910.04744",
-      "code": "https://github.com/rohitgirdhar/CATER",
-      "download": "https://rohitgirdhar.github.io/CATER/"
+      "code": "https://github.com/rohitgirdhar/CATER"
     },
     "summaryEn": "A synthetic video dataset with compositional object motions and precise metadata, emphasizing spatiotemporal relations, occlusion, and long-term object tracking.",
     "verdictEn": "Object-centric temporal reasoning",
@@ -720,9 +705,7 @@
     "wmNote": "非常适合测试碰撞事件、因果解释和反事实预测。场景高度受控，不能直接代表复杂真实世界中的物理泛化能力。",
     "links": {
       "homepage": "https://clevrer.csail.mit.edu/",
-      "paper": "https://arxiv.org/abs/1910.01442",
-      "code": "https://github.com/clevrer/clevrer",
-      "download": "http://clevrer.csail.mit.edu/"
+      "paper": "https://arxiv.org/abs/1910.01442"
     },
     "summaryEn": "A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.",
     "verdictEn": "Counterfactual physics diagnostics",
@@ -769,8 +752,7 @@
     "links": {
       "homepage": "https://sites.google.com/view/rlbench",
       "paper": "https://arxiv.org/abs/1909.12271",
-      "code": "https://github.com/stepjam/RLBench",
-      "download": "https://github.com/stepjam/RLBench"
+      "code": "https://github.com/stepjam/RLBench"
     },
     "summaryEn": "A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.",
     "verdictEn": "Programmable manipulation suite",
@@ -816,8 +798,7 @@
     "links": {
       "homepage": "https://www.robonet.wiki/",
       "paper": "https://arxiv.org/abs/1910.11215",
-      "code": "https://github.com/SudeepDasari/RoboNet",
-      "download": "https://www.robonet.wiki/"
+      "code": "https://github.com/SudeepDasari/RoboNet"
     },
     "summaryEn": "A cross-platform robot interaction video dataset collected across multiple laboratories, robot arms, viewpoints, and objects for visual dynamics and control generalization.",
     "verdictEn": "Cross-robot visual dynamics",
@@ -826,6 +807,148 @@
     "organizationsZh": "加州大学伯克利分校、斯坦福大学、Google、宾夕法尼亚大学",
     "accessZh": "开放下载",
     "licenseZh": "面向研究用途；各组成数据的条款可能不同"
+  },
+  {
+    "id": "argoverse-1",
+    "name": "Argoverse 1",
+    "shortName": "Argoverse 1",
+    "year": 2019,
+    "summary": "面向三维跟踪与运动预测的自动驾驶数据集，结合车辆轨迹、传感器日志和高清地图，为地图条件未来预测建立了重要基准。",
+    "summaryEn": "An autonomous-driving dataset for 3D tracking and motion forecasting, combining trajectories, sensor logs, and HD maps for map-conditioned future prediction.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "Maps",
+      "Trajectories",
+      "3D Boxes"
+    ],
+    "structure": [
+      "Temporal Sequences",
+      "Multi-view Sequences"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "113 tracking logs · 324K+ motion-forecasting sequences",
+    "scaleZh": "113 段跟踪日志 · 32.4 万+ 条运动预测序列",
+    "organizations": "Argo AI and Carnegie Mellon University",
+    "organizationsZh": "Argo AI、卡内基梅隆大学",
+    "license": "Argoverse Terms of Use; research-oriented access",
+    "licenseZh": "适用 Argoverse 使用条款；主要面向研究用途",
+    "access": "Open download",
+    "accessZh": "开放下载",
+    "rating": 5,
+    "verdict": "地图条件运动预测基准",
+    "verdictEn": "Map-conditioned motion forecasting benchmark",
+    "wmNote": "适合历史基线复现；新项目通常优先使用 Argoverse 2，但第一版仍有大量可比结果。",
+    "wmNoteEn": "Valuable for historical comparability, while Argoverse 2 is generally preferred for new work.",
+    "links": {
+      "homepage": "https://www.argoverse.org/av1.html",
+      "paper": "https://arxiv.org/abs/1911.02620",
+      "code": "https://github.com/argoverse/argoverse-api"
+    }
+  },
+  {
+    "id": "interaction-dataset",
+    "name": "INTERACTION Dataset",
+    "shortName": "INTERACTION Dataset",
+    "year": 2019,
+    "summary": "聚焦路口、环岛和汇入等高交互驾驶场景的轨迹数据集，包含多国道路中的车辆与行人运动，适合多智能体预测和交互建模。",
+    "summaryEn": "A trajectory dataset focused on highly interactive driving scenarios such as intersections, roundabouts, and merging across multiple countries.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "Trajectories",
+      "Maps",
+      "Agent Pose"
+    ],
+    "structure": [
+      "Temporal Sequences",
+      "Agent Trajectories"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "11,500+ scenarios · 11 locations · multiple countries",
+    "scaleZh": "11,500+ 个场景 · 11 个地点 · 覆盖多个国家",
+    "organizations": "INTERACTION Dataset consortium",
+    "organizationsZh": "INTERACTION Dataset 联盟",
+    "license": "CC BY-SA 4.0; project terms apply",
+    "licenseZh": "CC BY-SA 4.0；同时适用项目条款",
+    "access": "Open download",
+    "accessZh": "开放下载",
+    "rating": 5,
+    "verdict": "高交互多智能体轨迹",
+    "verdictEn": "Highly interactive multi-agent trajectories",
+    "wmNote": "特别适合建模协商和相互影响；不包含丰富相机或激光雷达原始观测。",
+    "wmNoteEn": "Strong for negotiation and interaction modeling, but lacks rich raw camera and LiDAR observations.",
+    "links": {
+      "homepage": "https://interaction-dataset.com/",
+      "paper": "https://arxiv.org/abs/1910.03088",
+      "code": "https://github.com/interaction-dataset/interaction-dataset"
+    }
+  },
+  {
+    "id": "metaworld",
+    "name": "Meta-World",
+    "shortName": "Meta-World",
+    "year": 2019,
+    "summary": "面向多任务和元强化学习的机器人操作基准，提供统一机械臂、可程序化任务和可生成轨迹，用于测试跨任务动力学与策略泛化。",
+    "summaryEn": "A robot manipulation benchmark for multi-task and meta reinforcement learning, with a shared embodiment and programmable tasks for generated trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics",
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Reward"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "50 manipulation tasks · multiple benchmark splits",
+    "scaleZh": "50 项操作任务 · 多种基准划分",
+    "organizations": "Stanford University; maintained by Farama Foundation",
+    "organizationsZh": "斯坦福大学；现由 Farama Foundation 维护",
+    "license": "MIT License for code; simulator dependencies have separate terms",
+    "licenseZh": "代码采用 MIT 许可；模拟器依赖另有条款",
+    "access": "Open generation toolkit",
+    "accessZh": "开放生成工具",
+    "rating": 5,
+    "verdict": "多任务操作评测平台",
+    "verdictEn": "Multi-task manipulation benchmark",
+    "wmNote": "统一接口便于比较任务泛化，但它是轨迹生成环境而非固定的大规模真实数据集。",
+    "wmNoteEn": "A unified interface aids generalization studies, but it is a trajectory generator rather than a fixed real-world corpus.",
+    "links": {
+      "homepage": "https://meta-world.github.io/",
+      "paper": "https://arxiv.org/abs/1910.10897",
+      "code": "https://github.com/Farama-Foundation/Metaworld"
+    }
   },
   {
     "id": "minerl",
@@ -865,8 +988,7 @@
     "links": {
       "homepage": "https://minerl.io/",
       "paper": "https://arxiv.org/abs/1907.13440",
-      "code": "https://github.com/minerllabs/minerl",
-      "download": "https://minerl.io/docs/tutorials/data_sampling/"
+      "code": "https://github.com/minerllabs/minerl"
     },
     "summaryEn": "A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.",
     "verdictEn": "Open-world human demonstrations",
@@ -913,8 +1035,7 @@
     "links": {
       "homepage": "https://www.nuscenes.org/",
       "paper": "https://arxiv.org/abs/1903.11027",
-      "code": "https://github.com/nutonomy/nuscenes-devkit",
-      "download": "https://www.nuscenes.org/nuscenes"
+      "code": "https://github.com/nutonomy/nuscenes-devkit"
     },
     "summaryEn": "A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.",
     "verdictEn": "Multi-sensor 4D benchmark",
@@ -962,8 +1083,7 @@
     "links": {
       "homepage": "https://phyre.ai/",
       "paper": "https://arxiv.org/abs/1908.05656",
-      "code": "https://github.com/facebookresearch/phyre",
-      "download": "https://github.com/facebookresearch/phyre"
+      "code": "https://github.com/facebookresearch/phyre"
     },
     "summaryEn": "A 2D physical reasoning benchmark where agents place objects to achieve goals across generated task templates, testing intervention, trial efficiency, and generalization.",
     "verdictEn": "Physical intervention and trial-and-error",
@@ -972,6 +1092,53 @@
     "organizationsZh": "Meta AI Research",
     "accessZh": "开放生成工具",
     "licenseZh": "代码采用 Apache-2.0；数据由随附模拟器生成"
+  },
+  {
+    "id": "replica",
+    "name": "Replica",
+    "shortName": "Replica",
+    "year": 2019,
+    "summary": "由高质量真实室内重建组成的三维场景数据集，提供纹理网格、语义和高保真渲染资产，常用于具身导航与神经场景表示。",
+    "summaryEn": "A set of high-quality reconstructed indoor scenes with textured meshes, semantics, and photorealistic assets for embodied navigation and neural scene representations.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "3D Mesh",
+      "Semantic Labels",
+      "Camera Pose"
+    ],
+    "structure": [
+      "3D Scenes",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Real-world Capture",
+      "Simulation"
+    ],
+    "scale": "18 high-fidelity indoor scenes",
+    "scaleZh": "18 个高保真室内场景",
+    "organizations": "Meta AI Research",
+    "organizationsZh": "Meta AI Research",
+    "license": "Replica Dataset License; non-commercial research restrictions apply",
+    "licenseZh": "适用 Replica 数据集许可；包含非商业研究限制",
+    "access": "Open download / agreement required",
+    "accessZh": "开放下载，需同意协议",
+    "rating": 5,
+    "verdict": "高保真室内数字场景",
+    "verdictEn": "High-fidelity indoor digital scenes",
+    "wmNote": "场景质量高，适合渲染和导航；数量较少且原始数据主要是静态环境。",
+    "wmNoteEn": "High scene quality supports rendering and navigation, while the collection is small and primarily static.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1906.05797",
+      "code": "https://github.com/facebookresearch/Replica-Dataset"
+    }
   },
   {
     "id": "waymo-open-dataset",
@@ -1010,8 +1177,7 @@
     "links": {
       "homepage": "https://waymo.com/open/",
       "paper": "https://arxiv.org/abs/1912.04838",
-      "code": "https://github.com/waymo-research/waymo-open-dataset",
-      "download": "https://waymo.com/open/download/"
+      "code": "https://github.com/waymo-research/waymo-open-dataset"
     },
     "summaryEn": "A high-quality autonomous-driving collection with cameras, LiDAR, maps, 3D detection labels, and motion scenarios for dynamic occupancy and trajectory prediction.",
     "verdictEn": "High-quality driving world data",
@@ -1020,6 +1186,147 @@
     "organizationsZh": "Waymo",
     "accessZh": "需注册",
     "licenseZh": "适用 Waymo 数据集许可协议；包含非商业限制"
+  },
+  {
+    "id": "charades-ego",
+    "name": "Charades-Ego",
+    "shortName": "Charades-Ego",
+    "year": 2018,
+    "summary": "将同一室内活动的第一人称和第三人称视频配对，提供多标签动作和时间区间标注，用于跨视角行为理解与未来状态表示。",
+    "summaryEn": "Pairs first- and third-person videos of the same indoor activities with multi-label temporal actions for cross-view behavior representation.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "Multi-view RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Paired Observations",
+      "Temporal Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "7,860 paired videos · 112 hours · 157 action classes",
+    "scaleZh": "7,860 对视频 · 112 小时 · 157 个动作类别",
+    "organizations": "Allen Institute for AI and Carnegie Mellon University",
+    "organizationsZh": "艾伦人工智能研究所、卡内基梅隆大学",
+    "license": "Charades dataset terms; research-use restrictions apply",
+    "licenseZh": "适用 Charades 数据条款；包含研究用途限制",
+    "access": "Open / agreement-dependent",
+    "accessZh": "开放获取，具体取决于协议要求",
+    "rating": 4,
+    "verdict": "跨视角人类行为数据",
+    "verdictEn": "Cross-view human behavior data",
+    "wmNote": "配对视角提供独特监督，但动作由脚本化描述驱动，物理状态和控制信号有限。",
+    "wmNoteEn": "Paired views provide unique supervision, but scripted activities lack explicit physical state and controls.",
+    "links": {
+      "homepage": "https://prior.allenai.org/projects/charades-ego",
+      "paper": "https://arxiv.org/abs/1804.09626"
+    }
+  },
+  {
+    "id": "epic-kitchens-55",
+    "name": "EPIC-KITCHENS-55",
+    "shortName": "EPIC-KITCHENS-55",
+    "year": 2018,
+    "summary": "EPIC-KITCHENS 的首个大规模版本，记录参与者在自家厨房中的连续第一人称活动，包含动作分段、动词、名词和叙述标注。",
+    "summaryEn": "The first large EPIC-KITCHENS release, capturing continuous first-person activities in participants' own kitchens with action, verb, noun, and narration labels.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Audio",
+      "Action Labels",
+      "Language"
+    ],
+    "structure": [
+      "Temporal Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "55 hours · 32 participants · 39,596 action segments",
+    "scaleZh": "55 小时 · 32 名参与者 · 39,596 个动作片段",
+    "organizations": "University of Bristol and University of Catania",
+    "organizationsZh": "布里斯托大学、卡塔尼亚大学",
+    "license": "EPIC-KITCHENS data license; research-use conditions apply",
+    "licenseZh": "适用 EPIC-KITCHENS 数据许可及研究用途条件",
+    "access": "Application / agreement required",
+    "accessZh": "需申请并同意协议",
+    "rating": 5,
+    "verdict": "第一人称厨房动态先驱",
+    "verdictEn": "Pioneering egocentric kitchen dynamics",
+    "wmNote": "连续行为和物体标注适合预测，但已被 EPIC-KITCHENS-100 扩展；保留它主要用于复现实验。",
+    "wmNoteEn": "Continuous behavior supports forecasting, although the 100-hour release supersedes it for new training.",
+    "links": {
+      "homepage": "https://epic-kitchens.github.io/2018",
+      "paper": "https://arxiv.org/abs/1804.02748",
+      "code": "https://github.com/epic-kitchens/epic-kitchens-55-annotations"
+    }
+  },
+  {
+    "id": "gibson",
+    "name": "Gibson Environment Dataset",
+    "shortName": "Gibson Environment Dataset",
+    "year": 2018,
+    "summary": "由真实空间扫描构建的可导航三维环境集合，配合 Gibson 模拟器生成 RGB、深度、语义和智能体轨迹，面向具身感知与导航。",
+    "summaryEn": "A collection of navigable 3D environments reconstructed from real scans, used with Gibson to generate RGB, depth, semantics, and agent trajectories.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "3D Mesh",
+      "RGB-D",
+      "Agent Pose",
+      "Semantic Labels"
+    ],
+    "structure": [
+      "3D Scenes",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Real-world Capture",
+      "Simulation"
+    ],
+    "scale": "572 full buildings across multiple quality tiers",
+    "scaleZh": "572 个完整建筑场景，分为多个质量等级",
+    "organizations": "Stanford University",
+    "organizationsZh": "斯坦福大学",
+    "license": "Gibson dataset terms; research and non-commercial restrictions apply",
+    "licenseZh": "适用 Gibson 数据条款；包含研究及非商业限制",
+    "access": "Request / agreement required",
+    "accessZh": "需申请并同意协议",
+    "rating": 4,
+    "verdict": "早期具身仿真场景库",
+    "verdictEn": "Early embodied simulation scene bank",
+    "wmNote": "可用于生成导航轨迹，但旧版 Gibson 工具链已归档，现代项目通常应评估 iGibson 等后继方案。",
+    "wmNoteEn": "Useful for navigation rollouts, though the original toolkit is archived and newer successors may be preferable.",
+    "links": {
+      "homepage": "http://gibsonenv.stanford.edu/database/",
+      "paper": "https://arxiv.org/abs/1808.10654",
+      "code": "https://github.com/StanfordVL/GibsonEnv"
+    }
   },
   {
     "id": "intphys",
@@ -1058,8 +1365,7 @@
     "links": {
       "homepage": "https://intphys.cognitive-ml.fr/",
       "paper": "https://arxiv.org/abs/1803.07616",
-      "code": "https://github.com/rronan/IntPhys",
-      "download": "https://intphys.cognitive-ml.fr/"
+      "code": "https://github.com/rronan/IntPhys"
     },
     "summaryEn": "A synthetic visual-physics benchmark contrasting possible and impossible scenes to test object permanence, occlusion, shape, and support reasoning.",
     "verdictEn": "Physical violation detection",
@@ -1068,6 +1374,99 @@
     "organizationsZh": "Meta AI Research",
     "accessZh": "开放下载",
     "licenseZh": "适用研究数据集条款；需核查当前下载协议"
+  },
+  {
+    "id": "roboturk",
+    "name": "RoboTurk",
+    "shortName": "RoboTurk",
+    "year": 2018,
+    "summary": "通过众包远程操作收集的真实机器人示范数据，展示低成本扩展人类操作轨迹的方式，并提供视觉、动作和机器人状态。",
+    "summaryEn": "A real-robot demonstration dataset collected through crowdsourced teleoperation, with vision, actions, and robot state for scalable imitation learning.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Agent Trajectories",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Real-world",
+      "Teleoperation"
+    ],
+    "scale": "2,144 demonstrations · 111 remote users · 2 manipulation tasks",
+    "scaleZh": "2,144 条示范 · 111 名远程用户 · 2 项操作任务",
+    "organizations": "Stanford University",
+    "organizationsZh": "斯坦福大学",
+    "license": "Project-specific research terms; verify data and platform conditions",
+    "licenseZh": "适用项目专用研究条款；需核查数据和平台条件",
+    "access": "Open project access",
+    "accessZh": "开放项目访问",
+    "rating": 4,
+    "verdict": "众包机器人示范先驱",
+    "verdictEn": "Pioneering crowdsourced robot demonstrations",
+    "wmNote": "对研究示范收集方式很有价值，但任务数量少，规模与现代机器人数据相比有限。",
+    "wmNoteEn": "Important for scalable collection methodology, but small in task variety by modern standards.",
+    "links": {
+      "homepage": "https://roboturk.stanford.edu/",
+      "paper": "https://arxiv.org/abs/1811.02790"
+    }
+  },
+  {
+    "id": "shapestacks",
+    "name": "ShapeStacks",
+    "shortName": "ShapeStacks",
+    "year": 2018,
+    "summary": "通过程序化堆叠不同形状物体生成的合成数据和工具，重点研究稳定性、支撑关系及从图像推断三维物理结构。",
+    "summaryEn": "A procedurally generated dataset and toolkit of stacked shapes for reasoning about stability, support relations, and 3D physical structure from images.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Physics / Science"
+    ],
+    "modalities": [
+      "Synthetic Video",
+      "3D State",
+      "Object Metadata",
+      "Simulation State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Diagnostic Cases"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic / Generated"
+    ],
+    "scale": "20K+ procedurally generated stack configurations",
+    "scaleZh": "2 万+ 个程序生成的堆叠配置",
+    "organizations": "University of Oxford",
+    "organizationsZh": "牛津大学",
+    "license": "Open-source generator; asset and dataset terms documented in repository",
+    "licenseZh": "开源生成器；资产和数据条款见代码仓库",
+    "access": "Open generation toolkit",
+    "accessZh": "开放生成工具",
+    "rating": 4,
+    "verdict": "稳定性与支撑关系诊断",
+    "verdictEn": "Stability and support diagnostics",
+    "wmNote": "适合测试三维物理结构理解；外观和动力学高度受控，不覆盖复杂材料和接触。",
+    "wmNoteEn": "Useful for 3D stability reasoning, with limited appearance, material, and contact complexity.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1804.08018",
+      "code": "https://github.com/ogroth/shapestacks"
+    }
   },
   {
     "id": "something-something-v2",
@@ -1103,10 +1502,7 @@
     "verdict": "细粒度人类物体交互",
     "wmNote": "动作类别依赖时间顺序，适合动态表征预训练；缺少机器人控制与显式物理状态。",
     "links": {
-      "homepage": "https://developer.qualcomm.com/software/ai-datasets/something-something",
-      "paper": "https://arxiv.org/abs/1706.04261",
-      "code": "https://github.com/Showmax/kinetics-downloader",
-      "download": "https://developer.qualcomm.com/software/ai-datasets/something-something"
+      "paper": "https://arxiv.org/abs/1706.04261"
     },
     "summaryEn": "A large collection of short human-object interaction videos whose fine-grained labels depend on temporal changes such as pushing, placing, and occluding.",
     "verdictEn": "Fine-grained object interaction",
@@ -1115,6 +1511,149 @@
     "organizationsZh": "Twenty Billion Neurons",
     "accessZh": "需注册",
     "licenseZh": "适用数据集许可和访问协议；商业用途需另行审核"
+  },
+  {
+    "id": "virtualhome",
+    "name": "VirtualHome",
+    "shortName": "VirtualHome",
+    "year": 2018,
+    "summary": "将家庭活动表示为可执行程序并在三维室内环境中模拟，连接自然语言、动作序列、物体状态和视频，可用于长时任务与因果状态转移研究。",
+    "summaryEn": "Represents household activities as executable programs in 3D homes, linking language, action sequences, object states, and rendered video.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Games / Virtual Environments",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "Text",
+      "Action",
+      "Simulation State",
+      "Synthetic Video"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Agent Trajectories"
+    ],
+    "source": [
+      "Simulation",
+      "Human Annotation"
+    ],
+    "scale": "2,800+ activity programs · 7 interactive home environments",
+    "scaleZh": "2,800+ 个活动程序 · 7 个可交互家庭环境",
+    "organizations": "Massachusetts Institute of Technology",
+    "organizationsZh": "麻省理工学院",
+    "license": "MIT code license; Unity assets and dataset terms may differ",
+    "licenseZh": "代码采用 MIT 许可；Unity 资产和数据条款可能不同",
+    "access": "Open generation toolkit",
+    "accessZh": "开放生成工具",
+    "rating": 4,
+    "verdict": "家庭活动程序与仿真",
+    "verdictEn": "Household programs and simulation",
+    "wmNote": "程序化动作适合长程规划和状态转移；视觉和物理真实性受 Unity 场景限制。",
+    "wmNoteEn": "Executable programs support long-horizon planning, with visual and physical realism limited by Unity scenes.",
+    "links": {
+      "homepage": "http://virtual-home.org/",
+      "paper": "https://arxiv.org/abs/1806.07011",
+      "code": "https://github.com/xavierpuigf/virtualhome"
+    }
+  },
+  {
+    "id": "matterport3d",
+    "name": "Matterport3D",
+    "shortName": "Matterport3D",
+    "year": 2017,
+    "summary": "面向室内场景理解和具身导航的建筑级 RGB-D 全景数据集，提供精细网格、相机位姿、语义及区域标注。",
+    "summaryEn": "A building-scale RGB-D panorama dataset for indoor scene understanding and embodied navigation, with meshes, camera poses, semantics, and regions.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Urban / 3D Scene",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Camera Pose",
+      "Semantic Labels"
+    ],
+    "structure": [
+      "3D Scenes",
+      "Multi-view Sequences"
+    ],
+    "source": [
+      "Real-world Capture"
+    ],
+    "scale": "90 buildings · 10,800 panoramic views · 194,400 RGB-D images",
+    "scaleZh": "90 栋建筑 · 10,800 个全景视点 · 194,400 张 RGB-D 图像",
+    "organizations": "Matterport, Princeton University, Stanford University",
+    "organizationsZh": "Matterport、普林斯顿大学、斯坦福大学",
+    "license": "Matterport3D Terms of Use; academic non-commercial restrictions",
+    "licenseZh": "适用 Matterport3D 使用条款；包含学术非商业限制",
+    "access": "Application / agreement required",
+    "accessZh": "需申请并同意协议",
+    "rating": 5,
+    "verdict": "建筑级具身空间数据",
+    "verdictEn": "Building-scale embodied spatial data",
+    "wmNote": "大范围连通空间适合导航世界模型；静态扫描本身不包含动作和动态物理反馈。",
+    "wmNoteEn": "Large connected spaces support navigation world models, but static scans contain no action or dynamic feedback.",
+    "links": {
+      "homepage": "https://niessner.github.io/Matterport/",
+      "paper": "https://arxiv.org/abs/1709.06158",
+      "code": "https://github.com/niessner/Matterport"
+    }
+  },
+  {
+    "id": "scannet",
+    "name": "ScanNet",
+    "shortName": "ScanNet",
+    "year": 2017,
+    "summary": "由手持 RGB-D 设备采集的大规模室内扫描序列，提供相机位姿、重建网格、语义和实例标注，是室内三维世界表示与导航的重要数据源。",
+    "summaryEn": "A large collection of handheld RGB-D indoor scan sequences with camera poses, reconstructed meshes, semantic labels, and instances.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [],
+    "domain": [
+      "Urban / 3D Scene",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Camera Pose",
+      "3D Mesh",
+      "Semantic Labels"
+    ],
+    "structure": [
+      "Temporal Sequences",
+      "3D Scenes"
+    ],
+    "source": [
+      "Real-world Capture"
+    ],
+    "scale": "1,513 scans · 2.5M RGB-D frames · 707 spaces",
+    "scaleZh": "1,513 次扫描 · 250 万帧 RGB-D · 707 个空间",
+    "organizations": "Stanford University, Princeton University, Technical University of Munich",
+    "organizationsZh": "斯坦福大学、普林斯顿大学、慕尼黑工业大学",
+    "license": "ScanNet Terms of Use; non-commercial research access",
+    "licenseZh": "适用 ScanNet 使用条款；面向非商业研究开放",
+    "access": "Agreement required",
+    "accessZh": "需同意协议",
+    "rating": 5,
+    "verdict": "室内三维序列基础数据",
+    "verdictEn": "Foundational indoor 3D sequences",
+    "wmNote": "连续 RGB-D 与位姿支持地图和场景记忆；动态对象与交互行为覆盖有限。",
+    "wmNoteEn": "Continuous RGB-D and poses support mapping and memory, while dynamic interactions are limited.",
+    "links": {
+      "homepage": "http://www.scan-net.org/",
+      "paper": "https://arxiv.org/abs/1702.04405",
+      "code": "https://github.com/ScanNet/ScanNet"
+    }
   },
   {
     "id": "bair-robot-pushing",
@@ -1151,8 +1690,7 @@
     "links": {
       "homepage": "https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small",
       "paper": "https://arxiv.org/abs/1605.07157",
-      "code": "https://github.com/tensorflow/datasets",
-      "download": "https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small"
+      "code": "https://github.com/tensorflow/datasets"
     },
     "summaryEn": "A classic action-conditioned video dataset of a robot pushing objects on a tabletop, widely used for stochastic future prediction and visual dynamics baselines.",
     "verdictEn": "Classic action-video benchmark",
@@ -1161,6 +1699,331 @@
     "organizationsZh": "加州大学伯克利分校",
     "accessZh": "开放下载",
     "licenseZh": "通过 TensorFlow Datasets 分发；需核查原始数据条款"
+  },
+  {
+    "id": "cityscapes",
+    "name": "Cityscapes",
+    "shortName": "Cityscapes",
+    "year": 2016,
+    "summary": "覆盖欧洲城市街景的驾驶图像与短时序数据集，提供精细像素语义、实例及深度相关信息，广泛用于未来语义预测和城市视觉世界建模。",
+    "summaryEn": "An urban-driving dataset from European cities with short sequences and fine semantic and instance annotations, widely used for future semantic prediction.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Semantic Labels",
+      "Segmentation",
+      "Depth"
+    ],
+    "structure": [
+      "Temporal Sequences"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "5K finely annotated frames · 20K coarse frames · 50 cities",
+    "scaleZh": "5,000 帧精细标注 · 2 万帧粗标注 · 50 座城市",
+    "organizations": "Daimler and Max Planck Institute for Informatics",
+    "organizationsZh": "戴姆勒、马克斯·普朗克信息学研究所",
+    "license": "Cityscapes License; non-commercial research restrictions apply",
+    "licenseZh": "适用 Cityscapes 许可；包含非商业研究限制",
+    "access": "Registration required",
+    "accessZh": "需注册",
+    "rating": 5,
+    "verdict": "城市未来语义基准",
+    "verdictEn": "Urban future-semantics benchmark",
+    "wmNote": "密集语义与时序上下文适合预测研究，但传感器种类和直接控制信息有限。",
+    "wmNoteEn": "Dense semantics and temporal context support prediction, though sensing and direct controls are limited.",
+    "links": {
+      "homepage": "https://www.cityscapes-dataset.com/",
+      "paper": "https://openaccess.thecvf.com/content_cvpr_2016/html/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.html",
+      "code": "https://github.com/mcordts/cityscapesScripts"
+    }
+  },
+  {
+    "id": "oxford-robotcar",
+    "name": "Oxford RobotCar",
+    "shortName": "Oxford RobotCar",
+    "year": 2016,
+    "summary": "同一路线跨越一年多次重复采集的自动驾驶数据集，包含相机、激光雷达、雷达和定位信号，特别适合长期环境变化和世界状态鲁棒性研究。",
+    "summaryEn": "An autonomous-driving dataset repeatedly collected along the same route for over a year, with cameras, LiDAR, radar, and localization for long-term environmental change.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "RADAR",
+      "GPS / IMU"
+    ],
+    "structure": [
+      "Temporal Sequences",
+      "Multi-view Sequences"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "100+ traversals · about 1,000 km · 20M+ images",
+    "scaleZh": "100+ 次路线采集 · 约 1,000 公里 · 2,000 万+ 张图像",
+    "organizations": "University of Oxford Mobile Robotics Group",
+    "organizationsZh": "牛津大学移动机器人研究组",
+    "license": "CC BY-NC-SA 4.0; non-commercial terms apply",
+    "licenseZh": "CC BY-NC-SA 4.0；包含非商业限制",
+    "access": "Open download",
+    "accessZh": "开放下载",
+    "rating": 5,
+    "verdict": "长期环境变化基准",
+    "verdictEn": "Long-term environmental-change benchmark",
+    "wmNote": "重复路线提供稀缺的季节和光照变化监督；标注密度不及新一代检测数据集。",
+    "wmNoteEn": "Repeated routes offer rare seasonal supervision, although annotation density is lower than newer perception datasets.",
+    "links": {
+      "homepage": "https://robotcar-dataset.robots.ox.ac.uk/",
+      "paper": "https://arxiv.org/abs/1610.08265",
+      "code": "https://github.com/ori-mrg/robotcar-dataset-sdk"
+    }
+  },
+  {
+    "id": "physics-101",
+    "name": "Physics 101",
+    "shortName": "Physics 101",
+    "year": 2016,
+    "summary": "通过真实视频记录物体在斜面上的运动，并提供材料、质量、角度和运动信息，用于从视觉估计物理属性及预测动力学。",
+    "summaryEn": "A real-video dataset of objects moving on inclined surfaces with material, mass, angle, and motion information for estimating physical properties and dynamics.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Object Metadata",
+      "Trajectory"
+    ],
+    "structure": [
+      "Temporal Sequences",
+      "Diagnostic Cases"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "101 objects · controlled incline experiments · physical-property labels",
+    "scaleZh": "101 个物体 · 受控斜面实验 · 物理属性标注",
+    "organizations": "Massachusetts Institute of Technology",
+    "organizationsZh": "麻省理工学院",
+    "license": "Research dataset terms; project attribution requirements apply",
+    "licenseZh": "适用研究数据集条款及项目署名要求",
+    "access": "Open project access",
+    "accessZh": "开放项目访问",
+    "rating": 4,
+    "verdict": "真实视频物理属性基准",
+    "verdictEn": "Real-video physical-property benchmark",
+    "wmNote": "真实材料与运动比纯合成基准更有价值，但场景和动力学类型较单一。",
+    "wmNoteEn": "Real materials add value over synthetic benchmarks, while scene and dynamics diversity remain narrow.",
+    "links": {
+      "homepage": "https://phys101.csail.mit.edu/",
+      "paper": "https://arxiv.org/abs/1511.07439"
+    }
+  },
+  {
+    "id": "synthia",
+    "name": "SYNTHIA",
+    "shortName": "SYNTHIA",
+    "year": 2016,
+    "summary": "面向城市场景理解的合成驾驶数据集，通过虚拟城市生成多季节、多天气和多视角图像序列，并提供像素级语义及深度真值。",
+    "summaryEn": "A synthetic urban-driving dataset with multi-season, multi-weather, and multi-view sequences plus pixel-level semantics and depth.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "Synthetic Video",
+      "Depth",
+      "Semantic Labels",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic / Generated"
+    ],
+    "scale": "200K+ synthetic images across multiple sequences and conditions",
+    "scaleZh": "20 万+ 张合成图像，覆盖多种序列和环境条件",
+    "organizations": "Autonomous University of Barcelona",
+    "organizationsZh": "巴塞罗那自治大学",
+    "license": "Academic non-commercial terms; project agreement applies",
+    "licenseZh": "适用学术非商业条款及项目协议",
+    "access": "Request / agreement required",
+    "accessZh": "需申请并同意协议",
+    "rating": 4,
+    "verdict": "多条件合成城市数据",
+    "verdictEn": "Multi-condition synthetic urban data",
+    "wmNote": "天气与视角控制适合鲁棒性研究，但模拟外观和真实传感器噪声存在域差异。",
+    "wmNoteEn": "Controlled weather and viewpoints aid robustness studies, with a notable simulation-to-real appearance gap.",
+    "links": {
+      "homepage": "https://synthia-dataset.net/",
+      "paper": "https://openaccess.thecvf.com/content_cvpr_2016/html/Ros_The_SYNTHIA_Dataset_CVPR_2016_paper.html"
+    }
+  },
+  {
+    "id": "virtual-kitti",
+    "name": "Virtual KITTI",
+    "shortName": "Virtual KITTI",
+    "year": 2016,
+    "summary": "与 KITTI 真实序列对应的合成驾驶视频数据，提供深度、光流、实例、语义和相机真值，可用于可控条件下的场景动态及域迁移实验。",
+    "summaryEn": "A synthetic driving-video counterpart to KITTI with depth, optical flow, instance, semantic, and camera ground truth for controlled dynamics and domain transfer.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "Synthetic Video",
+      "Depth",
+      "Optical Flow",
+      "Segmentation",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic / Generated"
+    ],
+    "scale": "21,260 frames · 5 base sequences with controlled variations",
+    "scaleZh": "21,260 帧 · 5 条基础序列及多种可控变化",
+    "organizations": "NAVER LABS Europe",
+    "organizationsZh": "NAVER LABS Europe",
+    "license": "Project dataset license; non-commercial research restrictions apply",
+    "licenseZh": "适用项目数据许可；包含非商业研究限制",
+    "access": "Open download",
+    "accessZh": "开放下载",
+    "rating": 4,
+    "verdict": "可控合成驾驶世界",
+    "verdictEn": "Controlled synthetic driving world",
+    "wmNote": "完整真值适合因果消融和域适应；第一版画质与现代仿真数据仍有差距。",
+    "wmNoteEn": "Complete ground truth supports controlled studies, while first-generation rendering trails modern simulators.",
+    "links": {
+      "homepage": "https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/",
+      "paper": "https://arxiv.org/abs/1605.06457"
+    }
+  },
+  {
+    "id": "moving-mnist",
+    "name": "Moving MNIST",
+    "shortName": "Moving MNIST",
+    "year": 2015,
+    "summary": "将 MNIST 数字在画布中按速度移动并反弹生成的经典视频预测基准，可按需生成确定或随机轨迹，长期用于验证时序表征、外推和不确定未来建模。",
+    "summaryEn": "A classic video-prediction benchmark generated by moving MNIST digits across a canvas with boundary collisions, widely used for temporal representation and uncertain-future modeling.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Physics / Science"
+    ],
+    "modalities": [
+      "Synthetic Video",
+      "Object State",
+      "Trajectory"
+    ],
+    "structure": [
+      "Temporal Sequences",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Synthetic / Generated"
+    ],
+    "scale": "10K standard test sequences · 20 frames · 64×64 pixels",
+    "scaleZh": "1 万条标准测试序列 · 每条 20 帧 · 64×64 像素",
+    "organizations": "University of Toronto",
+    "organizationsZh": "多伦多大学",
+    "license": "Generated benchmark; MNIST source-data terms apply",
+    "licenseZh": "生成式基准；同时适用 MNIST 源数据条款",
+    "access": "Open generation toolkit",
+    "accessZh": "开放生成工具",
+    "rating": 4,
+    "verdict": "经典视频预测入门基准",
+    "verdictEn": "Classic video-prediction baseline",
+    "wmNote": "规模小、结构简单，适合快速验证时序模型；不应被用来代表真实世界视觉和复杂物理。",
+    "wmNoteEn": "Small and simple enough for rapid validation, but not representative of real-world appearance or complex physics.",
+    "links": {
+      "homepage": "https://www.tensorflow.org/datasets/catalog/moving_mnist",
+      "paper": "https://arxiv.org/abs/1502.04681",
+      "code": "https://github.com/tensorflow/datasets"
+    }
+  },
+  {
+    "id": "human36m",
+    "name": "Human3.6M",
+    "shortName": "Human3.6M",
+    "year": 2014,
+    "summary": "面向人体姿态与运动建模的大规模多视角数据集，提供同步视频、三维关节、相机参数和动作类别，是人类未来姿态预测的重要历史基准。",
+    "summaryEn": "A large multi-view human motion dataset with synchronized video, 3D joints, camera parameters, and action labels, foundational for future-pose prediction.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "Multi-view RGB Video",
+      "3D State",
+      "Action Labels",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Multi-view Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "3.6M poses · 11 actors · 17 scenarios",
+    "scaleZh": "360 万个人体姿态 · 11 名演员 · 17 类场景",
+    "organizations": "Institute of Mathematics of the Romanian Academy",
+    "organizationsZh": "罗马尼亚科学院数学研究所",
+    "license": "Human3.6M License Agreement; research use restrictions apply",
+    "licenseZh": "适用 Human3.6M 许可协议；包含研究用途限制",
+    "access": "Registration / agreement required",
+    "accessZh": "需注册并同意协议",
+    "rating": 5,
+    "verdict": "人体运动预测基础数据",
+    "verdictEn": "Foundational human-motion data",
+    "wmNote": "三维动作真值和相机标定价值很高；实验室动作分布与真实开放环境存在明显差距。",
+    "wmNoteEn": "High-quality 3D motion and calibration are valuable, while laboratory actions differ from open-world behavior.",
+    "links": {
+      "homepage": "http://vision.imar.ro/human3.6m/description.php",
+      "paper": "https://ieeexplore.ieee.org/document/6682899"
+    }
   },
   {
     "id": "kitti",
@@ -1198,8 +2061,7 @@
     "links": {
       "homepage": "https://www.cvlibs.net/datasets/kitti/",
       "paper": "https://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
-      "code": "https://github.com/utiasSTARS/pykitti",
-      "download": "https://www.cvlibs.net/datasets/kitti/"
+      "code": "https://github.com/utiasSTARS/pykitti"
     },
     "summaryEn": "A foundational autonomous-driving dataset with stereo cameras, LiDAR, GPS/IMU, and established benchmarks for depth, scene flow, odometry, and 3D perception.",
     "verdictEn": "Foundational driving geometry benchmark",
@@ -1208,5 +2070,46 @@
     "organizationsZh": "卡尔斯鲁厄理工学院、丰田工业大学",
     "accessZh": "开放下载",
     "licenseZh": "数据集采用 CC BY-NC-SA 3.0；同时适用各基准条款"
+  },
+  {
+    "id": "kth-action",
+    "name": "KTH Human Actions",
+    "shortName": "KTH Human Actions",
+    "year": 2004,
+    "summary": "最早被广泛用于视频预测的真实人物动作数据之一，包含固定背景及尺度变化下的六类连续动作，为长期预测和人体运动动态提供轻量基准。",
+    "summaryEn": "An early real-video benchmark widely reused for video prediction, with six continuous human actions under controlled backgrounds and scale variation.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Temporal Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "2,391 sequences · 25 subjects · 6 actions",
+    "scaleZh": "2,391 段序列 · 25 名参与者 · 6 类动作",
+    "organizations": "KTH Royal Institute of Technology",
+    "organizationsZh": "瑞典皇家理工学院（KTH）",
+    "license": "Free for research use with attribution; project terms apply",
+    "licenseZh": "可在署名条件下用于研究；适用项目条款",
+    "access": "Open download",
+    "accessZh": "开放下载",
+    "rating": 3,
+    "verdict": "早期真实视频预测基准",
+    "verdictEn": "Early real-video prediction benchmark",
+    "wmNote": "基线丰富且计算成本低，但画面受控、分辨率低，适合回归测试而非现代大规模训练。",
+    "wmNoteEn": "Rich baselines and low compute cost make it useful for regression tests, not modern large-scale training.",
+    "links": {
+      "homepage": "https://www.csc.kth.se/cvap/actions/"
+    }
   }
 ]

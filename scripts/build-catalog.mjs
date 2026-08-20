@@ -15,6 +15,8 @@ for (const file of files) {
   }
   if (ids.has(record.id)) throw new Error(`${file}: duplicate id ${record.id}`);
   if (!Array.isArray(record.domain) || !Array.isArray(record.modalities)) throw new Error(`${file}: tags must be arrays`);
+  if (record.links.download) throw new Error(`${file}: download links are not part of the catalog schema`);
+  if (!record.links.homepage && !record.links.paper && !record.links.code) throw new Error(`${file}: at least one verified resource link is required`);
   ids.add(record.id);
   records.push(record);
 }

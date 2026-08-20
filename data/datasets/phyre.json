@@ -36,8 +36,7 @@
   "links": {
     "homepage": "https://phyre.ai/",
     "paper": "https://arxiv.org/abs/1908.05656",
-    "code": "https://github.com/facebookresearch/phyre",
-    "download": "https://github.com/facebookresearch/phyre"
+    "code": "https://github.com/facebookresearch/phyre"
   },
   "summaryEn": "A 2D physical reasoning benchmark where agents place objects to achieve goals across generated task templates, testing intervention, trial efficiency, and generalization.",
   "verdictEn": "Physical intervention and trial-and-error",

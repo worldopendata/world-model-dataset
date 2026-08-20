@@ -34,8 +34,7 @@
   "links": {
     "homepage": "https://bdd-data.berkeley.edu/",
     "paper": "https://arxiv.org/abs/1805.04687",
-    "code": "https://github.com/bdd100k/bdd100k",
-    "download": "https://bdd-data.berkeley.edu/"
+    "code": "https://github.com/bdd100k/bdd100k"
   },
   "summaryEn": "A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.",
   "verdictEn": "Diverse driving video",

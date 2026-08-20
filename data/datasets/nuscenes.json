@@ -35,8 +35,7 @@
   "links": {
     "homepage": "https://www.nuscenes.org/",
     "paper": "https://arxiv.org/abs/1903.11027",
-    "code": "https://github.com/nutonomy/nuscenes-devkit",
-    "download": "https://www.nuscenes.org/nuscenes"
+    "code": "https://github.com/nutonomy/nuscenes-devkit"
   },
   "summaryEn": "A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.",
   "verdictEn": "Multi-sensor 4D benchmark",

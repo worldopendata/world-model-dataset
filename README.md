@@ -38,6 +38,14 @@ npm run build
 
 Commit both the source record and generated `datasets.json`. The build script validates required fields and duplicate IDs before publishing.
 
+Only `homepage`, `paper`, and `code` resource links are supported. Run the link auditor before publishing maintenance updates:
+
+```bash
+npm run check:links
+```
+
+Explicit HTTP errors fail the command. Network timeouts are reported as unverified rather than removed automatically.
+
 ## Deployment
 
 The site has no runtime dependencies. Copy the directory to a web root and serve it as static files. `deploy.sh` starts a private Python static server and records its PID; it does not install packages or alter system environments.

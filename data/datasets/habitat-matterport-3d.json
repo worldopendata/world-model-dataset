@@ -37,8 +37,7 @@
   "links": {
     "homepage": "https://aihabitat.org/datasets/hm3d/",
     "paper": "https://arxiv.org/abs/2109.08238",
-    "code": "https://github.com/facebookresearch/habitat-sim",
-    "download": "https://aihabitat.org/datasets/hm3d/"
+    "code": "https://github.com/facebookresearch/habitat-sim"
   },
   "summaryEn": "A collection of high-quality building-scale 3D scans for embodied navigation and indoor simulation, supporting generated RGB-D, semantic, and agent trajectories through Habitat.",
   "verdictEn": "Large-scale embodied indoor scenes",

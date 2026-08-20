@@ -34,8 +34,7 @@
   "links": {
     "homepage": "https://rohitgirdhar.github.io/CATER/",
     "paper": "https://arxiv.org/abs/1910.04744",
-    "code": "https://github.com/rohitgirdhar/CATER",
-    "download": "https://rohitgirdhar.github.io/CATER/"
+    "code": "https://github.com/rohitgirdhar/CATER"
   },
   "summaryEn": "A synthetic video dataset with compositional object motions and precise metadata, emphasizing spatiotemporal relations, occlusion, and long-term object tracking.",
   "verdictEn": "Object-centric temporal reasoning",

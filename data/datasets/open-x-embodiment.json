@@ -36,8 +36,7 @@
   "links": {
     "homepage": "https://robotics-transformer-x.github.io/",
     "paper": "https://arxiv.org/abs/2310.08864",
-    "code": "https://github.com/google-deepmind/open_x_embodiment",
-    "download": "https://huggingface.co/datasets/openx-embodiment"
+    "code": "https://github.com/google-deepmind/open_x_embodiment"
   },
   "summaryEn": "A large cross-embodiment collection assembled by Google DeepMind and more than 30 research institutions. It unifies real robot interactions across platforms, tasks, and environments for generalist embodied learning.",
   "verdictEn": "Infrastructure for embodied intelligence",

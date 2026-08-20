@@ -35,8 +35,7 @@
   "links": {
     "homepage": "https://sites.google.com/view/rlbench",
     "paper": "https://arxiv.org/abs/1909.12271",
-    "code": "https://github.com/stepjam/RLBench",
-    "download": "https://github.com/stepjam/RLBench"
+    "code": "https://github.com/stepjam/RLBench"
   },
   "summaryEn": "A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.",
   "verdictEn": "Programmable manipulation suite",

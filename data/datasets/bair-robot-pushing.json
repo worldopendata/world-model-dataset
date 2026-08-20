@@ -33,8 +33,7 @@
   "links": {
     "homepage": "https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small",
     "paper": "https://arxiv.org/abs/1605.07157",
-    "code": "https://github.com/tensorflow/datasets",
-    "download": "https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small"
+    "code": "https://github.com/tensorflow/datasets"
   },
   "summaryEn": "A classic action-conditioned video dataset of a robot pushing objects on a tabletop, widely used for stochastic future prediction and visual dynamics baselines.",
   "verdictEn": "Classic action-video benchmark",

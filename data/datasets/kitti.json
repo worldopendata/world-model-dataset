@@ -34,8 +34,7 @@
   "links": {
     "homepage": "https://www.cvlibs.net/datasets/kitti/",
     "paper": "https://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
-    "code": "https://github.com/utiasSTARS/pykitti",
-    "download": "https://www.cvlibs.net/datasets/kitti/"
+    "code": "https://github.com/utiasSTARS/pykitti"
   },
   "summaryEn": "A foundational autonomous-driving dataset with stereo cameras, LiDAR, GPS/IMU, and established benchmarks for depth, scene flow, odometry, and 3D perception.",
   "verdictEn": "Foundational driving geometry benchmark",

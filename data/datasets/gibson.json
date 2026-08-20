@@ -1,0 +1,49 @@
+{
+  "id": "gibson",
+  "name": "Gibson Environment Dataset",
+  "shortName": "Gibson Environment Dataset",
+  "year": 2018,
+  "summary": "由真实空间扫描构建的可导航三维环境集合，配合 Gibson 模拟器生成 RGB、深度、语义和智能体轨迹，面向具身感知与导航。",
+  "summaryEn": "A collection of navigable 3D environments reconstructed from real scans, used with Gibson to generate RGB, depth, semantics, and agent trajectories.",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Decision-Making & Agent Trajectories"
+  ],
+  "domain": [
+    "Robotics / Embodied AI",
+    "Urban / 3D Scene"
+  ],
+  "modalities": [
+    "3D Mesh",
+    "RGB-D",
+    "Agent Pose",
+    "Semantic Labels"
+  ],
+  "structure": [
+    "3D Scenes",
+    "Simulation Rollouts"
+  ],
+  "source": [
+    "Real-world Capture",
+    "Simulation"
+  ],
+  "scale": "572 full buildings across multiple quality tiers",
+  "scaleZh": "572 个完整建筑场景，分为多个质量等级",
+  "organizations": "Stanford University",
+  "organizationsZh": "斯坦福大学",
+  "license": "Gibson dataset terms; research and non-commercial restrictions apply",
+  "licenseZh": "适用 Gibson 数据条款；包含研究及非商业限制",
+  "access": "Request / agreement required",
+  "accessZh": "需申请并同意协议",
+  "rating": 4,
+  "verdict": "早期具身仿真场景库",
+  "verdictEn": "Early embodied simulation scene bank",
+  "wmNote": "可用于生成导航轨迹，但旧版 Gibson 工具链已归档，现代项目通常应评估 iGibson 等后继方案。",
+  "wmNoteEn": "Useful for navigation rollouts, though the original toolkit is archived and newer successors may be preferable.",
+  "links": {
+    "homepage": "http://gibsonenv.stanford.edu/database/",
+    "paper": "https://arxiv.org/abs/1808.10654",
+    "code": "https://github.com/StanfordVL/GibsonEnv"
+  }
+}

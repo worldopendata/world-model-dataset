@@ -1,0 +1,47 @@
+{
+  "id": "replica",
+  "name": "Replica",
+  "shortName": "Replica",
+  "year": 2019,
+  "summary": "由高质量真实室内重建组成的三维场景数据集，提供纹理网格、语义和高保真渲染资产，常用于具身导航与神经场景表示。",
+  "summaryEn": "A set of high-quality reconstructed indoor scenes with textured meshes, semantics, and photorealistic assets for embodied navigation and neural scene representations.",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Decision-Making & Agent Trajectories"
+  ],
+  "domain": [
+    "Robotics / Embodied AI",
+    "Urban / 3D Scene"
+  ],
+  "modalities": [
+    "3D Mesh",
+    "Semantic Labels",
+    "Camera Pose"
+  ],
+  "structure": [
+    "3D Scenes",
+    "Simulation Rollouts"
+  ],
+  "source": [
+    "Real-world Capture",
+    "Simulation"
+  ],
+  "scale": "18 high-fidelity indoor scenes",
+  "scaleZh": "18 个高保真室内场景",
+  "organizations": "Meta AI Research",
+  "organizationsZh": "Meta AI Research",
+  "license": "Replica Dataset License; non-commercial research restrictions apply",
+  "licenseZh": "适用 Replica 数据集许可；包含非商业研究限制",
+  "access": "Open download / agreement required",
+  "accessZh": "开放下载，需同意协议",
+  "rating": 5,
+  "verdict": "高保真室内数字场景",
+  "verdictEn": "High-fidelity indoor digital scenes",
+  "wmNote": "场景质量高，适合渲染和导航；数量较少且原始数据主要是静态环境。",
+  "wmNoteEn": "High scene quality supports rendering and navigation, while the collection is small and primarily static.",
+  "links": {
+    "paper": "https://arxiv.org/abs/1906.05797",
+    "code": "https://github.com/facebookresearch/Replica-Dataset"
+  }
+}

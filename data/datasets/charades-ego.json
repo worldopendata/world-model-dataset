@@ -1,0 +1,45 @@
+{
+  "id": "charades-ego",
+  "name": "Charades-Ego",
+  "shortName": "Charades-Ego",
+  "year": 2018,
+  "summary": "将同一室内活动的第一人称和第三人称视频配对，提供多标签动作和时间区间标注，用于跨视角行为理解与未来状态表示。",
+  "summaryEn": "Pairs first- and third-person videos of the same indoor activities with multi-label temporal actions for cross-view behavior representation.",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "Spatial & Spatiotemporal World Modeling"
+  ],
+  "domain": [
+    "Egocentric / Human"
+  ],
+  "modalities": [
+    "Multi-view RGB Video",
+    "Action Labels"
+  ],
+  "structure": [
+    "Paired Observations",
+    "Temporal Sequences"
+  ],
+  "source": [
+    "Real-world",
+    "Human Demonstration"
+  ],
+  "scale": "7,860 paired videos · 112 hours · 157 action classes",
+  "scaleZh": "7,860 对视频 · 112 小时 · 157 个动作类别",
+  "organizations": "Allen Institute for AI and Carnegie Mellon University",
+  "organizationsZh": "艾伦人工智能研究所、卡内基梅隆大学",
+  "license": "Charades dataset terms; research-use restrictions apply",
+  "licenseZh": "适用 Charades 数据条款；包含研究用途限制",
+  "access": "Open / agreement-dependent",
+  "accessZh": "开放获取，具体取决于协议要求",
+  "rating": 4,
+  "verdict": "跨视角人类行为数据",
+  "verdictEn": "Cross-view human behavior data",
+  "wmNote": "配对视角提供独特监督，但动作由脚本化描述驱动，物理状态和控制信号有限。",
+  "wmNoteEn": "Paired views provide unique supervision, but scripted activities lack explicit physical state and controls.",
+  "links": {
+    "homepage": "https://prior.allenai.org/projects/charades-ego",
+    "paper": "https://arxiv.org/abs/1804.09626"
+  }
+}

@@ -32,10 +32,7 @@
   "verdict": "细粒度人类物体交互",
   "wmNote": "动作类别依赖时间顺序，适合动态表征预训练；缺少机器人控制与显式物理状态。",
   "links": {
-    "homepage": "https://developer.qualcomm.com/software/ai-datasets/something-something",
-    "paper": "https://arxiv.org/abs/1706.04261",
-    "code": "https://github.com/Showmax/kinetics-downloader",
-    "download": "https://developer.qualcomm.com/software/ai-datasets/something-something"
+    "paper": "https://arxiv.org/abs/1706.04261"
   },
   "summaryEn": "A large collection of short human-object interaction videos whose fine-grained labels depend on temporal changes such as pushing, placing, and occluding.",
   "verdictEn": "Fine-grained object interaction",

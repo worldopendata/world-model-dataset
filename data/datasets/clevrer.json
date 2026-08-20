@@ -36,9 +36,7 @@
   "wmNote": "非常适合测试碰撞事件、因果解释和反事实预测。场景高度受控，不能直接代表复杂真实世界中的物理泛化能力。",
   "links": {
     "homepage": "https://clevrer.csail.mit.edu/",
-    "paper": "https://arxiv.org/abs/1910.01442",
-    "code": "https://github.com/clevrer/clevrer",
-    "download": "http://clevrer.csail.mit.edu/"
+    "paper": "https://arxiv.org/abs/1910.01442"
   },
   "summaryEn": "A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.",
   "verdictEn": "Counterfactual physics diagnostics",

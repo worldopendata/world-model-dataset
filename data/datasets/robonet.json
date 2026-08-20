@@ -34,8 +34,7 @@
   "links": {
     "homepage": "https://www.robonet.wiki/",
     "paper": "https://arxiv.org/abs/1910.11215",
-    "code": "https://github.com/SudeepDasari/RoboNet",
-    "download": "https://www.robonet.wiki/"
+    "code": "https://github.com/SudeepDasari/RoboNet"
   },
   "summaryEn": "A cross-platform robot interaction video dataset collected across multiple laboratories, robot arms, viewpoints, and objects for visual dynamics and control generalization.",
   "verdictEn": "Cross-robot visual dynamics",

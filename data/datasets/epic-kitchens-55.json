@@ -1,0 +1,47 @@
+{
+  "id": "epic-kitchens-55",
+  "name": "EPIC-KITCHENS-55",
+  "shortName": "EPIC-KITCHENS-55",
+  "year": 2018,
+  "summary": "EPIC-KITCHENS 的首个大规模版本，记录参与者在自家厨房中的连续第一人称活动，包含动作分段、动词、名词和叙述标注。",
+  "summaryEn": "The first large EPIC-KITCHENS release, capturing continuous first-person activities in participants' own kitchens with action, verb, noun, and narration labels.",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Egocentric / Human"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Audio",
+    "Action Labels",
+    "Language"
+  ],
+  "structure": [
+    "Temporal Sequences"
+  ],
+  "source": [
+    "Real-world",
+    "Human Demonstration"
+  ],
+  "scale": "55 hours · 32 participants · 39,596 action segments",
+  "scaleZh": "55 小时 · 32 名参与者 · 39,596 个动作片段",
+  "organizations": "University of Bristol and University of Catania",
+  "organizationsZh": "布里斯托大学、卡塔尼亚大学",
+  "license": "EPIC-KITCHENS data license; research-use conditions apply",
+  "licenseZh": "适用 EPIC-KITCHENS 数据许可及研究用途条件",
+  "access": "Application / agreement required",
+  "accessZh": "需申请并同意协议",
+  "rating": 5,
+  "verdict": "第一人称厨房动态先驱",
+  "verdictEn": "Pioneering egocentric kitchen dynamics",
+  "wmNote": "连续行为和物体标注适合预测，但已被 EPIC-KITCHENS-100 扩展；保留它主要用于复现实验。",
+  "wmNoteEn": "Continuous behavior supports forecasting, although the 100-hour release supersedes it for new training.",
+  "links": {
+    "homepage": "https://epic-kitchens.github.io/2018",
+    "paper": "https://arxiv.org/abs/1804.02748",
+    "code": "https://github.com/epic-kitchens/epic-kitchens-55-annotations"
+  }
+}

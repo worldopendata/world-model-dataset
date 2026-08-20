@@ -35,8 +35,7 @@
   "links": {
     "homepage": "https://waymo.com/open/",
     "paper": "https://arxiv.org/abs/1912.04838",
-    "code": "https://github.com/waymo-research/waymo-open-dataset",
-    "download": "https://waymo.com/open/download/"
+    "code": "https://github.com/waymo-research/waymo-open-dataset"
   },
   "summaryEn": "A high-quality autonomous-driving collection with cameras, LiDAR, maps, 3D detection labels, and motion scenarios for dynamic occupancy and trajectory prediction.",
   "verdictEn": "High-quality driving world data",

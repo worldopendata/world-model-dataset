@@ -35,8 +35,7 @@
   "links": {
     "homepage": "https://intphys.cognitive-ml.fr/",
     "paper": "https://arxiv.org/abs/1803.07616",
-    "code": "https://github.com/rronan/IntPhys",
-    "download": "https://intphys.cognitive-ml.fr/"
+    "code": "https://github.com/rronan/IntPhys"
   },
   "summaryEn": "A synthetic visual-physics benchmark contrasting possible and impossible scenes to test object permanence, occlusion, shape, and support reasoning.",
   "verdictEn": "Physical violation detection",

@@ -1,0 +1,45 @@
+{
+  "id": "physics-101",
+  "name": "Physics 101",
+  "shortName": "Physics 101",
+  "year": 2016,
+  "summary": "通过真实视频记录物体在斜面上的运动，并提供材料、质量、角度和运动信息，用于从视觉估计物理属性及预测动力学。",
+  "summaryEn": "A real-video dataset of objects moving on inclined surfaces with material, mass, angle, and motion information for estimating physical properties and dynamics.",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": [
+    "World Model Evaluation & Diagnostics"
+  ],
+  "domain": [
+    "Physics / Science"
+  ],
+  "modalities": [
+    "RGB Video",
+    "Object Metadata",
+    "Trajectory"
+  ],
+  "structure": [
+    "Temporal Sequences",
+    "Diagnostic Cases"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "101 objects · controlled incline experiments · physical-property labels",
+  "scaleZh": "101 个物体 · 受控斜面实验 · 物理属性标注",
+  "organizations": "Massachusetts Institute of Technology",
+  "organizationsZh": "麻省理工学院",
+  "license": "Research dataset terms; project attribution requirements apply",
+  "licenseZh": "适用研究数据集条款及项目署名要求",
+  "access": "Open project access",
+  "accessZh": "开放项目访问",
+  "rating": 4,
+  "verdict": "真实视频物理属性基准",
+  "verdictEn": "Real-video physical-property benchmark",
+  "wmNote": "真实材料与运动比纯合成基准更有价值，但场景和动力学类型较单一。",
+  "wmNoteEn": "Real materials add value over synthetic benchmarks, while scene and dynamics diversity remain narrow.",
+  "links": {
+    "homepage": "https://phys101.csail.mit.edu/",
+    "paper": "https://arxiv.org/abs/1511.07439"
+  }
+}

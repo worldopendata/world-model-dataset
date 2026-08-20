@@ -1,0 +1,48 @@
+{
+  "id": "argoverse-1",
+  "name": "Argoverse 1",
+  "shortName": "Argoverse 1",
+  "year": 2019,
+  "summary": "面向三维跟踪与运动预测的自动驾驶数据集，结合车辆轨迹、传感器日志和高清地图，为地图条件未来预测建立了重要基准。",
+  "summaryEn": "An autonomous-driving dataset for 3D tracking and motion forecasting, combining trajectories, sensor logs, and HD maps for map-conditioned future prediction.",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "Spatial & Spatiotemporal World Modeling"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "RGB Video",
+    "LiDAR",
+    "Maps",
+    "Trajectories",
+    "3D Boxes"
+  ],
+  "structure": [
+    "Temporal Sequences",
+    "Multi-view Sequences"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "113 tracking logs · 324K+ motion-forecasting sequences",
+  "scaleZh": "113 段跟踪日志 · 32.4 万+ 条运动预测序列",
+  "organizations": "Argo AI and Carnegie Mellon University",
+  "organizationsZh": "Argo AI、卡内基梅隆大学",
+  "license": "Argoverse Terms of Use; research-oriented access",
+  "licenseZh": "适用 Argoverse 使用条款；主要面向研究用途",
+  "access": "Open download",
+  "accessZh": "开放下载",
+  "rating": 5,
+  "verdict": "地图条件运动预测基准",
+  "verdictEn": "Map-conditioned motion forecasting benchmark",
+  "wmNote": "适合历史基线复现；新项目通常优先使用 Argoverse 2，但第一版仍有大量可比结果。",
+  "wmNoteEn": "Valuable for historical comparability, while Argoverse 2 is generally preferred for new work.",
+  "links": {
+    "homepage": "https://www.argoverse.org/av1.html",
+    "paper": "https://arxiv.org/abs/1911.02620",
+    "code": "https://github.com/argoverse/argoverse-api"
+  }
+}

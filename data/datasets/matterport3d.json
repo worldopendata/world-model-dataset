@@ -1,0 +1,48 @@
+{
+  "id": "matterport3d",
+  "name": "Matterport3D",
+  "shortName": "Matterport3D",
+  "year": 2017,
+  "summary": "面向室内场景理解和具身导航的建筑级 RGB-D 全景数据集，提供精细网格、相机位姿、语义及区域标注。",
+  "summaryEn": "A building-scale RGB-D panorama dataset for indoor scene understanding and embodied navigation, with meshes, camera poses, semantics, and regions.",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Decision-Making & Agent Trajectories"
+  ],
+  "domain": [
+    "Urban / 3D Scene",
+    "Robotics / Embodied AI"
+  ],
+  "modalities": [
+    "RGB-D",
+    "3D Mesh",
+    "Camera Pose",
+    "Semantic Labels"
+  ],
+  "structure": [
+    "3D Scenes",
+    "Multi-view Sequences"
+  ],
+  "source": [
+    "Real-world Capture"
+  ],
+  "scale": "90 buildings · 10,800 panoramic views · 194,400 RGB-D images",
+  "scaleZh": "90 栋建筑 · 10,800 个全景视点 · 194,400 张 RGB-D 图像",
+  "organizations": "Matterport, Princeton University, Stanford University",
+  "organizationsZh": "Matterport、普林斯顿大学、斯坦福大学",
+  "license": "Matterport3D Terms of Use; academic non-commercial restrictions",
+  "licenseZh": "适用 Matterport3D 使用条款；包含学术非商业限制",
+  "access": "Application / agreement required",
+  "accessZh": "需申请并同意协议",
+  "rating": 5,
+  "verdict": "建筑级具身空间数据",
+  "verdictEn": "Building-scale embodied spatial data",
+  "wmNote": "大范围连通空间适合导航世界模型；静态扫描本身不包含动作和动态物理反馈。",
+  "wmNoteEn": "Large connected spaces support navigation world models, but static scans contain no action or dynamic feedback.",
+  "links": {
+    "homepage": "https://niessner.github.io/Matterport/",
+    "paper": "https://arxiv.org/abs/1709.06158",
+    "code": "https://github.com/niessner/Matterport"
+  }
+}

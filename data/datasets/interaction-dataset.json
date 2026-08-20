@@ -1,0 +1,46 @@
+{
+  "id": "interaction-dataset",
+  "name": "INTERACTION Dataset",
+  "shortName": "INTERACTION Dataset",
+  "year": 2019,
+  "summary": "聚焦路口、环岛和汇入等高交互驾驶场景的轨迹数据集，包含多国道路中的车辆与行人运动，适合多智能体预测和交互建模。",
+  "summaryEn": "A trajectory dataset focused on highly interactive driving scenarios such as intersections, roundabouts, and merging across multiple countries.",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "Physical & Causal Reasoning"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "Trajectories",
+    "Maps",
+    "Agent Pose"
+  ],
+  "structure": [
+    "Temporal Sequences",
+    "Agent Trajectories"
+  ],
+  "source": [
+    "Real-world"
+  ],
+  "scale": "11,500+ scenarios · 11 locations · multiple countries",
+  "scaleZh": "11,500+ 个场景 · 11 个地点 · 覆盖多个国家",
+  "organizations": "INTERACTION Dataset consortium",
+  "organizationsZh": "INTERACTION Dataset 联盟",
+  "license": "CC BY-SA 4.0; project terms apply",
+  "licenseZh": "CC BY-SA 4.0；同时适用项目条款",
+  "access": "Open download",
+  "accessZh": "开放下载",
+  "rating": 5,
+  "verdict": "高交互多智能体轨迹",
+  "verdictEn": "Highly interactive multi-agent trajectories",
+  "wmNote": "特别适合建模协商和相互影响；不包含丰富相机或激光雷达原始观测。",
+  "wmNoteEn": "Strong for negotiation and interaction modeling, but lacks rich raw camera and LiDAR observations.",
+  "links": {
+    "homepage": "https://interaction-dataset.com/",
+    "paper": "https://arxiv.org/abs/1910.03088",
+    "code": "https://github.com/interaction-dataset/interaction-dataset"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "virtual-kitti",
+  "name": "Virtual KITTI",
+  "shortName": "Virtual KITTI",
+  "year": 2016,
+  "summary": "与 KITTI 真实序列对应的合成驾驶视频数据，提供深度、光流、实例、语义和相机真值，可用于可控条件下的场景动态及域迁移实验。",
+  "summaryEn": "A synthetic driving-video counterpart to KITTI with depth, optical flow, instance, semantic, and camera ground truth for controlled dynamics and domain transfer.",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": [
+    "Predictive & Generative Dynamics"
+  ],
+  "domain": [
+    "Autonomous Driving"
+  ],
+  "modalities": [
+    "Synthetic Video",
+    "Depth",
+    "Optical Flow",
+    "Segmentation",
+    "Camera Pose"
+  ],
+  "structure": [
+    "Simulation Rollouts"
+  ],
+  "source": [
+    "Simulation",
+    "Synthetic / Generated"
+  ],
+  "scale": "21,260 frames · 5 base sequences with controlled variations",
+  "scaleZh": "21,260 帧 · 5 条基础序列及多种可控变化",
+  "organizations": "NAVER LABS Europe",
+  "organizationsZh": "NAVER LABS Europe",
+  "license": "Project dataset license; non-commercial research restrictions apply",
+  "licenseZh": "适用项目数据许可；包含非商业研究限制",
+  "access": "Open download",
+  "accessZh": "开放下载",
+  "rating": 4,
+  "verdict": "可控合成驾驶世界",
+  "verdictEn": "Controlled synthetic driving world",
+  "wmNote": "完整真值适合因果消融和域适应；第一版画质与现代仿真数据仍有差距。",
+  "wmNoteEn": "Complete ground truth supports controlled studies, while first-generation rendering trails modern simulators.",
+  "links": {
+    "homepage": "https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/",
+    "paper": "https://arxiv.org/abs/1605.06457"
+  }
+}

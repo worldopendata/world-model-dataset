@@ -37,8 +37,7 @@
   "links": {
     "homepage": "https://ego4d-data.org/",
     "paper": "https://arxiv.org/abs/2110.07058",
-    "code": "https://github.com/facebookresearch/Ego4d",
-    "download": "https://ego4d-data.org/docs/start-here/"
+    "code": "https://github.com/facebookresearch/Ego4d"
   },
   "summaryEn": "A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.",
   "verdictEn": "First-person future prediction",

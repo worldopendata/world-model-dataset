@@ -1,0 +1,46 @@
+{
+  "id": "human36m",
+  "name": "Human3.6M",
+  "shortName": "Human3.6M",
+  "year": 2014,
+  "summary": "面向人体姿态与运动建模的大规模多视角数据集，提供同步视频、三维关节、相机参数和动作类别，是人类未来姿态预测的重要历史基准。",
+  "summaryEn": "A large multi-view human motion dataset with synchronized video, 3D joints, camera parameters, and action labels, foundational for future-pose prediction.",
+  "primaryTask": "Predictive & Generative Dynamics",
+  "primaryTaskZh": "预测与生成式动力学",
+  "secondaryTasks": [
+    "Spatial & Spatiotemporal World Modeling"
+  ],
+  "domain": [
+    "Egocentric / Human"
+  ],
+  "modalities": [
+    "Multi-view RGB Video",
+    "3D State",
+    "Action Labels",
+    "Camera Pose"
+  ],
+  "structure": [
+    "Multi-view Sequences"
+  ],
+  "source": [
+    "Real-world",
+    "Human Demonstration"
+  ],
+  "scale": "3.6M poses · 11 actors · 17 scenarios",
+  "scaleZh": "360 万个人体姿态 · 11 名演员 · 17 类场景",
+  "organizations": "Institute of Mathematics of the Romanian Academy",
+  "organizationsZh": "罗马尼亚科学院数学研究所",
+  "license": "Human3.6M License Agreement; research use restrictions apply",
+  "licenseZh": "适用 Human3.6M 许可协议；包含研究用途限制",
+  "access": "Registration / agreement required",
+  "accessZh": "需注册并同意协议",
+  "rating": 5,
+  "verdict": "人体运动预测基础数据",
+  "verdictEn": "Foundational human-motion data",
+  "wmNote": "三维动作真值和相机标定价值很高；实验室动作分布与真实开放环境存在明显差距。",
+  "wmNoteEn": "High-quality 3D motion and calibration are valuable, while laboratory actions differ from open-world behavior.",
+  "links": {
+    "homepage": "http://vision.imar.ro/human3.6m/description.php",
+    "paper": "https://ieeexplore.ieee.org/document/6682899"
+  }
+}

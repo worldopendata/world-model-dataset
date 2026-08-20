@@ -36,8 +36,7 @@
   "links": {
     "homepage": "https://ego-exo4d-data.org/",
     "paper": "https://arxiv.org/abs/2311.18259",
-    "code": "https://github.com/facebookresearch/Ego4d",
-    "download": "https://ego-exo4d-data.org/"
+    "code": "https://github.com/facebookresearch/Ego4d"
   },
   "summaryEn": "A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.",
   "verdictEn": "Synchronized ego-exo skills",

@@ -1,54 +1,24 @@
-const state = { datasets: [], query: "", task: "", domain: "" };
+const state = { datasets: [], query: "", task: "", domain: "", lang: localStorage.getItem("wm-lang") || (navigator.language.startsWith("zh") ? "zh-CN" : "en") };
 const $ = (selector) => document.querySelector(selector);
 const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"}[char]));
+const messages = {
+  "zh-CN": {pageTitle:"WorldModel Data Atlas · 世界模型开放数据集",navCatalog:"数据目录",navMethod:"方法说明",heroEyebrow:"A TASK-FIRST CATALOG FOR WORLD MODELS",heroTitle:"从研究问题出发，<br><em>找到真正适合的数据。</em>",heroLead:"不是按论文年份堆叠链接，而是用任务、领域与模态建立一张可检索的世界模型数据地图。",browse:"浏览数据集",metricDatasets:"精选数据集",metricTasks:"一级任务",metricDomains:"研究领域",metricReviewed:"人工整理",catalogTitle:"代表性开放数据集",catalogDescription:"每个数据集只有一个 Primary Task，其他用途通过标签表达。当前按年份倒排。",searchPlaceholder:"搜索名称、机构、任务或模态…",filterTaskLabel:"按任务筛选",filterDomainLabel:"按领域筛选",allTasks:"全部任务",allDomains:"全部领域",reset:"重置",count:(n)=>`${n} 个数据集`,sortLabel:"↓ 按时间倒排",empty:"没有匹配的数据集，试试清除筛选条件。",methodTitle:"一个主任务，多个事实标签。",methodTask:"回答“它主要训练或评测什么能力”，每条记录只选一个。",methodDomain:"描述数据发生在哪里，例如机器人、驾驶、游戏或物理科学。",methodModality:"准确说明数据提供的视频、动作、状态、点云与语言等信号。",footerMotto:"证据胜于宣传，结构胜于堆积。",scale:"数据规模",organization:"机构",access:"访问方式",license:"许可说明",advice:"WM 适用建议",recommended:(n)=>`推荐度 ${n} 星`,loadError:"数据加载失败",links:{homepage:"主页",paper:"论文",code:"代码",download:"下载"}},
+  en: {pageTitle:"WorldModel Data Atlas · Open Datasets",navCatalog:"Catalog",navMethod:"Method",heroEyebrow:"A TASK-FIRST CATALOG FOR WORLD MODELS",heroTitle:"Start with the research question.<br><em>Find the data that fits.</em>",heroLead:"A searchable map of world-model datasets organized by task, domain, and modality, not another chronological list of papers.",browse:"Explore datasets",metricDatasets:"Curated datasets",metricTasks:"Primary tasks",metricDomains:"Research domains",metricReviewed:"Human curated",catalogTitle:"Representative open datasets",catalogDescription:"Each dataset has one primary task. Secondary uses are expressed through tags. Entries are sorted by year.",searchPlaceholder:"Search names, organizations, tasks, or modalities…",filterTaskLabel:"Filter by task",filterDomainLabel:"Filter by domain",allTasks:"All tasks",allDomains:"All domains",reset:"Reset",count:(n)=>`${n} dataset${n===1?"":"s"}`,sortLabel:"↓ Newest first",empty:"No matching datasets. Try clearing the filters.",methodTitle:"One primary task. Multiple factual tags.",methodTask:"Answers what capability the dataset primarily trains or evaluates. Each record has exactly one.",methodDomain:"Describes where the data comes from, such as robotics, driving, games, or physical science.",methodModality:"States which signals are available, including video, actions, states, point clouds, and language.",footerMotto:"Evidence over hype. Structure over accumulation.",scale:"Scale",organization:"Organizations",access:"Access",license:"License",advice:"World-model guidance",recommended:(n)=>`${n}-star recommendation`,loadError:"Failed to load data",links:{homepage:"Homepage",paper:"Paper",code:"Code",download:"Download"}}
+};
+const taskZh={"Predictive & Generative Dynamics":"预测与生成式动力学","Action-Conditioned Dynamics":"动作条件动力学","Decision-Making & Agent Trajectories":"决策与智能体轨迹","Spatial & Spatiotemporal World Modeling":"空间与时空世界建模","Physical & Causal Reasoning":"物理与因果推理","World Model Evaluation & Diagnostics":"世界模型评测与诊断"};
+const domainZh={"Robotics / Embodied AI":"机器人 / 具身智能","Autonomous Driving":"自动驾驶","Games / Virtual Environments":"游戏 / 虚拟环境","Egocentric / Human":"第一人称 / 人类活动","Urban / 3D Scene":"城市 / 三维场景","Physics / Science":"物理 / 科学"};
+const t=(key)=>messages[state.lang][key];
+const localizedTask=(value)=>state.lang==="zh-CN"?(taskZh[value]||value):value;
+const localizedDomain=(value)=>state.lang==="zh-CN"?(domainZh[value]||value):value;
 
-function fillSelect(selector, values) {
-  const select = $(selector);
-  values.sort().forEach((value) => select.insertAdjacentHTML("beforeend", `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`));
-}
-
-function card(dataset) {
-  const tags = [...dataset.domain.map((x) => `<span class="tag domain">${escapeHtml(x)}</span>`), ...dataset.modalities.slice(0, 5).map((x) => `<span class="tag">${escapeHtml(x)}</span>`)].join("");
-  const links = Object.entries(dataset.links).map(([key, url]) => `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${({homepage:"主页",paper:"论文",code:"代码",download:"下载"})[key] || key} ↗</a>`).join("");
-  return `<article class="card">
-    <div class="card-top"><div><span class="task">${escapeHtml(dataset.primaryTaskZh)}</span><h3>${escapeHtml(dataset.name)}</h3><span class="verdict">${escapeHtml(dataset.verdict)}</span></div><span class="year">${dataset.year}</span></div>
-    <p class="summary">${escapeHtml(dataset.summary)}</p><div class="tags">${tags}</div>
-    <div class="details"><div class="detail"><b>数据规模</b><span>${escapeHtml(dataset.scale)}</span></div><div class="detail"><b>机构</b><span>${escapeHtml(dataset.organizations)}</span></div><div class="detail"><b>访问方式</b><span>${escapeHtml(dataset.access)}</span></div><div class="detail"><b>许可说明</b><span>${escapeHtml(dataset.license)}</span></div></div>
-    <div class="note"><strong>WM 适用建议</strong><br>${escapeHtml(dataset.wmNote)}</div>
-    <div class="card-actions"><span class="stars" aria-label="推荐度 ${dataset.rating} 星">${"★".repeat(dataset.rating)}${"☆".repeat(5-dataset.rating)}</span>${links}</div>
-  </article>`;
-}
-
-function render() {
-  const query = state.query.trim().toLowerCase();
-  const shown = state.datasets.filter((d) => {
-    const searchable = [d.name, d.summary, d.primaryTask, d.primaryTaskZh, d.organizations, ...d.domain, ...d.modalities].join(" ").toLowerCase();
-    return (!query || searchable.includes(query)) && (!state.task || d.primaryTask === state.task) && (!state.domain || d.domain.includes(state.domain));
-  }).sort((a,b) => b.year-a.year || a.name.localeCompare(b.name));
-  $("#datasetGrid").innerHTML = shown.map(card).join("");
-  $("#resultCount").textContent = `${shown.length} 个数据集`;
-  $("#emptyState").hidden = shown.length > 0;
-}
-
-async function init() {
-  try {
-    const response = await fetch("datasets.json");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.datasets = await response.json();
-    fillSelect("#taskFilter", [...new Set(state.datasets.map((d) => d.primaryTask))]);
-    fillSelect("#domainFilter", [...new Set(state.datasets.flatMap((d) => d.domain))]);
-    $("#metricDatasets").textContent = String(state.datasets.length).padStart(2,"0");
-    $("#metricTasks").textContent = String(new Set(state.datasets.map((d) => d.primaryTask)).size).padStart(2,"0");
-    $("#metricDomains").textContent = String(new Set(state.datasets.flatMap((d) => d.domain)).size).padStart(2,"0");
-    render();
-  } catch (error) {
-    $("#emptyState").hidden = false;
-    $("#emptyState").textContent = `数据加载失败：${error.message}`;
-  }
-}
-
-$("#searchInput").addEventListener("input", (e) => { state.query = e.target.value; render(); });
-$("#taskFilter").addEventListener("change", (e) => { state.task = e.target.value; render(); });
-$("#domainFilter").addEventListener("change", (e) => { state.domain = e.target.value; render(); });
-$("#resetButton").addEventListener("click", () => { state.query = state.task = state.domain = ""; $("#searchInput").value = $("#taskFilter").value = $("#domainFilter").value = ""; render(); });
+function fillSelect(selector,values,firstLabel,localize){const select=$(selector);select.innerHTML=`<option value="">${escapeHtml(firstLabel)}</option>`;values.sort().forEach((value)=>select.insertAdjacentHTML("beforeend",`<option value="${escapeHtml(value)}">${escapeHtml(localize(value))}</option>`));}
+function card(dataset){const zh=state.lang==="zh-CN";const tags=[...dataset.domain.map((x)=>`<span class="tag domain">${escapeHtml(localizedDomain(x))}</span>`),...dataset.modalities.slice(0,5).map((x)=>`<span class="tag">${escapeHtml(x)}</span>`)].join("");const links=Object.entries(dataset.links).map(([key,url])=>`<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">${escapeHtml(t("links")[key]||key)} ↗</a>`).join("");const summary=zh?dataset.summary:(dataset.summaryEn||dataset.summary);const verdict=zh?dataset.verdict:(dataset.verdictEn||dataset.verdict);const note=zh?dataset.wmNote:(dataset.wmNoteEn||dataset.wmNote);return `<article class="card"><div class="card-top"><div><span class="task">${escapeHtml(localizedTask(dataset.primaryTask))}</span><h3>${escapeHtml(dataset.name)}</h3><span class="verdict">${escapeHtml(verdict)}</span></div><span class="year">${dataset.year}</span></div><p class="summary">${escapeHtml(summary)}</p><div class="tags">${tags}</div><div class="details"><div class="detail"><b>${t("scale")}</b><span>${escapeHtml(dataset.scale)}</span></div><div class="detail"><b>${t("organization")}</b><span>${escapeHtml(dataset.organizations)}</span></div><div class="detail"><b>${t("access")}</b><span>${escapeHtml(dataset.access)}</span></div><div class="detail"><b>${t("license")}</b><span>${escapeHtml(dataset.license)}</span></div></div><div class="note"><strong>${t("advice")}</strong><br>${escapeHtml(note)}</div><div class="card-actions"><span class="stars" aria-label="${escapeHtml(t("recommended")(dataset.rating))}">${"★".repeat(dataset.rating)}${"☆".repeat(5-dataset.rating)}</span>${links}</div></article>`;}
+function render(){const query=state.query.trim().toLowerCase();const shown=state.datasets.filter((d)=>{const searchable=[d.name,d.summary,d.summaryEn,d.primaryTask,d.primaryTaskZh,d.organizations,d.verdict,d.verdictEn,...d.domain,...d.modalities].filter(Boolean).join(" ").toLowerCase();return(!query||searchable.includes(query))&&(!state.task||d.primaryTask===state.task)&&(!state.domain||d.domain.includes(state.domain));}).sort((a,b)=>b.year-a.year||a.name.localeCompare(b.name));$("#datasetGrid").innerHTML=shown.map(card).join("");$("#resultCount").textContent=t("count")(shown.length);$("#emptyState").hidden=shown.length>0;}
+function applyLanguage(){document.documentElement.lang=state.lang;document.title=t("pageTitle");document.querySelectorAll("[data-i18n]").forEach((el)=>{el.textContent=t(el.dataset.i18n);});document.querySelectorAll("[data-i18n-html]").forEach((el)=>{el.innerHTML=t(el.dataset.i18nHtml);});$("#searchInput").placeholder=t("searchPlaceholder");const toggle=$("#languageToggle");toggle.textContent=state.lang==="zh-CN"?"EN":"中文";toggle.setAttribute("aria-label",state.lang==="zh-CN"?"Switch to English":"切换到中文");fillSelect("#taskFilter",[...new Set(state.datasets.map((d)=>d.primaryTask))],t("allTasks"),localizedTask);fillSelect("#domainFilter",[...new Set(state.datasets.flatMap((d)=>d.domain))],t("allDomains"),localizedDomain);$("#taskFilter").value=state.task;$("#domainFilter").value=state.domain;render();}
+async function init(){try{const response=await fetch("datasets.json");if(!response.ok)throw new Error(`HTTP ${response.status}`);state.datasets=await response.json();$("#metricDatasets").textContent=String(state.datasets.length).padStart(2,"0");$("#metricTasks").textContent=String(new Set(state.datasets.map((d)=>d.primaryTask)).size).padStart(2,"0");$("#metricDomains").textContent=String(new Set(state.datasets.flatMap((d)=>d.domain)).size).padStart(2,"0");applyLanguage();}catch(error){$("#emptyState").hidden=false;$("#emptyState").textContent=`${t("loadError")}: ${error.message}`;}}
+$("#searchInput").addEventListener("input",(e)=>{state.query=e.target.value;render();});
+$("#taskFilter").addEventListener("change",(e)=>{state.task=e.target.value;render();});
+$("#domainFilter").addEventListener("change",(e)=>{state.domain=e.target.value;render();});
+$("#resetButton").addEventListener("click",()=>{state.query=state.task=state.domain="";$("#searchInput").value="";applyLanguage();});
+$("#languageToggle").addEventListener("click",()=>{state.lang=state.lang==="zh-CN"?"en":"zh-CN";localStorage.setItem("wm-lang",state.lang);applyLanguage();});
 init();

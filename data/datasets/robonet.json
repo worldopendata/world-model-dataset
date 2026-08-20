@@ -36,5 +36,8 @@
     "paper": "https://arxiv.org/abs/1910.11215",
     "code": "https://github.com/SudeepDasari/RoboNet",
     "download": "https://www.robonet.wiki/"
-  }
+  },
+  "summaryEn": "A cross-platform robot interaction video dataset collected across multiple laboratories, robot arms, viewpoints, and objects for visual dynamics and control generalization.",
+  "verdictEn": "Cross-robot visual dynamics",
+  "wmNoteEn": "A useful benchmark for action-conditioned prediction and transfer. Its older action conventions require adaptation to modern unified formats."
 }

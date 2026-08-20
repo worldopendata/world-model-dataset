@@ -38,5 +38,8 @@
     "paper": "https://arxiv.org/abs/1907.13440",
     "code": "https://github.com/minerllabs/minerl",
     "download": "https://minerl.io/docs/tutorials/data_sampling/"
-  }
+  },
+  "summaryEn": "A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.",
+  "verdictEn": "Open-world human demonstrations",
+  "wmNoteEn": "Aligned actions and states support long-horizon policy and dynamics modeling. Use depends on compatible Minecraft versions and game licensing."
 }

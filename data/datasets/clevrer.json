@@ -39,5 +39,8 @@
     "paper": "https://arxiv.org/abs/1910.01442",
     "code": "https://github.com/clevrer/clevrer",
     "download": "http://clevrer.csail.mit.edu/"
-  }
+  },
+  "summaryEn": "A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.",
+  "verdictEn": "Counterfactual physics diagnostics",
+  "wmNoteEn": "Excellent for diagnosing collision understanding and causal explanation. Its controlled scenes do not represent the full complexity of real-world physics."
 }

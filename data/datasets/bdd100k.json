@@ -36,5 +36,8 @@
     "paper": "https://arxiv.org/abs/1805.04687",
     "code": "https://github.com/bdd100k/bdd100k",
     "download": "https://bdd-data.berkeley.edu/"
-  }
+  },
+  "summaryEn": "A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.",
+  "verdictEn": "Diverse driving video",
+  "wmNoteEn": "Broad visual coverage supports video pretraining and robustness research. It lacks synchronized LiDAR and direct vehicle controls."
 }

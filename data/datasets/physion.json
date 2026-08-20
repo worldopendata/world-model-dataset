@@ -38,5 +38,8 @@
     "paper": "https://arxiv.org/abs/2106.08261",
     "code": "https://github.com/cogtoolslab/physics-benchmarking-neurips2021",
     "download": "https://physion-benchmark.github.io/"
-  }
+  },
+  "summaryEn": "A synthetic intuitive-physics dataset covering collisions, support, containment, and deformation, designed to test whether models can predict object contact and dynamics.",
+  "verdictEn": "Intuitive physics prediction",
+  "wmNoteEn": "The task design directly probes physical reasoning. Synthetic scenes and binary contact judgments do not capture all real-world physics."
 }

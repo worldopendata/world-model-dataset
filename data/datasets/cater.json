@@ -36,5 +36,8 @@
     "paper": "https://arxiv.org/abs/1910.04744",
     "code": "https://github.com/rohitgirdhar/CATER",
     "download": "https://rohitgirdhar.github.io/CATER/"
-  }
+  },
+  "summaryEn": "A synthetic video dataset with compositional object motions and precise metadata, emphasizing spatiotemporal relations, occlusion, and long-term object tracking.",
+  "verdictEn": "Object-centric temporal reasoning",
+  "wmNoteEn": "Precise state annotations support object-centric dynamics, while procedural visuals and actions limit direct real-world transfer."
 }

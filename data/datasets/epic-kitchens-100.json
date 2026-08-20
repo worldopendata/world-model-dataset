@@ -37,5 +37,8 @@
     "paper": "https://arxiv.org/abs/2006.13256",
     "code": "https://github.com/epic-kitchens/epic-kitchens-100-annotations",
     "download": "https://epic-kitchens.github.io/2021"
-  }
+  },
+  "summaryEn": "A large first-person kitchen activity dataset with continuous video, action segments, verb-noun labels, and anticipation benchmarks for hand-object interaction.",
+  "verdictEn": "Kitchen behavior forecasting",
+  "wmNoteEn": "Detailed actions and objects support short-term behavior modeling. The domain is kitchen-specific and access follows a dedicated agreement."
 }

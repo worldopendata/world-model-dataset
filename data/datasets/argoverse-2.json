@@ -37,5 +37,8 @@
     "paper": "https://arxiv.org/abs/2301.00493",
     "code": "https://github.com/argoverse/av2-api",
     "download": "https://www.argoverse.org/av2.html"
-  }
+  },
+  "summaryEn": "A multimodal autonomous-driving collection for perception, motion forecasting, and map understanding, with sensor logs, HD maps, and diverse urban motion scenarios.",
+  "verdictEn": "Map-aware motion forecasting",
+  "wmNoteEn": "Well suited to joint map, actor, and sensor modeling. Its sensor and motion subsets use distinct schemas and task conventions."
 }

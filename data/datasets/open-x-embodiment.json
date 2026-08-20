@@ -38,5 +38,8 @@
     "paper": "https://arxiv.org/abs/2310.08864",
     "code": "https://github.com/google-deepmind/open_x_embodiment",
     "download": "https://huggingface.co/datasets/openx-embodiment"
-  }
+  },
+  "summaryEn": "A large cross-embodiment collection assembled by Google DeepMind and more than 30 research institutions. It unifies real robot interactions across platforms, tasks, and environments for generalist embodied learning.",
+  "verdictEn": "Infrastructure for embodied intelligence",
+  "wmNoteEn": "Well suited to cross-robot dynamics, goal-conditioned modeling, and offline trajectory learning. Action spaces and coordinate systems require careful normalization."
 }

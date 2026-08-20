@@ -36,5 +36,8 @@
     "paper": "https://arxiv.org/abs/1706.04261",
     "code": "https://github.com/Showmax/kinetics-downloader",
     "download": "https://developer.qualcomm.com/software/ai-datasets/something-something"
-  }
+  },
+  "summaryEn": "A large collection of short human-object interaction videos whose fine-grained labels depend on temporal changes such as pushing, placing, and occluding.",
+  "verdictEn": "Fine-grained object interaction",
+  "wmNoteEn": "Temporal labels support dynamics representation learning, but the dataset provides neither robot controls nor explicit physical state."
 }

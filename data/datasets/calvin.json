@@ -39,5 +39,8 @@
     "paper": "https://arxiv.org/abs/2112.03227",
     "code": "https://github.com/mees/calvin",
     "download": "https://github.com/mees/calvin"
-  }
+  },
+  "summaryEn": "A long-horizon language-conditioned robot benchmark in a controlled tabletop environment, with continuous interaction trajectories and compositional task sequences.",
+  "verdictEn": "Long-horizon language control",
+  "wmNoteEn": "Continuous task chains are useful for planning and rollout evaluation. The controlled setting requires additional data for transfer to open real-world environments."
 }

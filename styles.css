@@ -6,4 +6,5 @@
 .dataset-grid{grid-template-columns:minmax(0,1fr)}
 .summary{min-height:0}
 .details{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px}
+.language-toggle{height:38px;min-width:52px;padding:0 14px;border:1px solid var(--ink);border-radius:999px;background:transparent;color:var(--ink);font:800 12px/1 Inter,"Noto Sans SC","Microsoft YaHei",sans-serif;cursor:pointer}.language-toggle:hover{background:var(--ink);color:var(--lime)}
 @media(max-width:560px){.details{grid-template-columns:1fr}}

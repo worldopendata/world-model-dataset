@@ -38,5 +38,8 @@
     "paper": "https://arxiv.org/abs/1908.05656",
     "code": "https://github.com/facebookresearch/phyre",
     "download": "https://github.com/facebookresearch/phyre"
-  }
+  },
+  "summaryEn": "A 2D physical reasoning benchmark where agents place objects to achieve goals across generated task templates, testing intervention, trial efficiency, and generalization.",
+  "verdictEn": "Physical intervention and trial-and-error",
+  "wmNoteEn": "Direct interventions make it useful for model-based planning evaluation, though the controlled 2D world is far from real physics."
 }

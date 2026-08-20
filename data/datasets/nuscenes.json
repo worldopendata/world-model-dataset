@@ -37,5 +37,8 @@
     "paper": "https://arxiv.org/abs/1903.11027",
     "code": "https://github.com/nutonomy/nuscenes-devkit",
     "download": "https://www.nuscenes.org/nuscenes"
-  }
+  },
+  "summaryEn": "A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.",
+  "verdictEn": "Multi-sensor 4D benchmark",
+  "wmNoteEn": "Strong calibration and synchronization support multi-view generation, BEV, and occupancy prediction. Direct throttle, brake, and steering commands are not provided."
 }

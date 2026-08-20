@@ -37,5 +37,8 @@
     "paper": "https://arxiv.org/abs/2308.12952",
     "code": "https://github.com/rail-berkeley/bridge_data_v2",
     "download": "https://rail-berkeley.github.io/bridgedata/"
-  }
+  },
+  "summaryEn": "A large multi-task robot manipulation dataset collected in real kitchens and workspaces, with diverse trajectories and language labels for imitation and generalist policy learning.",
+  "verdictEn": "General-purpose manipulation benchmark",
+  "wmNoteEn": "Strong task and environment diversity supports offline policies and dynamics pretraining, although robot embodiments remain relatively concentrated."
 }

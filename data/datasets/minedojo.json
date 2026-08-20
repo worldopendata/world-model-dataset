@@ -39,5 +39,8 @@
     "paper": "https://arxiv.org/abs/2206.01356",
     "code": "https://github.com/MineDojo/MineDojo",
     "download": "https://minedojo.org/"
-  }
+  },
+  "summaryEn": "A large multimodal knowledge and interaction platform built around Minecraft, combining player videos, text knowledge, community discussions, and a live simulation environment for open-world agents.",
+  "verdictEn": "Open-world interaction testbed",
+  "wmNoteEn": "Useful for interactive game world models and long-horizon agents. Code licensing does not automatically cover all source videos, text, or game assets."
 }

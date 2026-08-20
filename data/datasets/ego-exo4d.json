@@ -38,5 +38,8 @@
     "paper": "https://arxiv.org/abs/2311.18259",
     "code": "https://github.com/facebookresearch/Ego4d",
     "download": "https://ego-exo4d-data.org/"
-  }
+  },
+  "summaryEn": "A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.",
+  "verdictEn": "Synchronized ego-exo skills",
+  "wmNoteEn": "Rare synchronized views support viewpoint-invariant world representations. Access is controlled, and the actions are human rather than robotic."
 }

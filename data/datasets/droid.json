@@ -38,5 +38,8 @@
     "paper": "https://arxiv.org/abs/2403.12945",
     "code": "https://github.com/droid-dataset/droid",
     "download": "https://droid-dataset.github.io/"
-  }
+  },
+  "summaryEn": "A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.",
+  "verdictEn": "Multi-site real robot trajectories",
+  "wmNoteEn": "Valuable for cross-scene manipulation and action-conditioned transitions. Site diversity improves coverage but increases calibration and cleaning requirements."
 }

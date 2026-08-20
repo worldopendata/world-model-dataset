@@ -38,5 +38,8 @@
     "paper": "https://arxiv.org/abs/2203.12602",
     "code": "https://github.com/google-research/kubric",
     "download": "https://www.tensorflow.org/datasets/catalog/movi_a"
-  }
+  },
+  "summaryEn": "A family of Kubric-generated multi-object videos with instance masks, depth, optical flow, and 3D attributes for object discovery and interpretable dynamics.",
+  "verdictEn": "Dense-ground-truth dynamic scenes",
+  "wmNoteEn": "Near-complete pixel and object supervision is valuable for object-centric models, but synthetic bias calls for complementary real video."
 }

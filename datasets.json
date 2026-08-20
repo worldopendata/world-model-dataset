@@ -39,7 +39,10 @@
       "paper": "https://arxiv.org/abs/2403.12945",
       "code": "https://github.com/droid-dataset/droid",
       "download": "https://droid-dataset.github.io/"
-    }
+    },
+    "summaryEn": "A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.",
+    "verdictEn": "Multi-site real robot trajectories",
+    "wmNoteEn": "Valuable for cross-scene manipulation and action-conditioned transitions. Site diversity improves coverage but increases calibration and cleaning requirements."
   },
   {
     "id": "ego-exo4d",
@@ -81,7 +84,10 @@
       "paper": "https://arxiv.org/abs/2311.18259",
       "code": "https://github.com/facebookresearch/Ego4d",
       "download": "https://ego-exo4d-data.org/"
-    }
+    },
+    "summaryEn": "A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.",
+    "verdictEn": "Synchronized ego-exo skills",
+    "wmNoteEn": "Rare synchronized views support viewpoint-invariant world representations. Access is controlled, and the actions are human rather than robotic."
   },
   {
     "id": "argoverse-2",
@@ -122,7 +128,10 @@
       "paper": "https://arxiv.org/abs/2301.00493",
       "code": "https://github.com/argoverse/av2-api",
       "download": "https://www.argoverse.org/av2.html"
-    }
+    },
+    "summaryEn": "A multimodal autonomous-driving collection for perception, motion forecasting, and map understanding, with sensor logs, HD maps, and diverse urban motion scenarios.",
+    "verdictEn": "Map-aware motion forecasting",
+    "wmNoteEn": "Well suited to joint map, actor, and sensor modeling. Its sensor and motion subsets use distinct schemas and task conventions."
   },
   {
     "id": "bridge-data-v2",
@@ -163,7 +172,10 @@
       "paper": "https://arxiv.org/abs/2308.12952",
       "code": "https://github.com/rail-berkeley/bridge_data_v2",
       "download": "https://rail-berkeley.github.io/bridgedata/"
-    }
+    },
+    "summaryEn": "A large multi-task robot manipulation dataset collected in real kitchens and workspaces, with diverse trajectories and language labels for imitation and generalist policy learning.",
+    "verdictEn": "General-purpose manipulation benchmark",
+    "wmNoteEn": "Strong task and environment diversity supports offline policies and dynamics pretraining, although robot embodiments remain relatively concentrated."
   },
   {
     "id": "open-x-embodiment",
@@ -205,7 +217,10 @@
       "paper": "https://arxiv.org/abs/2310.08864",
       "code": "https://github.com/google-deepmind/open_x_embodiment",
       "download": "https://huggingface.co/datasets/openx-embodiment"
-    }
+    },
+    "summaryEn": "A large cross-embodiment collection assembled by Google DeepMind and more than 30 research institutions. It unifies real robot interactions across platforms, tasks, and environments for generalist embodied learning.",
+    "verdictEn": "Infrastructure for embodied intelligence",
+    "wmNoteEn": "Well suited to cross-robot dynamics, goal-conditioned modeling, and offline trajectory learning. Action spaces and coordinate systems require careful normalization."
   },
   {
     "id": "calvin",
@@ -248,7 +263,10 @@
       "paper": "https://arxiv.org/abs/2112.03227",
       "code": "https://github.com/mees/calvin",
       "download": "https://github.com/mees/calvin"
-    }
+    },
+    "summaryEn": "A long-horizon language-conditioned robot benchmark in a controlled tabletop environment, with continuous interaction trajectories and compositional task sequences.",
+    "verdictEn": "Long-horizon language control",
+    "wmNoteEn": "Continuous task chains are useful for planning and rollout evaluation. The controlled setting requires additional data for transfer to open real-world environments."
   },
   {
     "id": "ego4d",
@@ -291,7 +309,10 @@
       "paper": "https://arxiv.org/abs/2110.07058",
       "code": "https://github.com/facebookresearch/Ego4d",
       "download": "https://ego4d-data.org/docs/start-here/"
-    }
+    },
+    "summaryEn": "A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.",
+    "verdictEn": "First-person future prediction",
+    "wmNoteEn": "Useful for hand-object interaction and long-horizon behavior prediction. Access requires an agreement, and targeted benchmark downloads are more practical than the full collection."
   },
   {
     "id": "epic-kitchens-100",
@@ -332,7 +353,10 @@
       "paper": "https://arxiv.org/abs/2006.13256",
       "code": "https://github.com/epic-kitchens/epic-kitchens-100-annotations",
       "download": "https://epic-kitchens.github.io/2021"
-    }
+    },
+    "summaryEn": "A large first-person kitchen activity dataset with continuous video, action segments, verb-noun labels, and anticipation benchmarks for hand-object interaction.",
+    "verdictEn": "Kitchen behavior forecasting",
+    "wmNoteEn": "Detailed actions and objects support short-term behavior modeling. The domain is kitchen-specific and access follows a dedicated agreement."
   },
   {
     "id": "minedojo",
@@ -375,7 +399,10 @@
       "paper": "https://arxiv.org/abs/2206.01356",
       "code": "https://github.com/MineDojo/MineDojo",
       "download": "https://minedojo.org/"
-    }
+    },
+    "summaryEn": "A large multimodal knowledge and interaction platform built around Minecraft, combining player videos, text knowledge, community discussions, and a live simulation environment for open-world agents.",
+    "verdictEn": "Open-world interaction testbed",
+    "wmNoteEn": "Useful for interactive game world models and long-horizon agents. Code licensing does not automatically cover all source videos, text, or game assets."
   },
   {
     "id": "movi",
@@ -417,7 +444,10 @@
       "paper": "https://arxiv.org/abs/2203.12602",
       "code": "https://github.com/google-research/kubric",
       "download": "https://www.tensorflow.org/datasets/catalog/movi_a"
-    }
+    },
+    "summaryEn": "A family of Kubric-generated multi-object videos with instance masks, depth, optical flow, and 3D attributes for object discovery and interpretable dynamics.",
+    "verdictEn": "Dense-ground-truth dynamic scenes",
+    "wmNoteEn": "Near-complete pixel and object supervision is valuable for object-centric models, but synthetic bias calls for complementary real video."
   },
   {
     "id": "habitat-matterport-3d",
@@ -460,7 +490,10 @@
       "paper": "https://arxiv.org/abs/2109.08238",
       "code": "https://github.com/facebookresearch/habitat-sim",
       "download": "https://aihabitat.org/datasets/hm3d/"
-    }
+    },
+    "summaryEn": "A collection of high-quality building-scale 3D scans for embodied navigation and indoor simulation, supporting generated RGB-D, semantic, and agent trajectories through Habitat.",
+    "verdictEn": "Large-scale embodied indoor scenes",
+    "wmNoteEn": "Strong geometry and tooling support navigation world models. Access terms are restrictive, and dynamic interactions must be generated in simulation."
   },
   {
     "id": "physion",
@@ -502,7 +535,10 @@
       "paper": "https://arxiv.org/abs/2106.08261",
       "code": "https://github.com/cogtoolslab/physics-benchmarking-neurips2021",
       "download": "https://physion-benchmark.github.io/"
-    }
+    },
+    "summaryEn": "A synthetic intuitive-physics dataset covering collisions, support, containment, and deformation, designed to test whether models can predict object contact and dynamics.",
+    "verdictEn": "Intuitive physics prediction",
+    "wmNoteEn": "The task design directly probes physical reasoning. Synthetic scenes and binary contact judgments do not capture all real-world physics."
   },
   {
     "id": "bdd100k",
@@ -542,7 +578,10 @@
       "paper": "https://arxiv.org/abs/1805.04687",
       "code": "https://github.com/bdd100k/bdd100k",
       "download": "https://bdd-data.berkeley.edu/"
-    }
+    },
+    "summaryEn": "A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.",
+    "verdictEn": "Diverse driving video",
+    "wmNoteEn": "Broad visual coverage supports video pretraining and robustness research. It lacks synchronized LiDAR and direct vehicle controls."
   },
   {
     "id": "cater",
@@ -582,7 +621,10 @@
       "paper": "https://arxiv.org/abs/1910.04744",
       "code": "https://github.com/rohitgirdhar/CATER",
       "download": "https://rohitgirdhar.github.io/CATER/"
-    }
+    },
+    "summaryEn": "A synthetic video dataset with compositional object motions and precise metadata, emphasizing spatiotemporal relations, occlusion, and long-term object tracking.",
+    "verdictEn": "Object-centric temporal reasoning",
+    "wmNoteEn": "Precise state annotations support object-centric dynamics, while procedural visuals and actions limit direct real-world transfer."
   },
   {
     "id": "clevrer",
@@ -625,7 +667,10 @@
       "paper": "https://arxiv.org/abs/1910.01442",
       "code": "https://github.com/clevrer/clevrer",
       "download": "http://clevrer.csail.mit.edu/"
-    }
+    },
+    "summaryEn": "A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.",
+    "verdictEn": "Counterfactual physics diagnostics",
+    "wmNoteEn": "Excellent for diagnosing collision understanding and causal explanation. Its controlled scenes do not represent the full complexity of real-world physics."
   },
   {
     "id": "rlbench",
@@ -666,7 +711,10 @@
       "paper": "https://arxiv.org/abs/1909.12271",
       "code": "https://github.com/stepjam/RLBench",
       "download": "https://github.com/stepjam/RLBench"
-    }
+    },
+    "summaryEn": "A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.",
+    "verdictEn": "Programmable manipulation suite",
+    "wmNoteEn": "Broad, reproducible task generation makes experimentation efficient, while simulation appearance and physics create a sim-to-real gap."
   },
   {
     "id": "robonet",
@@ -706,7 +754,10 @@
       "paper": "https://arxiv.org/abs/1910.11215",
       "code": "https://github.com/SudeepDasari/RoboNet",
       "download": "https://www.robonet.wiki/"
-    }
+    },
+    "summaryEn": "A cross-platform robot interaction video dataset collected across multiple laboratories, robot arms, viewpoints, and objects for visual dynamics and control generalization.",
+    "verdictEn": "Cross-robot visual dynamics",
+    "wmNoteEn": "A useful benchmark for action-conditioned prediction and transfer. Its older action conventions require adaptation to modern unified formats."
   },
   {
     "id": "minerl",
@@ -748,7 +799,10 @@
       "paper": "https://arxiv.org/abs/1907.13440",
       "code": "https://github.com/minerllabs/minerl",
       "download": "https://minerl.io/docs/tutorials/data_sampling/"
-    }
+    },
+    "summaryEn": "A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.",
+    "verdictEn": "Open-world human demonstrations",
+    "wmNoteEn": "Aligned actions and states support long-horizon policy and dynamics modeling. Use depends on compatible Minecraft versions and game licensing."
   },
   {
     "id": "nuscenes",
@@ -789,7 +843,10 @@
       "paper": "https://arxiv.org/abs/1903.11027",
       "code": "https://github.com/nutonomy/nuscenes-devkit",
       "download": "https://www.nuscenes.org/nuscenes"
-    }
+    },
+    "summaryEn": "A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.",
+    "verdictEn": "Multi-sensor 4D benchmark",
+    "wmNoteEn": "Strong calibration and synchronization support multi-view generation, BEV, and occupancy prediction. Direct throttle, brake, and steering commands are not provided."
   },
   {
     "id": "phyre",
@@ -831,7 +888,10 @@
       "paper": "https://arxiv.org/abs/1908.05656",
       "code": "https://github.com/facebookresearch/phyre",
       "download": "https://github.com/facebookresearch/phyre"
-    }
+    },
+    "summaryEn": "A 2D physical reasoning benchmark where agents place objects to achieve goals across generated task templates, testing intervention, trial efficiency, and generalization.",
+    "verdictEn": "Physical intervention and trial-and-error",
+    "wmNoteEn": "Direct interventions make it useful for model-based planning evaluation, though the controlled 2D world is far from real physics."
   },
   {
     "id": "waymo-open-dataset",
@@ -872,7 +932,10 @@
       "paper": "https://arxiv.org/abs/1912.04838",
       "code": "https://github.com/waymo-research/waymo-open-dataset",
       "download": "https://waymo.com/open/download/"
-    }
+    },
+    "summaryEn": "A high-quality autonomous-driving collection with cameras, LiDAR, maps, 3D detection labels, and motion scenarios for dynamic occupancy and trajectory prediction.",
+    "verdictEn": "High-quality driving world data",
+    "wmNoteEn": "Excellent sensing and annotation support 3D/4D modeling. Licensing constraints and download scale should be considered early."
   },
   {
     "id": "intphys",
@@ -913,7 +976,10 @@
       "paper": "https://arxiv.org/abs/1803.07616",
       "code": "https://github.com/rronan/IntPhys",
       "download": "https://intphys.cognitive-ml.fr/"
-    }
+    },
+    "summaryEn": "A synthetic visual-physics benchmark contrasting possible and impossible scenes to test object permanence, occlusion, shape, and support reasoning.",
+    "verdictEn": "Physical violation detection",
+    "wmNoteEn": "Effective for diagnosing object permanence and plausibility, but its scale and visual complexity make it primarily an evaluation resource."
   },
   {
     "id": "something-something-v2",
@@ -953,7 +1019,10 @@
       "paper": "https://arxiv.org/abs/1706.04261",
       "code": "https://github.com/Showmax/kinetics-downloader",
       "download": "https://developer.qualcomm.com/software/ai-datasets/something-something"
-    }
+    },
+    "summaryEn": "A large collection of short human-object interaction videos whose fine-grained labels depend on temporal changes such as pushing, placing, and occluding.",
+    "verdictEn": "Fine-grained object interaction",
+    "wmNoteEn": "Temporal labels support dynamics representation learning, but the dataset provides neither robot controls nor explicit physical state."
   },
   {
     "id": "bair-robot-pushing",
@@ -992,7 +1061,10 @@
       "paper": "https://arxiv.org/abs/1605.07157",
       "code": "https://github.com/tensorflow/datasets",
       "download": "https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small"
-    }
+    },
+    "summaryEn": "A classic action-conditioned video dataset of a robot pushing objects on a tabletop, widely used for stochastic future prediction and visual dynamics baselines.",
+    "verdictEn": "Classic action-video benchmark",
+    "wmNoteEn": "Small and low-resolution by current standards, but still useful for fast validation because of its simple setup and extensive baseline history."
   },
   {
     "id": "kitti",
@@ -1032,6 +1104,9 @@
       "paper": "https://www.cvlibs.net/publications/Geiger2013IJRR.pdf",
       "code": "https://github.com/utiasSTARS/pykitti",
       "download": "https://www.cvlibs.net/datasets/kitti/"
-    }
+    },
+    "summaryEn": "A foundational autonomous-driving dataset with stereo cameras, LiDAR, GPS/IMU, and established benchmarks for depth, scene flow, odometry, and 3D perception.",
+    "verdictEn": "Foundational driving geometry benchmark",
+    "wmNoteEn": "Rich tooling and historical baselines make it valuable for component validation, but it is too small to be the sole source for modern foundation models."
   }
 ]

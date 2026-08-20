@@ -39,5 +39,9 @@
   },
   "summaryEn": "A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.",
   "verdictEn": "Diverse driving video",
-  "wmNoteEn": "Broad visual coverage supports video pretraining and robustness research. It lacks synchronized LiDAR and direct vehicle controls."
+  "wmNoteEn": "Broad visual coverage supports video pretraining and robustness research. It lacks synchronized LiDAR and direct vehicle controls.",
+  "scaleZh": "10 万段驾驶视频 · 每段 40 秒 · 10 项任务",
+  "organizationsZh": "加州大学伯克利分校",
+  "accessZh": "需注册",
+  "licenseZh": "适用 BDD100K 许可；包含非商业研究用途条件"
 }

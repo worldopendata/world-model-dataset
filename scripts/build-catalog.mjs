@@ -10,7 +10,7 @@ const ids = new Set();
 
 for (const file of files) {
   const record = JSON.parse(await readFile(path.join(sourceDir, file), "utf8"));
-  for (const field of ["id", "name", "year", "summary", "summaryEn", "verdictEn", "wmNoteEn", "primaryTask", "domain", "modalities", "links"]) {
+  for (const field of ["id", "name", "year", "summary", "summaryEn", "verdictEn", "wmNoteEn", "scaleZh", "organizationsZh", "accessZh", "licenseZh", "primaryTask", "domain", "modalities", "links"]) {
     if (record[field] === undefined) throw new Error(`${file}: missing ${field}`);
   }
   if (ids.has(record.id)) throw new Error(`${file}: duplicate id ${record.id}`);

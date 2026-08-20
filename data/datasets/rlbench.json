@@ -40,5 +40,9 @@
   },
   "summaryEn": "A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.",
   "verdictEn": "Programmable manipulation suite",
-  "wmNoteEn": "Broad, reproducible task generation makes experimentation efficient, while simulation appearance and physics create a sim-to-real gap."
+  "wmNoteEn": "Broad, reproducible task generation makes experimentation efficient, while simulation appearance and physics create a sim-to-real gap.",
+  "scaleZh": "100+ 项操作任务 · 可按需生成示范",
+  "organizationsZh": "帝国理工学院及合作机构",
+  "accessZh": "开放生成工具",
+  "licenseZh": "代码采用 MIT 许可；模拟器和资产另有条款"
 }

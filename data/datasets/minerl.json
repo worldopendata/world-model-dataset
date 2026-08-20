@@ -41,5 +41,9 @@
   },
   "summaryEn": "A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.",
   "verdictEn": "Open-world human demonstrations",
-  "wmNoteEn": "Aligned actions and states support long-horizon policy and dynamics modeling. Use depends on compatible Minecraft versions and game licensing."
+  "wmNoteEn": "Aligned actions and states support long-horizon policy and dynamics modeling. Use depends on compatible Minecraft versions and game licensing.",
+  "scaleZh": "6,000 万+ 状态—动作对 · 500+ 小时示范",
+  "organizationsZh": "卡内基梅隆大学及合作机构",
+  "accessZh": "开放下载",
+  "licenseZh": "代码采用 MIT 许可；同时适用 Minecraft EULA 和数据集条款"
 }

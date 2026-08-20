@@ -40,5 +40,9 @@
   },
   "summaryEn": "A synthetic visual-physics benchmark contrasting possible and impossible scenes to test object permanence, occlusion, shape, and support reasoning.",
   "verdictEn": "Physical violation detection",
-  "wmNoteEn": "Effective for diagnosing object permanence and plausibility, but its scale and visual complexity make it primarily an evaluation resource."
+  "wmNoteEn": "Effective for diagnosing object permanence and plausibility, but its scale and visual complexity make it primarily an evaluation resource.",
+  "scaleZh": "覆盖物体恒存、形状和支撑关系的受控视频",
+  "organizationsZh": "Meta AI Research",
+  "accessZh": "开放下载",
+  "licenseZh": "适用研究数据集条款；需核查当前下载协议"
 }

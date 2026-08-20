@@ -40,5 +40,9 @@
   },
   "summaryEn": "A high-quality autonomous-driving collection with cameras, LiDAR, maps, 3D detection labels, and motion scenarios for dynamic occupancy and trajectory prediction.",
   "verdictEn": "High-quality driving world data",
-  "wmNoteEn": "Excellent sensing and annotation support 3D/4D modeling. Licensing constraints and download scale should be considered early."
+  "wmNoteEn": "Excellent sensing and annotation support 3D/4D modeling. Licensing constraints and download scale should be considered early.",
+  "scaleZh": "2,030 个感知片段 · 10.3 万个运动场景",
+  "organizationsZh": "Waymo",
+  "accessZh": "需注册",
+  "licenseZh": "适用 Waymo 数据集许可协议；包含非商业限制"
 }

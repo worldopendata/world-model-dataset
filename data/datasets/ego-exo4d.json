@@ -41,5 +41,9 @@
   },
   "summaryEn": "A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.",
   "verdictEn": "Synchronized ego-exo skills",
-  "wmNoteEn": "Rare synchronized views support viewpoint-invariant world representations. Access is controlled, and the actions are human rather than robotic."
+  "wmNoteEn": "Rare synchronized views support viewpoint-invariant world representations. Access is controlled, and the actions are human rather than robotic.",
+  "scaleZh": "1,400+ 小时 · 800+ 名参与者 · 13 座城市",
+  "organizationsZh": "Meta 与国际学术联盟",
+  "accessZh": "需申请",
+  "licenseZh": "Ego-Exo4D 许可协议；需通过审核方可访问"
 }

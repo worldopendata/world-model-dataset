@@ -39,5 +39,9 @@
   },
   "summaryEn": "A cross-platform robot interaction video dataset collected across multiple laboratories, robot arms, viewpoints, and objects for visual dynamics and control generalization.",
   "verdictEn": "Cross-robot visual dynamics",
-  "wmNoteEn": "A useful benchmark for action-conditioned prediction and transfer. Its older action conventions require adaptation to modern unified formats."
+  "wmNoteEn": "A useful benchmark for action-conditioned prediction and transfer. Its older action conventions require adaptation to modern unified formats.",
+  "scaleZh": "1,500 万帧视频 · 7 种机器人平台 · 4 个实验室",
+  "organizationsZh": "加州大学伯克利分校、斯坦福大学、Google、宾夕法尼亚大学",
+  "accessZh": "开放下载",
+  "licenseZh": "面向研究用途；各组成数据的条款可能不同"
 }

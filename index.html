@@ -22,10 +22,10 @@
         <a class="primary-button" href="#catalog"><span data-i18n="browse">浏览首批数据集</span> <span>↓</span></a>
       </div>
       <div class="hero-graphic" aria-label="任务、领域、模态三层分类示意">
-        <div class="orbit orbit-a"><span>Task</span></div>
-        <div class="orbit orbit-b"><span>Domain</span></div>
-        <div class="orbit orbit-c"><span>Modality</span></div>
-        <div class="core">WORLD<br>MODEL</div>
+        <div class="orbit orbit-a"><span data-i18n="graphicTask">Task</span></div>
+        <div class="orbit orbit-b"><span data-i18n="graphicDomain">Domain</span></div>
+        <div class="orbit orbit-c"><span data-i18n="graphicModality">Modality</span></div>
+        <div class="core" data-i18n-html="graphicCore">WORLD<br>MODEL</div>
       </div>
     </section>
 
@@ -38,7 +38,7 @@
 
     <section class="catalog" id="catalog">
       <div class="section-heading">
-        <div><p class="eyebrow">CURATED CATALOG · V0.2</p><h2 data-i18n="catalogTitle">代表性开放数据集</h2></div>
+        <div><p class="eyebrow" data-i18n="catalogEyebrow">CURATED CATALOG · V0.2</p><h2 data-i18n="catalogTitle">代表性开放数据集</h2></div>
         <p data-i18n="catalogDescription">每个数据集只有一个 Primary Task，其他用途通过标签表达。当前按年份倒排。</p>
       </div>
       <div class="toolbar">
@@ -53,15 +53,15 @@
     </section>
 
     <section class="method" id="method">
-      <div><p class="eyebrow">OUR METHOD</p><h2 data-i18n="methodTitle">一个主任务，多个事实标签。</h2></div>
+      <div><p class="eyebrow" data-i18n="methodEyebrow">OUR METHOD</p><h2 data-i18n="methodTitle">一个主任务，多个事实标签。</h2></div>
       <div class="method-grid">
-        <article><span>01</span><h3>Primary Task</h3><p data-i18n="methodTask">回答“它主要训练或评测什么能力”，每条记录只选一个。</p></article>
-        <article><span>02</span><h3>Domain Tags</h3><p data-i18n="methodDomain">描述数据发生在哪里，例如机器人、驾驶、游戏或物理科学。</p></article>
-        <article><span>03</span><h3>Modality Tags</h3><p data-i18n="methodModality">准确说明数据提供的视频、动作、状态、点云与语言等信号。</p></article>
+        <article><span>01</span><h3 data-i18n="methodTaskHeading">Primary Task</h3><p data-i18n="methodTask">回答“它主要训练或评测什么能力”，每条记录只选一个。</p></article>
+        <article><span>02</span><h3 data-i18n="methodDomainHeading">Domain Tags</h3><p data-i18n="methodDomain">描述数据发生在哪里，例如机器人、驾驶、游戏或物理科学。</p></article>
+        <article><span>03</span><h3 data-i18n="methodModalityHeading">Modality Tags</h3><p data-i18n="methodModality">准确说明数据提供的视频、动作、状态、点云与语言等信号。</p></article>
       </div>
     </section>
   </main>
-  <footer><span>WorldModel Data Atlas · Preview 0.2</span><span data-i18n="footerMotto">Evidence over hype. Structure over accumulation.</span></footer>
-  <script src="app.js?v=20260820-4" defer></script>
+  <footer><span data-i18n="footerVersion">WorldModel Data Atlas · Preview 0.2</span><span data-i18n="footerMotto">Evidence over hype. Structure over accumulation.</span></footer>
+  <script src="app.js?v=20260820-5" defer></script>
 </body>
 </html>

@@ -42,7 +42,11 @@
     },
     "summaryEn": "A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.",
     "verdictEn": "Multi-site real robot trajectories",
-    "wmNoteEn": "Valuable for cross-scene manipulation and action-conditioned transitions. Site diversity improves coverage but increases calibration and cleaning requirements."
+    "wmNoteEn": "Valuable for cross-scene manipulation and action-conditioned transitions. Site diversity improves coverage but increases calibration and cleaning requirements.",
+    "scaleZh": "7.6 万条轨迹 · 350 小时 · 564 个场景 · 86 项任务",
+    "organizationsZh": "斯坦福大学牵头的 DROID 协作团队",
+    "accessZh": "开放下载",
+    "licenseZh": "适用数据集专用条款；需核查下游使用及第三方内容限制"
   },
   {
     "id": "ego-exo4d",
@@ -87,7 +91,11 @@
     },
     "summaryEn": "A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.",
     "verdictEn": "Synchronized ego-exo skills",
-    "wmNoteEn": "Rare synchronized views support viewpoint-invariant world representations. Access is controlled, and the actions are human rather than robotic."
+    "wmNoteEn": "Rare synchronized views support viewpoint-invariant world representations. Access is controlled, and the actions are human rather than robotic.",
+    "scaleZh": "1,400+ 小时 · 800+ 名参与者 · 13 座城市",
+    "organizationsZh": "Meta 与国际学术联盟",
+    "accessZh": "需申请",
+    "licenseZh": "Ego-Exo4D 许可协议；需通过审核方可访问"
   },
   {
     "id": "argoverse-2",
@@ -131,7 +139,11 @@
     },
     "summaryEn": "A multimodal autonomous-driving collection for perception, motion forecasting, and map understanding, with sensor logs, HD maps, and diverse urban motion scenarios.",
     "verdictEn": "Map-aware motion forecasting",
-    "wmNoteEn": "Well suited to joint map, actor, and sensor modeling. Its sensor and motion subsets use distinct schemas and task conventions."
+    "wmNoteEn": "Well suited to joint map, actor, and sensor modeling. Its sensor and motion subsets use distinct schemas and task conventions.",
+    "scaleZh": "1,000 段传感器日志 · 25 万个运动场景 · 6 座城市",
+    "organizationsZh": "Argo AI、卡内基梅隆大学",
+    "accessZh": "开放下载",
+    "licenseZh": "适用 Argoverse 使用条款；主要面向研究用途"
   },
   {
     "id": "bridge-data-v2",
@@ -175,7 +187,11 @@
     },
     "summaryEn": "A large multi-task robot manipulation dataset collected in real kitchens and workspaces, with diverse trajectories and language labels for imitation and generalist policy learning.",
     "verdictEn": "General-purpose manipulation benchmark",
-    "wmNoteEn": "Strong task and environment diversity supports offline policies and dynamics pretraining, although robot embodiments remain relatively concentrated."
+    "wmNoteEn": "Strong task and environment diversity supports offline policies and dynamics pretraining, although robot embodiments remain relatively concentrated.",
+    "scaleZh": "6 万条轨迹 · 24 个环境 · 13 类技能",
+    "organizationsZh": "加州大学伯克利分校及合作机构",
+    "accessZh": "开放下载",
+    "licenseZh": "适用数据集专用研究条款；需核查各组成数据的许可"
   },
   {
     "id": "open-x-embodiment",
@@ -220,7 +236,11 @@
     },
     "summaryEn": "A large cross-embodiment collection assembled by Google DeepMind and more than 30 research institutions. It unifies real robot interactions across platforms, tasks, and environments for generalist embodied learning.",
     "verdictEn": "Infrastructure for embodied intelligence",
-    "wmNoteEn": "Well suited to cross-robot dynamics, goal-conditioned modeling, and offline trajectory learning. Action spaces and coordinate systems require careful normalization."
+    "wmNoteEn": "Well suited to cross-robot dynamics, goal-conditioned modeling, and offline trajectory learning. Action spaces and coordinate systems require careful normalization.",
+    "scaleZh": "100 万+ 回合 · 500+ 种技能 · 22 种机器人形态 · RLDS 格式",
+    "organizationsZh": "Google DeepMind、斯坦福大学、加州大学伯克利分校及合作机构",
+    "accessZh": "开放获取，具体取决于组成数据集",
+    "licenseZh": "混合许可：Apache-2.0 / CC BY 4.0；各组成数据集保留自身条款"
   },
   {
     "id": "calvin",
@@ -266,7 +286,11 @@
     },
     "summaryEn": "A long-horizon language-conditioned robot benchmark in a controlled tabletop environment, with continuous interaction trajectories and compositional task sequences.",
     "verdictEn": "Long-horizon language control",
-    "wmNoteEn": "Continuous task chains are useful for planning and rollout evaluation. The controlled setting requires additional data for transfer to open real-world environments."
+    "wmNoteEn": "Continuous task chains are useful for planning and rollout evaluation. The controlled setting requires additional data for transfer to open real-world environments.",
+    "scaleZh": "24 小时遥操作探索数据 · 34 项任务",
+    "organizationsZh": "弗赖堡大学及合作机构",
+    "accessZh": "开放下载",
+    "licenseZh": "代码与数据条款见项目说明；使用前需核查适用范围"
   },
   {
     "id": "ego4d",
@@ -312,7 +336,11 @@
     },
     "summaryEn": "A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.",
     "verdictEn": "First-person future prediction",
-    "wmNoteEn": "Useful for hand-object interaction and long-horizon behavior prediction. Access requires an agreement, and targeted benchmark downloads are more practical than the full collection."
+    "wmNoteEn": "Useful for hand-object interaction and long-horizon behavior prediction. Access requires an agreement, and targeted benchmark downloads are more practical than the full collection.",
+    "scaleZh": "3,670 小时 · 900+ 名参与者 · 9 个国家的 74 个地点",
+    "organizationsZh": "Meta AI（FAIR）、得克萨斯大学奥斯汀分校、卡内基梅隆大学及合作机构",
+    "accessZh": "需申请",
+    "licenseZh": "Ego4D 许可协议；通过申请向研究用途开放"
   },
   {
     "id": "epic-kitchens-100",
@@ -356,7 +384,11 @@
     },
     "summaryEn": "A large first-person kitchen activity dataset with continuous video, action segments, verb-noun labels, and anticipation benchmarks for hand-object interaction.",
     "verdictEn": "Kitchen behavior forecasting",
-    "wmNoteEn": "Detailed actions and objects support short-term behavior modeling. The domain is kitchen-specific and access follows a dedicated agreement."
+    "wmNoteEn": "Detailed actions and objects support short-term behavior modeling. The domain is kitchen-specific and access follows a dedicated agreement.",
+    "scaleZh": "100 小时 · 9 万个动作片段 · 700 段不定长视频",
+    "organizationsZh": "布里斯托大学、卡塔尼亚大学",
+    "accessZh": "需申请并同意协议",
+    "licenseZh": "适用 EPIC-KITCHENS 数据许可及研究用途条件"
   },
   {
     "id": "minedojo",
@@ -402,7 +434,11 @@
     },
     "summaryEn": "A large multimodal knowledge and interaction platform built around Minecraft, combining player videos, text knowledge, community discussions, and a live simulation environment for open-world agents.",
     "verdictEn": "Open-world interaction testbed",
-    "wmNoteEn": "Useful for interactive game world models and long-horizon agents. Code licensing does not automatically cover all source videos, text, or game assets."
+    "wmNoteEn": "Useful for interactive game world models and long-horizon agents. Code licensing does not automatically cover all source videos, text, or game assets.",
+    "scaleZh": "73 万+ 视频 · 约 1.9 万小时 · 6,000+ 个 Wiki 页面 · 34 万+ 条讨论",
+    "organizationsZh": "斯坦福大学、NVIDIA、加州理工学院、麻省理工学院",
+    "accessZh": "开放获取，具体取决于数据来源",
+    "licenseZh": "代码采用 MIT 许可；源媒体与 Minecraft 资产另有条款"
   },
   {
     "id": "movi",
@@ -447,7 +483,11 @@
     },
     "summaryEn": "A family of Kubric-generated multi-object videos with instance masks, depth, optical flow, and 3D attributes for object discovery and interpretable dynamics.",
     "verdictEn": "Dense-ground-truth dynamic scenes",
-    "wmNoteEn": "Near-complete pixel and object supervision is valuable for object-centric models, but synthetic bias calls for complementary real video."
+    "wmNoteEn": "Near-complete pixel and object supervision is valuable for object-centric models, but synthetic bias calls for complementary real video.",
+    "scaleZh": "多个版本，生成视频片段总量最高达数十万",
+    "organizationsZh": "Google Research",
+    "accessZh": "开放下载",
+    "licenseZh": "生成器采用 Apache-2.0；已发布数据集遵循项目条款"
   },
   {
     "id": "habitat-matterport-3d",
@@ -493,7 +533,11 @@
     },
     "summaryEn": "A collection of high-quality building-scale 3D scans for embodied navigation and indoor simulation, supporting generated RGB-D, semantic, and agent trajectories through Habitat.",
     "verdictEn": "Large-scale embodied indoor scenes",
-    "wmNoteEn": "Strong geometry and tooling support navigation world models. Access terms are restrictive, and dynamic interactions must be generated in simulation."
+    "wmNoteEn": "Strong geometry and tooling support navigation world models. Access terms are restrictive, and dynamic interactions must be generated in simulation.",
+    "scaleZh": "1,000 个高分辨率建筑级三维扫描",
+    "organizationsZh": "Meta AI、Matterport",
+    "accessZh": "需申请",
+    "licenseZh": "适用 HM3D 数据集许可；包含访问协议和非商业限制"
   },
   {
     "id": "physion",
@@ -538,7 +582,11 @@
     },
     "summaryEn": "A synthetic intuitive-physics dataset covering collisions, support, containment, and deformation, designed to test whether models can predict object contact and dynamics.",
     "verdictEn": "Intuitive physics prediction",
-    "wmNoteEn": "The task design directly probes physical reasoning. Synthetic scenes and binary contact judgments do not capture all real-world physics."
+    "wmNoteEn": "The task design directly probes physical reasoning. Synthetic scenes and binary contact judgments do not capture all real-world physics.",
+    "scaleZh": "8 类物理场景 · 数千次受控仿真",
+    "organizationsZh": "麻省理工学院、IBM Research",
+    "accessZh": "开放下载",
+    "licenseZh": "适用研究用途条款；模拟器资产可能有单独限制"
   },
   {
     "id": "bdd100k",
@@ -581,7 +629,11 @@
     },
     "summaryEn": "A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.",
     "verdictEn": "Diverse driving video",
-    "wmNoteEn": "Broad visual coverage supports video pretraining and robustness research. It lacks synchronized LiDAR and direct vehicle controls."
+    "wmNoteEn": "Broad visual coverage supports video pretraining and robustness research. It lacks synchronized LiDAR and direct vehicle controls.",
+    "scaleZh": "10 万段驾驶视频 · 每段 40 秒 · 10 项任务",
+    "organizationsZh": "加州大学伯克利分校",
+    "accessZh": "需注册",
+    "licenseZh": "适用 BDD100K 许可；包含非商业研究用途条件"
   },
   {
     "id": "cater",
@@ -624,7 +676,11 @@
     },
     "summaryEn": "A synthetic video dataset with compositional object motions and precise metadata, emphasizing spatiotemporal relations, occlusion, and long-term object tracking.",
     "verdictEn": "Object-centric temporal reasoning",
-    "wmNoteEn": "Precise state annotations support object-centric dynamics, while procedural visuals and actions limit direct real-world transfer."
+    "wmNoteEn": "Precise state annotations support object-centric dynamics, while procedural visuals and actions limit direct real-world transfer.",
+    "scaleZh": "约 5,500 段视频 · 组合动作 · 密集元数据",
+    "organizationsZh": "IBM Research、麻省理工学院",
+    "accessZh": "开放下载",
+    "licenseZh": "适用数据与代码研究条款；需核查仓库许可"
   },
   {
     "id": "clevrer",
@@ -670,7 +726,11 @@
     },
     "summaryEn": "A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.",
     "verdictEn": "Counterfactual physics diagnostics",
-    "wmNoteEn": "Excellent for diagnosing collision understanding and causal explanation. Its controlled scenes do not represent the full complexity of real-world physics."
+    "wmNoteEn": "Excellent for diagnosing collision understanding and causal explanation. Its controlled scenes do not represent the full complexity of real-world physics.",
+    "scaleZh": "2 万段 5 秒视频 · 30 万+ 个描述及因果问题",
+    "organizationsZh": "麻省理工学院 CSAIL、DeepMind、哈佛大学",
+    "accessZh": "开放下载",
+    "licenseZh": "适用研究数据集条款；需分别核查资产和代码许可"
   },
   {
     "id": "rlbench",
@@ -714,7 +774,11 @@
     },
     "summaryEn": "A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.",
     "verdictEn": "Programmable manipulation suite",
-    "wmNoteEn": "Broad, reproducible task generation makes experimentation efficient, while simulation appearance and physics create a sim-to-real gap."
+    "wmNoteEn": "Broad, reproducible task generation makes experimentation efficient, while simulation appearance and physics create a sim-to-real gap.",
+    "scaleZh": "100+ 项操作任务 · 可按需生成示范",
+    "organizationsZh": "帝国理工学院及合作机构",
+    "accessZh": "开放生成工具",
+    "licenseZh": "代码采用 MIT 许可；模拟器和资产另有条款"
   },
   {
     "id": "robonet",
@@ -757,7 +821,11 @@
     },
     "summaryEn": "A cross-platform robot interaction video dataset collected across multiple laboratories, robot arms, viewpoints, and objects for visual dynamics and control generalization.",
     "verdictEn": "Cross-robot visual dynamics",
-    "wmNoteEn": "A useful benchmark for action-conditioned prediction and transfer. Its older action conventions require adaptation to modern unified formats."
+    "wmNoteEn": "A useful benchmark for action-conditioned prediction and transfer. Its older action conventions require adaptation to modern unified formats.",
+    "scaleZh": "1,500 万帧视频 · 7 种机器人平台 · 4 个实验室",
+    "organizationsZh": "加州大学伯克利分校、斯坦福大学、Google、宾夕法尼亚大学",
+    "accessZh": "开放下载",
+    "licenseZh": "面向研究用途；各组成数据的条款可能不同"
   },
   {
     "id": "minerl",
@@ -802,7 +870,11 @@
     },
     "summaryEn": "A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.",
     "verdictEn": "Open-world human demonstrations",
-    "wmNoteEn": "Aligned actions and states support long-horizon policy and dynamics modeling. Use depends on compatible Minecraft versions and game licensing."
+    "wmNoteEn": "Aligned actions and states support long-horizon policy and dynamics modeling. Use depends on compatible Minecraft versions and game licensing.",
+    "scaleZh": "6,000 万+ 状态—动作对 · 500+ 小时示范",
+    "organizationsZh": "卡内基梅隆大学及合作机构",
+    "accessZh": "开放下载",
+    "licenseZh": "代码采用 MIT 许可；同时适用 Minecraft EULA 和数据集条款"
   },
   {
     "id": "nuscenes",
@@ -846,7 +918,11 @@
     },
     "summaryEn": "A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.",
     "verdictEn": "Multi-sensor 4D benchmark",
-    "wmNoteEn": "Strong calibration and synchronization support multi-view generation, BEV, and occupancy prediction. Direct throttle, brake, and steering commands are not provided."
+    "wmNoteEn": "Strong calibration and synchronization support multi-view generation, BEV, and occupancy prediction. Direct throttle, brake, and steering commands are not provided.",
+    "scaleZh": "1,000 个场景 × 20 秒 · 140 万张图像 · 40 万帧点云",
+    "organizationsZh": "Motional（原 nuTonomy）",
+    "accessZh": "需注册",
+    "licenseZh": "CC BY-NC-SA 4.0 · 仅限非商业用途"
   },
   {
     "id": "phyre",
@@ -891,7 +967,11 @@
     },
     "summaryEn": "A 2D physical reasoning benchmark where agents place objects to achieve goals across generated task templates, testing intervention, trial efficiency, and generalization.",
     "verdictEn": "Physical intervention and trial-and-error",
-    "wmNoteEn": "Direct interventions make it useful for model-based planning evaluation, though the controlled 2D world is far from real physics."
+    "wmNoteEn": "Direct interventions make it useful for model-based planning evaluation, though the controlled 2D world is far from real physics.",
+    "scaleZh": "25 个任务模板 · 10 万+ 个生成任务",
+    "organizationsZh": "Meta AI Research",
+    "accessZh": "开放生成工具",
+    "licenseZh": "代码采用 Apache-2.0；数据由随附模拟器生成"
   },
   {
     "id": "waymo-open-dataset",
@@ -935,7 +1015,11 @@
     },
     "summaryEn": "A high-quality autonomous-driving collection with cameras, LiDAR, maps, 3D detection labels, and motion scenarios for dynamic occupancy and trajectory prediction.",
     "verdictEn": "High-quality driving world data",
-    "wmNoteEn": "Excellent sensing and annotation support 3D/4D modeling. Licensing constraints and download scale should be considered early."
+    "wmNoteEn": "Excellent sensing and annotation support 3D/4D modeling. Licensing constraints and download scale should be considered early.",
+    "scaleZh": "2,030 个感知片段 · 10.3 万个运动场景",
+    "organizationsZh": "Waymo",
+    "accessZh": "需注册",
+    "licenseZh": "适用 Waymo 数据集许可协议；包含非商业限制"
   },
   {
     "id": "intphys",
@@ -979,7 +1063,11 @@
     },
     "summaryEn": "A synthetic visual-physics benchmark contrasting possible and impossible scenes to test object permanence, occlusion, shape, and support reasoning.",
     "verdictEn": "Physical violation detection",
-    "wmNoteEn": "Effective for diagnosing object permanence and plausibility, but its scale and visual complexity make it primarily an evaluation resource."
+    "wmNoteEn": "Effective for diagnosing object permanence and plausibility, but its scale and visual complexity make it primarily an evaluation resource.",
+    "scaleZh": "覆盖物体恒存、形状和支撑关系的受控视频",
+    "organizationsZh": "Meta AI Research",
+    "accessZh": "开放下载",
+    "licenseZh": "适用研究数据集条款；需核查当前下载协议"
   },
   {
     "id": "something-something-v2",
@@ -1022,7 +1110,11 @@
     },
     "summaryEn": "A large collection of short human-object interaction videos whose fine-grained labels depend on temporal changes such as pushing, placing, and occluding.",
     "verdictEn": "Fine-grained object interaction",
-    "wmNoteEn": "Temporal labels support dynamics representation learning, but the dataset provides neither robot controls nor explicit physical state."
+    "wmNoteEn": "Temporal labels support dynamics representation learning, but the dataset provides neither robot controls nor explicit physical state.",
+    "scaleZh": "22 万+ 段视频 · 174 个动作类别",
+    "organizationsZh": "Twenty Billion Neurons",
+    "accessZh": "需注册",
+    "licenseZh": "适用数据集许可和访问协议；商业用途需另行审核"
   },
   {
     "id": "bair-robot-pushing",
@@ -1064,7 +1156,11 @@
     },
     "summaryEn": "A classic action-conditioned video dataset of a robot pushing objects on a tabletop, widely used for stochastic future prediction and visual dynamics baselines.",
     "verdictEn": "Classic action-video benchmark",
-    "wmNoteEn": "Small and low-resolution by current standards, but still useful for fast validation because of its simple setup and extensive baseline history."
+    "wmNoteEn": "Small and low-resolution by current standards, but still useful for fast validation because of its simple setup and extensive baseline history.",
+    "scaleZh": "约 4.4 万条训练序列 · 每条 30 帧",
+    "organizationsZh": "加州大学伯克利分校",
+    "accessZh": "开放下载",
+    "licenseZh": "通过 TensorFlow Datasets 分发；需核查原始数据条款"
   },
   {
     "id": "kitti",
@@ -1107,6 +1203,10 @@
     },
     "summaryEn": "A foundational autonomous-driving dataset with stereo cameras, LiDAR, GPS/IMU, and established benchmarks for depth, scene flow, odometry, and 3D perception.",
     "verdictEn": "Foundational driving geometry benchmark",
-    "wmNoteEn": "Rich tooling and historical baselines make it valuable for component validation, but it is too small to be the sole source for modern foundation models."
+    "wmNoteEn": "Rich tooling and historical baselines make it valuable for component validation, but it is too small to be the sole source for modern foundation models.",
+    "scaleZh": "22 段双目序列 · 各项基准共 20 万+ 个三维物体标注",
+    "organizationsZh": "卡尔斯鲁厄理工学院、丰田工业大学",
+    "accessZh": "开放下载",
+    "licenseZh": "数据集采用 CC BY-NC-SA 3.0；同时适用各基准条款"
   }
 ]

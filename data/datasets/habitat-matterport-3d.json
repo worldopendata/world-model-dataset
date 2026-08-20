@@ -42,5 +42,9 @@
   },
   "summaryEn": "A collection of high-quality building-scale 3D scans for embodied navigation and indoor simulation, supporting generated RGB-D, semantic, and agent trajectories through Habitat.",
   "verdictEn": "Large-scale embodied indoor scenes",
-  "wmNoteEn": "Strong geometry and tooling support navigation world models. Access terms are restrictive, and dynamic interactions must be generated in simulation."
+  "wmNoteEn": "Strong geometry and tooling support navigation world models. Access terms are restrictive, and dynamic interactions must be generated in simulation.",
+  "scaleZh": "1,000 个高分辨率建筑级三维扫描",
+  "organizationsZh": "Meta AI、Matterport",
+  "accessZh": "需申请",
+  "licenseZh": "适用 HM3D 数据集许可；包含访问协议和非商业限制"
 }

@@ -40,5 +40,9 @@
   },
   "summaryEn": "A large multi-task robot manipulation dataset collected in real kitchens and workspaces, with diverse trajectories and language labels for imitation and generalist policy learning.",
   "verdictEn": "General-purpose manipulation benchmark",
-  "wmNoteEn": "Strong task and environment diversity supports offline policies and dynamics pretraining, although robot embodiments remain relatively concentrated."
+  "wmNoteEn": "Strong task and environment diversity supports offline policies and dynamics pretraining, although robot embodiments remain relatively concentrated.",
+  "scaleZh": "6 万条轨迹 · 24 个环境 · 13 类技能",
+  "organizationsZh": "加州大学伯克利分校及合作机构",
+  "accessZh": "开放下载",
+  "licenseZh": "适用数据集专用研究条款；需核查各组成数据的许可"
 }

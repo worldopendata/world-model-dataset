@@ -40,5 +40,9 @@
   },
   "summaryEn": "A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.",
   "verdictEn": "Multi-sensor 4D benchmark",
-  "wmNoteEn": "Strong calibration and synchronization support multi-view generation, BEV, and occupancy prediction. Direct throttle, brake, and steering commands are not provided."
+  "wmNoteEn": "Strong calibration and synchronization support multi-view generation, BEV, and occupancy prediction. Direct throttle, brake, and steering commands are not provided.",
+  "scaleZh": "1,000 个场景 × 20 秒 · 140 万张图像 · 40 万帧点云",
+  "organizationsZh": "Motional（原 nuTonomy）",
+  "accessZh": "需注册",
+  "licenseZh": "CC BY-NC-SA 4.0 · 仅限非商业用途"
 }

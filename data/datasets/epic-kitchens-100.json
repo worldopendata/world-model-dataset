@@ -40,5 +40,9 @@
   },
   "summaryEn": "A large first-person kitchen activity dataset with continuous video, action segments, verb-noun labels, and anticipation benchmarks for hand-object interaction.",
   "verdictEn": "Kitchen behavior forecasting",
-  "wmNoteEn": "Detailed actions and objects support short-term behavior modeling. The domain is kitchen-specific and access follows a dedicated agreement."
+  "wmNoteEn": "Detailed actions and objects support short-term behavior modeling. The domain is kitchen-specific and access follows a dedicated agreement.",
+  "scaleZh": "100 小时 · 9 万个动作片段 · 700 段不定长视频",
+  "organizationsZh": "布里斯托大学、卡塔尼亚大学",
+  "accessZh": "需申请并同意协议",
+  "licenseZh": "适用 EPIC-KITCHENS 数据许可及研究用途条件"
 }

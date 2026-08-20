@@ -42,5 +42,9 @@
   },
   "summaryEn": "A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.",
   "verdictEn": "First-person future prediction",
-  "wmNoteEn": "Useful for hand-object interaction and long-horizon behavior prediction. Access requires an agreement, and targeted benchmark downloads are more practical than the full collection."
+  "wmNoteEn": "Useful for hand-object interaction and long-horizon behavior prediction. Access requires an agreement, and targeted benchmark downloads are more practical than the full collection.",
+  "scaleZh": "3,670 小时 · 900+ 名参与者 · 9 个国家的 74 个地点",
+  "organizationsZh": "Meta AI（FAIR）、得克萨斯大学奥斯汀分校、卡内基梅隆大学及合作机构",
+  "accessZh": "需申请",
+  "licenseZh": "Ego4D 许可协议；通过申请向研究用途开放"
 }

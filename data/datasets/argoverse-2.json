@@ -40,5 +40,9 @@
   },
   "summaryEn": "A multimodal autonomous-driving collection for perception, motion forecasting, and map understanding, with sensor logs, HD maps, and diverse urban motion scenarios.",
   "verdictEn": "Map-aware motion forecasting",
-  "wmNoteEn": "Well suited to joint map, actor, and sensor modeling. Its sensor and motion subsets use distinct schemas and task conventions."
+  "wmNoteEn": "Well suited to joint map, actor, and sensor modeling. Its sensor and motion subsets use distinct schemas and task conventions.",
+  "scaleZh": "1,000 段传感器日志 · 25 万个运动场景 · 6 座城市",
+  "organizationsZh": "Argo AI、卡内基梅隆大学",
+  "accessZh": "开放下载",
+  "licenseZh": "适用 Argoverse 使用条款；主要面向研究用途"
 }

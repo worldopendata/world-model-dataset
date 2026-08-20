@@ -39,5 +39,9 @@
   },
   "summaryEn": "A foundational autonomous-driving dataset with stereo cameras, LiDAR, GPS/IMU, and established benchmarks for depth, scene flow, odometry, and 3D perception.",
   "verdictEn": "Foundational driving geometry benchmark",
-  "wmNoteEn": "Rich tooling and historical baselines make it valuable for component validation, but it is too small to be the sole source for modern foundation models."
+  "wmNoteEn": "Rich tooling and historical baselines make it valuable for component validation, but it is too small to be the sole source for modern foundation models.",
+  "scaleZh": "22 段双目序列 · 各项基准共 20 万+ 个三维物体标注",
+  "organizationsZh": "卡尔斯鲁厄理工学院、丰田工业大学",
+  "accessZh": "开放下载",
+  "licenseZh": "数据集采用 CC BY-NC-SA 3.0；同时适用各基准条款"
 }

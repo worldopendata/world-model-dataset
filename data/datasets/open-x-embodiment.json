@@ -41,5 +41,9 @@
   },
   "summaryEn": "A large cross-embodiment collection assembled by Google DeepMind and more than 30 research institutions. It unifies real robot interactions across platforms, tasks, and environments for generalist embodied learning.",
   "verdictEn": "Infrastructure for embodied intelligence",
-  "wmNoteEn": "Well suited to cross-robot dynamics, goal-conditioned modeling, and offline trajectory learning. Action spaces and coordinate systems require careful normalization."
+  "wmNoteEn": "Well suited to cross-robot dynamics, goal-conditioned modeling, and offline trajectory learning. Action spaces and coordinate systems require careful normalization.",
+  "scaleZh": "100 万+ 回合 · 500+ 种技能 · 22 种机器人形态 · RLDS 格式",
+  "organizationsZh": "Google DeepMind、斯坦福大学、加州大学伯克利分校及合作机构",
+  "accessZh": "开放获取，具体取决于组成数据集",
+  "licenseZh": "混合许可：Apache-2.0 / CC BY 4.0；各组成数据集保留自身条款"
 }

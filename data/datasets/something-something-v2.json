@@ -39,5 +39,9 @@
   },
   "summaryEn": "A large collection of short human-object interaction videos whose fine-grained labels depend on temporal changes such as pushing, placing, and occluding.",
   "verdictEn": "Fine-grained object interaction",
-  "wmNoteEn": "Temporal labels support dynamics representation learning, but the dataset provides neither robot controls nor explicit physical state."
+  "wmNoteEn": "Temporal labels support dynamics representation learning, but the dataset provides neither robot controls nor explicit physical state.",
+  "scaleZh": "22 万+ 段视频 · 174 个动作类别",
+  "organizationsZh": "Twenty Billion Neurons",
+  "accessZh": "需注册",
+  "licenseZh": "适用数据集许可和访问协议；商业用途需另行审核"
 }

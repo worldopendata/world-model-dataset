@@ -41,5 +41,9 @@
   },
   "summaryEn": "A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.",
   "verdictEn": "Multi-site real robot trajectories",
-  "wmNoteEn": "Valuable for cross-scene manipulation and action-conditioned transitions. Site diversity improves coverage but increases calibration and cleaning requirements."
+  "wmNoteEn": "Valuable for cross-scene manipulation and action-conditioned transitions. Site diversity improves coverage but increases calibration and cleaning requirements.",
+  "scaleZh": "7.6 万条轨迹 · 350 小时 · 564 个场景 · 86 项任务",
+  "organizationsZh": "斯坦福大学牵头的 DROID 协作团队",
+  "accessZh": "开放下载",
+  "licenseZh": "适用数据集专用条款；需核查下游使用及第三方内容限制"
 }

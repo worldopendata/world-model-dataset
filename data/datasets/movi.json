@@ -41,5 +41,9 @@
   },
   "summaryEn": "A family of Kubric-generated multi-object videos with instance masks, depth, optical flow, and 3D attributes for object discovery and interpretable dynamics.",
   "verdictEn": "Dense-ground-truth dynamic scenes",
-  "wmNoteEn": "Near-complete pixel and object supervision is valuable for object-centric models, but synthetic bias calls for complementary real video."
+  "wmNoteEn": "Near-complete pixel and object supervision is valuable for object-centric models, but synthetic bias calls for complementary real video.",
+  "scaleZh": "多个版本，生成视频片段总量最高达数十万",
+  "organizationsZh": "Google Research",
+  "accessZh": "开放下载",
+  "licenseZh": "生成器采用 Apache-2.0；已发布数据集遵循项目条款"
 }

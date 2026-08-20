@@ -42,5 +42,9 @@
   },
   "summaryEn": "A long-horizon language-conditioned robot benchmark in a controlled tabletop environment, with continuous interaction trajectories and compositional task sequences.",
   "verdictEn": "Long-horizon language control",
-  "wmNoteEn": "Continuous task chains are useful for planning and rollout evaluation. The controlled setting requires additional data for transfer to open real-world environments."
+  "wmNoteEn": "Continuous task chains are useful for planning and rollout evaluation. The controlled setting requires additional data for transfer to open real-world environments.",
+  "scaleZh": "24 小时遥操作探索数据 · 34 项任务",
+  "organizationsZh": "弗赖堡大学及合作机构",
+  "accessZh": "开放下载",
+  "licenseZh": "代码与数据条款见项目说明；使用前需核查适用范围"
 }

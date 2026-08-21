@@ -309,17 +309,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 ## Contributing and corrections
 
-Please use GitHub Issues for all contributions and corrections:
-
-- **Suggest a new dataset** by opening an issue
-- **Request a correction** by opening an issue for inaccurate metadata, broken links, missing restrictions, or questionable classification
-- **Report a data update** by opening an issue with the relevant official source
-
-When suggesting a dataset, include its official links, access and license information, primary task, and English and Chinese descriptions when available.
-
-The canonical records live in [`data/datasets/`](./data/datasets/), one JSON file per dataset. [`datasets.json`](./datasets.json) and the catalogs in both README files are generated from those records.
-
-Maintainers use `npm run check` to regenerate and validate the catalog. External links can be audited with `npm run check:links`. Explicit HTTP errors fail the audit; timeouts are reported as unverified rather than automatically removing a resource.
+Please use GitHub Issues for all contributions and corrections. You can suggest a new dataset, report inaccurate metadata or broken links, question a classification, or share an update from an official source. When opening an issue, include the relevant official links, access and license information, primary task, and English and Chinese descriptions when available.
 
 ## Acknowledgments
 

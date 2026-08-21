@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-45-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-50-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [浏览网站](https://worldopendata.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
@@ -37,7 +37,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 45 | 6 | 6 | 42 |
+| 50 | 6 | 6 | 42 |
 
 ## 分类体系
 
@@ -125,7 +125,12 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `第一人称 / 人类活动` · `RGB 视频` · `动作标签`
   [主页](https://www.csc.kth.se/cvap/actions/) · 访问方式：开放下载
 
-### 动作条件动力学（3）
+### 动作条件动力学（4）
+
+- **RoboCasa** · 2024
+  面向家庭厨房机器人学习的大规模仿真环境和任务套件，提供多样化场景、物体、语言任务及可生成的视觉动作轨迹。
+  `机器人 / 具身智能` · `RGB 视频` · `深度` · `动作` · `机器人状态` · `语言`
+  [主页](https://robocasa.ai/) · [论文](https://arxiv.org/abs/2406.02523) · [代码](https://github.com/robocasa/robocasa) · 访问方式：开放生成工具
 
 - **MineDojo** · 2022
   围绕 Minecraft 开放世界构建的大规模多模态知识与交互平台，结合玩家视频、文本知识、社区讨论及可实时交互的仿真环境，适合长期探索和开放域智能体研究。
@@ -142,7 +147,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
 
-### 决策与智能体轨迹（9）
+### 决策与智能体轨迹（12）
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
@@ -154,6 +159,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `语言`
   [主页](https://rail-berkeley.github.io/bridgedata/) · [论文](https://arxiv.org/abs/2308.12952) · [代码](https://github.com/rail-berkeley/bridge_data_v2) · 访问方式：开放下载
 
+- **LIBERO** · 2023
+  面向终身学习和语言条件机器人操作的基准，包含多任务示范轨迹、视觉观测、动作和任务描述，用于研究跨任务知识迁移。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `语言`
+  [主页](https://libero-project.github.io/) · [论文](https://arxiv.org/abs/2306.14877) · [代码](https://github.com/Lifelong-Robot-Learning/LIBERO) · 访问方式：开放生成工具
+
+- **MimicGen** · 2023
+  通过在仿真环境中重放和组合少量人类示范，自动生成多样化机器人操作轨迹的数据生成框架，支持模仿学习和世界模型训练。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `语言`
+  [主页](https://mimicgen.github.io/) · [论文](https://arxiv.org/abs/2310.17596) · [代码](https://github.com/NVlabs/mimicgen) · 访问方式：开放生成工具
+
 - **Open X-Embodiment** · 2023
   由 Google DeepMind 与全球 30 余家研究机构联合构建的跨机器人真实交互数据集合，统一汇集多种机器人形态、任务与操作轨迹，是研究跨实体泛化和通用具身世界模型的重要基础。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `语言`
@@ -163,6 +178,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   在可控桌面环境中构建的长时程语言条件机器人基准，提供连续交互轨迹和组合任务序列，重点评估智能体能否依据语言完成多个连续操作。
   `机器人 / 具身智能` · `RGB-D` · `动作` · `机器人状态` · `语言`
   [主页](https://calvin.cs.uni-freiburg.de/) · [论文](https://arxiv.org/abs/2112.03227) · [代码](https://github.com/mees/calvin) · 访问方式：开放下载
+
+- **nuPlan** · 2021
+  面向自动驾驶规划的真实世界数据集与基准，提供多传感器日志、地图、轨迹和规划评测工具，支持闭环驾驶策略研究。
+  `自动驾驶` · `RGB 视频` · `激光雷达` · `地图` · `轨迹` · `GPS / 惯性测量单元`
+  [主页](https://www.nuscenes.org/nuplan) · [论文](https://arxiv.org/abs/2106.11810) · [代码](https://github.com/motional/nuplan-devkit) · 访问方式：需要注册
 
 - **RLBench** · 2020
   基于 CoppeliaSim 的大规模机器人操作学习套件，提供大量可程序化任务、示范轨迹和多视角视觉观测，可用于强化学习、模仿学习以及可控世界模型评测。
@@ -189,7 +209,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `游戏 / 虚拟环境` · `机器人 / 具身智能` · `文本` · `动作` · `仿真状态` · `合成视频`
   [主页](http://virtual-home.org/) · [论文](https://arxiv.org/abs/1806.07011) · [代码](https://github.com/xavierpuigf/virtualhome) · 访问方式：开放生成工具
 
-### 空间与时空世界建模（15）
+### 空间与时空世界建模（16）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -210,6 +230,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向具身导航与室内模拟的高质量三维场景数据，结合 Habitat 平台可生成视觉、深度、语义和智能体轨迹，用于空间记忆、导航规划与交互式世界建模。
   `机器人 / 具身智能` · `城市 / 三维场景` · `三维网格` · `RGB-D` · `语义标签` · `智能体位姿`
   [主页](https://aihabitat.org/datasets/hm3d/) · [论文](https://arxiv.org/abs/2109.08238) · [代码](https://github.com/facebookresearch/habitat-sim) · 访问方式：需申请
+
+- **PandaSet** · 2020
+  面向自动驾驶研究的多传感器数据集，提供相机、激光雷达、GPS/IMU 和三维标注，覆盖城市道路中的车辆、行人和交通场景。
+  `自动驾驶` · `RGB 视频` · `激光雷达` · `GPS / 惯性测量单元` · `三维框` · `地图`
+  [论文](https://arxiv.org/abs/2102.02684) · [代码](https://github.com/scaleapi/pandaset-devkit) · 访问方式：开放下载
 
 - **nuScenes** · 2019
   覆盖波士顿与新加坡城市道路的多传感器自动驾驶数据集，提供同步环视相机、LiDAR、RADAR、定位和三维标注，适合多视角时空建模、占用预测与驾驶世界模型研究。

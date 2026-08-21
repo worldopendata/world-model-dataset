@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-45-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-50-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [Explore the website](https://worldopendata.github.io/world-model-dataset/) · [Browse datasets](#dataset-catalog) · [Contribute](#contributing-and-corrections)
@@ -37,7 +37,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 45 | 6 | 6 | 42 |
+| 50 | 6 | 6 | 42 |
 
 ## Taxonomy
 
@@ -125,7 +125,12 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `RGB Video` · `Action Labels`
   [Homepage](https://www.csc.kth.se/cvap/actions/) · Access: Open download
 
-### Action-Conditioned Dynamics (3)
+### Action-Conditioned Dynamics (4)
+
+- **RoboCasa** · 2024
+  A large-scale simulation environment and task suite for household robot learning, with diverse kitchens, objects, language tasks, and generated visual-action trajectories.
+  `Robotics / Embodied AI` · `RGB Video` · `Depth` · `Action` · `Robot State` · `Language`
+  [Homepage](https://robocasa.ai/) · [Paper](https://arxiv.org/abs/2406.02523) · [Code](https://github.com/robocasa/robocasa) · Access: Open generation toolkit
 
 - **MineDojo** · 2022
   A large multimodal knowledge and interaction platform built around Minecraft, combining player videos, text knowledge, community discussions, and a live simulation environment for open-world agents.
@@ -142,7 +147,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (9)
+### Decision-Making & Agent Trajectories (12)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -154,6 +159,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
   [Homepage](https://rail-berkeley.github.io/bridgedata/) · [Paper](https://arxiv.org/abs/2308.12952) · [Code](https://github.com/rail-berkeley/bridge_data_v2) · Access: Open download
 
+- **LIBERO** · 2023
+  A benchmark for lifelong and language-conditioned robot manipulation with multi-task demonstrations, visual observations, actions, and task descriptions.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
+  [Homepage](https://libero-project.github.io/) · [Paper](https://arxiv.org/abs/2306.14877) · [Code](https://github.com/Lifelong-Robot-Learning/LIBERO) · Access: Open generation toolkit
+
+- **MimicGen** · 2023
+  A framework that generates diverse robot manipulation demonstrations by replaying and composing a small number of human demonstrations in simulation.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
+  [Homepage](https://mimicgen.github.io/) · [Paper](https://arxiv.org/abs/2310.17596) · [Code](https://github.com/NVlabs/mimicgen) · Access: Open generation toolkit
+
 - **Open X-Embodiment** · 2023
   A large cross-embodiment collection assembled by Google DeepMind and more than 30 research institutions. It unifies real robot interactions across platforms, tasks, and environments for generalist embodied learning.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
@@ -163,6 +178,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A long-horizon language-conditioned robot benchmark in a controlled tabletop environment, with continuous interaction trajectories and compositional task sequences.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State` · `Language`
   [Homepage](https://calvin.cs.uni-freiburg.de/) · [Paper](https://arxiv.org/abs/2112.03227) · [Code](https://github.com/mees/calvin) · Access: Open download
+
+- **nuPlan** · 2021
+  A large-scale real-world planning dataset and benchmark with sensor logs, maps, trajectories, and closed-loop evaluation tools for autonomous driving.
+  `Autonomous Driving` · `RGB Video` · `LiDAR` · `Maps` · `Trajectories` · `GPS / IMU`
+  [Homepage](https://www.nuscenes.org/nuplan) · [Paper](https://arxiv.org/abs/2106.11810) · [Code](https://github.com/motional/nuplan-devkit) · Access: Registration required
 
 - **RLBench** · 2020
   A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.
@@ -189,7 +209,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Games / Virtual Environments` · `Robotics / Embodied AI` · `Text` · `Action` · `Simulation State` · `Synthetic Video`
   [Homepage](http://virtual-home.org/) · [Paper](https://arxiv.org/abs/1806.07011) · [Code](https://github.com/xavierpuigf/virtualhome) · Access: Open generation toolkit
 
-### Spatial & Spatiotemporal World Modeling (15)
+### Spatial & Spatiotemporal World Modeling (16)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -210,6 +230,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A collection of high-quality building-scale 3D scans for embodied navigation and indoor simulation, supporting generated RGB-D, semantic, and agent trajectories through Habitat.
   `Robotics / Embodied AI` · `Urban / 3D Scene` · `3D Mesh` · `RGB-D` · `Semantic Labels` · `Agent Pose`
   [Homepage](https://aihabitat.org/datasets/hm3d/) · [Paper](https://arxiv.org/abs/2109.08238) · [Code](https://github.com/facebookresearch/habitat-sim) · Access: Application required
+
+- **PandaSet** · 2020
+  A multi-sensor autonomous-driving dataset with cameras, LiDAR, GPS/IMU, and 3D annotations across urban traffic scenes.
+  `Autonomous Driving` · `RGB Video` · `LiDAR` · `GPS / IMU` · `3D Boxes` · `Maps`
+  [Paper](https://arxiv.org/abs/2102.02684) · [Code](https://github.com/scaleapi/pandaset-devkit) · Access: Open download
 
 - **nuScenes** · 2019
   A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.

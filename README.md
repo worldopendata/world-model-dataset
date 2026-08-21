@@ -307,38 +307,19 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_END -->
 
-## Inclusion criteria
-
-A dataset is in scope when it is publicly documented and directly supports at least one of the following:
-
-- temporal state or observation modeling
-- action-to-environment transition modeling
-- agent trajectories for planning or control
-- spatial or spatiotemporal world representation
-- physical or causal reasoning
-- world-model evaluation or diagnostics
-
-General-purpose static classification datasets, model-only repositories, and resources with no identifiable data access path are out of scope. “Open” does not necessarily mean unrestricted: some datasets require registration, an application, or acceptance of non-commercial terms. Always verify the official license before use.
-
 ## Contributing and corrections
 
-Community contributions are welcome:
+Please use GitHub Issues for all contributions and corrections:
 
-- **Suggest a new dataset** by opening an issue or submitting a pull request
+- **Suggest a new dataset** by opening an issue
 - **Request a correction** by opening an issue for inaccurate metadata, broken links, missing restrictions, or questionable classification
-- **Submit a data update** through a pull request when an official source supports the change
+- **Report a data update** by opening an issue with the relevant official source
 
-When proposing a dataset, confirm that it meets the inclusion criteria, check for duplicates or predecessor names, choose exactly one primary task, verify official links, document access and license restrictions, and provide both English and Chinese fields.
+When suggesting a dataset, include its official links, access and license information, primary task, and English and Chinese descriptions when available.
 
 The canonical records live in [`data/datasets/`](./data/datasets/), one JSON file per dataset. [`datasets.json`](./datasets.json) and the catalogs in both README files are generated from those records.
 
-For pull requests, regenerate and validate the catalog with:
-
-```bash
-npm run check
-```
-
-External links can be audited with `npm run check:links`. Explicit HTTP errors fail the audit; timeouts are reported as unverified rather than automatically removing a resource.
+Maintainers use `npm run check` to regenerate and validate the catalog. External links can be audited with `npm run check:links`. Explicit HTTP errors fail the audit; timeouts are reported as unverified rather than automatically removing a resource.
 
 ## Acknowledgments
 

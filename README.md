@@ -1,16 +1,16 @@
 # WorldModel Data Atlas
 
-[English](./README.md) | [简体中文](./README.zh-CN.md)
+[English](./README.md) | [绠€浣撲腑鏂嘳(./README.zh-CN.md)
 
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-54-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-52-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
 
-[Explore the website](https://worldopendata.github.io/world-model-dataset/) · [Browse datasets](#dataset-catalog) · [Contribute](#contributing-and-corrections)
+[Explore the website](https://worldopendata.github.io/world-model-dataset/) 路 [Browse datasets](#dataset-catalog) 路 [Contribute](#contributing-and-corrections)
 
 ---
 
@@ -26,12 +26,12 @@ The GitHub README is the browsable community catalog. The [interactive website](
 
 ## Why this catalog
 
-- **Task-first organization** — start from the capability you want to train or evaluate
-- **Research-oriented metadata** — compare modalities, scale, structure, source, access, and licensing
-- **Bilingual content** — use the English or Chinese README and switch languages on the website
-- **Curated resource links** — follow official homepages, papers, and code repositories
-- **Evidence-aware notes** — understand both useful properties and important limitations
-- **Reproducible maintenance** — generate the website and both README catalogs from one data source
+- **Task-first organization** 鈥?start from the capability you want to train or evaluate
+- **Research-oriented metadata** 鈥?compare modalities, scale, structure, source, access, and licensing
+- **Bilingual content** 鈥?use the English or Chinese README and switch languages on the website
+- **Curated resource links** 鈥?follow official homepages, papers, and code repositories
+- **Evidence-aware notes** 鈥?understand both useful properties and important limitations
+- **Reproducible maintenance** 鈥?generate the website and both README catalogs from one data source
 
 This is a curated research resource, not a ranking. Detailed suitability notes on the website are more informative than a single aggregate score.
 
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 54 | 6 | 6 | 42 |
+| 52 | 6 | 6 | 42 |
 
 ## Taxonomy
 
@@ -55,12 +55,12 @@ Each dataset has exactly one primary task. Secondary uses and cross-cutting prop
 
 The six primary tasks are:
 
-1. **Predictive & Generative Dynamics** — future observation or state prediction, video prediction, and long-horizon generation
-2. **Action-Conditioned Dynamics** — learning how the world changes in response to an action
-3. **Decision-Making & Agent Trajectories** — planning, control, imitation learning, offline RL, and agent behavior
-4. **Spatial & Spatiotemporal World Modeling** — 3D/4D reconstruction, occupancy, scene flow, and dynamic spatial representations
-5. **Physical & Causal Reasoning** — physical properties, interactions, interventions, and counterfactual reasoning
-6. **World Model Evaluation & Diagnostics** — datasets primarily designed to measure model capabilities and failure modes
+1. **Predictive & Generative Dynamics** 鈥?future observation or state prediction, video prediction, and long-horizon generation
+2. **Action-Conditioned Dynamics** 鈥?learning how the world changes in response to an action
+3. **Decision-Making & Agent Trajectories** 鈥?planning, control, imitation learning, offline RL, and agent behavior
+4. **Spatial & Spatiotemporal World Modeling** 鈥?3D/4D reconstruction, occupancy, scene flow, and dynamic spatial representations
+5. **Physical & Causal Reasoning** 鈥?physical properties, interactions, interventions, and counterfactual reasoning
+6. **World Model Evaluation & Diagnostics** 鈥?datasets primarily designed to measure model capabilities and failure modes
 
 If only one use could be retained, the dataset's most distinctive world-model use becomes its primary task.
 
@@ -154,7 +154,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (14)
+### Decision-Making & Agent Trajectories (12)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -205,16 +205,6 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.
   `Games / Virtual Environments` · `RGB Video` · `Action` · `Game State` · `Reward`
   [Homepage](https://minerl.io/) · [Paper](https://arxiv.org/abs/1907.13440) · [Code](https://github.com/minerllabs/minerl) · Access: Open download
-
-- **40K Robotic Grasp Demonstrations** · 2018
-  A dataset of roughly 40,000 naturalistic 6-DoF robotic grasp demonstrations with visual observations, end-effector poses, and grasp outcomes for visuomotor learning.
-  `Robotics / Embodied AI` · `RGB Video` · `Depth` · `Action` · `Robot State` · `Trajectory`
-  [Paper](https://arxiv.org/abs/1812.11683) · Access: Research access; verify
-
-- **CoSTAR Block Stacking** · 2018
-  A robot block-stacking demonstration dataset with visual observations, actions, and workspace constraints for compositional skill learning from demonstration.
-  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Object State`
-  [Paper](https://arxiv.org/abs/1810.11714) · Access: Research access; verify
 
 - **RoboTurk** · 2018
   A real-robot demonstration dataset collected through crowdsourced teleoperation, with vision, actions, and robot state for scalable imitation learning.

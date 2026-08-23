@@ -8,6 +8,8 @@ _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 [![数据集](https://img.shields.io/badge/数据集-50-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
+[![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
+
 [浏览网站](https://worldopendata.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
 
 ---

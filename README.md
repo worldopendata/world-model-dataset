@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-50-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-52-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 50 | 6 | 6 | 42 |
+| 52 | 6 | 6 | 42 |
 
 ## Taxonomy
 
@@ -127,7 +127,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `RGB Video` · `Action Labels`
   [Homepage](https://www.csc.kth.se/cvap/actions/) · Access: Open download
 
-### Action-Conditioned Dynamics (4)
+### Action-Conditioned Dynamics (5)
 
 - **RoboCasa** · 2024
   A large-scale simulation environment and task suite for household robot learning, with diverse kitchens, objects, language tasks, and generated visual-action trajectories.
@@ -143,6 +143,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A cross-platform robot interaction video dataset collected across multiple laboratories, robot arms, viewpoints, and objects for visual dynamics and control generalization.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
   [Homepage](https://www.robonet.wiki/) · [Paper](https://arxiv.org/abs/1910.11215) · [Code](https://github.com/SudeepDasari/RoboNet) · Access: Open download
+
+- **OmniPush** · 2019
+  A real-robot pushing-dynamics dataset with RGB-D video and state changes across objects, surfaces, and pushing actions for transferable visual dynamics learning.
+  `Robotics / Embodied AI` · `RGB-D` · `Action` · `Object State` · `Trajectory`
+  [Paper](https://arxiv.org/abs/1910.00618) · [Code](https://github.com/MIT-Omnipush/video-prediction) · Access: Open project access
 
 - **BAIR Robot Pushing** · 2016
   A classic action-conditioned video dataset of a robot pushing objects on a tabletop, widely used for stochastic future prediction and visual dynamics baselines.
@@ -211,7 +216,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Games / Virtual Environments` · `Robotics / Embodied AI` · `Text` · `Action` · `Simulation State` · `Synthetic Video`
   [Homepage](http://virtual-home.org/) · [Paper](https://arxiv.org/abs/1806.07011) · [Code](https://github.com/xavierpuigf/virtualhome) · Access: Open generation toolkit
 
-### Spatial & Spatiotemporal World Modeling (16)
+### Spatial & Spatiotemporal World Modeling (17)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -252,6 +257,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A high-quality autonomous-driving collection with cameras, LiDAR, maps, 3D detection labels, and motion scenarios for dynamic occupancy and trajectory prediction.
   `Autonomous Driving` · `RGB Video` · `LiDAR` · `Maps` · `3D Boxes` · `Trajectories`
   [Homepage](https://waymo.com/open/) · [Paper](https://arxiv.org/abs/1912.04838) · [Code](https://github.com/waymo-research/waymo-open-dataset) · Access: Registration required
+
+- **ApolloScape** · 2018
+  A multi-task autonomous-driving dataset with street-view video, stereo images, depth, 3D vehicles, and high-definition maps for urban spatiotemporal modeling.
+  `Autonomous Driving` · `Urban / 3D Scene` · `RGB Video` · `Depth` · `Maps` · `3D Boxes` · `Semantic Labels`
+  [Homepage](https://apolloscape.auto/) · [Paper](https://arxiv.org/abs/1803.06184) · [Code](https://github.com/ApolloScapeAuto/dataset-api) · Access: Registration required
 
 - **Gibson Environment Dataset** · 2018
   A collection of navigable 3D environments reconstructed from real scans, used with Gibson to generate RGB, depth, semantics, and agent trajectories.

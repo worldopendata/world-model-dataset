@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-52-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-54-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 52 | 6 | 6 | 42 |
+| 54 | 6 | 6 | 42 |
 
 ## Taxonomy
 
@@ -154,7 +154,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (12)
+### Decision-Making & Agent Trajectories (14)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -205,6 +205,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.
   `Games / Virtual Environments` · `RGB Video` · `Action` · `Game State` · `Reward`
   [Homepage](https://minerl.io/) · [Paper](https://arxiv.org/abs/1907.13440) · [Code](https://github.com/minerllabs/minerl) · Access: Open download
+
+- **40K Robotic Grasp Demonstrations** · 2018
+  A dataset of roughly 40,000 naturalistic 6-DoF robotic grasp demonstrations with visual observations, end-effector poses, and grasp outcomes for visuomotor learning.
+  `Robotics / Embodied AI` · `RGB Video` · `Depth` · `Action` · `Robot State` · `Trajectory`
+  [Paper](https://arxiv.org/abs/1812.11683) · Access: Research access; verify
+
+- **CoSTAR Block Stacking** · 2018
+  A robot block-stacking demonstration dataset with visual observations, actions, and workspace constraints for compositional skill learning from demonstration.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Object State`
+  [Paper](https://arxiv.org/abs/1810.11714) · Access: Research access; verify
 
 - **RoboTurk** · 2018
   A real-robot demonstration dataset collected through crowdsourced teleoperation, with vision, actions, and robot state for scalable imitation learning.

@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-52-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-54-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 52 | 6 | 6 | 42 |
+| 54 | 6 | 6 | 42 |
 
 ## 分类体系
 
@@ -154,7 +154,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
 
-### 决策与智能体轨迹（12）
+### 决策与智能体轨迹（14）
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
@@ -205,6 +205,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   基于 Minecraft 的人类示范与交互数据集，记录长时视频、键鼠动作和游戏状态，最初用于样本高效强化学习竞赛，也适合开放世界动作模型和长程规划研究。
   `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `游戏状态` · `奖励`
   [主页](https://minerl.io/) · [论文](https://arxiv.org/abs/1907.13440) · [代码](https://github.com/minerllabs/minerl) · 访问方式：开放下载
+
+- **40K Robotic Grasp Demonstrations** · 2018
+  包含约四万条自然场景六自由度机器人抓取示范的数据集，记录视觉观测、末端位姿和抓取结果，用于学习从视觉到动作的操作策略。
+  `机器人 / 具身智能` · `RGB 视频` · `深度` · `动作` · `机器人状态` · `轨迹`
+  [论文](https://arxiv.org/abs/1812.11683) · 访问方式：研究访问；需核验
+
+- **CoSTAR Block Stacking** · 2018
+  面向机器人积木堆叠的示范数据集，包含视觉观测、动作和工作空间约束信息，用于研究从示范中学习可组合的操作技能。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `物体状态`
+  [论文](https://arxiv.org/abs/1810.11714) · 访问方式：研究访问；需核验
 
 - **RoboTurk** · 2018
   通过众包远程操作收集的真实机器人示范数据，展示低成本扩展人类操作轨迹的方式，并提供视觉、动作和机器人状态。

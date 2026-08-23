@@ -8,6 +8,8 @@ _A task-first, evidence-aware catalog of open datasets for world-model research.
 [![Datasets](https://img.shields.io/badge/datasets-50-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
+[![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
+
 [Explore the website](https://worldopendata.github.io/world-model-dataset/) · [Browse datasets](#dataset-catalog) · [Contribute](#contributing-and-corrections)
 
 ---

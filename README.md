@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-56-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-59-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 56 | 6 | 6 | 42 |
+| 59 | 6 | 6 | 42 |
 
 ## Taxonomy
 
@@ -154,7 +154,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (15)
+### Decision-Making & Agent Trajectories (17)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -226,12 +226,22 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
   [Homepage](https://roboturk.stanford.edu/) · [Paper](https://arxiv.org/abs/1811.02790) · Access: Open project access
 
+- **TrajNet** · 2018
+  A benchmark for pedestrian and multi-agent trajectory prediction that standardizes future-location forecasting, social interaction, and multimodal uncertainty evaluation.
+  `Egocentric / Human` · `Autonomous Driving` · `Trajectories` · `Agent Pose` · `Maps`
+  [Paper](https://arxiv.org/abs/1805.07663) · [Code](https://github.com/vita-epfl/trajnetplusplusbaselines) · Access: Official benchmark repository available
+
 - **VirtualHome** · 2018
   Represents household activities as executable programs in 3D homes, linking language, action sequences, object states, and rendered video.
   `Games / Virtual Environments` · `Robotics / Embodied AI` · `Text` · `Action` · `Simulation State` · `Synthetic Video`
   [Homepage](http://virtual-home.org/) · [Paper](https://arxiv.org/abs/1806.07011) · [Code](https://github.com/xavierpuigf/virtualhome) · Access: Open generation toolkit
 
-### Spatial & Spatiotemporal World Modeling (17)
+- **NGSIM** · 2006
+  A public naturalistic driving trajectory collection with continuous vehicle positions, speeds, and lane information on highways and urban roads for behavior forecasting.
+  `Autonomous Driving` · `Trajectories` · `Maps` · `Agent Pose`
+  [Homepage](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · Access: Official public data page
+
+### Spatial & Spatiotemporal World Modeling (18)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -257,6 +267,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A multi-sensor autonomous-driving dataset with cameras, LiDAR, GPS/IMU, and 3D annotations across urban traffic scenes.
   `Autonomous Driving` · `RGB Video` · `LiDAR` · `GPS / IMU` · `3D Boxes` · `Maps`
   [Paper](https://arxiv.org/abs/2102.02684) · [Code](https://github.com/scaleapi/pandaset-devkit) · Access: Open download
+
+- **BLVD** · 2019
+  A large-scale 5D semantic autonomous-driving benchmark combining video, 3D objects, trajectories, maps, and time for dynamic traffic-scene modeling.
+  `Autonomous Driving` · `Urban / 3D Scene` · `RGB Video` · `3D Boxes` · `Trajectories` · `Maps` · `Semantic Labels`
+  [Paper](https://arxiv.org/abs/1903.06405) · [Code](https://github.com/VCCIV/BLVD) · Access: Official repository available
 
 - **nuScenes** · 2019
   A multi-sensor autonomous-driving dataset covering urban roads in Boston and Singapore, with synchronized cameras, LiDAR, radar, localization, and 3D annotations for spatiotemporal modeling.

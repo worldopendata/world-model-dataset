@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-56-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-59-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 56 | 6 | 6 | 42 |
+| 59 | 6 | 6 | 42 |
 
 ## 分类体系
 
@@ -154,7 +154,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
 
-### 决策与智能体轨迹（15）
+### 决策与智能体轨迹（17）
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
@@ -226,12 +226,22 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
   [主页](https://roboturk.stanford.edu/) · [论文](https://arxiv.org/abs/1811.02790) · 访问方式：开放项目访问
 
+- **TrajNet** · 2018
+  面向行人和多智能体轨迹预测的基准，汇集多个真实场景轨迹并统一评测未来位置预测、社会交互和多模态不确定性。
+  `第一人称 / 人类活动` · `自动驾驶` · `轨迹` · `智能体位姿` · `地图`
+  [论文](https://arxiv.org/abs/1805.07663) · [代码](https://github.com/vita-epfl/trajnetplusplusbaselines) · 访问方式：提供官方基准代码仓库
+
 - **VirtualHome** · 2018
   将家庭活动表示为可执行程序并在三维室内环境中模拟，连接自然语言、动作序列、物体状态和视频，可用于长时任务与因果状态转移研究。
   `游戏 / 虚拟环境` · `机器人 / 具身智能` · `文本` · `动作` · `仿真状态` · `合成视频`
   [主页](http://virtual-home.org/) · [论文](https://arxiv.org/abs/1806.07011) · [代码](https://github.com/xavierpuigf/virtualhome) · 访问方式：开放生成工具
 
-### 空间与时空世界建模（17）
+- **NGSIM** · 2006
+  美国公路交通管理部门发布的自然驾驶轨迹数据集，记录高速公路和城市道路中车辆的连续位置、速度与车道信息，用于交通行为预测和多智能体建模。
+  `自动驾驶` · `轨迹` · `地图` · `智能体位姿`
+  [主页](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · 访问方式：官方公共数据页面
+
+### 空间与时空世界建模（18）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -257,6 +267,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向自动驾驶研究的多传感器数据集，提供相机、激光雷达、GPS/IMU 和三维标注，覆盖城市道路中的车辆、行人和交通场景。
   `自动驾驶` · `RGB 视频` · `激光雷达` · `GPS / 惯性测量单元` · `三维框` · `地图`
   [论文](https://arxiv.org/abs/2102.02684) · [代码](https://github.com/scaleapi/pandaset-devkit) · 访问方式：开放下载
+
+- **BLVD** · 2019
+  面向自动驾驶的大规模 5D 语义数据集，结合视频、三维目标、轨迹、地图和时间信息，支持动态交通场景理解与未来状态建模。
+  `自动驾驶` · `城市 / 三维场景` · `RGB 视频` · `三维框` · `轨迹` · `地图` · `语义标签`
+  [论文](https://arxiv.org/abs/1903.06405) · [代码](https://github.com/VCCIV/BLVD) · 访问方式：提供官方代码仓库
 
 - **nuScenes** · 2019
   覆盖波士顿与新加坡城市道路的多传感器自动驾驶数据集，提供同步环视相机、LiDAR、RADAR、定位和三维标注，适合多视角时空建模、占用预测与驾驶世界模型研究。

@@ -1,0 +1,32 @@
+{
+  "id": "blvd",
+  "name": "BLVD",
+  "shortName": "BLVD",
+  "year": 2019,
+  "summary": "面向自动驾驶的大规模 5D 语义数据集，结合视频、三维目标、轨迹、地图和时间信息，支持动态交通场景理解与未来状态建模。",
+  "summaryEn": "A large-scale 5D semantic autonomous-driving benchmark combining video, 3D objects, trajectories, maps, and time for dynamic traffic-scene modeling.",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": ["Predictive & Generative Dynamics", "Decision-Making & Agent Trajectories"],
+  "domain": ["Autonomous Driving", "Urban / 3D Scene"],
+  "modalities": ["RGB Video", "3D Boxes", "Trajectories", "Maps", "Semantic Labels"],
+  "structure": ["Temporal Sequences", "Multi-view Sequences"],
+  "source": ["Real-world"],
+  "scale": "Large-scale urban driving sequences with 5D semantic annotations",
+  "scaleZh": "包含 5D 语义标注的大规模城市驾驶序列",
+  "organizations": "Chinese Academy of Sciences and collaborators",
+  "organizationsZh": "中国科学院及合作团队",
+  "license": "Project dataset terms; verify access and downstream restrictions",
+  "licenseZh": "适用项目数据条款；需核查访问和下游限制",
+  "access": "Official repository available",
+  "accessZh": "提供官方代码仓库",
+  "rating": 4,
+  "verdict": "自动驾驶 5D 时空基准",
+  "verdictEn": "5D spatiotemporal driving benchmark",
+  "wmNote": "时间、语义、三维目标和轨迹联合标注适合动态场景状态建模；直接车辆控制信号有限。",
+  "wmNoteEn": "Joint temporal, semantic, 3D-object, and trajectory labels support dynamic state modeling, while direct vehicle controls are limited.",
+  "links": {
+    "paper": "https://arxiv.org/abs/1903.06405",
+    "code": "https://github.com/VCCIV/BLVD"
+  }
+}

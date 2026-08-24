@@ -7,7 +7,7 @@ Scope: datasets first publicly released before 2026 (`year < 2026`) and directly
 - [ ] Discover candidates from all available channels
 - [ ] Normalize names, papers, URLs, and aliases
 - [ ] Deduplicate against `data/datasets/`
-- [ ] Verify a paper plus at least one traceable non-paper access path
+- [ ] Verify at least one traceable paper, official homepage, repository, data page, or generation toolkit
 - [ ] Classify by one Primary Task and supporting tags
 - [ ] Record access, license, scale, and bilingual metadata
 - [ ] Exclude weak candidates with a written reason
@@ -44,7 +44,8 @@ Scope: datasets first publicly released before 2026 (`year < 2026`) and directly
 
 - Include datasets, benchmark datasets, and official generation toolkits with an identifiable data path
 - Require direct relevance to temporal dynamics, action-conditioned transitions, agent trajectories, spatial world modeling, physical/causal reasoning, or world-model evaluation
-- Require a paper plus an official homepage, code/data repository, or explicit official access channel
+- Require at least one traceable entry point: paper, official homepage, official repository, data page, or generation toolkit
+- A paper-only entry may be included, but its access status must remain unverified unless the paper identifies a data channel
 - Keep uncertain license or access details explicit; do not infer openness from a paper alone
 - Exclude model-only repositories, ordinary static perception datasets, personal mirrors without provenance, and duplicate releases
 - Never claim exhaustive coverage until every source and year batch above has been processed

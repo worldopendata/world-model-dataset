@@ -1,0 +1,32 @@
+{
+  "id": "mit-planar-pushing",
+  "name": "MIT Planar Pushing Dataset",
+  "shortName": "MIT Planar Pushing",
+  "year": 2016,
+  "summary": "高精度平面推动实验数据集，系统记录不同物体、接触位置、推动方向和摩擦条件下的动作与物体运动，用于学习接触动力学。",
+  "summaryEn": "A high-fidelity planar pushing dataset recording actions and object motion across shapes, contacts, pushing directions, and friction conditions.",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": ["Action-Conditioned Dynamics"],
+  "domain": ["Robotics / Embodied AI", "Physics / Science"],
+  "modalities": ["Action", "Object State", "Trajectory", "Robot State"],
+  "structure": ["Interaction Episodes", "Temporal Sequences"],
+  "source": ["Real-world", "Autonomous Agent"],
+  "scale": "1M+ planar pushing experiments",
+  "scaleZh": "超过 100 万次平面推动实验",
+  "organizations": "Massachusetts Institute of Technology",
+  "organizationsZh": "麻省理工学院",
+  "license": "Repository and dataset terms should be verified before reuse",
+  "licenseZh": "复用前需核查代码仓库和数据集条款",
+  "access": "Official processing repository available",
+  "accessZh": "提供官方处理代码仓库",
+  "rating": 5,
+  "verdict": "高精度接触动力学数据",
+  "verdictEn": "High-fidelity contact dynamics",
+  "wmNote": "大规模受控实验直接连接推动动作、接触条件和物体响应，适合学习及诊断接触动力学。",
+  "wmNoteEn": "Large controlled experiments directly connect pushing actions, contact conditions, and object responses for learning and diagnosing contact dynamics.",
+  "links": {
+    "paper": "https://arxiv.org/abs/1604.04038",
+    "code": "https://github.com/mcubelab/pdproc"
+  }
+}

@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-52-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-56-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 52 | 6 | 6 | 42 |
+| 56 | 6 | 6 | 42 |
 
 ## Taxonomy
 
@@ -95,7 +95,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **INTERACTION Dataset** · 2019
   A trajectory dataset focused on highly interactive driving scenarios such as intersections, roundabouts, and merging across multiple countries.
   `Autonomous Driving` · `Trajectories` · `Maps` · `Agent Pose`
-  [Homepage](https://interaction-dataset.com/) · [Paper](https://arxiv.org/abs/1910.03088) · [Code](https://github.com/interaction-dataset/interaction-dataset) · Access: Open download
+  [Paper](https://arxiv.org/abs/1910.03088) · [Code](https://github.com/interaction-dataset/interaction-dataset) · Access: Open download
 
 - **Charades-Ego** · 2018
   Pairs first- and third-person videos of the same indoor activities with multi-label temporal actions for cross-view behavior representation.
@@ -154,7 +154,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (12)
+### Decision-Making & Agent Trajectories (15)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -205,6 +205,21 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A Minecraft dataset of human demonstrations with long videos, keyboard and mouse actions, game state, and rewards for sample-efficient learning and open-world planning.
   `Games / Virtual Environments` · `RGB Video` · `Action` · `Game State` · `Reward`
   [Homepage](https://minerl.io/) · [Paper](https://arxiv.org/abs/1907.13440) · [Code](https://github.com/minerllabs/minerl) · Access: Open download
+
+- **OffWorld Gym** · 2019
+  An open physical robotics environment and benchmark for real-world reinforcement learning with sensor observations, actions, rewards, and interaction episodes.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Reward`
+  [Paper](https://arxiv.org/abs/1910.08639) · [Code](https://github.com/offworld-projects/offworld-gym) · Access: Official repository available
+
+- **40K Robotic Grasp Demonstrations** · 2018
+  A dataset of roughly 40,000 naturalistic 6-DoF robotic grasp demonstrations with visual observations, end-effector poses, and grasp outcomes.
+  `Robotics / Embodied AI` · `RGB Video` · `Depth` · `Action` · `Robot State` · `Trajectory`
+  [Paper](https://arxiv.org/abs/1812.11683) · Access: Paper entry only; data access unverified
+
+- **CoSTAR Block Stacking** · 2018
+  A robot block-stacking demonstration dataset with visual observations, actions, and workspace constraints for compositional skill learning.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Object State`
+  [Paper](https://arxiv.org/abs/1810.11714) · Access: Paper entry only; data access unverified
 
 - **RoboTurk** · 2018
   A real-robot demonstration dataset collected through crowdsourced teleoperation, with vision, actions, and robot state for scalable imitation learning.
@@ -303,7 +318,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Autonomous Driving` · `Stereo RGB` · `LiDAR` · `GPS / IMU` · `3D Boxes`
   [Homepage](https://www.cvlibs.net/datasets/kitti/) · [Paper](https://www.cvlibs.net/publications/Geiger2013IJRR.pdf) · [Code](https://github.com/utiasSTARS/pykitti) · Access: Open download
 
-### Physical & Causal Reasoning (6)
+### Physical & Causal Reasoning (7)
 
 - **Physion** · 2021
   A synthetic intuitive-physics dataset covering collisions, support, containment, and deformation, designed to test whether models can predict object contact and dynamics.
@@ -329,6 +344,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A procedurally generated dataset and toolkit of stacked shapes for reasoning about stability, support relations, and 3D physical structure from images.
   `Physics / Science` · `Synthetic Video` · `3D State` · `Object Metadata` · `Simulation State`
   [Paper](https://arxiv.org/abs/1804.08018) · [Code](https://github.com/ogroth/shapestacks) · Access: Open generation toolkit
+
+- **MIT Planar Pushing Dataset** · 2016
+  A high-fidelity planar pushing dataset recording actions and object motion across shapes, contacts, pushing directions, and friction conditions.
+  `Robotics / Embodied AI` · `Physics / Science` · `Action` · `Object State` · `Trajectory` · `Robot State`
+  [Paper](https://arxiv.org/abs/1604.04038) · [Code](https://github.com/mcubelab/pdproc) · Access: Official processing repository available
 
 - **Physics 101** · 2016
   A real-video dataset of objects moving on inclined surfaces with material, mass, angle, and motion information for estimating physical properties and dynamics.

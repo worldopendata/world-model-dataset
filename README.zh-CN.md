@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-52-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-56-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 52 | 6 | 6 | 42 |
+| 56 | 6 | 6 | 42 |
 
 ## 分类体系
 
@@ -95,7 +95,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 - **INTERACTION Dataset** · 2019
   聚焦路口、环岛和汇入等高交互驾驶场景的轨迹数据集，包含多国道路中的车辆与行人运动，适合多智能体预测和交互建模。
   `自动驾驶` · `轨迹` · `地图` · `智能体位姿`
-  [主页](https://interaction-dataset.com/) · [论文](https://arxiv.org/abs/1910.03088) · [代码](https://github.com/interaction-dataset/interaction-dataset) · 访问方式：开放下载
+  [论文](https://arxiv.org/abs/1910.03088) · [代码](https://github.com/interaction-dataset/interaction-dataset) · 访问方式：开放下载
 
 - **Charades-Ego** · 2018
   将同一室内活动的第一人称和第三人称视频配对，提供多标签动作和时间区间标注，用于跨视角行为理解与未来状态表示。
@@ -154,7 +154,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
 
-### 决策与智能体轨迹（12）
+### 决策与智能体轨迹（15）
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
@@ -205,6 +205,21 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   基于 Minecraft 的人类示范与交互数据集，记录长时视频、键鼠动作和游戏状态，最初用于样本高效强化学习竞赛，也适合开放世界动作模型和长程规划研究。
   `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `游戏状态` · `奖励`
   [主页](https://minerl.io/) · [论文](https://arxiv.org/abs/1907.13440) · [代码](https://github.com/minerllabs/minerl) · 访问方式：开放下载
+
+- **OffWorld Gym** · 2019
+  用于真实机器人强化学习的开放物理环境与基准，通过统一接口提供传感器观测、动作、奖励和真实交互回合。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `奖励`
+  [论文](https://arxiv.org/abs/1910.08639) · [代码](https://github.com/offworld-projects/offworld-gym) · 访问方式：提供官方代码仓库
+
+- **40K Robotic Grasp Demonstrations** · 2018
+  包含约四万条自然场景六自由度机器人抓取示范的数据集，记录视觉观测、末端位姿和抓取结果，用于学习从视觉到动作的操作策略。
+  `机器人 / 具身智能` · `RGB 视频` · `深度` · `动作` · `机器人状态` · `轨迹`
+  [论文](https://arxiv.org/abs/1812.11683) · 访问方式：仅有论文入口；数据访问待核验
+
+- **CoSTAR Block Stacking** · 2018
+  面向机器人积木堆叠的示范数据集，包含视觉观测、动作和工作空间约束信息，用于研究从示范中学习可组合的操作技能。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `物体状态`
+  [论文](https://arxiv.org/abs/1810.11714) · 访问方式：仅有论文入口；数据访问待核验
 
 - **RoboTurk** · 2018
   通过众包远程操作收集的真实机器人示范数据，展示低成本扩展人类操作轨迹的方式，并提供视觉、动作和机器人状态。
@@ -303,7 +318,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `自动驾驶` · `双目 RGB` · `激光雷达` · `GPS / 惯性测量单元` · `三维框`
   [主页](https://www.cvlibs.net/datasets/kitti/) · [论文](https://www.cvlibs.net/publications/Geiger2013IJRR.pdf) · [代码](https://github.com/utiasSTARS/pykitti) · 访问方式：开放下载
 
-### 物理与因果推理（6）
+### 物理与因果推理（7）
 
 - **Physion** · 2021
   用于直觉物理学习和评测的合成视频数据集，通过碰撞、支撑、包含和形变等场景测试模型能否预测物体间接触及后续动态。
@@ -329,6 +344,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   通过程序化堆叠不同形状物体生成的合成数据和工具，重点研究稳定性、支撑关系及从图像推断三维物理结构。
   `物理 / 科学` · `合成视频` · `三维状态` · `物体元数据` · `仿真状态`
   [论文](https://arxiv.org/abs/1804.08018) · [代码](https://github.com/ogroth/shapestacks) · 访问方式：开放生成工具
+
+- **MIT Planar Pushing Dataset** · 2016
+  高精度平面推动实验数据集，系统记录不同物体、接触位置、推动方向和摩擦条件下的动作与物体运动，用于学习接触动力学。
+  `机器人 / 具身智能` · `物理 / 科学` · `动作` · `物体状态` · `轨迹` · `机器人状态`
+  [论文](https://arxiv.org/abs/1604.04038) · [代码](https://github.com/mcubelab/pdproc) · 访问方式：提供官方处理代码仓库
 
 - **Physics 101** · 2016
   通过真实视频记录物体在斜面上的运动，并提供材料、质量、角度和运动信息，用于从视觉估计物理属性及预测动力学。

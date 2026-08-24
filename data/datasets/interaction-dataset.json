@@ -39,7 +39,6 @@
   "wmNote": "特别适合建模协商和相互影响；不包含丰富相机或激光雷达原始观测。",
   "wmNoteEn": "Strong for negotiation and interaction modeling, but lacks rich raw camera and LiDAR observations.",
   "links": {
-    "homepage": "https://interaction-dataset.com/",
     "paper": "https://arxiv.org/abs/1910.03088",
     "code": "https://github.com/interaction-dataset/interaction-dataset"
   }

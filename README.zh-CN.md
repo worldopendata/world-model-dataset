@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-59-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-61-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 59 | 6 | 6 | 42 |
+| 61 | 6 | 6 | 42 |
 
 ## 分类体系
 
@@ -333,7 +333,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `自动驾驶` · `双目 RGB` · `激光雷达` · `GPS / 惯性测量单元` · `三维框`
   [主页](https://www.cvlibs.net/datasets/kitti/) · [论文](https://www.cvlibs.net/publications/Geiger2013IJRR.pdf) · [代码](https://github.com/utiasSTARS/pykitti) · 访问方式：开放下载
 
-### 物理与因果推理（7）
+### 物理与因果推理（8）
 
 - **Physion** · 2021
   用于直觉物理学习和评测的合成视频数据集，通过碰撞、支撑、包含和形变等场景测试模型能否预测物体间接触及后续动态。
@@ -349,6 +349,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   二维物理推理基准，要求智能体通过放置物体完成目标，并在大量模板化关卡中测试跨任务泛化、试错效率和因果干预能力。
   `物理 / 科学` · `游戏 / 虚拟环境` · `仿真状态` · `动作` · `合成视频`
   [主页](https://phyre.ai/) · [论文](https://arxiv.org/abs/1908.05656) · [代码](https://github.com/facebookresearch/phyre) · 访问方式：开放生成工具
+
+- **BlockPuzzle** · 2018
+  基于 MuJoCo 和 OpenAI Gym 的物理推理任务框架，通过积木拼图和稀疏奖励环境研究智能体对物理规则的学习、课程训练和跨任务迁移。
+  `机器人 / 具身智能` · `物理 / 科学` · `仿真状态` · `动作` · `奖励` · `物体状态`
+  [论文](https://arxiv.org/abs/1812.00091) · 访问方式：论文入口；环境访问待核验
 
 - **IntPhys** · 2018
   面向视觉直觉物理评测的合成数据集，通过可能与不可能的场景测试物体恒存、遮挡和支撑关系，避免模型只依赖单帧外观线索。
@@ -370,12 +375,17 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `物理 / 科学` · `RGB 视频` · `物体元数据` · `轨迹`
   [主页](https://phys101.csail.mit.edu/) · [论文](https://arxiv.org/abs/1511.07439) · 访问方式：开放项目访问
 
-### 世界模型评测与诊断（1）
+### 世界模型评测与诊断（2）
 
 - **CLEVRER** · 2020
   面向视频物理与因果推理的合成基准，通过碰撞和运动事件考察描述、解释、预测与反事实推理能力，尤其适合诊断模型是否学习到可组合的物理因果机制。
   `物理 / 科学` · `合成视频` · `物体元数据` · `轨迹` · `逻辑程序` · `问答`
   [主页](https://clevrer.csail.mit.edu/) · [论文](https://arxiv.org/abs/1910.01442) · 访问方式：开放下载
+
+- **Moving Symbols** · 2018
+  专为评估视频预测模型表征能力设计的参数化合成数据集，通过可控的符号运动和组合变化检验模型是否学习到有语义的时序表示。
+  `物理 / 科学` · `合成视频` · `物体状态` · `轨迹`
+  [论文](https://arxiv.org/abs/1802.08936) · [代码](https://github.com/rszeto/moving-symbols) · 访问方式：官方代码和生成工具仓库
 
 <!-- DATASET_CATALOG_END -->
 

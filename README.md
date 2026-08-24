@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-59-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-61-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 59 | 6 | 6 | 42 |
+| 61 | 6 | 6 | 42 |
 
 ## Taxonomy
 
@@ -333,7 +333,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Autonomous Driving` · `Stereo RGB` · `LiDAR` · `GPS / IMU` · `3D Boxes`
   [Homepage](https://www.cvlibs.net/datasets/kitti/) · [Paper](https://www.cvlibs.net/publications/Geiger2013IJRR.pdf) · [Code](https://github.com/utiasSTARS/pykitti) · Access: Open download
 
-### Physical & Causal Reasoning (7)
+### Physical & Causal Reasoning (8)
 
 - **Physion** · 2021
   A synthetic intuitive-physics dataset covering collisions, support, containment, and deformation, designed to test whether models can predict object contact and dynamics.
@@ -349,6 +349,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A 2D physical reasoning benchmark where agents place objects to achieve goals across generated task templates, testing intervention, trial efficiency, and generalization.
   `Physics / Science` · `Games / Virtual Environments` · `Simulation State` · `Action` · `Synthetic Video`
   [Homepage](https://phyre.ai/) · [Paper](https://arxiv.org/abs/1908.05656) · [Code](https://github.com/facebookresearch/phyre) · Access: Open generation toolkit
+
+- **BlockPuzzle** · 2018
+  A MuJoCo and OpenAI Gym task framework for physical reasoning, using sparse-reward block puzzles to study rule learning, curriculum training, and transfer across tasks.
+  `Robotics / Embodied AI` · `Physics / Science` · `Simulation State` · `Action` · `Reward` · `Object State`
+  [Paper](https://arxiv.org/abs/1812.00091) · Access: Paper entry; environment access unverified
 
 - **IntPhys** · 2018
   A synthetic visual-physics benchmark contrasting possible and impossible scenes to test object permanence, occlusion, shape, and support reasoning.
@@ -370,12 +375,17 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Physics / Science` · `RGB Video` · `Object Metadata` · `Trajectory`
   [Homepage](https://phys101.csail.mit.edu/) · [Paper](https://arxiv.org/abs/1511.07439) · Access: Open project access
 
-### World Model Evaluation & Diagnostics (1)
+### World Model Evaluation & Diagnostics (2)
 
 - **CLEVRER** · 2020
   A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.
   `Physics / Science` · `Synthetic Video` · `Object Metadata` · `Trajectory` · `Logic Program` · `QA`
   [Homepage](https://clevrer.csail.mit.edu/) · [Paper](https://arxiv.org/abs/1910.01442) · Access: Open download
+
+- **Moving Symbols** · 2018
+  A parameterized synthetic dataset designed to evaluate representations learned by video-prediction models through controlled symbol motion and compositional variation.
+  `Physics / Science` · `Synthetic Video` · `Object State` · `Trajectory`
+  [Paper](https://arxiv.org/abs/1802.08936) · [Code](https://github.com/rszeto/moving-symbols) · Access: Official code and generation repository
 
 <!-- DATASET_CATALOG_END -->
 

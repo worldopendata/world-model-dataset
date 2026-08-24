@@ -1670,6 +1670,54 @@
     }
   },
   {
+    "id": "blockpuzzle",
+    "name": "BlockPuzzle",
+    "shortName": "BlockPuzzle",
+    "year": 2018,
+    "summary": "基于 MuJoCo 和 OpenAI Gym 的物理推理任务框架，通过积木拼图和稀疏奖励环境研究智能体对物理规则的学习、课程训练和跨任务迁移。",
+    "summaryEn": "A MuJoCo and OpenAI Gym task framework for physical reasoning, using sparse-reward block puzzles to study rule learning, curriculum training, and transfer across tasks.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics",
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "Simulation State",
+      "Action",
+      "Reward",
+      "Object State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Interaction Episodes",
+      "Diagnostic Cases"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Multiple sparse-reward physical reasoning environments",
+    "scaleZh": "多个稀疏奖励物理推理仿真环境",
+    "organizations": "Research project described in the dataset paper",
+    "organizationsZh": "数据集论文所述研究项目",
+    "license": "Paper-defined task framework; access and license require verification",
+    "licenseZh": "论文定义的任务框架；访问和许可需核验",
+    "access": "Paper entry; environment access unverified",
+    "accessZh": "论文入口；环境访问待核验",
+    "rating": 3,
+    "verdict": "稀疏奖励物理推理环境",
+    "verdictEn": "Sparse-reward physical reasoning environments",
+    "wmNote": "显式动作、奖励和仿真状态适合研究可干预物理环境中的世界模型，但数据规模和公开程度有限。",
+    "wmNoteEn": "Explicit actions, rewards, and simulator states support intervention-aware world models, while scale and public availability are limited.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1812.00091"
+    }
+  },
+  {
     "id": "charades-ego",
     "name": "Charades-Ego",
     "shortName": "Charades-Ego",
@@ -1902,6 +1950,53 @@
     "organizationsZh": "Meta AI Research",
     "accessZh": "开放下载",
     "licenseZh": "适用研究数据集条款；需核查当前下载协议"
+  },
+  {
+    "id": "moving-symbols",
+    "name": "Moving Symbols",
+    "shortName": "Moving Symbols",
+    "year": 2018,
+    "summary": "专为评估视频预测模型表征能力设计的参数化合成数据集，通过可控的符号运动和组合变化检验模型是否学习到有语义的时序表示。",
+    "summaryEn": "A parameterized synthetic dataset designed to evaluate representations learned by video-prediction models through controlled symbol motion and compositional variation.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics",
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Physics / Science"
+    ],
+    "modalities": [
+      "Synthetic Video",
+      "Object State",
+      "Trajectory"
+    ],
+    "structure": [
+      "Temporal Sequences",
+      "Simulation Rollouts",
+      "Diagnostic Cases"
+    ],
+    "source": [
+      "Synthetic / Generated"
+    ],
+    "scale": "Parameterized synthetic sequences with controlled semantic factors",
+    "scaleZh": "通过参数控制语义因素的合成时序序列",
+    "organizations": "Research collaboration described in the dataset paper",
+    "organizationsZh": "数据集论文所述研究团队",
+    "license": "Code and generated-data terms should be verified in the project repository",
+    "licenseZh": "需在项目仓库中核查代码和生成数据条款",
+    "access": "Official code and generation repository",
+    "accessZh": "官方代码和生成工具仓库",
+    "rating": 4,
+    "verdict": "视频预测表征诊断",
+    "verdictEn": "Video-prediction representation diagnostics",
+    "wmNote": "可控语义因素和标准化测试用例适合诊断预测模型是否学习到对象和动力学表征。",
+    "wmNoteEn": "Controlled semantic factors and canonical test cases diagnose whether predictive models learn object and dynamics representations.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1802.08936",
+      "code": "https://github.com/rszeto/moving-symbols"
+    }
   },
   {
     "id": "roboturk",

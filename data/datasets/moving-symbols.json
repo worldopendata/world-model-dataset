@@ -1,0 +1,32 @@
+{
+  "id": "moving-symbols",
+  "name": "Moving Symbols",
+  "shortName": "Moving Symbols",
+  "year": 2018,
+  "summary": "专为评估视频预测模型表征能力设计的参数化合成数据集，通过可控的符号运动和组合变化检验模型是否学习到有语义的时序表示。",
+  "summaryEn": "A parameterized synthetic dataset designed to evaluate representations learned by video-prediction models through controlled symbol motion and compositional variation.",
+  "primaryTask": "World Model Evaluation & Diagnostics",
+  "primaryTaskZh": "世界模型评测与诊断",
+  "secondaryTasks": ["Predictive & Generative Dynamics", "Physical & Causal Reasoning"],
+  "domain": ["Physics / Science"],
+  "modalities": ["Synthetic Video", "Object State", "Trajectory"],
+  "structure": ["Temporal Sequences", "Simulation Rollouts", "Diagnostic Cases"],
+  "source": ["Synthetic / Generated"],
+  "scale": "Parameterized synthetic sequences with controlled semantic factors",
+  "scaleZh": "通过参数控制语义因素的合成时序序列",
+  "organizations": "Research collaboration described in the dataset paper",
+  "organizationsZh": "数据集论文所述研究团队",
+  "license": "Code and generated-data terms should be verified in the project repository",
+  "licenseZh": "需在项目仓库中核查代码和生成数据条款",
+  "access": "Official code and generation repository",
+  "accessZh": "官方代码和生成工具仓库",
+  "rating": 4,
+  "verdict": "视频预测表征诊断",
+  "verdictEn": "Video-prediction representation diagnostics",
+  "wmNote": "可控语义因素和标准化测试用例适合诊断预测模型是否学习到对象和动力学表征。",
+  "wmNoteEn": "Controlled semantic factors and canonical test cases diagnose whether predictive models learn object and dynamics representations.",
+  "links": {
+    "paper": "https://arxiv.org/abs/1802.08936",
+    "code": "https://github.com/rszeto/moving-symbols"
+  }
+}

@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-64-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-66-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 64 | 6 | 6 | 43 |
+| 66 | 6 | 6 | 43 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-### 预测与生成式动力学（12）
+### 预测与生成式动力学（13）
 
 - **Ego4D** · 2022
   由 Meta AI 联合全球高校采集的大规模第一人称真实生活视频数据集，其短期物体交互预判与长期动作预测任务，为人类行为、手物交互和具身未来预测提供了重要基准。
@@ -86,6 +86,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   覆盖多城市、天气与时段的大规模驾驶视频数据集，提供目标检测、车道线、可行驶区域、跟踪等多任务标注，适合研究视觉动态表示和复杂道路分布泛化。
   `自动驾驶` · `RGB 视频` · `二维框` · `分割标注` · `车道线`
   [主页](https://bdd-data.berkeley.edu/) · [论文](https://arxiv.org/abs/1805.04687) · [代码](https://github.com/bdd100k/bdd100k) · 访问方式：需注册
+
+- **AMASS** · 2019
+  统一多个动作捕捉数据集的四维人体运动数据库，将不同参数化转换为一致的 SMPL 身体表示，支持长时人体运动预测、生成和交互建模。
+  `第一人称 / 人类活动` · `三维状态` · `轨迹` · `智能体位姿`
+  [主页](https://amass.is.tue.mpg.de/) · [论文](https://arxiv.org/abs/1904.03278) · 访问方式：官方项目访问；可能需要注册
 
 - **Argoverse 1** · 2019
   面向三维跟踪与运动预测的自动驾驶数据集，结合车辆轨迹、传感器日志和高清地图，为地图条件未来预测建立了重要基准。
@@ -159,7 +164,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
 
-### 决策与智能体轨迹（18）
+### 决策与智能体轨迹（19）
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
@@ -220,6 +225,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   用于真实机器人强化学习的开放物理环境与基准，通过统一接口提供传感器观测、动作、奖励和真实交互回合。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `奖励`
   [论文](https://arxiv.org/abs/1910.08639) · [代码](https://github.com/offworld-projects/offworld-gym) · 访问方式：提供官方代码仓库
+
+- **THÖR** · 2019
+  面向人机共享室内空间的人类运动数据集，提供高精度位置、头部朝向、视线、社交群组、障碍物地图和移动机器人传感器数据。
+  `机器人 / 具身智能` · `第一人称 / 人类活动` · `轨迹` · `视线` · `智能体位姿` · `激光雷达` · `地图`
+  [论文](https://arxiv.org/abs/1909.04403) · 访问方式：论文入口；官方访问方式需核验
 
 - **40K Robotic Grasp Demonstrations** · 2018
   包含约四万条自然场景六自由度机器人抓取示范的数据集，记录视觉观测、末端位姿和抓取结果，用于学习从视觉到动作的操作策略。

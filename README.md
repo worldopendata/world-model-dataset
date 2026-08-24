@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-64-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-66-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 64 | 6 | 6 | 43 |
+| 66 | 6 | 6 | 43 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-### Predictive & Generative Dynamics (12)
+### Predictive & Generative Dynamics (13)
 
 - **Ego4D** · 2022
   A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.
@@ -86,6 +86,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.
   `Autonomous Driving` · `RGB Video` · `2D Boxes` · `Segmentation` · `Lane Markings`
   [Homepage](https://bdd-data.berkeley.edu/) · [Paper](https://arxiv.org/abs/1805.04687) · [Code](https://github.com/bdd100k/bdd100k) · Access: Registration required
+
+- **AMASS** · 2019
+  A unified 4D human-motion database combining 15 motion-capture datasets in a common SMPL representation for motion prediction, generation, and interaction modeling.
+  `Egocentric / Human` · `3D State` · `Trajectories` · `Agent Pose`
+  [Homepage](https://amass.is.tue.mpg.de/) · [Paper](https://arxiv.org/abs/1904.03278) · Access: Official project access; registration may be required
 
 - **Argoverse 1** · 2019
   An autonomous-driving dataset for 3D tracking and motion forecasting, combining trajectories, sensor logs, and HD maps for map-conditioned future prediction.
@@ -159,7 +164,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (18)
+### Decision-Making & Agent Trajectories (19)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -220,6 +225,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   An open physical robotics environment and benchmark for real-world reinforcement learning with sensor observations, actions, rewards, and interaction episodes.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Reward`
   [Paper](https://arxiv.org/abs/1910.08639) · [Code](https://github.com/offworld-projects/offworld-gym) · Access: Official repository available
+
+- **THÖR** · 2019
+  A human-motion dataset for shared indoor spaces with accurate trajectories, head orientation, gaze, social groups, obstacle maps, and mobile-robot sensor data.
+  `Robotics / Embodied AI` · `Egocentric / Human` · `Trajectories` · `Gaze` · `Agent Pose` · `LiDAR` · `Maps`
+  [Paper](https://arxiv.org/abs/1909.04403) · Access: Paper entry; official access requires verification
 
 - **40K Robotic Grasp Demonstrations** · 2018
   A dataset of roughly 40,000 naturalistic 6-DoF robotic grasp demonstrations with visual observations, end-effector poses, and grasp outcomes.

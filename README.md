@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-61-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-64-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 61 | 6 | 6 | 42 |
+| 64 | 6 | 6 | 43 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-### Predictive & Generative Dynamics (11)
+### Predictive & Generative Dynamics (12)
 
 - **Ego4D** · 2022
   A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.
@@ -91,6 +91,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   An autonomous-driving dataset for 3D tracking and motion forecasting, combining trajectories, sensor logs, and HD maps for map-conditioned future prediction.
   `Autonomous Driving` · `RGB Video` · `LiDAR` · `Maps` · `Trajectories` · `3D Boxes`
   [Homepage](https://www.argoverse.org/av1.html) · [Paper](https://arxiv.org/abs/1911.02620) · [Code](https://github.com/argoverse/argoverse-api) · Access: Open download
+
+- **D²-City** · 2019
+  A large-scale dashcam video dataset spanning diverse weather, roads, and traffic conditions for urban driving dynamics and distribution generalization.
+  `Autonomous Driving` · `Urban / 3D Scene` · `RGB Video` · `Semantic Labels` · `Trajectories`
+  [Paper](https://arxiv.org/abs/1904.01975) · Access: Paper entry; official access requires verification
 
 - **INTERACTION Dataset** · 2019
   A trajectory dataset focused on highly interactive driving scenarios such as intersections, roundabouts, and merging across multiple countries.
@@ -154,7 +159,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (17)
+### Decision-Making & Agent Trajectories (18)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -195,6 +200,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State` · `Language`
   [Homepage](https://sites.google.com/view/rlbench) · [Paper](https://arxiv.org/abs/1909.12271) · [Code](https://github.com/stepjam/RLBench) · Access: Open generation toolkit
+
+- **Honda Research Institute Driving Dataset** · 2019
+  A real-road driving dataset for driver behavior, scene understanding, and causal explanations, combining driving video, vehicle state, and human advice.
+  `Autonomous Driving` · `RGB Video` · `Action` · `Robot State` · `Language`
+  [Homepage](https://usa.honda-ri.com/HAD) · [Paper](https://arxiv.org/abs/1811.02307) · Access: Official project page; access requires verification
 
 - **Meta-World** · 2019
   A robot manipulation benchmark for multi-task and meta reinforcement learning, with a shared embodiment and programmable tasks for generated trajectories.
@@ -241,7 +251,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Autonomous Driving` · `Trajectories` · `Maps` · `Agent Pose`
   [Homepage](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · Access: Official public data page
 
-### Spatial & Spatiotemporal World Modeling (18)
+### Spatial & Spatiotemporal World Modeling (19)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -297,6 +307,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A collection of navigable 3D environments reconstructed from real scans, used with Gibson to generate RGB, depth, semantics, and agent trajectories.
   `Robotics / Embodied AI` · `Urban / 3D Scene` · `3D Mesh` · `RGB-D` · `Agent Pose` · `Semantic Labels`
   [Homepage](http://gibsonenv.stanford.edu/database/) · [Paper](https://arxiv.org/abs/1808.10654) · [Code](https://github.com/StanfordVL/GibsonEnv) · Access: Request / agreement required
+
+- **DDD17** · 2017
+  An event-camera driving dataset for end-to-end driving research, recording asynchronous visual events and driving-state signals on real roads.
+  `Autonomous Driving` · `Event Camera` · `GPS / IMU` · `Action` · `Trajectories`
+  [Paper](https://arxiv.org/abs/1711.01458) · Access: Paper entry; data access requires verification
 
 - **Matterport3D** · 2017
   A building-scale RGB-D panorama dataset for indoor scene understanding and embodied navigation, with meshes, camera poses, semantics, and regions.

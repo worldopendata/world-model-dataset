@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-61-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-64-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 61 | 6 | 6 | 42 |
+| 64 | 6 | 6 | 43 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-### 预测与生成式动力学（11）
+### 预测与生成式动力学（12）
 
 - **Ego4D** · 2022
   由 Meta AI 联合全球高校采集的大规模第一人称真实生活视频数据集，其短期物体交互预判与长期动作预测任务，为人类行为、手物交互和具身未来预测提供了重要基准。
@@ -91,6 +91,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向三维跟踪与运动预测的自动驾驶数据集，结合车辆轨迹、传感器日志和高清地图，为地图条件未来预测建立了重要基准。
   `自动驾驶` · `RGB 视频` · `激光雷达` · `地图` · `轨迹` · `三维框`
   [主页](https://www.argoverse.org/av1.html) · [论文](https://arxiv.org/abs/1911.02620) · [代码](https://github.com/argoverse/argoverse-api) · 访问方式：开放下载
+
+- **D²-City** · 2019
+  覆盖多种天气、道路和交通状况的大规模行车视频数据集，提供连续驾驶片段和场景标注，适合研究城市交通时序建模与分布泛化。
+  `自动驾驶` · `城市 / 三维场景` · `RGB 视频` · `语义标签` · `轨迹`
+  [论文](https://arxiv.org/abs/1904.01975) · 访问方式：论文入口；官方访问方式需核验
 
 - **INTERACTION Dataset** · 2019
   聚焦路口、环岛和汇入等高交互驾驶场景的轨迹数据集，包含多国道路中的车辆与行人运动，适合多智能体预测和交互建模。
@@ -154,7 +159,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
 
-### 决策与智能体轨迹（17）
+### 决策与智能体轨迹（18）
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
@@ -195,6 +200,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   基于 CoppeliaSim 的大规模机器人操作学习套件，提供大量可程序化任务、示范轨迹和多视角视觉观测，可用于强化学习、模仿学习以及可控世界模型评测。
   `机器人 / 具身智能` · `RGB-D` · `动作` · `机器人状态` · `语言`
   [主页](https://sites.google.com/view/rlbench) · [论文](https://arxiv.org/abs/1909.12271) · [代码](https://github.com/stepjam/RLBench) · 访问方式：开放生成工具
+
+- **Honda Research Institute Driving Dataset** · 2019
+  面向驾驶员行为、场景理解和因果解释的真实道路数据集，结合驾驶视频、车辆状态与人类建议，支持研究驾驶决策和可解释世界状态。
+  `自动驾驶` · `RGB 视频` · `动作` · `机器人状态` · `语言`
+  [主页](https://usa.honda-ri.com/HAD) · [论文](https://arxiv.org/abs/1811.02307) · 访问方式：官方项目页面；访问方式需核验
 
 - **Meta-World** · 2019
   面向多任务和元强化学习的机器人操作基准，提供统一机械臂、可程序化任务和可生成轨迹，用于测试跨任务动力学与策略泛化。
@@ -241,7 +251,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `自动驾驶` · `轨迹` · `地图` · `智能体位姿`
   [主页](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · 访问方式：官方公共数据页面
 
-### 空间与时空世界建模（18）
+### 空间与时空世界建模（19）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -297,6 +307,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   由真实空间扫描构建的可导航三维环境集合，配合 Gibson 模拟器生成 RGB、深度、语义和智能体轨迹，面向具身感知与导航。
   `机器人 / 具身智能` · `城市 / 三维场景` · `三维网格` · `RGB-D` · `智能体位姿` · `语义标签`
   [主页](http://gibsonenv.stanford.edu/database/) · [论文](https://arxiv.org/abs/1808.10654) · [代码](https://github.com/StanfordVL/GibsonEnv) · 访问方式：需申请并同意协议
+
+- **DDD17** · 2017
+  面向端到端驾驶研究的事件相机数据集，记录真实道路中的异步视觉事件、驾驶状态和控制相关信息，用于动态场景理解与驾驶行为建模。
+  `自动驾驶` · `Event Camera` · `GPS / 惯性测量单元` · `动作` · `轨迹`
+  [论文](https://arxiv.org/abs/1711.01458) · 访问方式：论文入口；数据访问需核验
 
 - **Matterport3D** · 2017
   面向室内场景理解和具身导航的建筑级 RGB-D 全景数据集，提供精细网格、相机位姿、语义及区域标注。

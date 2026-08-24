@@ -63,9 +63,13 @@ const renderCatalog = (zh) => taskOrder.map((task) => {
   return `### ${heading}\n\n${entries.join("\n\n")}`;
 }).join("\n\n");
 
-for (const [file, zh] of [["README.md", false], ["README.zh-CN.md", true]]) {
+const modalityCount = new Set(records.flatMap((record) => record.modalities)).size;
+for (const [file, template, zh] of [["README.md", "README.en.template.md", false], ["README.zh-CN.md", "README.zh-CN.template.md", true]]) {
   const readmePath = path.join(root, file);
-  const readme = await readFile(readmePath, "utf8");
+  const templatePath = path.join(root, "data", "readme", template);
+  const readme = (await readFile(templatePath, "utf8"))
+    .replaceAll("{{DATASET_COUNT}}", String(records.length))
+    .replaceAll("{{MODALITY_COUNT}}", String(modalityCount));
   const start = readme.indexOf(catalogStart);
   const end = readme.indexOf(catalogEnd);
   if (start === -1 || end === -1 || end < start) throw new Error(`${file}: missing dataset catalog markers`);

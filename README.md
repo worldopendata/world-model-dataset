@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-66-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-68-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 66 | 6 | 6 | 43 |
+| 68 | 6 | 6 | 43 |
 
 ## Taxonomy
 
@@ -164,7 +164,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
 
-### Decision-Making & Agent Trajectories (19)
+### Decision-Making & Agent Trajectories (20)
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
@@ -226,6 +226,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Reward`
   [Paper](https://arxiv.org/abs/1910.08639) · [Code](https://github.com/offworld-projects/offworld-gym) · Access: Official repository available
 
+- **SocNav1** · 2019
+  A dataset for learning and benchmarking social-navigation conventions with human positions, orientations, groups, and obstacle relations in shared spaces.
+  `Robotics / Embodied AI` · `Egocentric / Human` · `Agent Pose` · `Trajectories` · `Maps` · `Object State`
+  [Paper](https://arxiv.org/abs/1909.02993) · [Code](https://github.com/gnns4hri/SocNav1) · Access: Official repository available
+
 - **THÖR** · 2019
   A human-motion dataset for shared indoor spaces with accurate trajectories, head orientation, gaze, social groups, obstacle maps, and mobile-robot sensor data.
   `Robotics / Embodied AI` · `Egocentric / Human` · `Trajectories` · `Gaze` · `Agent Pose` · `LiDAR` · `Maps`
@@ -261,7 +266,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Autonomous Driving` · `Trajectories` · `Maps` · `Agent Pose`
   [Homepage](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · Access: Official public data page
 
-### Spatial & Spatiotemporal World Modeling (19)
+### Spatial & Spatiotemporal World Modeling (20)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -302,6 +307,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A set of high-quality reconstructed indoor scenes with textured meshes, semantics, and photorealistic assets for embodied navigation and neural scene representations.
   `Robotics / Embodied AI` · `Urban / 3D Scene` · `3D Mesh` · `Semantic Labels` · `Camera Pose`
   [Paper](https://arxiv.org/abs/1906.05797) · [Code](https://github.com/facebookresearch/Replica-Dataset) · Access: Open download / agreement required
+
+- **SoundSpaces** · 2019
+  A 3D audio-visual navigation environment and dataset combining spatial audio, visual observations, actions, and position state for embodied agents.
+  `Robotics / Embodied AI` · `Urban / 3D Scene` · `RGB Video` · `Audio` · `Action` · `Simulation State` · `Maps`
+  [Paper](https://arxiv.org/abs/1912.11474) · [Code](https://github.com/facebookresearch/sound-spaces) · Access: Official project access; registration may be required
 
 - **Waymo Open Dataset** · 2019
   A high-quality autonomous-driving collection with cameras, LiDAR, maps, 3D detection labels, and motion scenarios for dynamic occupancy and trajectory prediction.

@@ -1,0 +1,32 @@
+{
+  "id": "soundspaces",
+  "name": "SoundSpaces",
+  "shortName": "SoundSpaces",
+  "year": 2019,
+  "summary": "面向三维环境音频-视觉导航的仿真数据集和环境，将空间音频、视觉观测、动作和位置状态结合起来，支持具身智能体的多模态世界建模。",
+  "summaryEn": "A 3D audio-visual navigation environment and dataset combining spatial audio, visual observations, actions, and position state for embodied agents.",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": ["Action-Conditioned Dynamics", "Decision-Making & Agent Trajectories"],
+  "domain": ["Robotics / Embodied AI", "Urban / 3D Scene"],
+  "modalities": ["RGB Video", "Audio", "Action", "Simulation State", "Maps"],
+  "structure": ["Simulation Rollouts", "Interaction Episodes"],
+  "source": ["Simulation"],
+  "scale": "3D indoor environments with spatial-audio navigation episodes",
+  "scaleZh": "包含空间音频导航回合的三维室内环境",
+  "organizations": "Facebook AI Research and collaborators",
+  "organizationsZh": "Facebook AI Research 及合作团队",
+  "license": "Project and underlying-scene licenses apply",
+  "licenseZh": "适用项目和底层场景资源许可",
+  "access": "Official project access; registration may be required",
+  "accessZh": "官方项目访问；可能需要注册",
+  "rating": 4,
+  "verdict": "三维音频视觉导航",
+  "verdictEn": "3D audio-visual navigation",
+  "wmNote": "空间音频、视觉和动作共同描述可交互三维状态，适合研究多模态导航世界模型；仿真到现实存在差距。",
+  "wmNoteEn": "Spatial audio, vision, and actions describe an interactive 3D state for multimodal navigation world models, with a sim-to-real gap.",
+  "links": {
+    "paper": "https://arxiv.org/abs/1912.11474",
+    "code": "https://github.com/facebookresearch/sound-spaces"
+  }
+}

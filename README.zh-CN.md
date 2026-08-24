@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-66-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-68-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 66 | 6 | 6 | 43 |
+| 68 | 6 | 6 | 43 |
 
 ## 分类体系
 
@@ -164,7 +164,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
 
-### 决策与智能体轨迹（19）
+### 决策与智能体轨迹（20）
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
@@ -226,6 +226,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `奖励`
   [论文](https://arxiv.org/abs/1910.08639) · [代码](https://github.com/offworld-projects/offworld-gym) · 访问方式：提供官方代码仓库
 
+- **SocNav1** · 2019
+  用于学习和评测社交导航约定的数据集，包含人类在共享空间中的位置、朝向、群组和障碍物关系，支持人机交互轨迹预测。
+  `机器人 / 具身智能` · `第一人称 / 人类活动` · `智能体位姿` · `轨迹` · `地图` · `物体状态`
+  [论文](https://arxiv.org/abs/1909.02993) · [代码](https://github.com/gnns4hri/SocNav1) · 访问方式：提供官方代码仓库
+
 - **THÖR** · 2019
   面向人机共享室内空间的人类运动数据集，提供高精度位置、头部朝向、视线、社交群组、障碍物地图和移动机器人传感器数据。
   `机器人 / 具身智能` · `第一人称 / 人类活动` · `轨迹` · `视线` · `智能体位姿` · `激光雷达` · `地图`
@@ -261,7 +266,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `自动驾驶` · `轨迹` · `地图` · `智能体位姿`
   [主页](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · 访问方式：官方公共数据页面
 
-### 空间与时空世界建模（19）
+### 空间与时空世界建模（20）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -302,6 +307,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   由高质量真实室内重建组成的三维场景数据集，提供纹理网格、语义和高保真渲染资产，常用于具身导航与神经场景表示。
   `机器人 / 具身智能` · `城市 / 三维场景` · `三维网格` · `语义标签` · `相机位姿`
   [论文](https://arxiv.org/abs/1906.05797) · [代码](https://github.com/facebookresearch/Replica-Dataset) · 访问方式：开放下载，需同意协议
+
+- **SoundSpaces** · 2019
+  面向三维环境音频-视觉导航的仿真数据集和环境，将空间音频、视觉观测、动作和位置状态结合起来，支持具身智能体的多模态世界建模。
+  `机器人 / 具身智能` · `城市 / 三维场景` · `RGB 视频` · `音频` · `动作` · `仿真状态` · `地图`
+  [论文](https://arxiv.org/abs/1912.11474) · [代码](https://github.com/facebookresearch/sound-spaces) · 访问方式：官方项目访问；可能需要注册
 
 - **Waymo Open Dataset** · 2019
   高质量自动驾驶多传感器数据集，覆盖摄像头、LiDAR、地图、三维检测和运动预测场景，能够支持动态占用、未来轨迹以及闭环驾驶世界表示研究。

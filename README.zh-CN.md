@@ -70,6 +70,10 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
+[预测与生成式动力学 (13)](#predictive-generative-dynamics) · [动作条件动力学 (6)](#action-conditioned-dynamics) · [决策与智能体轨迹 (21)](#decision-making-agent-trajectories) · [空间与时空世界建模 (21)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (9)](#physical-causal-reasoning) · [世界模型评测与诊断 (3)](#world-model-evaluation-diagnostics)
+
+<a id="predictive-generative-dynamics"></a>
+
 ### 预测与生成式动力学（13）
 
 - **Ego4D** · 2022
@@ -137,6 +141,8 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `第一人称 / 人类活动` · `RGB 视频` · `动作标签`
   [主页](https://www.csc.kth.se/cvap/actions/) · 访问方式：开放下载
 
+<a id="action-conditioned-dynamics"></a>
+
 ### 动作条件动力学（6）
 
 - **RoboCasa** · 2024
@@ -168,6 +174,8 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   经典机器人推物视频数据集，记录机械臂在桌面环境中执行随机推动动作的连续图像与控制信号，长期作为动作条件视频预测和随机未来建模的基础基准。
   `机器人 / 具身智能` · `RGB 视频` · `动作`
   [主页](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [论文](https://arxiv.org/abs/1605.07157) · [代码](https://github.com/tensorflow/datasets) · 访问方式：开放下载
+
+<a id="decision-making-agent-trajectories"></a>
 
 ### 决策与智能体轨迹（21）
 
@@ -276,6 +284,8 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `自动驾驶` · `轨迹` · `地图` · `智能体位姿`
   [主页](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · 访问方式：官方公共数据页面
 
+<a id="spatial-spatiotemporal-world-modeling"></a>
+
 ### 空间与时空世界建模（21）
 
 - **Ego-Exo4D** · 2024
@@ -383,6 +393,8 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `自动驾驶` · `双目 RGB` · `激光雷达` · `GPS / 惯性测量单元` · `三维框`
   [主页](https://www.cvlibs.net/datasets/kitti/) · [论文](https://www.cvlibs.net/publications/Geiger2013IJRR.pdf) · [代码](https://github.com/utiasSTARS/pykitti) · 访问方式：开放下载
 
+<a id="physical-causal-reasoning"></a>
+
 ### 物理与因果推理（9）
 
 - **Physion** · 2021
@@ -429,6 +441,8 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   通过真实视频记录物体在斜面上的运动，并提供材料、质量、角度和运动信息，用于从视觉估计物理属性及预测动力学。
   `物理 / 科学` · `RGB 视频` · `物体元数据` · `轨迹`
   [主页](https://phys101.csail.mit.edu/) · [论文](https://arxiv.org/abs/1511.07439) · 访问方式：开放项目访问
+
+<a id="world-model-evaluation-diagnostics"></a>
 
 ### 世界模型评测与诊断（3）
 

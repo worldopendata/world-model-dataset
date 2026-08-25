@@ -25,6 +25,14 @@ const taskZh = {
   "Physical & Causal Reasoning": "物理与因果推理",
   "World Model Evaluation & Diagnostics": "世界模型评测与诊断"
 };
+const taskAnchor = {
+  "Predictive & Generative Dynamics": "predictive-generative-dynamics",
+  "Action-Conditioned Dynamics": "action-conditioned-dynamics",
+  "Decision-Making & Agent Trajectories": "decision-making-agent-trajectories",
+  "Spatial & Spatiotemporal World Modeling": "spatial-spatiotemporal-world-modeling",
+  "Physical & Causal Reasoning": "physical-causal-reasoning",
+  "World Model Evaluation & Diagnostics": "world-model-evaluation-diagnostics"
+};
 const domainZh = {"Robotics / Embodied AI":"机器人 / 具身智能","Autonomous Driving":"自动驾驶","Games / Virtual Environments":"游戏 / 虚拟环境","Egocentric / Human":"第一人称 / 人类活动","Urban / 3D Scene":"城市 / 三维场景","Physics / Science":"物理 / 科学"};
 const modalityZh = {"2D Boxes":"二维框","3D Annotations":"三维标注","3D Boxes":"三维框","3D Mesh":"三维网格","3D Metadata":"三维元数据","3D State":"三维状态","Action":"动作","Action Labels":"动作标签","Agent Pose":"智能体位姿","Audio":"音频","Camera Pose":"相机位姿","Depth":"深度","GPS / IMU":"GPS / 惯性测量单元","Game State":"游戏状态","Gaze":"视线","IMU":"惯性测量单元","IMU / GPS":"惯性测量单元 / GPS","Lane Markings":"车道线","Language":"语言","LiDAR":"激光雷达","Logic Program":"逻辑程序","Maps":"地图","Multi-view RGB Video":"多视角 RGB 视频","Object Metadata":"物体元数据","Object State":"物体状态","Optical Flow":"光流","QA":"问答","RADAR":"毫米波雷达","RGB Video":"RGB 视频","RGB-D":"RGB-D","Reward":"奖励","Robot State":"机器人状态","Scene Metadata":"场景元数据","Segmentation":"分割标注","Semantic Labels":"语义标签","Simulation State":"仿真状态","Stereo RGB":"双目 RGB","Synthetic Video":"合成视频","Text":"文本","Text Templates":"文本模板","Trajectories":"轨迹","Trajectory":"轨迹"};
 
@@ -49,7 +57,13 @@ const resourceLinks = (record, zh) => {
   return Object.entries(record.links).map(([key, url]) => `[${labels[key]}](${url})`).join(" · ");
 };
 
-const renderCatalog = (zh) => taskOrder.map((task) => {
+const renderCatalog = (zh) => {
+  const navigation = taskOrder.map((task) => {
+    const count = records.filter((record) => record.primaryTask === task).length;
+    const label = zh ? taskZh[task] : task;
+    return `[${label} (${count})](#${taskAnchor[task]})`;
+  }).join(" · ");
+  const sections = taskOrder.map((task) => {
   const entries = records.filter((record) => record.primaryTask === task).map((record) => {
     const summary = zh ? record.summary : record.summaryEn;
     const domains = record.domain.map((value) => zh ? (domainZh[value] || value) : value);
@@ -60,8 +74,10 @@ const renderCatalog = (zh) => taskOrder.map((task) => {
     return `- **${record.name}** · ${record.year}\n  ${summary}\n  ${tags}\n  ${resourceLinks(record, zh)} · ${accessLine}`;
   });
   const heading = zh ? `${taskZh[task]}（${entries.length}）` : `${task} (${entries.length})`;
-  return `### ${heading}\n\n${entries.join("\n\n")}`;
-}).join("\n\n");
+  return `<a id="${taskAnchor[task]}"></a>\n\n### ${heading}\n\n${entries.join("\n\n")}`;
+  }).join("\n\n");
+  return `${navigation}\n\n${sections}`;
+};
 
 const modalityCount = new Set(records.flatMap((record) => record.modalities)).size;
 for (const [file, template, zh] of [["README.md", "README.en.template.md", false], ["README.zh-CN.md", "README.zh-CN.template.md", true]]) {

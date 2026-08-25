@@ -70,6 +70,10 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
+[Predictive & Generative Dynamics (13)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (6)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (21)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (21)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (9)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (3)](#world-model-evaluation-diagnostics)
+
+<a id="predictive-generative-dynamics"></a>
+
 ### Predictive & Generative Dynamics (13)
 
 - **Ego4D** · 2022
@@ -137,6 +141,8 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `RGB Video` · `Action Labels`
   [Homepage](https://www.csc.kth.se/cvap/actions/) · Access: Open download
 
+<a id="action-conditioned-dynamics"></a>
+
 ### Action-Conditioned Dynamics (6)
 
 - **RoboCasa** · 2024
@@ -168,6 +174,8 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A classic action-conditioned video dataset of a robot pushing objects on a tabletop, widely used for stochastic future prediction and visual dynamics baselines.
   `Robotics / Embodied AI` · `RGB Video` · `Action`
   [Homepage](https://www.tensorflow.org/datasets/catalog/bair_robot_pushing_small) · [Paper](https://arxiv.org/abs/1605.07157) · [Code](https://github.com/tensorflow/datasets) · Access: Open download
+
+<a id="decision-making-agent-trajectories"></a>
 
 ### Decision-Making & Agent Trajectories (21)
 
@@ -276,6 +284,8 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Autonomous Driving` · `Trajectories` · `Maps` · `Agent Pose`
   [Homepage](https://ops.fhwa.dot.gov/trafficanalysistools/ngsim.htm) · Access: Official public data page
 
+<a id="spatial-spatiotemporal-world-modeling"></a>
+
 ### Spatial & Spatiotemporal World Modeling (21)
 
 - **Ego-Exo4D** · 2024
@@ -383,6 +393,8 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Autonomous Driving` · `Stereo RGB` · `LiDAR` · `GPS / IMU` · `3D Boxes`
   [Homepage](https://www.cvlibs.net/datasets/kitti/) · [Paper](https://www.cvlibs.net/publications/Geiger2013IJRR.pdf) · [Code](https://github.com/utiasSTARS/pykitti) · Access: Open download
 
+<a id="physical-causal-reasoning"></a>
+
 ### Physical & Causal Reasoning (9)
 
 - **Physion** · 2021
@@ -429,6 +441,8 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A real-video dataset of objects moving on inclined surfaces with material, mass, angle, and motion information for estimating physical properties and dynamics.
   `Physics / Science` · `RGB Video` · `Object Metadata` · `Trajectory`
   [Homepage](https://phys101.csail.mit.edu/) · [Paper](https://arxiv.org/abs/1511.07439) · Access: Open project access
+
+<a id="world-model-evaluation-diagnostics"></a>
 
 ### World Model Evaluation & Diagnostics (3)
 

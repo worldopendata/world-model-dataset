@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-73-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-83-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 73 | 6 | 6 | 43 |
+| 83 | 6 | 6 | 43 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (13)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (6)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (21)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (21)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (9)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (3)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (13)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (7)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (26)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (22)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (10)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (5)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -143,7 +143,12 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (6)
+### Action-Conditioned Dynamics (7)
+
+- **DrivingDojo** · 2024
+  A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.
+  `Autonomous Driving` · `RGB Video` · `Action` · `Language` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2410.10738) · [Code](https://github.com/Robertwyq/Drivingdojo) · Access: Paper and official project repository available; dataset access terms require verification
 
 - **RoboCasa** · 2024
   A large-scale simulation environment and task suite for household robot learning, with diverse kitchens, objects, language tasks, and generated visual-action trajectories.
@@ -177,12 +182,27 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (21)
+### Decision-Making & Agent Trajectories (26)
+
+- **BRMData** · 2024
+  A bimanual-mobile robot manipulation dataset for household tasks spanning single- and dual-arm, tabletop and mobile, human-interactive, rigid, and flexible-object scenarios.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `Depth` · `Action` · `Robot State`
+  [Homepage](https://embodiedrobot.github.io/) · [Paper](https://arxiv.org/abs/2405.18860) · Access: Official project page and paper available; access conditions require verification
 
 - **DROID** · 2024
   A large real-world robot manipulation dataset spanning many sites, operators, and everyday scenes, with synchronized vision, actions, language, and robot state.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
   [Homepage](https://droid-dataset.github.io/) · [Paper](https://arxiv.org/abs/2403.12945) · [Code](https://github.com/droid-dataset/droid) · Access: Open download
+
+- **PARTNR** · 2024
+  A large embodied benchmark for planning and reasoning in household human-robot collaboration, with simulation-grounded language tasks containing spatial, temporal, and heterogeneous-agent constraints.
+  `Robotics / Embodied AI` · `Language` · `Action` · `Simulation State` · `Object State` · `Trajectory`
+  [Paper](https://arxiv.org/abs/2411.00081) · [Code](https://github.com/facebookresearch/partnr-planner) · Access: Official benchmark planner and task resources available
+
+- **RoboMIND** · 2024
+  A large unified multi-embodiment manipulation dataset with successful and failed teleoperation trajectories, multiview observations, robot states, language descriptions, and a digital-twin environment.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `Action` · `Robot State` · `Language` · `Depth`
+  [Homepage](https://x-humanoid-robomind.github.io/) · [Paper](https://arxiv.org/abs/2412.13877) · [Code](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io) · Access: Official project provides dataset and tooling entry points
 
 - **BridgeData V2** · 2023
   A large multi-task robot manipulation dataset collected in real kitchens and workspaces, with diverse trajectories and language labels for imitation and generalist policy learning.
@@ -214,10 +234,20 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State` · `Language`
   [Homepage](https://calvin.cs.uni-freiburg.de/) · [Paper](https://arxiv.org/abs/2112.03227) · [Code](https://github.com/mees/calvin) · Access: Open download
 
+- **ProcTHOR** · 2022
+  A procedural framework for generating arbitrarily large, diverse, customizable interactive environments for embodied-agent training and evaluation, with an official 10,000-house sample.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Simulation State` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2206.06994) · [Code](https://github.com/allenai/procthor) · Access: Official generator and ProcTHOR-10K sample available
+
 - **nuPlan** · 2021
   A large-scale real-world planning dataset and benchmark with sensor logs, maps, trajectories, and closed-loop evaluation tools for autonomous driving.
   `Autonomous Driving` · `RGB Video` · `LiDAR` · `Maps` · `Trajectories` · `GPS / IMU`
   [Homepage](https://www.nuscenes.org/nuplan) · [Paper](https://arxiv.org/abs/2106.11810) · [Code](https://github.com/motional/nuplan-devkit) · Access: Registration required
+
+- **ThreeDWorld Transport Challenge** · 2021
+  A visually guided task-and-motion planning benchmark in ThreeDWorld where a two-armed agent finds, grasps, and transports household objects under physical constraints.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Simulation State` · `Object State`
+  [Paper](https://arxiv.org/abs/2103.14025) · [Code](https://github.com/chuangg/tdw-transport-challenge-starter-code) · Access: Official paper and starter code available
 
 - **RLBench** · 2020
   A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.
@@ -286,7 +316,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (21)
+### Spatial & Spatiotemporal World Modeling (22)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -297,6 +327,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A multimodal autonomous-driving collection for perception, motion forecasting, and map understanding, with sensor logs, HD maps, and diverse urban motion scenarios.
   `Autonomous Driving` · `RGB Video` · `LiDAR` · `Maps` · `Trajectories` · `3D Boxes`
   [Homepage](https://www.argoverse.org/av2.html) · [Paper](https://arxiv.org/abs/2301.00493) · [Code](https://github.com/argoverse/av2-api) · Access: Open download
+
+- **EmbodiedScan** · 2023
+  A multimodal egocentric dataset and benchmark for holistic embodied 3D scene understanding, combining RGB-D views, language prompts, oriented 3D boxes, and dense semantic occupancy.
+  `Robotics / Embodied AI` · `Urban / 3D Scene` · `RGB-D` · `Language` · `3D Boxes` · `Semantic Labels` · `Camera Pose`
+  [Paper](https://arxiv.org/abs/2312.16170) · [Code](https://github.com/OpenRobotLab/EmbodiedScan) · Access: Official code, annotations, and benchmark resources available
 
 - **Robo360** · 2023
   An omnispective robotic manipulation dataset with dense multiview coverage and objects spanning varied material and optical properties for 3D physical-world modeling.
@@ -395,7 +430,12 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="physical-causal-reasoning"></a>
 
-### Physical & Causal Reasoning (9)
+### Physical & Causal Reasoning (10)
+
+- **PokeFlex** · 2024
+  A real-world pilot dataset for deformable-object manipulation, capturing complete 360-degree 3D mesh deformations together with robot-applied forces and torques during poking.
+  `Robotics / Embodied AI` · `Physics / Science` · `3D Mesh` · `Action` · `Robot State` · `Multi-view RGB Video`
+  [Homepage](https://pokeflex-dataset.github.io/) · [Paper](https://arxiv.org/abs/2409.17124) · [Code](https://github.com/pokeflex-dataset/reconstruction) · Access: Official project page and reconstruction code available
 
 - **Physion** · 2021
   A synthetic intuitive-physics dataset covering collisions, support, containment, and deformation, designed to test whether models can predict object contact and dynamics.
@@ -444,7 +484,17 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (3)
+### World Model Evaluation & Diagnostics (5)
+
+- **AeroVerse** · 2024
+  A UAV embodied-world-model benchmark suite describing real and simulated pretraining data, five instruction-tuning datasets, and evaluation across perception, reasoning, navigation, planning, and action.
+  `Robotics / Embodied AI` · `Urban / 3D Scene` · `RGB Video` · `Text` · `Agent Pose` · `Action` · `QA`
+  [Paper](https://arxiv.org/abs/2408.15511) · Access: Paper entry only; dataset release and access status unverified
+
+- **MMWorld** · 2024
+  A human-annotated and synthetic benchmark for multidisciplinary, multifaceted world understanding in video, including explanation, counterfactual reasoning, and future prediction.
+  `Physics / Science` · `Egocentric / Human` · `RGB Video` · `QA` · `Text`
+  [Homepage](https://mmworld-bench.github.io/) · [Paper](https://arxiv.org/abs/2406.08407) · [Code](https://github.com/UCSB-AI/MMWorld) · Access: Official benchmark repository and project page available
 
 - **SceneReplica** · 2023
   A standardized benchmark for replicating real-world robot pick-and-place experiments, with YCB scenes, RGB-D metadata, grasp data, and sim-to-real setup tools.

@@ -1,0 +1,33 @@
+{
+  "id": "pokeflex",
+  "name": "PokeFlex",
+  "shortName": "PokeFlex",
+  "year": 2024,
+  "summary": "面向可变形物体机器人操作的真实世界试验数据集，通过机器人戳动采集完整 360 度三维网格形变及对应力和力矩。",
+  "summaryEn": "A real-world pilot dataset for deformable-object manipulation, capturing complete 360-degree 3D mesh deformations together with robot-applied forces and torques during poking.",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": ["Action-Conditioned Dynamics", "Spatial & Spatiotemporal World Modeling"],
+  "domain": ["Robotics / Embodied AI", "Physics / Science"],
+  "modalities": ["3D Mesh", "Action", "Robot State", "Multi-view RGB Video"],
+  "structure": ["Deformation Sequences", "Force-Torque Measurements"],
+  "source": ["Real-world", "Robot Platform"],
+  "scale": "Five deformable objects spanning different shapes and stiffness levels",
+  "scaleZh": "5 个具有不同形状和刚度的可变形物体",
+  "organizations": "University of Stuttgart and collaborators",
+  "organizationsZh": "斯图加特大学及合作团队",
+  "license": "Dataset license not confirmed from the official project entry",
+  "licenseZh": "官方项目入口未确认数据许可",
+  "access": "Official project page and reconstruction code available",
+  "accessZh": "提供官方项目页和重建代码",
+  "rating": 4,
+  "verdict": "带力反馈的三维形变数据",
+  "verdictEn": "3D deformation with force feedback",
+  "wmNote": "同步动作、力矩和完整形变几何非常适合可变形动力学建模，但试验对象数量较少。",
+  "wmNoteEn": "Synchronized actions, forces, and full deformation geometry directly support deformable dynamics modeling, though only a few objects are included.",
+  "links": {
+    "homepage": "https://pokeflex-dataset.github.io/",
+    "paper": "https://arxiv.org/abs/2409.17124",
+    "code": "https://github.com/pokeflex-dataset/reconstruction"
+  }
+}

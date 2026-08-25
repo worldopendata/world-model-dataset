@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-73-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-83-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 73 | 6 | 6 | 43 |
+| 83 | 6 | 6 | 43 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (13)](#predictive-generative-dynamics) · [动作条件动力学 (6)](#action-conditioned-dynamics) · [决策与智能体轨迹 (21)](#decision-making-agent-trajectories) · [空间与时空世界建模 (21)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (9)](#physical-causal-reasoning) · [世界模型评测与诊断 (3)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (13)](#predictive-generative-dynamics) · [动作条件动力学 (7)](#action-conditioned-dynamics) · [决策与智能体轨迹 (26)](#decision-making-agent-trajectories) · [空间与时空世界建模 (22)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (10)](#physical-causal-reasoning) · [世界模型评测与诊断 (5)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -143,7 +143,12 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（6）
+### 动作条件动力学（7）
+
+- **DrivingDojo** · 2024
+  专为交互式驾驶世界模型构建的视频数据集，覆盖完整驾驶操作、多智能体交互和开放世界驾驶知识，并提供动作指令跟随评测。
+  `自动驾驶` · `RGB 视频` · `动作` · `语言` · `场景元数据`
+  [论文](https://arxiv.org/abs/2410.10738) · [代码](https://github.com/Robertwyq/Drivingdojo) · 访问方式：提供论文和官方项目仓库；数据访问条款待核验
 
 - **RoboCasa** · 2024
   面向家庭厨房机器人学习的大规模仿真环境和任务套件，提供多样化场景、物体、语言任务及可生成的视觉动作轨迹。
@@ -177,12 +182,27 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="decision-making-agent-trajectories"></a>
 
-### 决策与智能体轨迹（21）
+### 决策与智能体轨迹（26）
+
+- **BRMData** · 2024
+  面向家庭任务的双臂移动机器人操作数据集，覆盖单臂与双臂、桌面与移动操作、人机互动以及刚性和柔性物体，并提供多视角和深度观测。
+  `机器人 / 具身智能` · `多视角 RGB 视频` · `深度` · `动作` · `机器人状态`
+  [主页](https://embodiedrobot.github.io/) · [论文](https://arxiv.org/abs/2405.18860) · 访问方式：提供官方项目页和论文；访问条件待核验
 
 - **DROID** · 2024
   大规模真实机器人操作数据集，覆盖多地点、多操作者和多种日常场景，提供同步视觉、动作、语言与机器人状态，适合研究真实世界中的通用操作策略和动作条件世界模型。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `语言`
   [主页](https://droid-dataset.github.io/) · [论文](https://arxiv.org/abs/2403.12945) · [代码](https://github.com/droid-dataset/droid) · 访问方式：开放下载
+
+- **PARTNR** · 2024
+  面向家庭场景人机协作规划与推理的大规模具身基准，通过仿真闭环生成并验证具有空间、时间和异构智能体能力约束的自然语言任务。
+  `机器人 / 具身智能` · `语言` · `动作` · `仿真状态` · `物体状态` · `轨迹`
+  [论文](https://arxiv.org/abs/2411.00081) · [代码](https://github.com/facebookresearch/partnr-planner) · 访问方式：提供官方基准规划器和任务资源
+
+- **RoboMIND** · 2024
+  统一采集平台上的大规模多本体机器人操作数据集，包含成功与失败遥操作轨迹、多视角观测、机器人状态、语言任务描述和对应数字孪生环境。
+  `机器人 / 具身智能` · `多视角 RGB 视频` · `动作` · `机器人状态` · `语言` · `深度`
+  [主页](https://x-humanoid-robomind.github.io/) · [论文](https://arxiv.org/abs/2412.13877) · [代码](https://github.com/x-humanoid-robomind/x-humanoid-robomind.github.io) · 访问方式：官方项目提供数据和工具入口
 
 - **BridgeData V2** · 2023
   面向机器人模仿学习的大规模多任务操作数据集，包含真实厨房与工作台环境中的长尾任务轨迹，并提供自然语言标注，是训练通用视觉语言动作模型的重要资源。
@@ -214,10 +234,20 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB-D` · `动作` · `机器人状态` · `语言`
   [主页](https://calvin.cs.uni-freiburg.de/) · [论文](https://arxiv.org/abs/2112.03227) · [代码](https://github.com/mees/calvin) · 访问方式：开放下载
 
+- **ProcTHOR** · 2022
+  用于具身智能训练与评测的程序化交互环境框架，可生成任意规模、多样且可定制的虚拟室内场景，官方样本包含 1 万套房屋。
+  `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `仿真状态` · `场景元数据`
+  [论文](https://arxiv.org/abs/2206.06994) · [代码](https://github.com/allenai/procthor) · 访问方式：提供官方生成器和 ProcTHOR-10K 样本
+
 - **nuPlan** · 2021
   面向自动驾驶规划的真实世界数据集与基准，提供多传感器日志、地图、轨迹和规划评测工具，支持闭环驾驶策略研究。
   `自动驾驶` · `RGB 视频` · `激光雷达` · `地图` · `轨迹` · `GPS / 惯性测量单元`
   [主页](https://www.nuscenes.org/nuplan) · [论文](https://arxiv.org/abs/2106.11810) · [代码](https://github.com/motional/nuplan-devkit) · 访问方式：需要注册
+
+- **ThreeDWorld Transport Challenge** · 2021
+  基于 ThreeDWorld 物理仿真的视觉任务与运动规划基准，要求双臂智能体在住宅中寻找、抓取并运输物体，同时利用容器等工具提高效率。
+  `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `仿真状态` · `物体状态`
+  [论文](https://arxiv.org/abs/2103.14025) · [代码](https://github.com/chuangg/tdw-transport-challenge-starter-code) · 访问方式：提供官方论文和入门代码
 
 - **RLBench** · 2020
   基于 CoppeliaSim 的大规模机器人操作学习套件，提供大量可程序化任务、示范轨迹和多视角视觉观测，可用于强化学习、模仿学习以及可控世界模型评测。
@@ -286,7 +316,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### 空间与时空世界建模（21）
+### 空间与时空世界建模（22）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -297,6 +327,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向自动驾驶感知、运动预测和地图理解的多任务数据集合，包含传感器序列、丰富高清地图及大量运动场景，强调复杂城市中的长尾行为与轨迹预测。
   `自动驾驶` · `RGB 视频` · `激光雷达` · `地图` · `轨迹` · `三维框`
   [主页](https://www.argoverse.org/av2.html) · [论文](https://arxiv.org/abs/2301.00493) · [代码](https://github.com/argoverse/av2-api) · 访问方式：开放下载
+
+- **EmbodiedScan** · 2023
+  面向具身智能整体三维场景理解的多模态第一人称数据集与基准，结合大规模 RGB-D 视图、语言提示、三维框和稠密语义占据标注。
+  `机器人 / 具身智能` · `城市 / 三维场景` · `RGB-D` · `语言` · `三维框` · `语义标签` · `相机位姿`
+  [论文](https://arxiv.org/abs/2312.16170) · [代码](https://github.com/OpenRobotLab/EmbodiedScan) · 访问方式：提供官方代码、标注和基准资源
 
 - **Robo360** · 2023
   面向三维物理世界建模的全视角机器人操作数据集，以密集多视角记录不同材料和光学性质物体的操作过程，支持动态神经场与多视角策略研究。
@@ -395,7 +430,12 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="physical-causal-reasoning"></a>
 
-### 物理与因果推理（9）
+### 物理与因果推理（10）
+
+- **PokeFlex** · 2024
+  面向可变形物体机器人操作的真实世界试验数据集，通过机器人戳动采集完整 360 度三维网格形变及对应力和力矩。
+  `机器人 / 具身智能` · `物理 / 科学` · `三维网格` · `动作` · `机器人状态` · `多视角 RGB 视频`
+  [主页](https://pokeflex-dataset.github.io/) · [论文](https://arxiv.org/abs/2409.17124) · [代码](https://github.com/pokeflex-dataset/reconstruction) · 访问方式：提供官方项目页和重建代码
 
 - **Physion** · 2021
   用于直觉物理学习和评测的合成视频数据集，通过碰撞、支撑、包含和形变等场景测试模型能否预测物体间接触及后续动态。
@@ -444,7 +484,17 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（3）
+### 世界模型评测与诊断（5）
+
+- **AeroVerse** · 2024
+  面向无人机具身世界模型的综合基准套件，论文描述了真实与仿真的预训练数据、五类指令微调数据以及覆盖感知、推理、导航、规划和动作的评测。
+  `机器人 / 具身智能` · `城市 / 三维场景` · `RGB 视频` · `文本` · `智能体位姿` · `动作` · `问答`
+  [论文](https://arxiv.org/abs/2408.15511) · 访问方式：仅有论文入口；数据发布和访问状态待核验
+
+- **MMWorld** · 2024
+  用于多学科、多维度视频世界理解评测的人工标注与合成数据集，覆盖解释、反事实思考和未来预测等能力。
+  `物理 / 科学` · `第一人称 / 人类活动` · `RGB 视频` · `问答` · `文本`
+  [主页](https://mmworld-bench.github.io/) · [论文](https://arxiv.org/abs/2406.08407) · [代码](https://github.com/UCSB-AI/MMWorld) · 访问方式：提供官方基准仓库和项目页
 
 - **SceneReplica** · 2023
   用于复现真实机器人抓取与放置实验的标准化场景基准，提供 YCB 物体场景、RGB-D 元数据、抓取数据和仿真到真实环境的搭建工具。

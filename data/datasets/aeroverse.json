@@ -1,0 +1,31 @@
+{
+  "id": "aeroverse",
+  "name": "AeroVerse",
+  "shortName": "AeroVerse",
+  "year": 2024,
+  "summary": "面向无人机具身世界模型的综合基准套件，论文描述了真实与仿真的预训练数据、五类指令微调数据以及覆盖感知、推理、导航、规划和动作的评测。",
+  "summaryEn": "A UAV embodied-world-model benchmark suite describing real and simulated pretraining data, five instruction-tuning datasets, and evaluation across perception, reasoning, navigation, planning, and action.",
+  "primaryTask": "World Model Evaluation & Diagnostics",
+  "primaryTaskZh": "世界模型评测与诊断",
+  "secondaryTasks": ["Decision-Making & Agent Trajectories", "Spatial & Spatiotemporal World Modeling"],
+  "domain": ["Robotics / Embodied AI", "Urban / 3D Scene"],
+  "modalities": ["RGB Video", "Text", "Agent Pose", "Action", "QA"],
+  "structure": ["Image-text Pairs", "Instruction Datasets", "Evaluation Tasks"],
+  "source": ["Real-world", "Simulation", "Synthetic"],
+  "scale": "10K real image-text samples · 500K simulated aligned samples · five 3K instruction datasets",
+  "scaleZh": "1 万条真实图文样本 · 50 万条仿真对齐样本 · 5 个各 3000 条的指令数据集",
+  "organizations": "Peking University and collaborators",
+  "organizationsZh": "北京大学及合作团队",
+  "license": "Not confirmed from the available paper entry",
+  "licenseZh": "现有论文入口未确认许可",
+  "access": "Paper entry only; dataset release and access status unverified",
+  "accessZh": "仅有论文入口；数据发布和访问状态待核验",
+  "rating": 3,
+  "verdict": "无人机具身世界模型套件",
+  "verdictEn": "UAV embodied world-model suite",
+  "wmNote": "真实与仿真空中视角覆盖了完整任务链，但当前正式目录只能确认论文描述，实际开放状态需持续核验。",
+  "wmNoteEn": "Real and simulated aerial perspectives cover a full task chain, but the catalog currently confirms only the paper description and must keep access status unverified.",
+  "links": {
+    "paper": "https://arxiv.org/abs/2408.15511"
+  }
+}

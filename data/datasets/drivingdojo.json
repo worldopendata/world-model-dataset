@@ -1,0 +1,32 @@
+{
+  "id": "drivingdojo",
+  "name": "DrivingDojo",
+  "shortName": "DrivingDojo",
+  "year": 2024,
+  "summary": "专为交互式驾驶世界模型构建的视频数据集，覆盖完整驾驶操作、多智能体交互和开放世界驾驶知识，并提供动作指令跟随评测。",
+  "summaryEn": "A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.",
+  "primaryTask": "Action-Conditioned Dynamics",
+  "primaryTaskZh": "动作条件动力学",
+  "secondaryTasks": ["Predictive & Generative Dynamics", "World Model Evaluation & Diagnostics"],
+  "domain": ["Autonomous Driving"],
+  "modalities": ["RGB Video", "Action", "Language", "Scene Metadata"],
+  "structure": ["Driving Video Clips", "Action Instructions"],
+  "source": ["Real-world", "Driving Platform"],
+  "scale": "Driving clips spanning diverse maneuvers, multi-agent interactions, and open-world knowledge",
+  "scaleZh": "覆盖多样驾驶操作、多智能体交互和开放世界知识的视频片段",
+  "organizations": "The University of Hong Kong and collaborators",
+  "organizationsZh": "香港大学及合作团队",
+  "license": "Dataset license not confirmed from the available official entries",
+  "licenseZh": "现有官方入口未确认数据许可",
+  "access": "Paper and official project repository available; dataset access terms require verification",
+  "accessZh": "提供论文和官方项目仓库；数据访问条款待核验",
+  "rating": 5,
+  "verdict": "交互式驾驶世界模型数据",
+  "verdictEn": "Interactive driving world-model data",
+  "wmNote": "动作覆盖和多车互动直接服务可控未来预测；详细规模与许可需要从发布渠道继续核验。",
+  "wmNoteEn": "Maneuver coverage and multi-vehicle interaction directly support controllable future prediction; detailed scale and licensing still require verification.",
+  "links": {
+    "paper": "https://arxiv.org/abs/2410.10738",
+    "code": "https://github.com/Robertwyq/Drivingdojo"
+  }
+}

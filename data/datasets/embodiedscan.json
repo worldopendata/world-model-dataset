@@ -1,0 +1,32 @@
+{
+  "id": "embodiedscan",
+  "name": "EmbodiedScan",
+  "shortName": "EmbodiedScan",
+  "year": 2023,
+  "summary": "面向具身智能整体三维场景理解的多模态第一人称数据集与基准，结合大规模 RGB-D 视图、语言提示、三维框和稠密语义占据标注。",
+  "summaryEn": "A multimodal egocentric dataset and benchmark for holistic embodied 3D scene understanding, combining RGB-D views, language prompts, oriented 3D boxes, and dense semantic occupancy.",
+  "primaryTask": "Spatial & Spatiotemporal World Modeling",
+  "primaryTaskZh": "空间与时空世界建模",
+  "secondaryTasks": ["World Model Evaluation & Diagnostics"],
+  "domain": ["Robotics / Embodied AI", "Urban / 3D Scene"],
+  "modalities": ["RGB-D", "Language", "3D Boxes", "Semantic Labels", "Camera Pose"],
+  "structure": ["Egocentric Views", "3D Scene Scans", "Question Prompts"],
+  "source": ["Real-world", "Existing 3D Datasets"],
+  "scale": "5K+ scans · 1M RGB-D views · 1M prompts · 160K 3D boxes · 760+ categories",
+  "scaleZh": "5000 余个扫描 · 100 万 RGB-D 视图 · 100 万提示 · 16 万个三维框 · 760 余类",
+  "organizations": "Shanghai AI Laboratory and collaborators",
+  "organizationsZh": "上海人工智能实验室及合作团队",
+  "license": "Code and annotations follow official terms; source scans retain their licenses",
+  "licenseZh": "代码和标注适用官方条款；源扫描保留各自许可",
+  "access": "Official code, annotations, and benchmark resources available",
+  "accessZh": "提供官方代码、标注和基准资源",
+  "rating": 5,
+  "verdict": "第一人称多模态三维感知",
+  "verdictEn": "Egocentric multimodal 3D perception",
+  "wmNote": "将局部第一人称观测聚合为语言关联的三维状态，适合空间世界表征；主要是感知数据，不包含丰富动作后果。",
+  "wmNoteEn": "It supports aggregating local egocentric observations into language-grounded 3D states, but focuses on perception rather than rich action consequences.",
+  "links": {
+    "paper": "https://arxiv.org/abs/2312.16170",
+    "code": "https://github.com/OpenRobotLab/EmbodiedScan"
+  }
+}

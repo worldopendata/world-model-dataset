@@ -1,0 +1,32 @@
+{
+  "id": "procthor",
+  "name": "ProcTHOR",
+  "shortName": "ProcTHOR",
+  "year": 2022,
+  "summary": "用于具身智能训练与评测的程序化交互环境框架，可生成任意规模、多样且可定制的虚拟室内场景，官方样本包含 1 万套房屋。",
+  "summaryEn": "A procedural framework for generating arbitrarily large, diverse, customizable interactive environments for embodied-agent training and evaluation, with an official 10,000-house sample.",
+  "primaryTask": "Decision-Making & Agent Trajectories",
+  "primaryTaskZh": "决策与智能体轨迹",
+  "secondaryTasks": ["Action-Conditioned Dynamics", "Spatial & Spatiotemporal World Modeling"],
+  "domain": ["Robotics / Embodied AI", "Games / Virtual Environments"],
+  "modalities": ["RGB Video", "Action", "Simulation State", "Scene Metadata"],
+  "structure": ["Procedurally Generated Environments", "Interaction Episodes"],
+  "source": ["Simulation", "Procedural Generation"],
+  "scale": "10,000 generated houses in the official ProcTHOR-10K sample",
+  "scaleZh": "官方 ProcTHOR-10K 样本包含 1 万套生成房屋",
+  "organizations": "Allen Institute for AI",
+  "organizationsZh": "艾伦人工智能研究所",
+  "license": "Code is Apache-2.0; generated assets may have additional terms",
+  "licenseZh": "代码采用 Apache-2.0；生成资源可能适用附加条款",
+  "access": "Official generator and ProcTHOR-10K sample available",
+  "accessZh": "提供官方生成器和 ProcTHOR-10K 样本",
+  "rating": 5,
+  "verdict": "大规模程序化交互房屋",
+  "verdictEn": "Large-scale procedural interactive houses",
+  "wmNote": "可控场景生成适合扩大导航、重排和操作训练分布，但程序化室内环境与真实世界仍存在域差距。",
+  "wmNoteEn": "Controllable scene generation expands navigation, rearrangement, and manipulation training distributions, with a domain gap from real homes.",
+  "links": {
+    "paper": "https://arxiv.org/abs/2206.06994",
+    "code": "https://github.com/allenai/procthor"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "scenereplica",
+  "name": "SceneReplica",
+  "shortName": "SceneReplica",
+  "year": 2023,
+  "summary": "用于复现真实机器人抓取与放置实验的标准化场景基准，提供 YCB 物体场景、RGB-D 元数据、抓取数据和仿真到真实环境的搭建工具。",
+  "summaryEn": "A standardized benchmark for replicating real-world robot pick-and-place experiments, with YCB scenes, RGB-D metadata, grasp data, and sim-to-real setup tools.",
+  "primaryTask": "World Model Evaluation & Diagnostics",
+  "primaryTaskZh": "世界模型评测与诊断",
+  "secondaryTasks": ["Action-Conditioned Dynamics", "Spatial & Spatiotemporal World Modeling"],
+  "domain": ["Robotics / Embodied AI"],
+  "modalities": ["RGB-D", "3D Metadata", "Object State", "Action"],
+  "structure": ["Replicable Scenes", "Manipulation Episodes"],
+  "source": ["Real-world", "Simulation"],
+  "scale": "20 selected replicable YCB scenes with grasp and scene metadata",
+  "scaleZh": "20 个可复现 YCB 场景及其抓取和场景元数据",
+  "organizations": "University of Texas at Dallas",
+  "organizationsZh": "得克萨斯大学达拉斯分校",
+  "license": "Code is MIT; linked data assets may have separate terms",
+  "licenseZh": "代码采用 MIT；所链接数据资源可能适用单独条款",
+  "access": "Official repository links scene, grasp, and model files",
+  "accessZh": "官方仓库提供场景、抓取和模型文件入口",
+  "rating": 4,
+  "verdict": "可复现实景操作评测",
+  "verdictEn": "Replicable real-scene manipulation",
+  "wmNote": "同一场景可在仿真和真实系统中复建，适合诊断感知、规划和控制链路；规模小于通用操作语料。",
+  "wmNoteEn": "Scenes can be recreated in simulation and on real systems for diagnosing perception, planning, and control, though the corpus is smaller than general manipulation datasets.",
+  "links": {
+    "homepage": "https://irvlutd.github.io/SceneReplica/",
+    "paper": "https://arxiv.org/abs/2306.15620",
+    "code": "https://github.com/IRVLUTD/SceneReplica"
+  }
+}

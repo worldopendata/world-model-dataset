@@ -192,6 +192,55 @@
     "licenseZh": "适用 Argoverse 使用条款；主要面向研究用途"
   },
   {
+    "id": "armbench",
+    "name": "ARMBench",
+    "shortName": "ARMBench",
+    "year": 2023,
+    "summary": "在亚马逊仓库机器人拣放流程中采集的大规模物体中心基准，覆盖操作前、转运中和放置后的图像、视频与元数据，并提供分割、识别和缺陷检测标注。",
+    "summaryEn": "A large object-centric benchmark captured during warehouse robotic pick-and-place, with images, videos, and metadata before picking, during transfer, and after placement.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling",
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Segmentation",
+      "Object Metadata",
+      "Action Labels"
+    ],
+    "structure": [
+      "Manipulation Episodes",
+      "Annotated Frames"
+    ],
+    "source": [
+      "Real-world",
+      "Robot Platform"
+    ],
+    "scale": "235K+ pick-and-place activities · 190K+ unique objects",
+    "scaleZh": "23.5 万余次拣放活动 · 19 万余个独特物体",
+    "organizations": "Amazon Robotics",
+    "organizationsZh": "亚马逊机器人团队",
+    "license": "Official code is Apache-2.0; dataset terms must be checked separately",
+    "licenseZh": "官方代码采用 Apache-2.0；数据条款需另行核验",
+    "access": "Official dataset website and loading code available",
+    "accessZh": "提供官方数据网站和加载代码",
+    "rating": 5,
+    "verdict": "真实仓储拣放过程",
+    "verdictEn": "Real warehouse pick-and-place",
+    "wmNote": "连续操作阶段和大规模真实物体多样性有助于学习操作过程表征；公开任务主要聚焦感知而非控制策略。",
+    "wmNoteEn": "Manipulation stages and large real-object diversity support process representations, though its published tasks focus mainly on perception rather than control policies.",
+    "links": {
+      "homepage": "http://armbench.com",
+      "paper": "https://arxiv.org/abs/2303.16382",
+      "code": "https://github.com/amzn/armbench"
+    }
+  },
+  {
     "id": "bridge-data-v2",
     "name": "BridgeData V2",
     "shortName": "BridgeData V2",
@@ -337,6 +386,57 @@
     }
   },
   {
+    "id": "mini-behavior",
+    "name": "Mini-BEHAVIOR",
+    "shortName": "Mini-BEHAVIOR",
+    "year": 2023,
+    "summary": "用于具身智能长时决策的程序化三维网格世界基准，实现日常家务任务、对象状态和交互动作，并支持生成大量任务变体及收集人类演示。",
+    "summaryEn": "A procedural 3D gridworld benchmark for long-horizon embodied decision-making with household tasks, object states, interaction actions, and human-demonstration collection.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics",
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Simulation State",
+      "Object State",
+      "Trajectory"
+    ],
+    "structure": [
+      "Procedurally Generated Environments",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation",
+      "Human Demonstration"
+    ],
+    "scale": "20 tasks · 96 objects · 23 states · 15 actions · procedurally generated variants",
+    "scaleZh": "20 项任务 · 96 个物体 · 23 种状态 · 15 个动作 · 程序化任务变体",
+    "organizations": "Stanford Vision and Learning Lab",
+    "organizationsZh": "斯坦福视觉与学习实验室",
+    "license": "Repository does not state a license; usage terms require verification",
+    "licenseZh": "仓库未注明许可；使用条款待核验",
+    "access": "Official environment code and demonstration collection tools available",
+    "accessZh": "提供官方环境代码和演示收集工具",
+    "rating": 4,
+    "verdict": "程序化长时家务决策",
+    "verdictEn": "Procedural long-horizon household decisions",
+    "wmNote": "对象状态、组合任务和可生成变化适合训练规划型世界模型；符号化网格环境与真实视觉物理仍有明显差距。",
+    "wmNoteEn": "Object states, compositional tasks, and procedural variation support planning-oriented world models, with a substantial gap from real visual physics.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.01824",
+      "code": "https://github.com/StanfordVL/mini_behavior"
+    }
+  },
+  {
     "id": "open-x-embodiment",
     "name": "Open X-Embodiment",
     "shortName": "OXE",
@@ -383,6 +483,105 @@
     "organizationsZh": "Google DeepMind、斯坦福大学、加州大学伯克利分校及合作机构",
     "accessZh": "开放获取，具体取决于组成数据集",
     "licenseZh": "混合许可：Apache-2.0 / CC BY 4.0；各组成数据集保留自身条款"
+  },
+  {
+    "id": "robo360",
+    "name": "Robo360",
+    "shortName": "Robo360",
+    "year": 2023,
+    "summary": "面向三维物理世界建模的全视角机器人操作数据集，以密集多视角记录不同材料和光学性质物体的操作过程，支持动态神经场与多视角策略研究。",
+    "summaryEn": "An omnispective robotic manipulation dataset with dense multiview coverage and objects spanning varied material and optical properties for 3D physical-world modeling.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics",
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "Multi-view RGB Video",
+      "Camera Pose",
+      "Action",
+      "Object Metadata"
+    ],
+    "structure": [
+      "Manipulation Episodes",
+      "Synchronized Multi-view Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Robot Platform"
+    ],
+    "scale": "Dense 360-degree multiview manipulation sequences across diverse objects and materials",
+    "scaleZh": "覆盖多种物体和材料的密集 360 度多视角操作序列",
+    "organizations": "University of Texas at Austin and collaborators",
+    "organizationsZh": "得克萨斯大学奥斯汀分校及合作团队",
+    "license": "Project repository is MIT; dataset-specific terms require verification",
+    "licenseZh": "项目仓库采用 MIT；数据专用条款待核验",
+    "access": "Official project repository and paper entry available; dataset terms require verification",
+    "accessZh": "提供官方项目仓库和论文入口；数据条款待核验",
+    "rating": 5,
+    "verdict": "全视角三维物理交互",
+    "verdictEn": "Omnispective 3D physical interaction",
+    "wmNote": "密集同步视角和材料多样性特别适合动态三维表征及物理属性建模，但数据访问条件需要在使用前确认。",
+    "wmNoteEn": "Dense synchronized views and material diversity are valuable for dynamic 3D representations and physical-property modeling, while access terms should be confirmed before use.",
+    "links": {
+      "homepage": "https://robo360dataset.github.io/",
+      "paper": "https://arxiv.org/abs/2312.06686",
+      "code": "https://github.com/robo360dataset/robo360dataset.github.io"
+    }
+  },
+  {
+    "id": "scenereplica",
+    "name": "SceneReplica",
+    "shortName": "SceneReplica",
+    "year": 2023,
+    "summary": "用于复现真实机器人抓取与放置实验的标准化场景基准，提供 YCB 物体场景、RGB-D 元数据、抓取数据和仿真到真实环境的搭建工具。",
+    "summaryEn": "A standardized benchmark for replicating real-world robot pick-and-place experiments, with YCB scenes, RGB-D metadata, grasp data, and sim-to-real setup tools.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics",
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Metadata",
+      "Object State",
+      "Action"
+    ],
+    "structure": [
+      "Replicable Scenes",
+      "Manipulation Episodes"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "20 selected replicable YCB scenes with grasp and scene metadata",
+    "scaleZh": "20 个可复现 YCB 场景及其抓取和场景元数据",
+    "organizations": "University of Texas at Dallas",
+    "organizationsZh": "得克萨斯大学达拉斯分校",
+    "license": "Code is MIT; linked data assets may have separate terms",
+    "licenseZh": "代码采用 MIT；所链接数据资源可能适用单独条款",
+    "access": "Official repository links scene, grasp, and model files",
+    "accessZh": "官方仓库提供场景、抓取和模型文件入口",
+    "rating": 4,
+    "verdict": "可复现实景操作评测",
+    "verdictEn": "Replicable real-scene manipulation",
+    "wmNote": "同一场景可在仿真和真实系统中复建，适合诊断感知、规划和控制链路；规模小于通用操作语料。",
+    "wmNoteEn": "Scenes can be recreated in simulation and on real systems for diagnosing perception, planning, and control, though the corpus is smaller than general manipulation datasets.",
+    "links": {
+      "homepage": "https://irvlutd.github.io/SceneReplica/",
+      "paper": "https://arxiv.org/abs/2306.15620",
+      "code": "https://github.com/IRVLUTD/SceneReplica"
+    }
   },
   {
     "id": "calvin",
@@ -910,6 +1109,54 @@
     "organizationsZh": "麻省理工学院 CSAIL、DeepMind、哈佛大学",
     "accessZh": "开放下载",
     "licenseZh": "适用研究数据集条款；需分别核查资产和代码许可"
+  },
+  {
+    "id": "egad",
+    "name": "EGAD!",
+    "shortName": "EGAD!",
+    "year": 2020,
+    "summary": "面向机器人抓取训练与可复现评测的程序化物体数据集，包含 2000 余个覆盖不同几何复杂度和抓取难度的生成物体，以及 49 个可三维打印的评测物体。",
+    "summaryEn": "A procedurally generated robotic grasping dataset with over 2,000 objects spanning geometric complexity and grasp difficulty, plus 49 reproducible 3D-printable evaluation objects.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling",
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "3D Mesh",
+      "Object Metadata"
+    ],
+    "structure": [
+      "Object Collection",
+      "Procedurally Generated Assets"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "2,000+ generated objects · 49 printable evaluation objects",
+    "scaleZh": "2000 余个生成物体 · 49 个可打印评测物体",
+    "organizations": "University of Edinburgh and collaborators",
+    "organizationsZh": "爱丁堡大学及合作团队",
+    "license": "Dataset terms are provided through the official project; verify before reuse",
+    "licenseZh": "数据条款见官方项目；复用前需核验",
+    "access": "Dataset download and generation code available from the official project",
+    "accessZh": "官方项目提供数据下载和生成代码",
+    "rating": 4,
+    "verdict": "多样化抓取物体几何",
+    "verdictEn": "Diverse grasp-object geometry",
+    "wmNote": "物体形状与抓取难度的系统变化适合研究几何物理表征和抓取评测，但不包含长时交互轨迹。",
+    "wmNoteEn": "Systematic variation in object shape and grasp difficulty supports geometric-physical representation and grasp evaluation, but the dataset has no long-horizon interaction trajectories.",
+    "links": {
+      "homepage": "https://dougsm.github.io/egad/",
+      "paper": "https://arxiv.org/abs/2003.01314",
+      "code": "https://github.com/dougsm/egad"
+    }
   },
   {
     "id": "pandaset",

@@ -1,0 +1,33 @@
+{
+  "id": "egad",
+  "name": "EGAD!",
+  "shortName": "EGAD!",
+  "year": 2020,
+  "summary": "面向机器人抓取训练与可复现评测的程序化物体数据集，包含 2000 余个覆盖不同几何复杂度和抓取难度的生成物体，以及 49 个可三维打印的评测物体。",
+  "summaryEn": "A procedurally generated robotic grasping dataset with over 2,000 objects spanning geometric complexity and grasp difficulty, plus 49 reproducible 3D-printable evaluation objects.",
+  "primaryTask": "Physical & Causal Reasoning",
+  "primaryTaskZh": "物理与因果推理",
+  "secondaryTasks": ["Spatial & Spatiotemporal World Modeling", "World Model Evaluation & Diagnostics"],
+  "domain": ["Robotics / Embodied AI", "Physics / Science"],
+  "modalities": ["3D Mesh", "Object Metadata"],
+  "structure": ["Object Collection", "Procedurally Generated Assets"],
+  "source": ["Simulation", "Procedural Generation"],
+  "scale": "2,000+ generated objects · 49 printable evaluation objects",
+  "scaleZh": "2000 余个生成物体 · 49 个可打印评测物体",
+  "organizations": "University of Edinburgh and collaborators",
+  "organizationsZh": "爱丁堡大学及合作团队",
+  "license": "Dataset terms are provided through the official project; verify before reuse",
+  "licenseZh": "数据条款见官方项目；复用前需核验",
+  "access": "Dataset download and generation code available from the official project",
+  "accessZh": "官方项目提供数据下载和生成代码",
+  "rating": 4,
+  "verdict": "多样化抓取物体几何",
+  "verdictEn": "Diverse grasp-object geometry",
+  "wmNote": "物体形状与抓取难度的系统变化适合研究几何物理表征和抓取评测，但不包含长时交互轨迹。",
+  "wmNoteEn": "Systematic variation in object shape and grasp difficulty supports geometric-physical representation and grasp evaluation, but the dataset has no long-horizon interaction trajectories.",
+  "links": {
+    "homepage": "https://dougsm.github.io/egad/",
+    "paper": "https://arxiv.org/abs/2003.01314",
+    "code": "https://github.com/dougsm/egad"
+  }
+}

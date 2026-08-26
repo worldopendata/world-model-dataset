@@ -595,7 +595,8 @@
     "name": "BridgeData V2",
     "shortName": "BridgeData V2",
     "year": 2023,
-    "summary": "面向机器人模仿学习的大规模多任务操作数据集，包含真实厨房与工作台环境中的长尾任务轨迹，并提供自然语言标注，是训练通用视觉语言动作模型的重要资源。",
+    "summary": "大规模多任务真实机器人操作数据集，覆盖多种厨房和桌面场景。",
+    "summaryEn": "A large real-robot multitask manipulation dataset spanning diverse kitchen and tabletop scenes.",
     "primaryTask": "Decision-Making & Agent Trajectories",
     "primaryTaskZh": "决策与智能体轨迹",
     "secondaryTasks": [
@@ -611,31 +612,30 @@
       "Language"
     ],
     "structure": [
-      "Agent Trajectories"
+      "Demonstration Trajectories",
+      "Interaction Episodes"
     ],
     "source": [
       "Real-world",
       "Teleoperation"
     ],
-    "scale": "60K trajectories · 24 environments · 13 skills",
-    "organizations": "UC Berkeley and collaborators",
-    "license": "Dataset-specific research terms; verify component licenses",
-    "access": "Open download",
-    "rating": "5",
-    "verdict": "通用操作学习基准",
-    "wmNote": "任务和环境多样性较强，适合离线策略与动力学预训练；机器人形态和采集设置仍较集中。",
+    "scale": "50,000+ trajectories across 100+ tasks",
+    "scaleZh": "100 余项任务的 5 万余条轨迹",
+    "organizations": "University of California, Berkeley",
+    "organizationsZh": "加州大学伯克利分校",
+    "license": "Dataset terms require verification",
+    "licenseZh": "数据条款待核验",
+    "access": "Official project and download",
+    "accessZh": "官方项目和下载",
+    "rating": 5,
+    "verdict": "大规模真实操作",
+    "verdictEn": "Large-scale real manipulation",
+    "wmNote": "多任务、多场景和语言条件操作支持通用世界模型。",
+    "wmNoteEn": "Multitask, multi-scene, and language-conditioned data support general world models.",
     "links": {
       "homepage": "https://rail-berkeley.github.io/bridgedata/",
-      "paper": "https://arxiv.org/abs/2308.12952",
-      "code": "https://github.com/rail-berkeley/bridge_data_v2"
-    },
-    "summaryEn": "A large multi-task robot manipulation dataset collected in real kitchens and workspaces, with diverse trajectories and language labels for imitation and generalist policy learning.",
-    "verdictEn": "General-purpose manipulation benchmark",
-    "wmNoteEn": "Strong task and environment diversity supports offline policies and dynamics pretraining, although robot embodiments remain relatively concentrated.",
-    "scaleZh": "6 万条轨迹 · 24 个环境 · 13 类技能",
-    "organizationsZh": "加州大学伯克利分校及合作机构",
-    "accessZh": "开放下载",
-    "licenseZh": "适用数据集专用研究条款；需核查各组成数据的许可"
+      "paper": "https://arxiv.org/abs/2305.08990"
+    }
   },
   {
     "id": "embodiedscan",
@@ -885,6 +885,52 @@
     "licenseZh": "混合许可：Apache-2.0 / CC BY 4.0；各组成数据集保留自身条款"
   },
   {
+    "id": "rh20t",
+    "name": "RH20T",
+    "shortName": "RH20T",
+    "year": 2023,
+    "summary": "真实机器人双臂操作数据集，包含多视角 RGB-D、力觉和机器人状态。",
+    "summaryEn": "A real-world bimanual manipulation dataset with multiview RGB-D, force sensing, and robot state.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Manipulation Episodes"
+    ],
+    "source": [
+      "Real-world",
+      "Teleoperation"
+    ],
+    "scale": "Hundreds of hours of bimanual manipulation",
+    "scaleZh": "数百小时双臂操作数据",
+    "organizations": "Tsinghua University and collaborators",
+    "organizationsZh": "清华大学及合作团队",
+    "license": "Dataset terms require verification",
+    "licenseZh": "数据条款待核验",
+    "access": "Official project and download entry",
+    "accessZh": "官方项目和下载入口",
+    "rating": 5,
+    "verdict": "多模态双臂操作",
+    "verdictEn": "Multimodal bimanual manipulation",
+    "wmNote": "力觉与视觉有助于接触动力学建模。",
+    "wmNoteEn": "Force and vision support contact-dynamics modeling.",
+    "links": {
+      "homepage": "https://rh20t.github.io/",
+      "paper": "https://arxiv.org/abs/2307.00770",
+      "code": "https://github.com/rh20t/rh20t_api"
+    }
+  },
+  {
     "id": "robo360",
     "name": "Robo360",
     "shortName": "Robo360",
@@ -981,6 +1027,97 @@
       "homepage": "https://irvlutd.github.io/SceneReplica/",
       "paper": "https://arxiv.org/abs/2306.15620",
       "code": "https://github.com/IRVLUTD/SceneReplica"
+    }
+  },
+  {
+    "id": "umi",
+    "name": "UMI",
+    "shortName": "UMI",
+    "year": 2023,
+    "summary": "通用移动操作接口与数据集，记录手持相机、末端动作和跨机器人操作轨迹。",
+    "summaryEn": "A universal mobile-manipulation interface and dataset recording handheld vision, end-effector actions, and cross-robot trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Demonstration Trajectories"
+    ],
+    "source": [
+      "Real-world",
+      "Teleoperation"
+    ],
+    "scale": "Cross-robot mobile manipulation demonstrations",
+    "scaleZh": "跨机器人移动操作演示",
+    "organizations": "Carnegie Mellon University and collaborators",
+    "organizationsZh": "卡内基梅隆大学及合作团队",
+    "license": "See official repository",
+    "licenseZh": "见官方仓库",
+    "access": "Open-source project and paper",
+    "accessZh": "开源项目和论文",
+    "rating": 4,
+    "verdict": "跨机器人移动操作",
+    "verdictEn": "Cross-robot mobile manipulation",
+    "wmNote": "统一接口便于迁移动力学。",
+    "wmNoteEn": "A unified interface aids dynamics transfer.",
+    "links": {
+      "homepage": "https://umi-gripper.github.io/",
+      "paper": "https://arxiv.org/abs/2402.10329",
+      "code": "https://github.com/umi-gripper/umi"
+    }
+  },
+  {
+    "id": "bridge-data",
+    "name": "BridgeData",
+    "shortName": "BridgeData",
+    "year": 2022,
+    "summary": "跨场景机器人操作演示数据集，记录多样桌面任务的视觉、动作和状态。",
+    "summaryEn": "Cross-scene robot manipulation demonstrations recording vision, actions, and state across diverse tabletop tasks.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Demonstration Trajectories"
+    ],
+    "source": [
+      "Real-world",
+      "Teleoperation"
+    ],
+    "scale": "Multi-task tabletop demonstrations",
+    "scaleZh": "多任务桌面操作演示",
+    "organizations": "University of California, Berkeley",
+    "organizationsZh": "加州大学伯克利分校",
+    "license": "Dataset terms require verification",
+    "licenseZh": "数据条款待核验",
+    "access": "Paper and project entry",
+    "accessZh": "论文和项目入口",
+    "rating": 4,
+    "verdict": "跨场景操作演示",
+    "verdictEn": "Cross-scene manipulation demonstrations",
+    "wmNote": "支持跨场景策略泛化。",
+    "wmNoteEn": "Supports cross-scene policy generalization.",
+    "links": {
+      "homepage": "https://rail-berkeley.github.io/bridgedata/",
+      "paper": "https://arxiv.org/abs/2203.16897"
     }
   },
   {
@@ -1082,6 +1219,53 @@
     "licenseZh": "Ego4D 许可协议；通过申请向研究用途开放"
   },
   {
+    "id": "ego4d-v2",
+    "name": "Ego4D v2",
+    "shortName": "Ego4D v2",
+    "year": 2022,
+    "summary": "大规模第一人称生活视频数据集，提供手部、物体、动作和自然语言时间标注。",
+    "summaryEn": "A large egocentric daily-life video dataset with hand, object, action, and natural-language temporal annotations.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Action Labels",
+      "Object Metadata"
+    ],
+    "structure": [
+      "Long-form Videos",
+      "Temporal Annotations"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "3,600+ hours of egocentric video",
+    "scaleZh": "3600 余小时第一人称视频",
+    "organizations": "Meta AI and academic collaborators",
+    "organizationsZh": "Meta AI 与学术合作团队",
+    "license": "Research license application required",
+    "licenseZh": "需申请研究许可",
+    "access": "Official challenge portal",
+    "accessZh": "官方挑战赛门户",
+    "rating": 5,
+    "verdict": "长期第一人称行为",
+    "verdictEn": "Long-form egocentric behavior",
+    "wmNote": "长时活动和记忆任务适合世界模型。",
+    "wmNoteEn": "Long activities and memory tasks suit world models.",
+    "links": {
+      "homepage": "https://ego4d-data.org/",
+      "paper": "https://arxiv.org/abs/2110.07058"
+    }
+  },
+  {
     "id": "epic-kitchens-100",
     "name": "EPIC-KITCHENS-100",
     "shortName": "EPIC-KITCHENS-100",
@@ -1127,6 +1311,55 @@
     "organizationsZh": "布里斯托大学、卡塔尼亚大学",
     "accessZh": "需申请并同意协议",
     "licenseZh": "适用 EPIC-KITCHENS 数据许可及研究用途条件"
+  },
+  {
+    "id": "maniskill",
+    "name": "ManiSkill",
+    "shortName": "ManiSkill",
+    "year": 2022,
+    "summary": "面向机器人操作学习的高效物理仿真基准和可生成轨迹环境。",
+    "summaryEn": "An efficient physics-simulation benchmark and trajectory-generating environment for robot manipulation learning.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Simulation State",
+      "Object State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "Dozens of articulated and dexterous manipulation tasks",
+    "scaleZh": "数十项关节和灵巧操作任务",
+    "organizations": "清华大学 and collaborators",
+    "organizationsZh": "清华大学及合作团队",
+    "license": "Apache-2.0 code; assets have separate terms",
+    "licenseZh": "代码 Apache-2.0；资源另有条款",
+    "access": "Official simulator and benchmark",
+    "accessZh": "官方仿真器和基准",
+    "rating": 5,
+    "verdict": "高效物理操作仿真",
+    "verdictEn": "Efficient physics manipulation simulation",
+    "wmNote": "可批量生成动作后果轨迹。",
+    "wmNoteEn": "Generates action-outcome trajectories at scale.",
+    "links": {
+      "homepage": "https://maniskill.ai/",
+      "paper": "https://arxiv.org/abs/2202.04057",
+      "code": "https://github.com/haosulab/ManiSkill"
+    }
   },
   {
     "id": "minedojo",
@@ -1271,6 +1504,101 @@
     "links": {
       "paper": "https://arxiv.org/abs/2206.06994",
       "code": "https://github.com/allenai/procthor"
+    }
+  },
+  {
+    "id": "robotics-transformer-rt1",
+    "name": "RT-1 Data",
+    "shortName": "RT-1",
+    "year": 2022,
+    "summary": "真实机器人多任务语言条件操作轨迹数据，用于训练 Robotics Transformer 策略。",
+    "summaryEn": "Real-robot multitask language-conditioned manipulation trajectories used to train the Robotics Transformer.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Language",
+      "Robot State"
+    ],
+    "structure": [
+      "Demonstration Trajectories",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Real-world",
+      "Teleoperation"
+    ],
+    "scale": "130K+ episodes across 700 tasks",
+    "scaleZh": "70 万项任务中的 13 万余回合",
+    "organizations": "Google Research and collaborators",
+    "organizationsZh": "Google Research 及合作团队",
+    "license": "Dataset terms require verification",
+    "licenseZh": "数据条款待核验",
+    "access": "Paper and project entry; access may be restricted",
+    "accessZh": "论文和项目入口；访问可能受限",
+    "rating": 4,
+    "verdict": "语言条件操作轨迹",
+    "verdictEn": "Language-conditioned manipulation trajectories",
+    "wmNote": "语言、视觉和动作联合建模。",
+    "wmNoteEn": "Joint language-vision-action modeling.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2212.06817",
+      "code": "https://github.com/google-research/robotics_transformer"
+    }
+  },
+  {
+    "id": "dexycb",
+    "name": "DexYCB",
+    "shortName": "DexYCB",
+    "year": 2021,
+    "summary": "手部与 YCB 物体交互的 RGB-D 视频数据集，包含三维手部姿态和物体姿态。",
+    "summaryEn": "An RGB-D video dataset of hand-YCB object interactions with 3D hand and object poses.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Egocentric / Human",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Agent Pose",
+      "Object State"
+    ],
+    "structure": [
+      "Interaction Episodes",
+      "Video Sequences"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "1,000+ sequences across 10 subjects",
+    "scaleZh": "10 名受试者的 1000 余段序列",
+    "organizations": "University of Washington and collaborators",
+    "organizationsZh": "华盛顿大学及合作团队",
+    "license": "Dataset terms documented by project",
+    "licenseZh": "项目注明数据条款",
+    "access": "Official download",
+    "accessZh": "官方下载",
+    "rating": 4,
+    "verdict": "手物交互状态",
+    "verdictEn": "Hand-object interaction state",
+    "wmNote": "适合接触和操作状态建模。",
+    "wmNoteEn": "Useful for contact and manipulation-state modeling.",
+    "links": {
+      "homepage": "https://dex-ycb.github.io/",
+      "paper": "https://arxiv.org/abs/2104.04631",
+      "code": "https://github.com/NVlabs/dex-ycb-toolkit"
     }
   },
   {
@@ -1420,6 +1748,101 @@
     "licenseZh": "适用研究用途条款；模拟器资产可能有单独限制"
   },
   {
+    "id": "physion2",
+    "name": "Physion",
+    "shortName": "Physion",
+    "year": 2021,
+    "summary": "通过物理仿真视频和问答评测视觉物理推理的数据集。",
+    "summaryEn": "A physics-simulation video and question-answer dataset for visual physical reasoning.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Physics / Science",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "QA",
+      "Simulation State"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Question Answering"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic"
+    ],
+    "scale": "Eight physical reasoning scenarios",
+    "scaleZh": "8 类物理推理场景",
+    "organizations": "MIT and collaborators",
+    "organizationsZh": "麻省理工学院及合作团队",
+    "license": "See official repository",
+    "licenseZh": "见官方仓库",
+    "access": "Official benchmark code and data",
+    "accessZh": "官方基准代码和数据",
+    "rating": 4,
+    "verdict": "视觉物理推理",
+    "verdictEn": "Visual physical reasoning",
+    "wmNote": "可测试碰撞、支撑和因果预测。",
+    "wmNoteEn": "Tests collision, support, and causal prediction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2106.08261",
+      "code": "https://github.com/cognitive-ai-lab/Physion"
+    }
+  },
+  {
+    "id": "robomimic",
+    "name": "robomimic Datasets",
+    "shortName": "robomimic",
+    "year": 2021,
+    "summary": "面向模仿学习的机器人操作演示数据集与基准，包含多种任务、示范来源和视觉状态。",
+    "summaryEn": "Robot manipulation demonstration datasets and benchmarks for imitation learning across tasks, sources, and visual states.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Demonstration Trajectories",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation",
+      "Teleoperation"
+    ],
+    "scale": "Multiple benchmark tasks and demonstration sources",
+    "scaleZh": "多项基准任务和多种示范来源",
+    "organizations": "NVIDIA and collaborators",
+    "organizationsZh": "NVIDIA 及合作团队",
+    "license": "Apache-2.0 code; data terms vary",
+    "licenseZh": "代码 Apache-2.0；数据条款各异",
+    "access": "Official benchmark and download",
+    "accessZh": "官方基准和下载",
+    "rating": 5,
+    "verdict": "模仿学习演示",
+    "verdictEn": "Imitation-learning demonstrations",
+    "wmNote": "适合离线策略和轨迹建模。",
+    "wmNoteEn": "Useful for offline policy and trajectory modeling.",
+    "links": {
+      "homepage": "https://robomimic.github.io/",
+      "paper": "https://arxiv.org/abs/2108.03298",
+      "code": "https://github.com/ARISE-Initiative/robomimic"
+    }
+  },
+  {
     "id": "tdw-transport-challenge",
     "name": "ThreeDWorld Transport Challenge",
     "shortName": "TDW Transport Challenge",
@@ -1466,6 +1889,52 @@
     "links": {
       "paper": "https://arxiv.org/abs/2103.14025",
       "code": "https://github.com/chuangg/tdw-transport-challenge-starter-code"
+    }
+  },
+  {
+    "id": "a2d2",
+    "name": "Audi Autonomous Driving Dataset",
+    "shortName": "A2D2",
+    "year": 2020,
+    "summary": "奥迪公开的自动驾驶多传感器数据集，包含相机、激光雷达、语义标注和车辆状态。",
+    "summaryEn": "Audi's open autonomous-driving multisensor dataset with cameras, LiDAR, semantic labels, and vehicle state.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "Semantic Labels",
+      "GPS / IMU"
+    ],
+    "structure": [
+      "Driving Sequences",
+      "Annotated Frames"
+    ],
+    "source": [
+      "Real-world",
+      "Autonomous Vehicle"
+    ],
+    "scale": "40+ hours of driving data",
+    "scaleZh": "40 余小时驾驶数据",
+    "organizations": "Audi Electronics Venture",
+    "organizationsZh": "奥迪电子创投",
+    "license": "CC BY-NC-SA terms apply",
+    "licenseZh": "适用 CC BY-NC-SA 条款",
+    "access": "Official download portal",
+    "accessZh": "官方下载门户",
+    "rating": 4,
+    "verdict": "开放自动驾驶传感器",
+    "verdictEn": "Open autonomous-driving sensors",
+    "wmNote": "多传感器时序可用于驾驶状态预测。",
+    "wmNoteEn": "Multisensor sequences support driving-state prediction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2004.06320"
     }
   },
   {
@@ -1609,6 +2078,50 @@
     "licenseZh": "适用研究数据集条款；需分别核查资产和代码许可"
   },
   {
+    "id": "diving48",
+    "name": "Diving48",
+    "shortName": "Diving48",
+    "year": 2020,
+    "summary": "包含 48 类细粒度跳水动作的视频数据集，强调动作阶段和时序差异。",
+    "summaryEn": "A video dataset of 48 fine-grained diving actions emphasizing temporal phase differences.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Action Segments"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "18K+ videos across 48 diving classes",
+    "scaleZh": "48 类、1.8 万余段视频",
+    "organizations": "University of Texas at Austin and collaborators",
+    "organizationsZh": "得克萨斯大学奥斯汀分校及合作团队",
+    "license": "Dataset terms require verification",
+    "licenseZh": "数据条款待核验",
+    "access": "Official project and annotations",
+    "accessZh": "官方项目和标注",
+    "rating": 4,
+    "verdict": "细粒度动作时序",
+    "verdictEn": "Fine-grained action temporal structure",
+    "wmNote": "适合动作阶段预测。",
+    "wmNoteEn": "Useful for action-phase prediction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1903.11204"
+    }
+  },
+  {
     "id": "egad",
     "name": "EGAD!",
     "shortName": "EGAD!",
@@ -1654,6 +2167,102 @@
       "homepage": "https://dougsm.github.io/egad/",
       "paper": "https://arxiv.org/abs/2003.01314",
       "code": "https://github.com/dougsm/egad"
+    }
+  },
+  {
+    "id": "graspnet-1billion",
+    "name": "GraspNet-1Billion",
+    "shortName": "GraspNet-1Billion",
+    "year": 2020,
+    "summary": "大规模杂乱场景六维抓取基准，提供 RGB-D 场景、物体模型和十亿级抓取标注。",
+    "summaryEn": "A large 6D grasping benchmark with RGB-D cluttered scenes, object models, and billion-scale grasp annotations.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Action Labels"
+    ],
+    "structure": [
+      "Annotated Scenes",
+      "Grasp Candidates"
+    ],
+    "source": [
+      "Real-world",
+      "Synthetic"
+    ],
+    "scale": "1B grasp poses over 190 objects",
+    "scaleZh": "190 个物体上的十亿级抓取姿态",
+    "organizations": "Tsinghua University and collaborators",
+    "organizationsZh": "清华大学及合作团队",
+    "license": "Official terms apply",
+    "licenseZh": "适用官方条款",
+    "access": "Official benchmark download",
+    "accessZh": "官方基准下载",
+    "rating": 5,
+    "verdict": "十亿级抓取标注",
+    "verdictEn": "Billion-scale grasp annotations",
+    "wmNote": "适合学习抓取可行性与物理约束。",
+    "wmNoteEn": "Supports grasp feasibility and physical constraints.",
+    "links": {
+      "homepage": "https://graspnet.net/",
+      "paper": "https://arxiv.org/abs/1912.13470",
+      "code": "https://github.com/graspnet/graspnet-baseline"
+    }
+  },
+  {
+    "id": "kitti-360",
+    "name": "KITTI-360",
+    "shortName": "KITTI-360",
+    "year": 2020,
+    "summary": "面向长期城市驾驶的多模态三维数据集，提供全景图像、激光雷达、轨迹和三维场景标注。",
+    "summaryEn": "A multimodal 3D dataset for long-range urban driving with panoramic images, LiDAR, trajectories, and scene annotations.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "LiDAR",
+      "RGB Video",
+      "3D Boxes",
+      "Maps",
+      "GPS / IMU"
+    ],
+    "structure": [
+      "Driving Sequences",
+      "3D Scene Scans"
+    ],
+    "source": [
+      "Real-world",
+      "Autonomous Vehicle"
+    ],
+    "scale": "73 km of urban driving sequences",
+    "scaleZh": "73 公里城市驾驶序列",
+    "organizations": "Karlsruhe Institute of Technology and TUM",
+    "organizationsZh": "卡尔斯鲁厄理工学院与慕尼黑工大",
+    "license": "CC BY-NC-SA terms apply",
+    "licenseZh": "适用 CC BY-NC-SA 条款",
+    "access": "Official benchmark download",
+    "accessZh": "官方基准下载",
+    "rating": 5,
+    "verdict": "长期城市三维驾驶",
+    "verdictEn": "Long-range urban 3D driving",
+    "wmNote": "适合时空场景和占据建模。",
+    "wmNoteEn": "Useful for spatiotemporal scene and occupancy modeling.",
+    "links": {
+      "homepage": "https://www.cvlibs.net/datasets/kitti-360/",
+      "paper": "https://arxiv.org/abs/2012.06268"
     }
   },
   {
@@ -1795,6 +2404,55 @@
     "organizationsZh": "加州大学伯克利分校、斯坦福大学、Google、宾夕法尼亚大学",
     "accessZh": "开放下载",
     "licenseZh": "面向研究用途；各组成数据的条款可能不同"
+  },
+  {
+    "id": "robosuite",
+    "name": "robosuite Benchmark",
+    "shortName": "robosuite",
+    "year": 2020,
+    "summary": "模块化机器人操作仿真框架，提供可生成的多任务轨迹、视觉观测和物理状态。",
+    "summaryEn": "A modular robot-manipulation simulation framework providing generated multitask trajectories, visual observations, and physical state.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Simulation State",
+      "Robot State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "Suite of tabletop manipulation tasks",
+    "scaleZh": "桌面操作任务套件",
+    "organizations": "Stanford University and collaborators",
+    "organizationsZh": "斯坦福大学及合作团队",
+    "license": "MIT code; assets have separate terms",
+    "licenseZh": "代码 MIT；资源另有条款",
+    "access": "Official simulator and datasets",
+    "accessZh": "官方仿真器和数据",
+    "rating": 4,
+    "verdict": "模块化操作仿真",
+    "verdictEn": "Modular manipulation simulation",
+    "wmNote": "适合生成动作后果数据。",
+    "wmNoteEn": "Generates action-outcome data.",
+    "links": {
+      "homepage": "https://robosuite.ai/",
+      "paper": "https://arxiv.org/abs/2009.08993",
+      "code": "https://github.com/ARISE-Initiative/robosuite"
+    }
   },
   {
     "id": "amass",
@@ -1941,6 +2599,53 @@
     }
   },
   {
+    "id": "contactdb",
+    "name": "ContactDB",
+    "shortName": "ContactDB",
+    "year": 2019,
+    "summary": "人手与物体接触区域和力方向数据集，支持触觉与视觉交互建模。",
+    "summaryEn": "A dataset of human hand-object contact regions and force directions for tactile and visual interaction modeling.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "3D Mesh",
+      "Object State",
+      "Agent Pose"
+    ],
+    "structure": [
+      "Contact Annotations",
+      "Object Collection"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "Contact maps for common household objects",
+    "scaleZh": "常见家居物体接触图",
+    "organizations": "MIT and collaborators",
+    "organizationsZh": "麻省理工学院及合作团队",
+    "license": "See project terms",
+    "licenseZh": "见项目条款",
+    "access": "Official project page",
+    "accessZh": "官方项目页",
+    "rating": 4,
+    "verdict": "接触区域与力方向",
+    "verdictEn": "Contact regions and force directions",
+    "wmNote": "为物理交互提供接触先验。",
+    "wmNoteEn": "Provides contact priors for physical interaction.",
+    "links": {
+      "homepage": "https://contactdb.cc.gatech.edu/",
+      "paper": "https://arxiv.org/abs/1904.03796"
+    }
+  },
+  {
     "id": "d2-city",
     "name": "D²-City",
     "shortName": "D²-City",
@@ -2075,6 +2780,97 @@
     "links": {
       "paper": "https://arxiv.org/abs/1910.03088",
       "code": "https://github.com/interaction-dataset/interaction-dataset"
+    }
+  },
+  {
+    "id": "kinetics-700",
+    "name": "Kinetics-700",
+    "shortName": "Kinetics-700",
+    "year": 2019,
+    "summary": "大规模人类动作视频分类数据集，覆盖 700 类日常和体育动作。",
+    "summaryEn": "A large human-action video dataset covering 700 daily and sports action classes.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Video Clips",
+      "Action Segments"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "650K+ clips across 700 classes",
+    "scaleZh": "70 万类动作中的 65 万余段片段",
+    "organizations": "DeepMind and collaborators",
+    "organizationsZh": "DeepMind 及合作团队",
+    "license": "YouTube source terms apply",
+    "licenseZh": "适用 YouTube 来源条款",
+    "access": "Official annotations and download scripts",
+    "accessZh": "官方标注和下载脚本",
+    "rating": 3,
+    "verdict": "大规模动作视频",
+    "verdictEn": "Large-scale action videos",
+    "wmNote": "提供丰富动作视觉先验，但缺少完整状态和动作控制。",
+    "wmNoteEn": "Rich action priors, but limited state and control signals.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1907.06987"
+    }
+  },
+  {
+    "id": "lyft-level5",
+    "name": "Lyft Level 5 Dataset",
+    "shortName": "Lyft L5",
+    "year": 2019,
+    "summary": "自动驾驶多传感器数据集，包含激光雷达、相机、地图和轨迹标注。",
+    "summaryEn": "A multimodal autonomous-driving dataset with LiDAR, cameras, maps, and trajectory annotations.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "LiDAR",
+      "RGB Video",
+      "Maps",
+      "Trajectories",
+      "GPS / IMU"
+    ],
+    "structure": [
+      "Driving Sequences",
+      "Annotated Frames"
+    ],
+    "source": [
+      "Real-world",
+      "Autonomous Vehicle"
+    ],
+    "scale": "1,000+ hours of driving data",
+    "scaleZh": "1000 余小时驾驶数据",
+    "organizations": "Lyft Level 5",
+    "organizationsZh": "Lyft Level 5",
+    "license": "Dataset terms documented online",
+    "licenseZh": "在线注明数据条款",
+    "access": "Official download portal",
+    "accessZh": "官方下载门户",
+    "rating": 4,
+    "verdict": "自动驾驶多传感器",
+    "verdictEn": "Multisensor autonomous driving",
+    "wmNote": "支持交通参与者和地图状态预测。",
+    "wmNoteEn": "Supports traffic-agent and map-state prediction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2006.14480"
     }
   },
   {
@@ -2313,6 +3109,52 @@
     "links": {
       "paper": "https://arxiv.org/abs/1910.00618",
       "code": "https://github.com/MIT-Omnipush/video-prediction"
+    }
+  },
+  {
+    "id": "oxford-radar-robotcar",
+    "name": "Oxford Radar RobotCar Dataset",
+    "shortName": "Radar RobotCar",
+    "year": 2019,
+    "summary": "长期重复采集的雷达、激光雷达和相机驾驶数据集，用于鲁棒定位与动态环境建模。",
+    "summaryEn": "A long-term repeated radar, LiDAR, and camera driving dataset for robust localization and dynamic-environment modeling.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "RADAR",
+      "LiDAR",
+      "RGB Video",
+      "GPS / IMU"
+    ],
+    "structure": [
+      "Repeated Driving Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Autonomous Vehicle"
+    ],
+    "scale": "Over 280 km across repeated routes",
+    "scaleZh": "重复路线超过 280 公里",
+    "organizations": "University of Oxford",
+    "organizationsZh": "牛津大学",
+    "license": "Dataset terms documented by project",
+    "licenseZh": "项目注明数据条款",
+    "access": "Official download",
+    "accessZh": "官方下载",
+    "rating": 5,
+    "verdict": "长期雷达驾驶时序",
+    "verdictEn": "Long-term radar driving sequences",
+    "wmNote": "适合研究季节和天气变化下的世界状态。",
+    "wmNoteEn": "Supports world-state modeling across seasons and weather.",
+    "links": {
+      "homepage": "https://oxford-robotics-institute.github.io/radar-robotcar-dataset/",
+      "paper": "https://arxiv.org/abs/1909.01384"
     }
   },
   {
@@ -3726,6 +4568,51 @@
     "links": {
       "homepage": "https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/",
       "paper": "https://arxiv.org/abs/1605.06457"
+    }
+  },
+  {
+    "id": "ycb-video",
+    "name": "YCB-Video",
+    "shortName": "YCB-Video",
+    "year": 2016,
+    "summary": "包含 21 个 YCB 物体视频序列及逐帧六维姿态标注，用于机器人视觉与操作。",
+    "summaryEn": "Video sequences of 21 YCB objects with frame-level 6D pose annotations for robotic vision and manipulation.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Annotated Frames"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "21 objects and 92 video sequences",
+    "scaleZh": "21 个物体、92 段视频序列",
+    "organizations": "University of Washington",
+    "organizationsZh": "华盛顿大学",
+    "license": "Research-use terms documented online",
+    "licenseZh": "在线注明研究使用条款",
+    "access": "Official download available",
+    "accessZh": "提供官方下载",
+    "rating": 4,
+    "verdict": "物体姿态视频",
+    "verdictEn": "Object-pose videos",
+    "wmNote": "提供操作前的时序几何状态。",
+    "wmNoteEn": "Provides temporal object geometry before manipulation.",
+    "links": {
+      "homepage": "https://rse-lab.cs.washington.edu/projects/posecnn/",
+      "paper": "https://arxiv.org/abs/1711.00199"
     }
   },
   {

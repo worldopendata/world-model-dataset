@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-122-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-123-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 122 | 6 | 6 | 44 |
+| 123 | 6 | 6 | 44 |
 
 ## Taxonomy
 
@@ -70,16 +70,21 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (20)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (15)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (33)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (33)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (14)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (7)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (21)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (15)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (33)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (33)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (14)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (7)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (20)
+### Predictive & Generative Dynamics (21)
 
 - **Ego4D** · 2022
   A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.
   `Egocentric / Human` · `RGB Video` · `Audio` · `3D Mesh` · `Gaze` · `IMU`
   [Homepage](https://ego4d-data.org/) · [Paper](https://arxiv.org/abs/2110.07058) · [Code](https://github.com/facebookresearch/Ego4d) · Access: Application required
+
+- **Ego4D Forecasting** · 2022
+  An egocentric video benchmark for short-term future action forecasting.
+  `Egocentric / Human` · `RGB Video` · `Action Labels` · `Language`
+  [Homepage](https://ego4d-data.org/) · [Paper](https://arxiv.org/abs/2206.01641) · Access: Official challenge portal
 
 - **EPIC-KITCHENS-100** · 2022
   A large first-person kitchen activity dataset with continuous video, action segments, verb-noun labels, and anticipation benchmarks for hand-object interaction.

@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-122-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-123-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 122 | 6 | 6 | 44 |
+| 123 | 6 | 6 | 44 |
 
 ## 分类体系
 
@@ -70,16 +70,21 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (20)](#predictive-generative-dynamics) · [动作条件动力学 (15)](#action-conditioned-dynamics) · [决策与智能体轨迹 (33)](#decision-making-agent-trajectories) · [空间与时空世界建模 (33)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (14)](#physical-causal-reasoning) · [世界模型评测与诊断 (7)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (21)](#predictive-generative-dynamics) · [动作条件动力学 (15)](#action-conditioned-dynamics) · [决策与智能体轨迹 (33)](#decision-making-agent-trajectories) · [空间与时空世界建模 (33)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (14)](#physical-causal-reasoning) · [世界模型评测与诊断 (7)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（20）
+### 预测与生成式动力学（21）
 
 - **Ego4D** · 2022
   由 Meta AI 联合全球高校采集的大规模第一人称真实生活视频数据集，其短期物体交互预判与长期动作预测任务，为人类行为、手物交互和具身未来预测提供了重要基准。
   `第一人称 / 人类活动` · `RGB 视频` · `音频` · `三维网格` · `视线` · `惯性测量单元`
   [主页](https://ego4d-data.org/) · [论文](https://arxiv.org/abs/2110.07058) · [代码](https://github.com/facebookresearch/Ego4d) · 访问方式：需申请
+
+- **Ego4D Forecasting** · 2022
+  第一人称视频短期未来动作预测基准。
+  `第一人称 / 人类活动` · `RGB 视频` · `动作标签` · `语言`
+  [主页](https://ego4d-data.org/) · [论文](https://arxiv.org/abs/2206.01641) · 访问方式：官方挑战赛门户
 
 - **EPIC-KITCHENS-100** · 2022
   大规模第一人称厨房活动数据集，提供连续视频、动作分段、名词与动词标注及多项预测任务，适合研究人类手物交互和下一动作预测。

@@ -1357,6 +1357,52 @@
     "licenseZh": "Ego4D 许可协议；通过申请向研究用途开放"
   },
   {
+    "id": "ego4d-forecasting",
+    "name": "Ego4D Forecasting",
+    "shortName": "Ego4D Forecasting",
+    "year": 2022,
+    "summary": "第一人称视频短期未来动作预测基准。",
+    "summaryEn": "An egocentric video benchmark for short-term future action forecasting.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels",
+      "Language"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Temporal Annotations"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "Forecasting split from Ego4D long-form videos",
+    "scaleZh": "源自 Ego4D 长视频的预测子集",
+    "organizations": "Meta AI and collaborators",
+    "organizationsZh": "Meta AI 及合作团队",
+    "license": "Ego4D research license applies",
+    "licenseZh": "适用 Ego4D 研究许可",
+    "access": "Official challenge portal",
+    "accessZh": "官方挑战赛门户",
+    "rating": 4,
+    "verdict": "第一人称未来动作",
+    "verdictEn": "Egocentric future action",
+    "wmNote": "直接评估短期行动预测。",
+    "wmNoteEn": "Directly evaluates short-term action forecasting.",
+    "links": {
+      "homepage": "https://ego4d-data.org/",
+      "paper": "https://arxiv.org/abs/2206.01641"
+    }
+  },
+  {
     "id": "ego4d-v2",
     "name": "Ego4D v2",
     "shortName": "Ego4D v2",

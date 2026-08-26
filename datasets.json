@@ -2495,6 +2495,99 @@
     }
   },
   {
+    "id": "hope-object-pose",
+    "name": "HOPE Object Pose Dataset",
+    "shortName": "HOPE",
+    "year": 2020,
+    "summary": "面向家庭物体六维姿态估计的 RGB-D 数据集，包含杂乱场景和真实物体模型。",
+    "summaryEn": "An RGB-D dataset for 6D pose estimation of household objects in cluttered scenes.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Annotated Scenes",
+      "Object Collection"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "28 household object instances",
+    "scaleZh": "28 个家庭物体实例",
+    "organizations": "Brown University and collaborators",
+    "organizationsZh": "布朗大学及合作团队",
+    "license": "See official project terms",
+    "licenseZh": "见官方项目条款",
+    "access": "Official project page and code",
+    "accessZh": "官方项目页和代码",
+    "rating": 4,
+    "verdict": "家庭物体姿态",
+    "verdictEn": "Household object pose",
+    "wmNote": "适合杂乱场景几何状态估计。",
+    "wmNoteEn": "Supports geometric state estimation in clutter.",
+    "links": {
+      "homepage": "https://hope-dataset.github.io/",
+      "paper": "https://arxiv.org/abs/2003.09111",
+      "code": "https://github.com/swatyam/hope-dataset"
+    }
+  },
+  {
+    "id": "interhand2m6m",
+    "name": "InterHand2.6M",
+    "shortName": "InterHand2.6M",
+    "year": 2020,
+    "summary": "大规模双手三维姿态数据集，包含真实和合成的手部交互序列。",
+    "summaryEn": "A large 3D interacting-hand pose dataset with real and synthetic hand interaction sequences.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Egocentric / Human",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Agent Pose",
+      "3D Mesh"
+    ],
+    "structure": [
+      "Interaction Episodes",
+      "Video Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Synthetic"
+    ],
+    "scale": "2.6M hand pose annotations",
+    "scaleZh": "260 万个手部姿态标注",
+    "organizations": "Google and collaborators",
+    "organizationsZh": "Google 及合作团队",
+    "license": "Research terms apply",
+    "licenseZh": "适用研究条款",
+    "access": "Official project page",
+    "accessZh": "官方项目页",
+    "rating": 5,
+    "verdict": "双手交互姿态",
+    "verdictEn": "Interacting-hand pose",
+    "wmNote": "适合细粒度双手操作建模。",
+    "wmNoteEn": "Supports fine-grained bimanual modeling.",
+    "links": {
+      "homepage": "https://mks.ue.tsinghua.edu.cn/InterHand2.6M/",
+      "paper": "https://arxiv.org/abs/2008.09309"
+    }
+  },
+  {
     "id": "kitti-360",
     "name": "KITTI-360",
     "shortName": "KITTI-360",
@@ -3914,6 +4007,52 @@
     }
   },
   {
+    "id": "bop",
+    "name": "BOP Benchmark",
+    "shortName": "BOP",
+    "year": 2018,
+    "summary": "统一的六维物体姿态估计基准，整合多个工业和日常物体数据集。",
+    "summaryEn": "A unified 6D object-pose benchmark integrating multiple industrial and household-object datasets.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Annotated Scenes",
+      "Object Collection"
+    ],
+    "source": [
+      "Real-world",
+      "Synthetic"
+    ],
+    "scale": "Multiple datasets and thousands of annotated scenes",
+    "scaleZh": "多个子数据集和数千个标注场景",
+    "organizations": "BOP Challenge consortium",
+    "organizationsZh": "BOP 挑战赛联盟",
+    "license": "Per-dataset terms apply",
+    "licenseZh": "各子数据集分别适用条款",
+    "access": "Official benchmark portal",
+    "accessZh": "官方基准门户",
+    "rating": 5,
+    "verdict": "统一六维姿态评测",
+    "verdictEn": "Unified 6D pose evaluation",
+    "wmNote": "适合比较几何状态估计。",
+    "wmNoteEn": "Useful for geometric-state evaluation.",
+    "links": {
+      "homepage": "https://bop.felk.cvut.cz/",
+      "paper": "https://arxiv.org/abs/1808.08319"
+    }
+  },
+  {
     "id": "charades-ego",
     "name": "Charades-Ego",
     "shortName": "Charades-Ego",
@@ -4427,6 +4566,51 @@
     }
   },
   {
+    "id": "youtube-vos",
+    "name": "YouTube-VOS",
+    "shortName": "YouTube-VOS",
+    "year": 2018,
+    "summary": "大规模视频目标分割数据集，提供跨帧目标掩码和长时跟踪场景。",
+    "summaryEn": "A large video object-segmentation dataset with cross-frame masks and long-term tracking scenes.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Segmentation",
+      "Object Metadata"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Temporal Annotations"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "4,000+ videos and 7,000+ object categories",
+    "scaleZh": "4000 余段视频、7000 余类物体",
+    "organizations": "University of Hong Kong and collaborators",
+    "organizationsZh": "香港大学及合作团队",
+    "license": "YouTube source terms apply",
+    "licenseZh": "适用 YouTube 来源条款",
+    "access": "Official challenge website",
+    "accessZh": "官方挑战赛网站",
+    "rating": 4,
+    "verdict": "长时视频目标状态",
+    "verdictEn": "Long-term video object state",
+    "wmNote": "适合时序目标记忆和遮挡恢复。",
+    "wmNoteEn": "Supports temporal object memory and occlusion recovery.",
+    "links": {
+      "homepage": "https://youtube-vos.org/",
+      "paper": "https://arxiv.org/abs/1809.03327"
+    }
+  },
+  {
     "id": "ddd17",
     "name": "DDD17",
     "shortName": "DDD17",
@@ -4748,6 +4932,50 @@
       "homepage": "https://www.cityscapes-dataset.com/",
       "paper": "https://openaccess.thecvf.com/content_cvpr_2016/html/Cordts_The_Cityscapes_Dataset_CVPR_2016_paper.html",
       "code": "https://github.com/mcordts/cityscapesScripts"
+    }
+  },
+  {
+    "id": "davis",
+    "name": "DAVIS",
+    "shortName": "DAVIS",
+    "year": 2016,
+    "summary": "高质量视频目标分割与跟踪数据集，提供密集逐帧像素标注。",
+    "summaryEn": "A high-quality video object-segmentation and tracking dataset with dense frame-level masks.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Segmentation"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Temporal Annotations"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "150 high-quality video sequences",
+    "scaleZh": "150 段高质量视频序列",
+    "organizations": "ETH Zurich and collaborators",
+    "organizationsZh": "苏黎世联邦理工学院及合作团队",
+    "license": "Dataset terms documented online",
+    "licenseZh": "在线注明数据条款",
+    "access": "Official dataset website",
+    "accessZh": "官方数据网站",
+    "rating": 4,
+    "verdict": "密集视频分割",
+    "verdictEn": "Dense video segmentation",
+    "wmNote": "提供连续视觉状态基线。",
+    "wmNoteEn": "Provides a continuous visual-state baseline.",
+    "links": {
+      "homepage": "https://davischallenge.org/",
+      "paper": "https://arxiv.org/abs/1604.00675"
     }
   },
   {

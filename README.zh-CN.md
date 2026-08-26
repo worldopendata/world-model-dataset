@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-113-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-118-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 113 | 6 | 6 | 44 |
+| 118 | 6 | 6 | 44 |
 
 ## 分类体系
 
@@ -70,11 +70,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (17)](#predictive-generative-dynamics) · [动作条件动力学 (14)](#action-conditioned-dynamics) · [决策与智能体轨迹 (33)](#decision-making-agent-trajectories) · [空间与时空世界建模 (31)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (13)](#physical-causal-reasoning) · [世界模型评测与诊断 (5)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (19)](#predictive-generative-dynamics) · [动作条件动力学 (15)](#action-conditioned-dynamics) · [决策与智能体轨迹 (33)](#decision-making-agent-trajectories) · [空间与时空世界建模 (32)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (13)](#physical-causal-reasoning) · [世界模型评测与诊断 (6)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（17）
+### 预测与生成式动力学（19）
 
 - **Ego4D** · 2022
   由 Meta AI 联合全球高校采集的大规模第一人称真实生活视频数据集，其短期物体交互预判与长期动作预测任务，为人类行为、手物交互和具身未来预测提供了重要基准。
@@ -136,6 +136,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `第一人称 / 人类活动` · `RGB 视频` · `动作标签` · `文本模板`
   [论文](https://arxiv.org/abs/1706.04261) · 访问方式：需注册
 
+- **YouTube-VOS** · 2018
+  大规模视频目标分割数据集，提供跨帧目标掩码和长时跟踪场景。
+  `第一人称 / 人类活动` · `RGB 视频` · `分割标注` · `物体元数据`
+  [主页](https://youtube-vos.org/) · [论文](https://arxiv.org/abs/1809.03327) · 访问方式：官方挑战赛网站
+
+- **DAVIS** · 2016
+  高质量视频目标分割与跟踪数据集，提供密集逐帧像素标注。
+  `第一人称 / 人类活动` · `RGB 视频` · `分割标注`
+  [主页](https://davischallenge.org/) · [论文](https://arxiv.org/abs/1604.00675) · 访问方式：官方数据网站
+
 - **Moving MNIST** · 2015
   将 MNIST 数字在画布中按速度移动并反弹生成的经典视频预测基准，可按需生成确定或随机轨迹，长期用于验证时序表征、外推和不确定未来建模。
   `物理 / 科学` · `合成视频` · `物体状态` · `轨迹`
@@ -163,7 +173,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（14）
+### 动作条件动力学（15）
 
 - **DrivingDojo** · 2024
   专为交互式驾驶世界模型构建的视频数据集，覆盖完整驾驶操作、多智能体交互和开放世界驾驶知识，并提供动作指令跟随评测。
@@ -214,6 +224,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   手部与 YCB 物体交互的 RGB-D 视频数据集，包含三维手部姿态和物体姿态。
   `第一人称 / 人类活动` · `机器人 / 具身智能` · `RGB-D` · `三维网格` · `智能体位姿` · `物体状态`
   [主页](https://dex-ycb.github.io/) · [论文](https://arxiv.org/abs/2104.04631) · [代码](https://github.com/NVlabs/dex-ycb-toolkit) · 访问方式：官方下载
+
+- **InterHand2.6M** · 2020
+  大规模双手三维姿态数据集，包含真实和合成的手部交互序列。
+  `第一人称 / 人类活动` · `机器人 / 具身智能` · `RGB 视频` · `智能体位姿` · `三维网格`
+  [主页](https://mks.ue.tsinghua.edu.cn/InterHand2.6M/) · [论文](https://arxiv.org/abs/2008.09309) · 访问方式：官方项目页
 
 - **RoboNet** · 2020
   汇集多所实验室机器人交互视频的跨平台数据集，通过不同机械臂、视角、物体和实验设置提供视觉动力学训练信号，重点考察视频预测与控制的跨机器人泛化。
@@ -406,7 +421,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### 空间与时空世界建模（31）
+### 空间与时空世界建模（32）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -457,6 +472,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   奥迪公开的自动驾驶多传感器数据集，包含相机、激光雷达、语义标注和车辆状态。
   `自动驾驶` · `RGB 视频` · `激光雷达` · `语义标签` · `GPS / 惯性测量单元`
   [论文](https://arxiv.org/abs/2004.06320) · 访问方式：官方下载门户
+
+- **HOPE Object Pose Dataset** · 2020
+  面向家庭物体六维姿态估计的 RGB-D 数据集，包含杂乱场景和真实物体模型。
+  `机器人 / 具身智能` · `RGB-D` · `三维网格` · `相机位姿`
+  [主页](https://hope-dataset.github.io/) · [论文](https://arxiv.org/abs/2003.09111) · [代码](https://github.com/swatyam/hope-dataset) · 访问方式：官方项目页和代码
 
 - **KITTI-360** · 2020
   面向长期城市驾驶的多模态三维数据集，提供全景图像、激光雷达、轨迹和三维场景标注。
@@ -634,7 +654,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（5）
+### 世界模型评测与诊断（6）
 
 - **AeroVerse** · 2024
   面向无人机具身世界模型的综合基准套件，论文描述了真实与仿真的预训练数据、五类指令微调数据以及覆盖感知、推理、导航、规划和动作的评测。
@@ -655,6 +675,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向视频物理与因果推理的合成基准，通过碰撞和运动事件考察描述、解释、预测与反事实推理能力，尤其适合诊断模型是否学习到可组合的物理因果机制。
   `物理 / 科学` · `合成视频` · `物体元数据` · `轨迹` · `逻辑程序` · `问答`
   [主页](https://clevrer.csail.mit.edu/) · [论文](https://arxiv.org/abs/1910.01442) · 访问方式：开放下载
+
+- **BOP Benchmark** · 2018
+  统一的六维物体姿态估计基准，整合多个工业和日常物体数据集。
+  `机器人 / 具身智能` · `RGB-D` · `三维网格` · `相机位姿`
+  [主页](https://bop.felk.cvut.cz/) · [论文](https://arxiv.org/abs/1808.08319) · 访问方式：官方基准门户
 
 - **Moving Symbols** · 2018
   专为评估视频预测模型表征能力设计的参数化合成数据集，通过可控的符号运动和组合变化检验模型是否学习到有语义的时序表示。

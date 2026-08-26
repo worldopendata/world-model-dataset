@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-108-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-113-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 108 | 6 | 6 | 44 |
+| 113 | 6 | 6 | 44 |
 
 ## Taxonomy
 
@@ -70,11 +70,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (14)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (14)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (32)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (30)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (13)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (5)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (17)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (14)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (33)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (31)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (13)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (5)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (14)
+### Predictive & Generative Dynamics (17)
 
 - **Ego4D** · 2022
   A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.
@@ -116,6 +116,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `RGB Video` · `Action Labels`
   [Paper](https://arxiv.org/abs/1907.06987) · Access: Official annotations and download scripts
 
+- **3DPW** · 2018
+  A real-world 3D human pose and motion video dataset with SMPL parameters and camera information.
+  `Egocentric / Human` · `RGB Video` · `Agent Pose` · `Camera Pose`
+  [Homepage](https://virtualhumans.mpi-inf.mpg.de/3DPW/) · [Paper](https://arxiv.org/abs/1810.04558) · Access: Official download
+
 - **Charades-Ego** · 2018
   Pairs first- and third-person videos of the same indoor activities with multi-label temporal actions for cross-view behavior representation.
   `Egocentric / Human` · `Multi-view RGB Video` · `Action Labels`
@@ -140,6 +145,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A large multi-view human motion dataset with synchronized video, 3D joints, camera parameters, and action labels, foundational for future-pose prediction.
   `Egocentric / Human` · `Multi-view RGB Video` · `3D State` · `Action Labels` · `Camera Pose`
   [Homepage](http://vision.imar.ro/human3.6m/description.php) · [Paper](https://ieeexplore.ieee.org/document/6682899) · Access: Registration / agreement required
+
+- **UCF101** · 2012
+  A public video dataset of 101 human action classes with temporal action clips.
+  `Egocentric / Human` · `RGB Video` · `Action Labels`
+  [Homepage](https://www.crcv.ucf.edu/data/UCF101.php) · [Paper](https://arxiv.org/abs/1212.0402) · Access: Official dataset page
+
+- **HMDB51** · 2011
+  A video dataset of 51 human action classes collected from films and public videos.
+  `Egocentric / Human` · `RGB Video` · `Action Labels`
+  [Homepage](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) · [Paper](https://www.di.ens.fr/~laptev/hmdb51.html) · Access: Official project page
 
 - **KTH Human Actions** · 2004
   An early real-video benchmark widely reused for video prediction, with six continuous human actions under controlled backgrounds and scale variation.
@@ -222,7 +237,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (32)
+### Decision-Making & Agent Trajectories (33)
 
 - **BRMData** · 2024
   A bimanual-mobile robot manipulation dataset for household tasks spanning single- and dual-arm, tabletop and mobile, human-interactive, rigid, and flexible-object scenarios.
@@ -379,6 +394,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Games / Virtual Environments` · `Robotics / Embodied AI` · `Text` · `Action` · `Simulation State` · `Synthetic Video`
   [Homepage](http://virtual-home.org/) · [Paper](https://arxiv.org/abs/1806.07011) · [Code](https://github.com/xavierpuigf/virtualhome) · Access: Open generation toolkit
 
+- **PoseTrack** · 2017
+  A multi-person pose estimation and tracking benchmark with temporally consistent keypoints and tracks in video.
+  `Egocentric / Human` · `RGB Video` · `Agent Pose` · `Action Labels`
+  [Homepage](https://posetrack.net/) · [Paper](https://arxiv.org/abs/1611.07727) · Access: Official challenge portal
+
 - **NGSIM** · 2006
   A public naturalistic driving trajectory collection with continuous vehicle positions, speeds, and lane information on highways and urban roads for behavior forecasting.
   `Autonomous Driving` · `Trajectories` · `Maps` · `Agent Pose`
@@ -386,7 +406,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (30)
+### Spatial & Spatiotemporal World Modeling (31)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -502,6 +522,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A building-scale RGB-D panorama dataset for indoor scene understanding and embodied navigation, with meshes, camera poses, semantics, and regions.
   `Urban / 3D Scene` · `Robotics / Embodied AI` · `RGB-D` · `3D Mesh` · `Camera Pose` · `Semantic Labels`
   [Homepage](https://niessner.github.io/Matterport/) · [Paper](https://arxiv.org/abs/1709.06158) · [Code](https://github.com/niessner/Matterport) · Access: Application / agreement required
+
+- **MPI-INF-3DHP** · 2017
+  An indoor/outdoor 3D human-pose video dataset with multiview and green-screen synthetic sequences.
+  `Egocentric / Human` · `RGB Video` · `Agent Pose` · `Camera Pose`
+  [Homepage](https://vcai.mpi-inf.mpg.de/3dhp-dataset/) · [Paper](https://arxiv.org/abs/1611.09813) · Access: Official project page
 
 - **ScanNet** · 2017
   A large collection of handheld RGB-D indoor scan sequences with camera poses, reconstructed meshes, semantic labels, and instances.

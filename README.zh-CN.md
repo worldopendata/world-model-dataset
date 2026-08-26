@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-108-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-113-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 108 | 6 | 6 | 44 |
+| 113 | 6 | 6 | 44 |
 
 ## 分类体系
 
@@ -70,11 +70,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (14)](#predictive-generative-dynamics) · [动作条件动力学 (14)](#action-conditioned-dynamics) · [决策与智能体轨迹 (32)](#decision-making-agent-trajectories) · [空间与时空世界建模 (30)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (13)](#physical-causal-reasoning) · [世界模型评测与诊断 (5)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (17)](#predictive-generative-dynamics) · [动作条件动力学 (14)](#action-conditioned-dynamics) · [决策与智能体轨迹 (33)](#decision-making-agent-trajectories) · [空间与时空世界建模 (31)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (13)](#physical-causal-reasoning) · [世界模型评测与诊断 (5)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（14）
+### 预测与生成式动力学（17）
 
 - **Ego4D** · 2022
   由 Meta AI 联合全球高校采集的大规模第一人称真实生活视频数据集，其短期物体交互预判与长期动作预测任务，为人类行为、手物交互和具身未来预测提供了重要基准。
@@ -116,6 +116,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `第一人称 / 人类活动` · `RGB 视频` · `动作标签`
   [论文](https://arxiv.org/abs/1907.06987) · 访问方式：官方标注和下载脚本
 
+- **3DPW** · 2018
+  真实环境中采集的三维人体姿态与运动视频数据集，包含 SMPL 参数和相机信息。
+  `第一人称 / 人类活动` · `RGB 视频` · `智能体位姿` · `相机位姿`
+  [主页](https://virtualhumans.mpi-inf.mpg.de/3DPW/) · [论文](https://arxiv.org/abs/1810.04558) · 访问方式：官方下载
+
 - **Charades-Ego** · 2018
   将同一室内活动的第一人称和第三人称视频配对，提供多标签动作和时间区间标注，用于跨视角行为理解与未来状态表示。
   `第一人称 / 人类活动` · `多视角 RGB 视频` · `动作标签`
@@ -140,6 +145,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向人体姿态与运动建模的大规模多视角数据集，提供同步视频、三维关节、相机参数和动作类别，是人类未来姿态预测的重要历史基准。
   `第一人称 / 人类活动` · `多视角 RGB 视频` · `三维状态` · `动作标签` · `相机位姿`
   [主页](http://vision.imar.ro/human3.6m/description.php) · [论文](https://ieeexplore.ieee.org/document/6682899) · 访问方式：需注册并同意协议
+
+- **UCF101** · 2012
+  包含 101 类人类动作的公开视频数据集，提供动作类别和时序片段。
+  `第一人称 / 人类活动` · `RGB 视频` · `动作标签`
+  [主页](https://www.crcv.ucf.edu/data/UCF101.php) · [论文](https://arxiv.org/abs/1212.0402) · 访问方式：官方数据页
+
+- **HMDB51** · 2011
+  从电影和公开视频整理的 51 类人类动作视频数据集。
+  `第一人称 / 人类活动` · `RGB 视频` · `动作标签`
+  [主页](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) · [论文](https://www.di.ens.fr/~laptev/hmdb51.html) · 访问方式：官方项目页
 
 - **KTH Human Actions** · 2004
   最早被广泛用于视频预测的真实人物动作数据之一，包含固定背景及尺度变化下的六类连续动作，为长期预测和人体运动动态提供轻量基准。
@@ -222,7 +237,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="decision-making-agent-trajectories"></a>
 
-### 决策与智能体轨迹（32）
+### 决策与智能体轨迹（33）
 
 - **BRMData** · 2024
   面向家庭任务的双臂移动机器人操作数据集，覆盖单臂与双臂、桌面与移动操作、人机互动以及刚性和柔性物体，并提供多视角和深度观测。
@@ -379,6 +394,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `游戏 / 虚拟环境` · `机器人 / 具身智能` · `文本` · `动作` · `仿真状态` · `合成视频`
   [主页](http://virtual-home.org/) · [论文](https://arxiv.org/abs/1806.07011) · [代码](https://github.com/xavierpuigf/virtualhome) · 访问方式：开放生成工具
 
+- **PoseTrack** · 2017
+  视频中的多人姿态估计与跟踪基准，提供连续人体关键点和轨迹标注。
+  `第一人称 / 人类活动` · `RGB 视频` · `智能体位姿` · `动作标签`
+  [主页](https://posetrack.net/) · [论文](https://arxiv.org/abs/1611.07727) · 访问方式：官方挑战赛门户
+
 - **NGSIM** · 2006
   美国公路交通管理部门发布的自然驾驶轨迹数据集，记录高速公路和城市道路中车辆的连续位置、速度与车道信息，用于交通行为预测和多智能体建模。
   `自动驾驶` · `轨迹` · `地图` · `智能体位姿`
@@ -386,7 +406,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### 空间与时空世界建模（30）
+### 空间与时空世界建模（31）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -502,6 +522,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向室内场景理解和具身导航的建筑级 RGB-D 全景数据集，提供精细网格、相机位姿、语义及区域标注。
   `城市 / 三维场景` · `机器人 / 具身智能` · `RGB-D` · `三维网格` · `相机位姿` · `语义标签`
   [主页](https://niessner.github.io/Matterport/) · [论文](https://arxiv.org/abs/1709.06158) · [代码](https://github.com/niessner/Matterport) · 访问方式：需申请并同意协议
+
+- **MPI-INF-3DHP** · 2017
+  室内外三维人体姿态视频数据集，包含多视角和绿幕合成序列。
+  `第一人称 / 人类活动` · `RGB 视频` · `智能体位姿` · `相机位姿`
+  [主页](https://vcai.mpi-inf.mpg.de/3dhp-dataset/) · [论文](https://arxiv.org/abs/1611.09813) · 访问方式：官方项目页
 
 - **ScanNet** · 2017
   由手持 RGB-D 设备采集的大规模室内扫描序列，提供相机位姿、重建网格、语义和实例标注，是室内三维世界表示与导航的重要数据源。

@@ -3725,6 +3725,51 @@
     "licenseZh": "适用 Waymo 数据集许可协议；包含非商业限制"
   },
   {
+    "id": "3dpw",
+    "name": "3DPW",
+    "shortName": "3DPW",
+    "year": 2018,
+    "summary": "真实环境中采集的三维人体姿态与运动视频数据集，包含 SMPL 参数和相机信息。",
+    "summaryEn": "A real-world 3D human pose and motion video dataset with SMPL parameters and camera information.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Agent Pose",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Motion Trajectories"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "60 video sequences across indoor and outdoor scenes",
+    "scaleZh": "室内外场景 60 段视频序列",
+    "organizations": "University of Zurich and collaborators",
+    "organizationsZh": "苏黎世大学及合作团队",
+    "license": "Research terms apply",
+    "licenseZh": "适用研究条款",
+    "access": "Official download",
+    "accessZh": "官方下载",
+    "rating": 5,
+    "verdict": "真实三维人体运动",
+    "verdictEn": "Real 3D human motion",
+    "wmNote": "支持人体运动预测与相机运动建模。",
+    "wmNoteEn": "Supports human-motion and camera-motion prediction.",
+    "links": {
+      "homepage": "https://virtualhumans.mpi-inf.mpg.de/3DPW/",
+      "paper": "https://arxiv.org/abs/1810.04558"
+    }
+  },
+  {
     "id": "robotic-grasp-40k",
     "name": "40K Robotic Grasp Demonstrations",
     "shortName": "40K Robotic Grasp Demonstrations",
@@ -4477,6 +4522,97 @@
     }
   },
   {
+    "id": "mpi-inf-3dhp",
+    "name": "MPI-INF-3DHP",
+    "shortName": "MPI-INF-3DHP",
+    "year": 2017,
+    "summary": "室内外三维人体姿态视频数据集，包含多视角和绿幕合成序列。",
+    "summaryEn": "An indoor/outdoor 3D human-pose video dataset with multiview and green-screen synthetic sequences.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Agent Pose",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Motion Trajectories"
+    ],
+    "source": [
+      "Real-world",
+      "Synthetic"
+    ],
+    "scale": "14 indoor and outdoor video sequences",
+    "scaleZh": "14 段室内外视频序列",
+    "organizations": "Max Planck Institute for Informatics",
+    "organizationsZh": "马克斯·普朗克信息学研究所",
+    "license": "Dataset terms documented online",
+    "licenseZh": "在线注明数据条款",
+    "access": "Official project page",
+    "accessZh": "官方项目页",
+    "rating": 4,
+    "verdict": "多场景三维人体姿态",
+    "verdictEn": "Multi-scene 3D human pose",
+    "wmNote": "多视角信息适合时空姿态建模。",
+    "wmNoteEn": "Multiview data support spatiotemporal pose modeling.",
+    "links": {
+      "homepage": "https://vcai.mpi-inf.mpg.de/3dhp-dataset/",
+      "paper": "https://arxiv.org/abs/1611.09813"
+    }
+  },
+  {
+    "id": "posetrack",
+    "name": "PoseTrack",
+    "shortName": "PoseTrack",
+    "year": 2017,
+    "summary": "视频中的多人姿态估计与跟踪基准，提供连续人体关键点和轨迹标注。",
+    "summaryEn": "A multi-person pose estimation and tracking benchmark with temporally consistent keypoints and tracks in video.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Agent Pose",
+      "Action Labels"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Temporal Annotations"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Hundreds of annotated videos",
+    "scaleZh": "数百段标注视频",
+    "organizations": "German Aerospace Center and collaborators",
+    "organizationsZh": "德国航空航天中心及合作团队",
+    "license": "Challenge terms apply",
+    "licenseZh": "适用挑战赛条款",
+    "access": "Official challenge portal",
+    "accessZh": "官方挑战赛门户",
+    "rating": 4,
+    "verdict": "多人姿态时序",
+    "verdictEn": "Multi-person pose temporal tracking",
+    "wmNote": "适合长期人物状态跟踪。",
+    "wmNoteEn": "Useful for long-horizon human-state tracking.",
+    "links": {
+      "homepage": "https://posetrack.net/",
+      "paper": "https://arxiv.org/abs/1611.07727"
+    }
+  },
+  {
     "id": "scannet",
     "name": "ScanNet",
     "shortName": "ScanNet",
@@ -5030,6 +5166,96 @@
     "organizationsZh": "卡尔斯鲁厄理工学院、丰田工业大学",
     "accessZh": "开放下载",
     "licenseZh": "数据集采用 CC BY-NC-SA 3.0；同时适用各基准条款"
+  },
+  {
+    "id": "ucf101",
+    "name": "UCF101",
+    "shortName": "UCF101",
+    "year": 2012,
+    "summary": "包含 101 类人类动作的公开视频数据集，提供动作类别和时序片段。",
+    "summaryEn": "A public video dataset of 101 human action classes with temporal action clips.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Video Clips",
+      "Action Segments"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "13K+ videos across 101 classes",
+    "scaleZh": "101 类、1.3 万余段视频",
+    "organizations": "University of Central Florida",
+    "organizationsZh": "中佛罗里达大学",
+    "license": "YouTube source terms apply",
+    "licenseZh": "适用 YouTube 来源条款",
+    "access": "Official dataset page",
+    "accessZh": "官方数据页",
+    "rating": 3,
+    "verdict": "通用动作视频",
+    "verdictEn": "General action videos",
+    "wmNote": "提供动作视觉先验，但缺少显式状态和控制。",
+    "wmNoteEn": "Provides action priors but lacks explicit state and control.",
+    "links": {
+      "homepage": "https://www.crcv.ucf.edu/data/UCF101.php",
+      "paper": "https://arxiv.org/abs/1212.0402"
+    }
+  },
+  {
+    "id": "hmdb51",
+    "name": "HMDB51",
+    "shortName": "HMDB51",
+    "year": 2011,
+    "summary": "从电影和公开视频整理的 51 类人类动作视频数据集。",
+    "summaryEn": "A video dataset of 51 human action classes collected from films and public videos.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Video Clips",
+      "Action Segments"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "6,766 clips across 51 classes",
+    "scaleZh": "51 类、6766 段视频",
+    "organizations": "Brown University and collaborators",
+    "organizationsZh": "布朗大学及合作团队",
+    "license": "Research-use terms apply",
+    "licenseZh": "适用研究使用条款",
+    "access": "Official project page",
+    "accessZh": "官方项目页",
+    "rating": 3,
+    "verdict": "经典动作视频基准",
+    "verdictEn": "Classic action-video benchmark",
+    "wmNote": "适合动作识别基线和视频表征预训练。",
+    "wmNoteEn": "Useful for action baselines and video representation pretraining.",
+    "links": {
+      "homepage": "https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/",
+      "paper": "https://www.di.ens.fr/~laptev/hmdb51.html"
+    }
   },
   {
     "id": "ngsim",

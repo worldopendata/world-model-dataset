@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-118-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-122-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 118 | 6 | 6 | 44 |
+| 122 | 6 | 6 | 44 |
 
 ## 分类体系
 
@@ -70,11 +70,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (19)](#predictive-generative-dynamics) · [动作条件动力学 (15)](#action-conditioned-dynamics) · [决策与智能体轨迹 (33)](#decision-making-agent-trajectories) · [空间与时空世界建模 (32)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (13)](#physical-causal-reasoning) · [世界模型评测与诊断 (6)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (20)](#predictive-generative-dynamics) · [动作条件动力学 (15)](#action-conditioned-dynamics) · [决策与智能体轨迹 (33)](#decision-making-agent-trajectories) · [空间与时空世界建模 (33)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (14)](#physical-causal-reasoning) · [世界模型评测与诊断 (7)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（19）
+### 预测与生成式动力学（20）
 
 - **Ego4D** · 2022
   由 Meta AI 联合全球高校采集的大规模第一人称真实生活视频数据集，其短期物体交互预判与长期动作预测任务，为人类行为、手物交互和具身未来预测提供了重要基准。
@@ -130,6 +130,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   EPIC-KITCHENS 的首个大规模版本，记录参与者在自家厨房中的连续第一人称活动，包含动作分段、动词、名词和叙述标注。
   `第一人称 / 人类活动` · `RGB 视频` · `音频` · `动作标签` · `语言`
   [主页](https://epic-kitchens.github.io/2018) · [论文](https://arxiv.org/abs/1804.02748) · [代码](https://github.com/epic-kitchens/epic-kitchens-55-annotations) · 访问方式：需申请并同意协议
+
+- **Kinetics-600** · 2018
+  覆盖 600 类人类动作的大规模视频数据集。
+  `第一人称 / 人类活动` · `RGB 视频` · `动作标签`
+  [论文](https://arxiv.org/abs/1808.01316) · 访问方式：官方标注
 
 - **Something-Something V2** · 2018
   由人类执行日常物体交互构成的大规模短视频数据集，类别强调推动、放置、遮挡等细粒度时间变化，是学习动作结果与时序因果线索的常用资源。
@@ -421,7 +426,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### 空间与时空世界建模（32）
+### 空间与时空世界建模（33）
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -447,6 +452,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向三维物理世界建模的全视角机器人操作数据集，以密集多视角记录不同材料和光学性质物体的操作过程，支持动态神经场与多视角策略研究。
   `机器人 / 具身智能` · `物理 / 科学` · `多视角 RGB 视频` · `相机位姿` · `动作` · `物体元数据`
   [主页](https://robo360dataset.github.io/) · [论文](https://arxiv.org/abs/2312.06686) · [代码](https://github.com/robo360dataset/robo360dataset.github.io) · 访问方式：提供官方项目仓库和论文入口；数据条款待核验
+
+- **ScanNet++** · 2023
+  高保真室内三维扫描数据集，包含神经渲染和密集语义标注。
+  `城市 / 三维场景` · `RGB-D` · `三维网格` · `语义标签` · `相机位姿`
+  [主页](https://scannetpp.ml/) · [论文](https://arxiv.org/abs/2308.11417) · 访问方式：官方项目页
 
 - **MOVi** · 2022
   使用 Kubric 生成的多对象视频系列，提供精确实例分割、深度、光流和三维属性，覆盖不同复杂度设置，适合对象发现、跟踪与可解释动态建模。
@@ -585,7 +595,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="physical-causal-reasoning"></a>
 
-### 物理与因果推理（13）
+### 物理与因果推理（14）
 
 - **PokeFlex** · 2024
   面向可变形物体机器人操作的真实世界试验数据集，通过机器人戳动采集完整 360 度三维网格形变及对应力和力矩。
@@ -647,6 +657,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `物理 / 科学` · `动作` · `物体状态` · `轨迹` · `机器人状态`
   [论文](https://arxiv.org/abs/1604.04038) · [代码](https://github.com/mcubelab/pdproc) · 访问方式：提供官方处理代码仓库
 
+- **Physical Prediction Dataset** · 2016
+  用于视频物理预测的合成碰撞和运动序列数据集。
+  `物理 / 科学` · `RGB 视频` · `仿真状态`
+  [论文](https://arxiv.org/abs/1608.04239) · 访问方式：仅论文入口；数据访问待核验
+
 - **Physics 101** · 2016
   通过真实视频记录物体在斜面上的运动，并提供材料、质量、角度和运动信息，用于从视觉估计物理属性及预测动力学。
   `物理 / 科学` · `RGB 视频` · `物体元数据` · `轨迹`
@@ -654,7 +669,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（6）
+### 世界模型评测与诊断（7）
 
 - **AeroVerse** · 2024
   面向无人机具身世界模型的综合基准套件，论文描述了真实与仿真的预训练数据、五类指令微调数据以及覆盖感知、推理、导航、规划和动作的评测。
@@ -685,6 +700,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   专为评估视频预测模型表征能力设计的参数化合成数据集，通过可控的符号运动和组合变化检验模型是否学习到有语义的时序表示。
   `物理 / 科学` · `合成视频` · `物体状态` · `轨迹`
   [论文](https://arxiv.org/abs/1802.08936) · [代码](https://github.com/rszeto/moving-symbols) · 访问方式：官方代码和生成工具仓库
+
+- **UCF-Crime** · 2018
+  长时监控视频异常事件数据集。
+  `第一人称 / 人类活动` · `RGB 视频` · `动作标签`
+  [主页](https://www.crcv.ucf.edu/projects/real-world/) · [论文](https://arxiv.org/abs/1801.04264) · 访问方式：官方项目页
 
 <!-- DATASET_CATALOG_END -->
 

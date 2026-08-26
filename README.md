@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-118-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-122-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 118 | 6 | 6 | 44 |
+| 122 | 6 | 6 | 44 |
 
 ## Taxonomy
 
@@ -70,11 +70,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (19)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (15)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (33)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (32)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (13)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (6)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (20)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (15)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (33)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (33)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (14)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (7)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (19)
+### Predictive & Generative Dynamics (20)
 
 - **Ego4D** · 2022
   A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.
@@ -130,6 +130,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   The first large EPIC-KITCHENS release, capturing continuous first-person activities in participants' own kitchens with action, verb, noun, and narration labels.
   `Egocentric / Human` · `RGB Video` · `Audio` · `Action Labels` · `Language`
   [Homepage](https://epic-kitchens.github.io/2018) · [Paper](https://arxiv.org/abs/1804.02748) · [Code](https://github.com/epic-kitchens/epic-kitchens-55-annotations) · Access: Application / agreement required
+
+- **Kinetics-600** · 2018
+  A large-scale video dataset covering 600 human action classes.
+  `Egocentric / Human` · `RGB Video` · `Action Labels`
+  [Paper](https://arxiv.org/abs/1808.01316) · Access: Official annotations
 
 - **Something-Something V2** · 2018
   A large collection of short human-object interaction videos whose fine-grained labels depend on temporal changes such as pushing, placing, and occluding.
@@ -421,7 +426,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (32)
+### Spatial & Spatiotemporal World Modeling (33)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -447,6 +452,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   An omnispective robotic manipulation dataset with dense multiview coverage and objects spanning varied material and optical properties for 3D physical-world modeling.
   `Robotics / Embodied AI` · `Physics / Science` · `Multi-view RGB Video` · `Camera Pose` · `Action` · `Object Metadata`
   [Homepage](https://robo360dataset.github.io/) · [Paper](https://arxiv.org/abs/2312.06686) · [Code](https://github.com/robo360dataset/robo360dataset.github.io) · Access: Official project repository and paper entry available; dataset terms require verification
+
+- **ScanNet++** · 2023
+  A high-fidelity indoor 3D scanning dataset with neural-rendering captures and dense semantic annotations.
+  `Urban / 3D Scene` · `RGB-D` · `3D Mesh` · `Semantic Labels` · `Camera Pose`
+  [Homepage](https://scannetpp.ml/) · [Paper](https://arxiv.org/abs/2308.11417) · Access: Official project page
 
 - **MOVi** · 2022
   A family of Kubric-generated multi-object videos with instance masks, depth, optical flow, and 3D attributes for object discovery and interpretable dynamics.
@@ -585,7 +595,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="physical-causal-reasoning"></a>
 
-### Physical & Causal Reasoning (13)
+### Physical & Causal Reasoning (14)
 
 - **PokeFlex** · 2024
   A real-world pilot dataset for deformable-object manipulation, capturing complete 360-degree 3D mesh deformations together with robot-applied forces and torques during poking.
@@ -647,6 +657,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Physics / Science` · `Action` · `Object State` · `Trajectory` · `Robot State`
   [Paper](https://arxiv.org/abs/1604.04038) · [Code](https://github.com/mcubelab/pdproc) · Access: Official processing repository available
 
+- **Physical Prediction Dataset** · 2016
+  A synthetic dataset of collisions and motion sequences for video physical prediction.
+  `Physics / Science` · `RGB Video` · `Simulation State`
+  [Paper](https://arxiv.org/abs/1608.04239) · Access: Paper entry only; data access unverified
+
 - **Physics 101** · 2016
   A real-video dataset of objects moving on inclined surfaces with material, mass, angle, and motion information for estimating physical properties and dynamics.
   `Physics / Science` · `RGB Video` · `Object Metadata` · `Trajectory`
@@ -654,7 +669,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (6)
+### World Model Evaluation & Diagnostics (7)
 
 - **AeroVerse** · 2024
   A UAV embodied-world-model benchmark suite describing real and simulated pretraining data, five instruction-tuning datasets, and evaluation across perception, reasoning, navigation, planning, and action.
@@ -685,6 +700,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A parameterized synthetic dataset designed to evaluate representations learned by video-prediction models through controlled symbol motion and compositional variation.
   `Physics / Science` · `Synthetic Video` · `Object State` · `Trajectory`
   [Paper](https://arxiv.org/abs/1802.08936) · [Code](https://github.com/rszeto/moving-symbols) · Access: Official code and generation repository
+
+- **UCF-Crime** · 2018
+  A long-form surveillance video dataset of anomalous events.
+  `Egocentric / Human` · `RGB Video` · `Action Labels`
+  [Homepage](https://www.crcv.ucf.edu/projects/real-world/) · [Paper](https://arxiv.org/abs/1801.04264) · Access: Official project page
 
 <!-- DATASET_CATALOG_END -->
 

@@ -1028,6 +1028,51 @@
     }
   },
   {
+    "id": "scannetpp",
+    "name": "ScanNet++",
+    "shortName": "ScanNet++",
+    "year": 2023,
+    "summary": "高保真室内三维扫描数据集，包含神经渲染和密集语义标注。",
+    "summaryEn": "A high-fidelity indoor 3D scanning dataset with neural-rendering captures and dense semantic annotations.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Semantic Labels",
+      "Camera Pose"
+    ],
+    "structure": [
+      "3D Scene Scans"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "1,000+ high-fidelity scans",
+    "scaleZh": "1000 余个高保真扫描",
+    "organizations": "ETH Zurich and collaborators",
+    "organizationsZh": "苏黎世联邦理工学院及合作团队",
+    "license": "Terms require registration",
+    "licenseZh": "需注册并遵守条款",
+    "access": "Official project page",
+    "accessZh": "官方项目页",
+    "rating": 5,
+    "verdict": "高保真室内扫描",
+    "verdictEn": "High-fidelity indoor scans",
+    "wmNote": "适合神经场和空间状态建模。",
+    "wmNoteEn": "Supports neural fields and spatial-state modeling.",
+    "links": {
+      "homepage": "https://scannetpp.ml/",
+      "paper": "https://arxiv.org/abs/2308.11417"
+    }
+  },
+  {
     "id": "scenereplica",
     "name": "SceneReplica",
     "shortName": "SceneReplica",
@@ -4287,6 +4332,50 @@
     "licenseZh": "适用研究数据集条款；需核查当前下载协议"
   },
   {
+    "id": "kinetics-600",
+    "name": "Kinetics-600",
+    "shortName": "Kinetics-600",
+    "year": 2018,
+    "summary": "覆盖 600 类人类动作的大规模视频数据集。",
+    "summaryEn": "A large-scale video dataset covering 600 human action classes.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Video Clips",
+      "Action Segments"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "495K+ clips across 600 classes",
+    "scaleZh": "600 类、49.5 万余段片段",
+    "organizations": "DeepMind and collaborators",
+    "organizationsZh": "DeepMind 及合作团队",
+    "license": "YouTube source terms apply",
+    "licenseZh": "适用 YouTube 来源条款",
+    "access": "Official annotations",
+    "accessZh": "官方标注",
+    "rating": 3,
+    "verdict": "大规模动作视频",
+    "verdictEn": "Large-scale action videos",
+    "wmNote": "用于动作表征预训练。",
+    "wmNoteEn": "Useful for action representation pretraining.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1808.01316"
+    }
+  },
+  {
     "id": "moving-symbols",
     "name": "Moving Symbols",
     "shortName": "Moving Symbols",
@@ -4514,6 +4603,50 @@
     "links": {
       "paper": "https://arxiv.org/abs/1805.07663",
       "code": "https://github.com/vita-epfl/trajnetplusplusbaselines"
+    }
+  },
+  {
+    "id": "ucf-crime",
+    "name": "UCF-Crime",
+    "shortName": "UCF-Crime",
+    "year": 2018,
+    "summary": "长时监控视频异常事件数据集。",
+    "summaryEn": "A long-form surveillance video dataset of anomalous events.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels"
+    ],
+    "structure": [
+      "Long-form Videos",
+      "Temporal Annotations"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "1,900 surveillance videos",
+    "scaleZh": "1900 段监控视频",
+    "organizations": "University of Central Florida",
+    "organizationsZh": "中佛罗里达大学",
+    "license": "Research terms apply",
+    "licenseZh": "适用研究条款",
+    "access": "Official project page",
+    "accessZh": "官方项目页",
+    "rating": 3,
+    "verdict": "长时异常事件",
+    "verdictEn": "Long-form anomaly events",
+    "wmNote": "适合长期视频状态建模。",
+    "wmNoteEn": "Useful for long-horizon video-state modeling.",
+    "links": {
+      "homepage": "https://www.crcv.ucf.edu/projects/real-world/",
+      "paper": "https://arxiv.org/abs/1801.04264"
     }
   },
   {
@@ -5071,6 +5204,50 @@
       "homepage": "https://robotcar-dataset.robots.ox.ac.uk/",
       "paper": "https://arxiv.org/abs/1610.08265",
       "code": "https://github.com/ori-mrg/robotcar-dataset-sdk"
+    }
+  },
+  {
+    "id": "physical-prediction",
+    "name": "Physical Prediction Dataset",
+    "shortName": "Physical Prediction",
+    "year": 2016,
+    "summary": "用于视频物理预测的合成碰撞和运动序列数据集。",
+    "summaryEn": "A synthetic dataset of collisions and motion sequences for video physical prediction.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Simulation State"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic"
+    ],
+    "scale": "Synthetic physical interaction videos",
+    "scaleZh": "合成物理交互视频",
+    "organizations": "Academic research consortium",
+    "organizationsZh": "学术研究团队",
+    "license": "Paper entry; access unverified",
+    "licenseZh": "论文入口；访问待核验",
+    "access": "Paper entry only; data access unverified",
+    "accessZh": "仅论文入口；数据访问待核验",
+    "rating": 3,
+    "verdict": "视频物理预测",
+    "verdictEn": "Video physical prediction",
+    "wmNote": "用于碰撞和运动后果预测。",
+    "wmNoteEn": "For collision and motion-outcome prediction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1608.04239"
     }
   },
   {

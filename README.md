@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-102-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-108-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 102 | 6 | 6 | 43 |
+| 108 | 6 | 6 | 44 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (14)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (12)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (31)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (27)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (13)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (5)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (14)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (14)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (32)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (30)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (13)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (5)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -148,7 +148,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (12)
+### Action-Conditioned Dynamics (14)
 
 - **DrivingDojo** · 2024
   A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.
@@ -169,6 +169,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A real-world bimanual manipulation dataset with multiview RGB-D, force sensing, and robot state.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State`
   [Homepage](https://rh20t.github.io/) · [Paper](https://arxiv.org/abs/2307.00770) · [Code](https://github.com/rh20t/rh20t_api) · Access: Official project and download entry
+
+- **H2O** · 2022
+  An egocentric hand-object interaction dataset with 3D poses of both hands and objects.
+  `Egocentric / Human` · `RGB Video` · `Depth` · `Hand Pose` · `Object State`
+  [Homepage](https://h2o-release.github.io/) · [Paper](https://arxiv.org/abs/2206.13809) · Access: Official project page
+
+- **HOI4D** · 2022
+  A 4D human-object interaction video dataset with hand, object, and camera-motion annotations.
+  `Egocentric / Human` · `Robotics / Embodied AI` · `RGB-D` · `Action Labels` · `Object State` · `Agent Pose`
+  [Homepage](https://hoi4d.github.io/) · [Paper](https://arxiv.org/abs/2203.01577) · Access: Official project and data
 
 - **ManiSkill** · 2022
   An efficient physics-simulation benchmark and trajectory-generating environment for robot manipulation learning.
@@ -212,7 +222,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (31)
+### Decision-Making & Agent Trajectories (32)
 
 - **BRMData** · 2024
   A bimanual-mobile robot manipulation dataset for household tasks spanning single- and dual-arm, tabletop and mobile, human-interactive, rigid, and flexible-object scenarios.
@@ -263,6 +273,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A universal mobile-manipulation interface and dataset recording handheld vision, end-effector actions, and cross-robot trajectories.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
   [Homepage](https://umi-gripper.github.io/) · [Paper](https://arxiv.org/abs/2402.10329) · [Code](https://github.com/umi-gripper/umi) · Access: Open-source project and paper
+
+- **Assembly101** · 2022
+  A multiview egocentric and exocentric video dataset of procedural assembly actions.
+  `Egocentric / Human` · `RGB Video` · `Action Labels` · `Hand Pose`
+  [Homepage](https://assembly101.github.io/) · [Paper](https://arxiv.org/abs/2206.01063) · Access: Official benchmark
 
 - **BridgeData** · 2022
   Cross-scene robot manipulation demonstrations recording vision, actions, and state across diverse tabletop tasks.
@@ -371,7 +386,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (27)
+### Spatial & Spatiotemporal World Modeling (30)
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -388,6 +403,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Urban / 3D Scene` · `RGB-D` · `Language` · `3D Boxes` · `Semantic Labels` · `Camera Pose`
   [Paper](https://arxiv.org/abs/2312.16170) · [Code](https://github.com/OpenRobotLab/EmbodiedScan) · Access: Official code, annotations, and benchmark resources available
 
+- **Objaverse** · 2023
+  A large collection of 3D object assets for open-world 3D understanding and generation.
+  `Urban / 3D Scene` · `Games / Virtual Environments` · `3D Mesh` · `Object Metadata` · `Text`
+  [Homepage](https://objaverse.allenai.org/) · [Paper](https://arxiv.org/abs/2212.08051) · [Code](https://github.com/allenai/objaverse) · Access: Official dataset tooling
+
 - **Robo360** · 2023
   An omnispective robotic manipulation dataset with dense multiview coverage and objects spanning varied material and optical properties for 3D physical-world modeling.
   `Robotics / Embodied AI` · `Physics / Science` · `Multi-view RGB Video` · `Camera Pose` · `Action` · `Object Metadata`
@@ -398,10 +418,20 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Physics / Science` · `Synthetic Video` · `Depth` · `Optical Flow` · `Segmentation` · `3D State`
   [Paper](https://arxiv.org/abs/2203.12602) · [Code](https://github.com/google-research/kubric) · Access: Open download
 
+- **ARKitScenes** · 2021
+  An indoor RGB-D scanning and 3D reconstruction dataset captured with mobile devices.
+  `Urban / 3D Scene` · `RGB-D` · `3D Mesh` · `Camera Pose`
+  [Homepage](https://github.com/apple/ARKitScenes) · [Paper](https://arxiv.org/abs/2111.08853) · Access: Official download
+
 - **Habitat-Matterport 3D** · 2021
   A collection of high-quality building-scale 3D scans for embodied navigation and indoor simulation, supporting generated RGB-D, semantic, and agent trajectories through Habitat.
   `Robotics / Embodied AI` · `Urban / 3D Scene` · `3D Mesh` · `RGB-D` · `Semantic Labels` · `Agent Pose`
   [Homepage](https://aihabitat.org/datasets/hm3d/) · [Paper](https://arxiv.org/abs/2109.08238) · [Code](https://github.com/facebookresearch/habitat-sim) · Access: Application required
+
+- **Habitat-Matterport 3D (HM3D)** · 2021
+  A high-quality collection of real indoor 3D scenes for embodied navigation and interaction simulation.
+  `Robotics / Embodied AI` · `Urban / 3D Scene` · `3D Mesh` · `RGB Video` · `Maps`
+  [Homepage](https://aihabitat.org/datasets/hm3d/) · [Paper](https://arxiv.org/abs/2109.08238) · Access: Official Habitat download
 
 - **Audi Autonomous Driving Dataset** · 2020
   Audi's open autonomous-driving multisensor dataset with cameras, LiDAR, semantic labels, and vehicle state.

@@ -837,6 +837,53 @@
     }
   },
   {
+    "id": "objaverse",
+    "name": "Objaverse",
+    "shortName": "Objaverse",
+    "year": 2023,
+    "summary": "大规模三维物体资产集合，支持开放世界三维理解与生成。",
+    "summaryEn": "A large collection of 3D object assets for open-world 3D understanding and generation.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Urban / 3D Scene",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "3D Mesh",
+      "Object Metadata",
+      "Text"
+    ],
+    "structure": [
+      "Object Collection"
+    ],
+    "source": [
+      "Web-scale",
+      "Synthetic"
+    ],
+    "scale": "800K+ 3D objects",
+    "scaleZh": "80 万余个三维物体",
+    "organizations": "University of California, San Diego and collaborators",
+    "organizationsZh": "加州大学圣迭戈分校及合作团队",
+    "license": "Per-asset licenses apply",
+    "licenseZh": "各资产分别适用许可",
+    "access": "Official dataset tooling",
+    "accessZh": "官方数据工具",
+    "rating": 5,
+    "verdict": "开放三维物体资产",
+    "verdictEn": "Open 3D object assets",
+    "wmNote": "丰富物体先验可用于场景生成。",
+    "wmNoteEn": "Rich object priors support scene generation.",
+    "links": {
+      "homepage": "https://objaverse.allenai.org/",
+      "paper": "https://arxiv.org/abs/2212.08051",
+      "code": "https://github.com/allenai/objaverse"
+    }
+  },
+  {
     "id": "open-x-embodiment",
     "name": "Open X-Embodiment",
     "shortName": "OXE",
@@ -1076,6 +1123,52 @@
     }
   },
   {
+    "id": "assembly101",
+    "name": "Assembly101",
+    "shortName": "Assembly101",
+    "year": 2022,
+    "summary": "多视角第一人称与第三人称装配动作视频数据集。",
+    "summaryEn": "A multiview egocentric and exocentric video dataset of procedural assembly actions.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action Labels",
+      "Hand Pose"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Action Segments"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "4,000+ videos of 101 assembly tasks",
+    "scaleZh": "101 项装配任务、4000 余段视频",
+    "organizations": "Stanford University and collaborators",
+    "organizationsZh": "斯坦福大学及合作团队",
+    "license": "See project terms",
+    "licenseZh": "见项目条款",
+    "access": "Official benchmark",
+    "accessZh": "官方基准",
+    "rating": 4,
+    "verdict": "程序化装配动作",
+    "verdictEn": "Procedural assembly actions",
+    "wmNote": "长动作链适合步骤预测。",
+    "wmNoteEn": "Long action chains suit step prediction.",
+    "links": {
+      "homepage": "https://assembly101.github.io/",
+      "paper": "https://arxiv.org/abs/2206.01063"
+    }
+  },
+  {
     "id": "bridge-data",
     "name": "BridgeData",
     "shortName": "BridgeData",
@@ -1311,6 +1404,101 @@
     "organizationsZh": "布里斯托大学、卡塔尼亚大学",
     "accessZh": "需申请并同意协议",
     "licenseZh": "适用 EPIC-KITCHENS 数据许可及研究用途条件"
+  },
+  {
+    "id": "h2o",
+    "name": "H2O",
+    "shortName": "H2O",
+    "year": 2022,
+    "summary": "第一人称手-物交互数据集，提供双手和物体的三维姿态。",
+    "summaryEn": "An egocentric hand-object interaction dataset with 3D poses of both hands and objects.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Depth",
+      "Hand Pose",
+      "Object State"
+    ],
+    "structure": [
+      "Interaction Episodes",
+      "Video Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "Hundreds of hand-object sequences",
+    "scaleZh": "数百段手物交互序列",
+    "organizations": "University of Bonn and collaborators",
+    "organizationsZh": "波恩大学及合作团队",
+    "license": "Terms require verification",
+    "licenseZh": "条款待核验",
+    "access": "Official project page",
+    "accessZh": "官方项目页",
+    "rating": 4,
+    "verdict": "第一人称手物交互",
+    "verdictEn": "Egocentric hand-object interaction",
+    "wmNote": "提供细粒度操作状态。",
+    "wmNoteEn": "Provides fine-grained manipulation states.",
+    "links": {
+      "homepage": "https://h2o-release.github.io/",
+      "paper": "https://arxiv.org/abs/2206.13809"
+    }
+  },
+  {
+    "id": "hoi4d",
+    "name": "HOI4D",
+    "shortName": "HOI4D",
+    "year": 2022,
+    "summary": "四维人-物交互视频数据集，包含手部、物体和相机运动标注。",
+    "summaryEn": "A 4D human-object interaction video dataset with hand, object, and camera-motion annotations.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Egocentric / Human",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action Labels",
+      "Object State",
+      "Agent Pose"
+    ],
+    "structure": [
+      "Interaction Episodes",
+      "Video Sequences"
+    ],
+    "source": [
+      "Real-world",
+      "Human Demonstration"
+    ],
+    "scale": "4,000+ sequences across 16 categories",
+    "scaleZh": "16 类、4000 余段序列",
+    "organizations": "Tsinghua University and collaborators",
+    "organizationsZh": "清华大学及合作团队",
+    "license": "Research terms apply",
+    "licenseZh": "适用研究条款",
+    "access": "Official project and data",
+    "accessZh": "官方项目和数据",
+    "rating": 5,
+    "verdict": "四维人物交互",
+    "verdictEn": "4D human-object interaction",
+    "wmNote": "适合接触动力学和动作后果。",
+    "wmNoteEn": "Supports contact dynamics and action outcomes.",
+    "links": {
+      "homepage": "https://hoi4d.github.io/",
+      "paper": "https://arxiv.org/abs/2203.01577"
+    }
   },
   {
     "id": "maniskill",
@@ -1554,6 +1742,50 @@
     }
   },
   {
+    "id": "arkitscenes",
+    "name": "ARKitScenes",
+    "shortName": "ARKitScenes",
+    "year": 2021,
+    "summary": "室内移动设备 RGB-D 扫描与三维重建数据集。",
+    "summaryEn": "An indoor RGB-D scanning and 3D reconstruction dataset captured with mobile devices.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB-D",
+      "3D Mesh",
+      "Camera Pose"
+    ],
+    "structure": [
+      "3D Scene Scans"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "5,000+ indoor scans",
+    "scaleZh": "5000 余个室内扫描",
+    "organizations": "Apple and collaborators",
+    "organizationsZh": "Apple 及合作团队",
+    "license": "See official terms",
+    "licenseZh": "见官方条款",
+    "access": "Official download",
+    "accessZh": "官方下载",
+    "rating": 5,
+    "verdict": "移动设备三维扫描",
+    "verdictEn": "Mobile 3D scanning",
+    "wmNote": "适合空间状态重建。",
+    "wmNoteEn": "Useful for spatial-state reconstruction.",
+    "links": {
+      "homepage": "https://github.com/apple/ARKitScenes",
+      "paper": "https://arxiv.org/abs/2111.08853"
+    }
+  },
+  {
     "id": "dexycb",
     "name": "DexYCB",
     "shortName": "DexYCB",
@@ -1649,6 +1881,52 @@
     "organizationsZh": "Meta AI、Matterport",
     "accessZh": "需申请",
     "licenseZh": "适用 HM3D 数据集许可；包含访问协议和非商业限制"
+  },
+  {
+    "id": "hm3d",
+    "name": "Habitat-Matterport 3D (HM3D)",
+    "shortName": "HM3D",
+    "year": 2021,
+    "summary": "高质量真实室内三维场景集合，用于具身导航和交互仿真。",
+    "summaryEn": "A high-quality collection of real indoor 3D scenes for embodied navigation and interaction simulation.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "3D Mesh",
+      "RGB Video",
+      "Maps"
+    ],
+    "structure": [
+      "3D Scene Scans"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "1,000+ scanned environments",
+    "scaleZh": "1000 余个扫描环境",
+    "organizations": "Meta AI and collaborators",
+    "organizationsZh": "Meta AI 及合作团队",
+    "license": "Terms require registration",
+    "licenseZh": "需注册并遵守条款",
+    "access": "Official Habitat download",
+    "accessZh": "官方 Habitat 下载",
+    "rating": 5,
+    "verdict": "真实室内具身场景",
+    "verdictEn": "Real indoor embodied scenes",
+    "wmNote": "支持导航和交互 rollout。",
+    "wmNoteEn": "Supports navigation and interaction rollouts.",
+    "links": {
+      "homepage": "https://aihabitat.org/datasets/hm3d/",
+      "paper": "https://arxiv.org/abs/2109.08238"
+    }
   },
   {
     "id": "nuplan",

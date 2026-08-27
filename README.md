@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-143-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-183-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 143 | 6 | 6 | 45 |
+| 183 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,11 +70,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (23)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (18)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (43)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (33)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (15)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (11)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (24)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (20)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (54)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (40)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (19)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (26)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (23)
+### Predictive & Generative Dynamics (24)
+
+- **OpenS2V-Nexus** · 2025
+  A five-million-scale subject-to-video training dataset and fine-grained benchmark.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2505.20292) · Access: Paper entry; release status requires verification
 
 - **Ego4D** · 2022
   A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.
@@ -193,7 +198,17 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (18)
+### Action-Conditioned Dynamics (20)
+
+- **HandEdit** · 2026
+  A large egocentric dataset for editing human hands into dexterous robot embodiments.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `3D Metadata` · `Text`
+  [Paper](https://arxiv.org/abs/2608.12122) · Access: Paper entry; release status requires verification
+
+- **ViTacWorld** · 2026
+  A visuo-tactile-action trajectory resource for contact-rich manipulation.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Robot State`
+  [Paper](https://arxiv.org/abs/2607.22530) · Access: Paper entry; release status requires verification
 
 - **DrivingDojo** · 2024
   A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.
@@ -287,7 +302,62 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (43)
+### Decision-Making & Agent Trajectories (54)
+
+- **ACE-Data-0** · 2026
+  A synchronized home-interaction dataset with multiview video, body, hands, objects, audio, and touch.
+  `Robotics / Embodied AI` · `Physics / Science` · `Multi-view RGB Video` · `Audio` · `Action` · `Object State`
+  [Paper](https://arxiv.org/abs/2607.28625) · Access: Paper entry; release status requires verification
+
+- **AXIS** · 2026
+  A community-driven browser-teleoperation robot data engine and benchmark.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Robot State`
+  [Paper](https://arxiv.org/abs/2607.21588) · Access: Paper entry; release status requires verification
+
+- **HiPHI** · 2026
+  A high-precision whole-body human-motion and object-interaction dataset.
+  `Robotics / Embodied AI` · `Physics / Science` · `Agent Pose` · `3D Mesh` · `Object State`
+  [Paper](https://arxiv.org/abs/2608.16222) · Access: Paper entry; release status requires verification
+
+- **HUI360** · 2026
+  A 360-degree robot-egocentric dataset for anticipating human-robot interactions.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Agent Pose` · `Segmentation`
+  [Paper](https://arxiv.org/abs/2608.11051) · Access: Paper entry; release status requires verification
+
+- **TableVerse-100K** · 2026
+  One hundred thousand interactive tabletop environments reconstructed from real imagery with manipulation trajectories.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB-D` · `Action` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2607.21017) · Access: Paper entry; release status requires verification
+
+- **FLAME** · 2025
+  A large simulated demonstration benchmark for federated robot manipulation learning.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2503.01729) · Access: Paper entry; release status requires verification
+
+- **LabUtopia** · 2025
+  A scientific-lab suite with multiphysics simulation, procedural scenes, and hierarchical embodied tasks.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2505.22634) · Access: Paper entry; release status requires verification
+
+- **MIKASA** · 2025
+  A memory-intensive reinforcement-learning benchmark for tabletop robotics.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2502.10550) · Access: Paper entry; release status requires verification
+
+- **MuBlE / SHOP-VRB2** · 2025
+  A MuJoCo-Blender environment and benchmark for long-horizon physical manipulation reasoning.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2503.02834) · Access: Paper entry; release status requires verification
+
+- **PartInstruct** · 2025
+  A fine-grained robot-manipulation benchmark with part instructions, 3D labels, and expert demonstrations.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2505.21652) · Access: Paper entry; release status requires verification
+
+- **RoboGround Data** · 2025
+  A simulated robot-manipulation data resource with diverse objects and instructions.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2504.21530) · Access: Paper entry; release status requires verification
 
 - **BRMData** · 2024
   A bimanual-mobile robot manipulation dataset for household tasks spanning single- and dual-arm, tabletop and mobile, human-interactive, rigid, and flexible-object scenarios.
@@ -506,7 +576,42 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (33)
+### Spatial & Spatiotemporal World Modeling (40)
+
+- **AudioWorldSim** · 2026
+  An open simulation platform for generating binaural-audio world-model trajectories.
+  `Robotics / Embodied AI` · `Physics / Science` · `Audio` · `Agent Pose` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.21075) · Access: Paper entry; release status requires verification
+
+- **TransBiolab** · 2026
+  A real multiview RGB-D dataset of cluttered transparent biomedical objects.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB-D` · `3D Boxes` · `Segmentation` · `Camera Pose`
+  [Paper](https://arxiv.org/abs/2607.21071) · Access: Paper entry; release status requires verification
+
+- **Digital Twin Catalog** · 2025
+  A photorealistic 3D digital-twin dataset with multilight image sequences of real objects.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2504.08541) · Access: Paper entry; release status requires verification
+
+- **RadarRGBD** · 2025
+  An indoor-outdoor perception dataset with RGB-D, mmWave point clouds, and raw radar matrices.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2505.15860) · Access: Paper entry; release status requires verification
+
+- **SLABIM** · 2025
+  An indoor dataset coupling SLAM sensor data with building information models.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2502.16856) · Access: Paper entry; release status requires verification
+
+- **SPICE-HL3** · 2025
+  A single-photon, inertial, stereo, and odometry dataset in simulated high-latitude lunar conditions.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2506.22956) · Access: Paper entry; release status requires verification
+
+- **STRIDE** · 2025
+  A spatiotemporal autonomy dataset organizing panoramic road imagery into observation, state, and action nodes.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2506.11302) · Access: Paper entry; release status requires verification
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -675,7 +780,27 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="physical-causal-reasoning"></a>
 
-### Physical & Causal Reasoning (15)
+### Physical & Causal Reasoning (19)
+
+- **CG-World** · 2026
+  A large computer-graphics world-state dataset explicitly recording states, events, relations, and counterfactual branches.
+  `Robotics / Embodied AI` · `Physics / Science` · `Synthetic Video` · `3D State` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2607.26452) · Access: Paper entry; release status requires verification
+
+- **PhyCheck** · 2026
+  A fine-grained evidence-grounded video-QA dataset for physical-law understanding.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `QA` · `Text`
+  [Paper](https://arxiv.org/abs/2608.02150) · Access: Paper entry; release status requires verification
+
+- **RigidBench** · 2026
+  A rigid-body physics video-generation benchmark with exact simulator state.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Depth` · `3D State`
+  [Paper](https://arxiv.org/abs/2608.15555) · Access: Paper entry; release status requires verification
+
+- **CausalVQA** · 2025
+  A real-video physical-causal VQA benchmark for counterfactuals, hypotheses, anticipation, and planning.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2506.09943) · Access: Paper entry; release status requires verification
 
 - **PokeFlex** · 2024
   A real-world pilot dataset for deformable-object manipulation, capturing complete 360-degree 3D mesh deformations together with robot-applied forces and torques during poking.
@@ -754,7 +879,82 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (11)
+### World Model Evaluation & Diagnostics (26)
+
+- **CaliBench** · 2026
+  An interpretable benchmark for calibration of stochastic physical outcomes in video world models.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.16829) · Access: Paper entry; release status requires verification
+
+- **CamWorldQA** · 2026
+  A human-rated perceptual-quality benchmark for camera-controlled world-video generation.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Camera Pose`
+  [Paper](https://arxiv.org/abs/2608.18710) · Access: Paper entry; release status requires verification
+
+- **H2R-Bench** · 2026
+  A benchmark for human-to-robot cross-embodiment manipulation video generation.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action Labels` · `Object State`
+  [Paper](https://arxiv.org/abs/2608.13049) · Access: Paper entry; release status requires verification
+
+- **HarnessEval-W** · 2026
+  An evidence-traceable evaluation suite for visual-world-model dynamics.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Text` · `QA`
+  [Paper](https://arxiv.org/abs/2608.16859) · Access: Paper entry; release status requires verification
+
+- **PlayWorld** · 2026
+  An interactive world-model benchmark using agent players to pursue long-horizon objectives.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.13552) · Access: Paper entry; release status requires verification
+
+- **Sci-VBench** · 2026
+  An expert-annotated benchmark for knowledge- and reasoning-intensive scientific video generation.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Text`
+  [Paper](https://arxiv.org/abs/2608.09873) · Access: Paper entry; release status requires verification
+
+- **SemComp-Data** · 2026
+  A six-domain dataset of reference images, instructions, and outcome videos for semantic task completion.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Text`
+  [Paper](https://arxiv.org/abs/2608.17426) · Access: Paper entry; release status requires verification
+
+- **VGI-Bench** · 2026
+  A 27-task benchmark probing visual reasoning in video generation models.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Text` · `QA`
+  [Paper](https://arxiv.org/abs/2608.19583) · Access: Paper entry; release status requires verification
+
+- **DriveAction** · 2025
+  A human-like driving-decision benchmark grounded in real driver action labels.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2506.05667) · Access: Paper entry; release status requires verification
+
+- **ManipBench** · 2025
+  A benchmark for low-level robot-manipulation reasoning in vision-language models.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2505.09698) · Access: Paper entry; release status requires verification
+
+- **MMR** · 2025
+  A multi-target, multi-granularity object-and-part reasoning segmentation dataset.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2503.13881) · Access: Paper entry; release status requires verification
+
+- **Robo2VLM-1** · 2025
+  A spatial, goal, and interaction reasoning VQA dataset generated from real robot trajectories.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2505.15517) · Access: Paper entry; release status requires verification
+
+- **SimWorld Benchmark** · 2025
+  A simulator-conditioned autonomous-driving scene-generation dataset and benchmark.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2503.13952) · Access: Paper entry; release status requires verification
+
+- **STU** · 2025
+  A camera and densely labeled 3D LiDAR dataset for road-anomaly segmentation.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2505.02148) · Access: Paper entry; release status requires verification
+
+- **WorldGym** · 2025
+  A world-model environment for safe evaluation of real-robot policies.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
+  [Paper](https://arxiv.org/abs/2506.00613) · Access: Paper entry; release status requires verification
 
 - **AeroVerse** · 2024
   A UAV embodied-world-model benchmark suite describing real and simulated pretraining data, five instruction-tuning datasets, and evaluation across perception, reasoning, navigation, planning, and action.

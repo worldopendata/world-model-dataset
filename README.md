@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-123-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-143-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 123 | 6 | 6 | 44 |
+| 143 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,11 +70,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (21)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (15)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (33)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (33)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (14)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (7)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (23)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (18)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (43)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (33)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (15)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (11)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (21)
+### Predictive & Generative Dynamics (23)
 
 - **Ego4D** · 2022
   A large first-person video dataset of real human activities collected by Meta AI and an international academic consortium, with benchmarks for object interaction anticipation and long-term action forecasting.
@@ -91,10 +91,20 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `RGB Video` · `Audio` · `Action Labels` · `Language`
   [Homepage](https://epic-kitchens.github.io/2021) · [Paper](https://arxiv.org/abs/2006.13256) · [Code](https://github.com/epic-kitchens/epic-kitchens-100-annotations) · Access: Application / agreement required
 
+- **Kubric** · 2022
+  A pipeline for generating videos with exact 3D, optical-flow, depth, and segmentation annotations.
+  `Physics / Science` · `Games / Virtual Environments` · `Synthetic Video` · `Depth` · `Optical Flow` · `Segmentation` · `3D State`
+  [Homepage](https://kubric.readthedocs.io/) · [Paper](https://arxiv.org/abs/2203.03570) · [Code](https://github.com/google-research/kubric) · Access: Official generation toolkit
+
 - **BDD100K** · 2020
   A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.
   `Autonomous Driving` · `RGB Video` · `2D Boxes` · `Segmentation` · `Lane Markings`
   [Homepage](https://bdd-data.berkeley.edu/) · [Paper](https://arxiv.org/abs/1805.04687) · [Code](https://github.com/bdd100k/bdd100k) · Access: Registration required
+
+- **Virtual KITTI 2** · 2020
+  A photorealistic synthetic driving-video dataset with depth, optical flow, scene flow, and 3D annotations.
+  `Autonomous Driving` · `Games / Virtual Environments` · `Synthetic Video` · `Depth` · `Optical Flow` · `3D Boxes` · `Segmentation`
+  [Homepage](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/) · [Paper](https://arxiv.org/abs/2001.10773) · Access: Official download
 
 - **AMASS** · 2019
   A unified 4D human-motion database combining 15 motion-capture datasets in a common SMPL representation for motion prediction, generation, and interaction modeling.
@@ -174,7 +184,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **HMDB51** · 2011
   A video dataset of 51 human action classes collected from films and public videos.
   `Egocentric / Human` · `RGB Video` · `Action Labels`
-  [Homepage](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) · [Paper](https://www.di.ens.fr/~laptev/hmdb51.html) · Access: Official project page
+  [Homepage](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) · Access: Official project page
 
 - **KTH Human Actions** · 2004
   An early real-video benchmark widely reused for video prediction, with six continuous human actions under controlled backgrounds and scale variation.
@@ -183,7 +193,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (15)
+### Action-Conditioned Dynamics (18)
 
 - **DrivingDojo** · 2024
   A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.
@@ -208,7 +218,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **H2O** · 2022
   An egocentric hand-object interaction dataset with 3D poses of both hands and objects.
   `Egocentric / Human` · `RGB Video` · `Depth` · `Hand Pose` · `Object State`
-  [Homepage](https://h2o-release.github.io/) · [Paper](https://arxiv.org/abs/2206.13809) · Access: Official project page
+  [Paper](https://arxiv.org/abs/2206.13809) · Access: Official project page
 
 - **HOI4D** · 2022
   A 4D human-object interaction video dataset with hand, object, and camera-motion annotations.
@@ -235,6 +245,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `Robotics / Embodied AI` · `RGB-D` · `3D Mesh` · `Agent Pose` · `Object State`
   [Homepage](https://dex-ycb.github.io/) · [Paper](https://arxiv.org/abs/2104.04631) · [Code](https://github.com/NVlabs/dex-ycb-toolkit) · Access: Official download
 
+- **iGibson** · 2021
+  A high-fidelity interactive 3D simulator generating embodied navigation and manipulation trajectories.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB-D` · `Action` · `Simulation State` · `Object State`
+  [Homepage](https://svl.stanford.edu/igibson/) · [Paper](https://arxiv.org/abs/2012.02924) · [Code](https://github.com/StanfordVL/iGibson) · Access: Official simulator
+
 - **InterHand2.6M** · 2020
   A large 3D interacting-hand pose dataset with real and synthetic hand interaction sequences.
   `Egocentric / Human` · `Robotics / Embodied AI` · `RGB Video` · `Agent Pose` · `3D Mesh`
@@ -255,6 +270,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Object State` · `Trajectory`
   [Paper](https://arxiv.org/abs/1910.00618) · [Code](https://github.com/MIT-Omnipush/video-prediction) · Access: Open project access
 
+- **AI2-THOR** · 2017
+  An interactive indoor simulator generating navigation, manipulation, and state-change trajectories.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB-D` · `Action` · `Simulation State` · `Object State`
+  [Homepage](https://ai2thor.allenai.org/) · [Paper](https://arxiv.org/abs/1712.05474) · [Code](https://github.com/allenai/ai2thor) · Access: Official simulator
+
+- **CARLA** · 2017
+  An open autonomous-driving simulator generating multisensor driving, traffic-agent, and control trajectories.
+  `Autonomous Driving` · `Games / Virtual Environments` · `RGB Video` · `LiDAR` · `RADAR` · `Action` · `Simulation State`
+  [Homepage](https://carla.org/) · [Paper](https://arxiv.org/abs/1711.03938) · [Code](https://github.com/carla-simulator/carla) · Access: Official simulator
+
 - **BAIR Robot Pushing** · 2016
   A classic action-conditioned video dataset of a robot pushing objects on a tabletop, widely used for stochastic future prediction and visual dynamics baselines.
   `Robotics / Embodied AI` · `RGB Video` · `Action`
@@ -262,7 +287,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (33)
+### Decision-Making & Agent Trajectories (43)
 
 - **BRMData** · 2024
   A bimanual-mobile robot manipulation dataset for household tasks spanning single- and dual-arm, tabletop and mobile, human-interactive, rigid, and flexible-object scenarios.
@@ -289,6 +314,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
   [Homepage](https://rail-berkeley.github.io/bridgedata/) · [Paper](https://arxiv.org/abs/2305.08990) · Access: Official project and download
 
+- **FurnitureBench** · 2023
+  A real-and-simulated long-horizon furniture assembly robot benchmark with trajectories.
+  `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State` · `Object State`
+  [Homepage](https://clvrai.github.io/furniture-bench/) · [Paper](https://arxiv.org/abs/2305.12821) · [Code](https://github.com/clvrai/furniture-bench) · Access: Official benchmark and code
+
 - **LIBERO** · 2023
   A benchmark for lifelong and language-conditioned robot manipulation with multi-task demonstrations, visual observations, actions, and task descriptions.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
@@ -309,15 +339,25 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
   [Homepage](https://robotics-transformer-x.github.io/) · [Paper](https://arxiv.org/abs/2310.08864) · [Code](https://github.com/google-deepmind/open_x_embodiment) · Access: Open / component-dependent
 
+- **RoboHive** · 2023
+  A unified benchmark framework for real and simulated robot-learning tasks, trajectories, and hardware interfaces.
+  `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State` · `Simulation State`
+  [Homepage](https://sites.google.com/view/robohive) · [Paper](https://arxiv.org/abs/2310.06828) · [Code](https://github.com/vikashplus/robohive) · Access: Official framework
+
 - **UMI** · 2023
   A universal mobile-manipulation interface and dataset recording handheld vision, end-effector actions, and cross-robot trajectories.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
-  [Homepage](https://umi-gripper.github.io/) · [Paper](https://arxiv.org/abs/2402.10329) · [Code](https://github.com/umi-gripper/umi) · Access: Open-source project and paper
+  [Homepage](https://umi-gripper.github.io/) · [Paper](https://arxiv.org/abs/2402.10329) · Access: Open-source project and paper
 
 - **Assembly101** · 2022
   A multiview egocentric and exocentric video dataset of procedural assembly actions.
   `Egocentric / Human` · `RGB Video` · `Action Labels` · `Hand Pose`
   [Homepage](https://assembly101.github.io/) · [Paper](https://arxiv.org/abs/2206.01063) · Access: Official benchmark
+
+- **BEHAVIOR-1K** · 2022
+  An embodied benchmark of 1,000 everyday household activities with tasks, scenes, and simulation.
+  `Robotics / Embodied AI` · `RGB-D` · `Action` · `Simulation State` · `Language`
+  [Homepage](https://behavior.stanford.edu/) · [Paper](https://arxiv.org/abs/2403.09227) · [Code](https://github.com/StanfordVL/BEHAVIOR-1K) · Access: Official benchmark
 
 - **BridgeData** · 2022
   Cross-scene robot manipulation demonstrations recording vision, actions, and state across diverse tabletop tasks.
@@ -334,10 +374,20 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `RGB Video` · `Language` · `Action Labels` · `Object Metadata`
   [Homepage](https://ego4d-data.org/) · [Paper](https://arxiv.org/abs/2110.07058) · Access: Official challenge portal
 
+- **Language-Table** · 2022
+  A language-conditioned tabletop robot dataset and environment with long-horizon free-form instructions.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Language` · `Robot State`
+  [Paper](https://arxiv.org/abs/2210.06407) · [Code](https://github.com/google-research/language-table) · Access: Official dataset and code
+
 - **ProcTHOR** · 2022
   A procedural framework for generating arbitrarily large, diverse, customizable interactive environments for embodied-agent training and evaluation, with an official 10,000-house sample.
   `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Simulation State` · `Scene Metadata`
   [Paper](https://arxiv.org/abs/2206.06994) · [Code](https://github.com/allenai/procthor) · Access: Official generator and ProcTHOR-10K sample available
+
+- **TEACh** · 2022
+  A dialogue-driven embodied-task dataset with language and action trajectories from human commander-follower interactions.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Language` · `Object State`
+  [Homepage](https://teachingalfred.github.io/) · [Paper](https://arxiv.org/abs/2110.00534) · [Code](https://github.com/alexa/teach) · Access: Official benchmark and code
 
 - **nuPlan** · 2021
   A large-scale real-world planning dataset and benchmark with sensor logs, maps, trajectories, and closed-loop evaluation tools for autonomous driving.
@@ -354,15 +404,40 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Simulation State` · `Object State`
   [Paper](https://arxiv.org/abs/2103.14025) · [Code](https://github.com/chuangg/tdw-transport-challenge-starter-code) · Access: Official paper and starter code available
 
+- **ALFRED** · 2020
+  A dataset and benchmark of language-guided indoor navigation and manipulation demonstrations.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Language` · `Object State`
+  [Homepage](https://askforalfred.com/) · [Paper](https://arxiv.org/abs/1912.01734) · [Code](https://github.com/askforalfred/alfred) · Access: Official dataset and benchmark
+
 - **Diving48** · 2020
   A video dataset of 48 fine-grained diving actions emphasizing temporal phase differences.
   `Egocentric / Human` · `RGB Video` · `Action Labels`
   [Paper](https://arxiv.org/abs/1903.11204) · Access: Official project and annotations
 
+- **Ravens** · 2020
+  A tabletop robot manipulation benchmark with procedural tasks and demonstration trajectories.
+  `Robotics / Embodied AI` · `RGB-D` · `Action` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2003.08927) · [Code](https://github.com/google-research/ravens) · Access: Official code and generation tools
+
 - **RLBench** · 2020
   A programmable robot manipulation suite built on CoppeliaSim, offering many tasks, demonstrations, and multi-view observations for reinforcement learning, imitation, and controllable simulation.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State` · `Language`
   [Homepage](https://sites.google.com/view/rlbench) · [Paper](https://arxiv.org/abs/1909.12271) · [Code](https://github.com/stepjam/RLBench) · Access: Open generation toolkit
+
+- **RoboTHOR** · 2020
+  An indoor robot environment and trajectory benchmark for sim-to-real navigation.
+  `Robotics / Embodied AI` · `RGB-D` · `Action` · `Agent Pose` · `Maps`
+  [Homepage](https://ai2thor.allenai.org/robothor/) · [Paper](https://arxiv.org/abs/2004.06799) · Access: Official challenge and simulator
+
+- **BabyAI** · 2019
+  An embodied-learning platform generating language instructions, grid environments, and expert trajectories.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Language` · `Simulation State`
+  [Paper](https://arxiv.org/abs/1810.08272) · [Code](https://github.com/mila-iqia/babyai) · Access: Official environment and generator
+
+- **Franka Kitchen** · 2019
+  A long-horizon kitchen robot manipulation environment with human demonstration trajectories.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Object State`
+  [Paper](https://arxiv.org/abs/1910.11956) · [Code](https://github.com/Farama-Foundation/D4RL) · Access: Official environment and offline data
 
 - **Honda Research Institute Driving Dataset** · 2019
   A real-road driving dataset for driver behavior, scene understanding, and causal explanations, combining driving video, vehicle state, and human advice.
@@ -451,7 +526,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **Objaverse** · 2023
   A large collection of 3D object assets for open-world 3D understanding and generation.
   `Urban / 3D Scene` · `Games / Virtual Environments` · `3D Mesh` · `Object Metadata` · `Text`
-  [Homepage](https://objaverse.allenai.org/) · [Paper](https://arxiv.org/abs/2212.08051) · [Code](https://github.com/allenai/objaverse) · Access: Official dataset tooling
+  [Homepage](https://objaverse.allenai.org/) · [Paper](https://arxiv.org/abs/2212.08051) · Access: Official dataset tooling
 
 - **Robo360** · 2023
   An omnispective robotic manipulation dataset with dense multiview coverage and objects spanning varied material and optical properties for 3D physical-world modeling.
@@ -491,7 +566,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **HOPE Object Pose Dataset** · 2020
   An RGB-D dataset for 6D pose estimation of household objects in cluttered scenes.
   `Robotics / Embodied AI` · `RGB-D` · `3D Mesh` · `Camera Pose`
-  [Homepage](https://hope-dataset.github.io/) · [Paper](https://arxiv.org/abs/2003.09111) · [Code](https://github.com/swatyam/hope-dataset) · Access: Official project page and code
+  [Paper](https://arxiv.org/abs/2003.09111) · Access: Official project page and code
 
 - **KITTI-360** · 2020
   A multimodal 3D dataset for long-range urban driving with panoramic images, LiDAR, trajectories, and scene annotations.
@@ -600,7 +675,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="physical-causal-reasoning"></a>
 
-### Physical & Causal Reasoning (14)
+### Physical & Causal Reasoning (15)
 
 - **PokeFlex** · 2024
   A real-world pilot dataset for deformable-object manipulation, capturing complete 360-degree 3D mesh deformations together with robot-applied forces and torques during poking.
@@ -615,12 +690,17 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **Physion** · 2021
   A physics-simulation video and question-answer dataset for visual physical reasoning.
   `Physics / Science` · `Games / Virtual Environments` · `RGB Video` · `QA` · `Simulation State`
-  [Paper](https://arxiv.org/abs/2106.08261) · [Code](https://github.com/cognitive-ai-lab/Physion) · Access: Official benchmark code and data
+  [Paper](https://arxiv.org/abs/2106.08261) · Access: Official benchmark code and data
 
 - **CATER** · 2020
   A synthetic video dataset with compositional object motions and precise metadata, emphasizing spatiotemporal relations, occlusion, and long-term object tracking.
   `Physics / Science` · `Synthetic Video` · `Object State` · `Action Labels` · `3D Metadata`
   [Homepage](https://rohitgirdhar.github.io/CATER/) · [Paper](https://arxiv.org/abs/1910.04744) · [Code](https://github.com/rohitgirdhar/CATER) · Access: Open download
+
+- **CausalWorld** · 2020
+  An intervention-rich robot manipulation simulator for causal structure and generalization research.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Simulation State` · `Object State`
+  [Homepage](https://sites.google.com/view/causal-world) · [Paper](https://arxiv.org/abs/2010.04296) · [Code](https://github.com/rr-learning/CausalWorld) · Access: Official environment
 
 - **EGAD!** · 2020
   A procedurally generated robotic grasping dataset with over 2,000 objects spanning geometric complexity and grasp difficulty, plus 49 reproducible 3D-printable evaluation objects.
@@ -674,7 +754,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (7)
+### World Model Evaluation & Diagnostics (11)
 
 - **AeroVerse** · 2024
   A UAV embodied-world-model benchmark suite describing real and simulated pretraining data, five instruction-tuning datasets, and evaluation across perception, reasoning, navigation, planning, and action.
@@ -686,10 +766,30 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Physics / Science` · `Egocentric / Human` · `RGB Video` · `QA` · `Text`
   [Homepage](https://mmworld-bench.github.io/) · [Paper](https://arxiv.org/abs/2406.08407) · [Code](https://github.com/UCSB-AI/MMWorld) · Access: Official benchmark repository and project page available
 
+- **Perception Test** · 2023
+  A real-video benchmark for multimodal perception, memory, physics, and abstraction.
+  `Egocentric / Human` · `Physics / Science` · `RGB Video` · `Audio` · `QA`
+  [Homepage](https://github.com/deepmind/perception_test) · [Paper](https://arxiv.org/abs/2305.13786) · Access: Official benchmark
+
 - **SceneReplica** · 2023
   A standardized benchmark for replicating real-world robot pick-and-place experiments, with YCB scenes, RGB-D metadata, grasp data, and sim-to-real setup tools.
   `Robotics / Embodied AI` · `RGB-D` · `3D Metadata` · `Object State` · `Action`
   [Homepage](https://irvlutd.github.io/SceneReplica/) · [Paper](https://arxiv.org/abs/2306.15620) · [Code](https://github.com/IRVLUTD/SceneReplica) · Access: Official repository links scene, grasp, and model files
+
+- **SHIFT** · 2022
+  A synthetic driving dataset for discrete and continuous domain shifts across weather, time, and traffic.
+  `Autonomous Driving` · `RGB Video` · `Depth` · `Optical Flow` · `3D Boxes` · `Segmentation`
+  [Homepage](https://www.vis.xyz/shift/) · [Paper](https://arxiv.org/abs/2206.08367) · [Code](https://github.com/SysCV/shift-dev) · Access: Official dataset and code
+
+- **TAP-Vid** · 2022
+  A benchmark for tracking arbitrary points through real, motion-capture, and synthetic videos.
+  `Egocentric / Human` · `Physics / Science` · `RGB Video` · `Trajectory` · `Occlusion Labels`
+  [Homepage](https://deepmind-tapir.github.io/) · [Paper](https://arxiv.org/abs/2211.03726) · [Code](https://github.com/google-deepmind/tapnet) · Access: Official benchmark code and data
+
+- **VIMA-Bench** · 2022
+  A procedurally generated robot-manipulation benchmark driven by multimodal prompts.
+  `Robotics / Embodied AI` · `RGB-D` · `Action` · `Language` · `Object Metadata`
+  [Homepage](https://vimalabs.github.io/) · [Paper](https://arxiv.org/abs/2210.03094) · [Code](https://github.com/vimalabs/VIMA) · Access: Official benchmark code
 
 - **CLEVRER** · 2020
   A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.

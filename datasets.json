@@ -688,6 +688,55 @@
     }
   },
   {
+    "id": "furniturebench",
+    "name": "FurnitureBench",
+    "shortName": "FurnitureBench",
+    "year": 2023,
+    "summary": "真实与仿真的长时家具装配机器人基准和轨迹数据。",
+    "summaryEn": "A real-and-simulated long-horizon furniture assembly robot benchmark with trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Robot State",
+      "Object State"
+    ],
+    "structure": [
+      "Assembly Episodes",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation",
+      "Teleoperation"
+    ],
+    "scale": "Multiple furniture assembly tasks and demonstrations",
+    "scaleZh": "多项家具装配任务和演示",
+    "organizations": "Stanford University",
+    "organizationsZh": "斯坦福大学",
+    "license": "Official repository terms apply",
+    "licenseZh": "适用官方仓库条款",
+    "access": "Official benchmark and code",
+    "accessZh": "官方基准和代码",
+    "rating": 5,
+    "verdict": "长时家具装配",
+    "verdictEn": "Long-horizon furniture assembly",
+    "wmNote": "接触丰富且动作链较长。",
+    "wmNoteEn": "Contact-rich with long action chains.",
+    "links": {
+      "homepage": "https://clvrai.github.io/furniture-bench/",
+      "paper": "https://arxiv.org/abs/2305.12821",
+      "code": "https://github.com/clvrai/furniture-bench"
+    }
+  },
+  {
     "id": "libero",
     "name": "LIBERO",
     "shortName": "LIBERO",
@@ -879,8 +928,7 @@
     "wmNoteEn": "Rich object priors support scene generation.",
     "links": {
       "homepage": "https://objaverse.allenai.org/",
-      "paper": "https://arxiv.org/abs/2212.08051",
-      "code": "https://github.com/allenai/objaverse"
+      "paper": "https://arxiv.org/abs/2212.08051"
     }
   },
   {
@@ -930,6 +978,53 @@
     "organizationsZh": "Google DeepMind、斯坦福大学、加州大学伯克利分校及合作机构",
     "accessZh": "开放获取，具体取决于组成数据集",
     "licenseZh": "混合许可：Apache-2.0 / CC BY 4.0；各组成数据集保留自身条款"
+  },
+  {
+    "id": "perception-test",
+    "name": "Perception Test",
+    "shortName": "Perception Test",
+    "year": 2023,
+    "summary": "面向多模态模型的真实视频感知、记忆、物理和抽象推理评测集。",
+    "summaryEn": "A real-video benchmark for multimodal perception, memory, physics, and abstraction.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Egocentric / Human",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Audio",
+      "QA"
+    ],
+    "structure": [
+      "Video Question Answering",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Real-world",
+      "Human Annotation"
+    ],
+    "scale": "11,000+ videos across 6 skill areas",
+    "scaleZh": "覆盖 6 类能力的 1.1 万余段视频",
+    "organizations": "DeepMind",
+    "organizationsZh": "DeepMind",
+    "license": "Official terms apply",
+    "licenseZh": "适用官方条款",
+    "access": "Official benchmark",
+    "accessZh": "官方基准",
+    "rating": 5,
+    "verdict": "综合视频世界理解",
+    "verdictEn": "Comprehensive video-world understanding",
+    "wmNote": "同时诊断记忆、物理和对象恒常性。",
+    "wmNoteEn": "Diagnoses memory, physics, and object permanence.",
+    "links": {
+      "homepage": "https://github.com/deepmind/perception_test",
+      "paper": "https://arxiv.org/abs/2305.13786"
+    }
   },
   {
     "id": "rh20t",
@@ -1025,6 +1120,54 @@
       "homepage": "https://robo360dataset.github.io/",
       "paper": "https://arxiv.org/abs/2312.06686",
       "code": "https://github.com/robo360dataset/robo360dataset.github.io"
+    }
+  },
+  {
+    "id": "robohive",
+    "name": "RoboHive",
+    "shortName": "RoboHive",
+    "year": 2023,
+    "summary": "统一真实与仿真机器人学习任务、轨迹和硬件接口的基准框架。",
+    "summaryEn": "A unified benchmark framework for real and simulated robot-learning tasks, trajectories, and hardware interfaces.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Robot State",
+      "Simulation State"
+    ],
+    "structure": [
+      "Interaction Episodes",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Multiple manipulation and locomotion task suites",
+    "scaleZh": "多个操作和运动任务套件",
+    "organizations": "Meta AI and collaborators",
+    "organizationsZh": "Meta AI 及合作团队",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Official framework",
+    "accessZh": "官方框架",
+    "rating": 4,
+    "verdict": "统一机器人任务套件",
+    "verdictEn": "Unified robot task suite",
+    "wmNote": "便于跨任务和仿真现实比较。",
+    "wmNoteEn": "Enables cross-task and sim-real comparison.",
+    "links": {
+      "homepage": "https://sites.google.com/view/robohive",
+      "paper": "https://arxiv.org/abs/2310.06828",
+      "code": "https://github.com/vikashplus/robohive"
     }
   },
   {
@@ -1163,8 +1306,7 @@
     "wmNoteEn": "A unified interface aids dynamics transfer.",
     "links": {
       "homepage": "https://umi-gripper.github.io/",
-      "paper": "https://arxiv.org/abs/2402.10329",
-      "code": "https://github.com/umi-gripper/umi"
+      "paper": "https://arxiv.org/abs/2402.10329"
     }
   },
   {
@@ -1211,6 +1353,54 @@
     "links": {
       "homepage": "https://assembly101.github.io/",
       "paper": "https://arxiv.org/abs/2206.01063"
+    }
+  },
+  {
+    "id": "behavior-1k",
+    "name": "BEHAVIOR-1K",
+    "shortName": "BEHAVIOR-1K",
+    "year": 2022,
+    "summary": "包含一千项日常家庭活动的具身智能任务、场景和仿真基准。",
+    "summaryEn": "An embodied benchmark of 1,000 everyday household activities with tasks, scenes, and simulation.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Simulation State",
+      "Language"
+    ],
+    "structure": [
+      "Household Tasks",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation",
+      "Human Annotation"
+    ],
+    "scale": "1,000 household activities",
+    "scaleZh": "1000 项家庭活动",
+    "organizations": "Stanford University and collaborators",
+    "organizationsZh": "斯坦福大学及合作团队",
+    "license": "Official project terms apply",
+    "licenseZh": "适用官方项目条款",
+    "access": "Official benchmark",
+    "accessZh": "官方基准",
+    "rating": 5,
+    "verdict": "千项家庭活动",
+    "verdictEn": "One thousand household activities",
+    "wmNote": "长时组合任务适合规划世界模型。",
+    "wmNoteEn": "Long compositional tasks suit planning world models.",
+    "links": {
+      "homepage": "https://behavior.stanford.edu/",
+      "paper": "https://arxiv.org/abs/2403.09227",
+      "code": "https://github.com/StanfordVL/BEHAVIOR-1K"
     }
   },
   {
@@ -1539,7 +1729,6 @@
     "wmNote": "提供细粒度操作状态。",
     "wmNoteEn": "Provides fine-grained manipulation states.",
     "links": {
-      "homepage": "https://h2o-release.github.io/",
       "paper": "https://arxiv.org/abs/2206.13809"
     }
   },
@@ -1589,6 +1778,103 @@
     "links": {
       "homepage": "https://hoi4d.github.io/",
       "paper": "https://arxiv.org/abs/2203.01577"
+    }
+  },
+  {
+    "id": "kubric",
+    "name": "Kubric",
+    "shortName": "Kubric",
+    "year": 2022,
+    "summary": "用于生成带精确三维、光流、深度和分割标注的视频数据管线。",
+    "summaryEn": "A pipeline for generating videos with exact 3D, optical-flow, depth, and segmentation annotations.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Physics / Science",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "Synthetic Video",
+      "Depth",
+      "Optical Flow",
+      "Segmentation",
+      "3D State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Procedurally Generated Scenes"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic"
+    ],
+    "scale": "Configurable large-scale synthetic video generation",
+    "scaleZh": "可配置的大规模合成视频生成",
+    "organizations": "Google Research",
+    "organizationsZh": "Google Research",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Official generation toolkit",
+    "accessZh": "官方生成工具",
+    "rating": 5,
+    "verdict": "可控合成视频管线",
+    "verdictEn": "Controllable synthetic-video pipeline",
+    "wmNote": "可系统控制物理和视觉因素。",
+    "wmNoteEn": "Systematically controls physical and visual factors.",
+    "links": {
+      "homepage": "https://kubric.readthedocs.io/",
+      "paper": "https://arxiv.org/abs/2203.03570",
+      "code": "https://github.com/google-research/kubric"
+    }
+  },
+  {
+    "id": "language-table",
+    "name": "Language-Table",
+    "shortName": "Language-Table",
+    "year": 2022,
+    "summary": "语言条件桌面机器人操作数据集与环境，包含长时自由形式指令。",
+    "summaryEn": "A language-conditioned tabletop robot dataset and environment with long-horizon free-form instructions.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Language",
+      "Robot State"
+    ],
+    "structure": [
+      "Demonstration Trajectories",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Real-world",
+      "Teleoperation"
+    ],
+    "scale": "600K+ language-conditioned trajectories",
+    "scaleZh": "60 万余条语言条件轨迹",
+    "organizations": "Google Research",
+    "organizationsZh": "Google Research",
+    "license": "Apache-2.0 code; dataset terms apply",
+    "licenseZh": "代码 Apache-2.0；适用数据条款",
+    "access": "Official dataset and code",
+    "accessZh": "官方数据和代码",
+    "rating": 5,
+    "verdict": "大规模语言条件操作",
+    "verdictEn": "Large-scale language-conditioned manipulation",
+    "wmNote": "适合语言、状态和动作联合预测。",
+    "wmNoteEn": "Supports joint language-state-action prediction.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2210.06407",
+      "code": "https://github.com/google-research/language-table"
     }
   },
   {
@@ -1833,6 +2119,199 @@
     }
   },
   {
+    "id": "shift",
+    "name": "SHIFT",
+    "shortName": "SHIFT",
+    "year": 2022,
+    "summary": "覆盖天气、时间和交通变化的离散与连续域迁移合成驾驶数据集。",
+    "summaryEn": "A synthetic driving dataset for discrete and continuous domain shifts across weather, time, and traffic.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Depth",
+      "Optical Flow",
+      "3D Boxes",
+      "Segmentation"
+    ],
+    "structure": [
+      "Driving Sequences",
+      "Domain Shifts"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic"
+    ],
+    "scale": "2.5M annotated frames across controlled shifts",
+    "scaleZh": "受控域变化下 250 万标注帧",
+    "organizations": "Autonomous Vision Group and collaborators",
+    "organizationsZh": "Autonomous Vision Group 及合作团队",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseZh": "CC BY-NC-SA 4.0",
+    "access": "Official dataset and code",
+    "accessZh": "官方数据和代码",
+    "rating": 5,
+    "verdict": "连续驾驶域迁移",
+    "verdictEn": "Continuous driving domain shifts",
+    "wmNote": "系统评估环境变化下的鲁棒性。",
+    "wmNoteEn": "Systematically evaluates robustness to environmental change.",
+    "links": {
+      "homepage": "https://www.vis.xyz/shift/",
+      "paper": "https://arxiv.org/abs/2206.08367",
+      "code": "https://github.com/SysCV/shift-dev"
+    }
+  },
+  {
+    "id": "tap-vid",
+    "name": "TAP-Vid",
+    "shortName": "TAP-Vid",
+    "year": 2022,
+    "summary": "视频任意点跟踪基准，覆盖真实、运动捕捉和合成视频。",
+    "summaryEn": "A benchmark for tracking arbitrary points through real, motion-capture, and synthetic videos.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Egocentric / Human",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Trajectory",
+      "Occlusion Labels"
+    ],
+    "structure": [
+      "Video Sequences",
+      "Point Tracks"
+    ],
+    "source": [
+      "Real-world",
+      "Synthetic"
+    ],
+    "scale": "Multiple benchmark subsets with dense point tracks",
+    "scaleZh": "多个具有稠密点轨迹的评测子集",
+    "organizations": "DeepMind",
+    "organizationsZh": "DeepMind",
+    "license": "Per-source terms apply",
+    "licenseZh": "各来源分别适用条款",
+    "access": "Official benchmark code and data",
+    "accessZh": "官方基准代码和数据",
+    "rating": 5,
+    "verdict": "任意点时序跟踪",
+    "verdictEn": "Arbitrary-point temporal tracking",
+    "wmNote": "直接评估像素级时空一致性。",
+    "wmNoteEn": "Directly evaluates pixel-level temporal consistency.",
+    "links": {
+      "homepage": "https://deepmind-tapir.github.io/",
+      "paper": "https://arxiv.org/abs/2211.03726",
+      "code": "https://github.com/google-deepmind/tapnet"
+    }
+  },
+  {
+    "id": "teach",
+    "name": "TEACh",
+    "shortName": "TEACh",
+    "year": 2022,
+    "summary": "对话驱动的具身任务数据集，包含人类指挥者与执行者的语言和动作轨迹。",
+    "summaryEn": "A dialogue-driven embodied-task dataset with language and action trajectories from human commander-follower interactions.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Language",
+      "Object State"
+    ],
+    "structure": [
+      "Dialogues",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation",
+      "Human Interaction"
+    ],
+    "scale": "3,000+ human-human task dialogues",
+    "scaleZh": "3000 余段人类任务对话",
+    "organizations": "Allen Institute for AI and collaborators",
+    "organizationsZh": "艾伦人工智能研究所及合作团队",
+    "license": "Official dataset terms apply",
+    "licenseZh": "适用官方数据条款",
+    "access": "Official benchmark and code",
+    "accessZh": "官方基准和代码",
+    "rating": 4,
+    "verdict": "对话式具身任务",
+    "verdictEn": "Dialogue-based embodied tasks",
+    "wmNote": "适合部分可观测条件下的交互规划。",
+    "wmNoteEn": "Supports interactive planning under partial observability.",
+    "links": {
+      "homepage": "https://teachingalfred.github.io/",
+      "paper": "https://arxiv.org/abs/2110.00534",
+      "code": "https://github.com/alexa/teach"
+    }
+  },
+  {
+    "id": "vima-bench",
+    "name": "VIMA-Bench",
+    "shortName": "VIMA-Bench",
+    "year": 2022,
+    "summary": "多模态提示驱动的机器人操作任务与程序化评测基准。",
+    "summaryEn": "A procedurally generated robot-manipulation benchmark driven by multimodal prompts.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Language",
+      "Object Metadata"
+    ],
+    "structure": [
+      "Procedural Tasks",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "17 task families with four generalization levels",
+    "scaleZh": "17 个任务族和 4 级泛化设置",
+    "organizations": "NVIDIA and collaborators",
+    "organizationsZh": "NVIDIA 及合作团队",
+    "license": "MIT code",
+    "licenseZh": "代码采用 MIT",
+    "access": "Official benchmark code",
+    "accessZh": "官方基准代码",
+    "rating": 5,
+    "verdict": "多模态操作泛化",
+    "verdictEn": "Multimodal manipulation generalization",
+    "wmNote": "系统测试组合与零样本泛化。",
+    "wmNoteEn": "Systematically tests compositional and zero-shot generalization.",
+    "links": {
+      "homepage": "https://vimalabs.github.io/",
+      "paper": "https://arxiv.org/abs/2210.03094",
+      "code": "https://github.com/vimalabs/VIMA"
+    }
+  },
+  {
     "id": "arkitscenes",
     "name": "ARKitScenes",
     "shortName": "ARKitScenes",
@@ -2020,6 +2499,54 @@
     }
   },
   {
+    "id": "igibson",
+    "name": "iGibson",
+    "shortName": "iGibson",
+    "year": 2021,
+    "summary": "高保真交互式三维场景仿真器，可生成具身导航和操作轨迹。",
+    "summaryEn": "A high-fidelity interactive 3D simulator generating embodied navigation and manipulation trajectories.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Simulation State",
+      "Object State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Interactive scanned indoor scenes",
+    "scaleZh": "可交互扫描室内场景",
+    "organizations": "Stanford University",
+    "organizationsZh": "斯坦福大学",
+    "license": "Apache-2.0 code; dataset terms vary",
+    "licenseZh": "代码 Apache-2.0；数据条款各异",
+    "access": "Official simulator",
+    "accessZh": "官方仿真器",
+    "rating": 5,
+    "verdict": "高保真交互仿真",
+    "verdictEn": "High-fidelity interactive simulation",
+    "wmNote": "适合接触和对象状态变化建模。",
+    "wmNoteEn": "Supports contact and object-state modeling.",
+    "links": {
+      "homepage": "https://svl.stanford.edu/igibson/",
+      "paper": "https://arxiv.org/abs/2012.02924",
+      "code": "https://github.com/StanfordVL/iGibson"
+    }
+  },
+  {
     "id": "nuplan",
     "name": "nuPlan",
     "shortName": "nuPlan",
@@ -2159,8 +2686,7 @@
     "wmNote": "可测试碰撞、支撑和因果预测。",
     "wmNoteEn": "Tests collision, support, and causal prediction.",
     "links": {
-      "paper": "https://arxiv.org/abs/2106.08261",
-      "code": "https://github.com/cognitive-ai-lab/Physion"
+      "paper": "https://arxiv.org/abs/2106.08261"
     }
   },
   {
@@ -2258,6 +2784,54 @@
     "links": {
       "paper": "https://arxiv.org/abs/2103.14025",
       "code": "https://github.com/chuangg/tdw-transport-challenge-starter-code"
+    }
+  },
+  {
+    "id": "alfred",
+    "name": "ALFRED",
+    "shortName": "ALFRED",
+    "year": 2020,
+    "summary": "语言指令驱动的室内导航与操作演示数据集和基准。",
+    "summaryEn": "A dataset and benchmark of language-guided indoor navigation and manipulation demonstrations.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Language",
+      "Object State"
+    ],
+    "structure": [
+      "Demonstration Trajectories",
+      "Household Tasks"
+    ],
+    "source": [
+      "Simulation",
+      "Human Annotation"
+    ],
+    "scale": "25K+ language directives and expert demonstrations",
+    "scaleZh": "2.5 万余条语言指令和专家演示",
+    "organizations": "Allen Institute for AI and collaborators",
+    "organizationsZh": "艾伦人工智能研究所及合作团队",
+    "license": "Official terms apply",
+    "licenseZh": "适用官方条款",
+    "access": "Official dataset and benchmark",
+    "accessZh": "官方数据和基准",
+    "rating": 5,
+    "verdict": "语言导航与操作",
+    "verdictEn": "Language-guided navigation and manipulation",
+    "wmNote": "连接语言规划与环境状态变化。",
+    "wmNoteEn": "Links language planning to environment state changes.",
+    "links": {
+      "homepage": "https://askforalfred.com/",
+      "paper": "https://arxiv.org/abs/1912.01734",
+      "code": "https://github.com/askforalfred/alfred"
     }
   },
   {
@@ -2397,6 +2971,55 @@
     "organizationsZh": "IBM Research、麻省理工学院",
     "accessZh": "开放下载",
     "licenseZh": "适用数据与代码研究条款；需核查仓库许可"
+  },
+  {
+    "id": "causalworld",
+    "name": "CausalWorld",
+    "shortName": "CausalWorld",
+    "year": 2020,
+    "summary": "用于因果结构和泛化研究的可干预机器人操作仿真环境。",
+    "summaryEn": "An intervention-rich robot manipulation simulator for causal structure and generalization research.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Simulation State",
+      "Object State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Interventions"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "Parametric manipulation tasks and interventions",
+    "scaleZh": "参数化操作任务和干预",
+    "organizations": "Max Planck Institute for Intelligent Systems",
+    "organizationsZh": "马克斯·普朗克智能系统研究所",
+    "license": "MIT code",
+    "licenseZh": "代码采用 MIT",
+    "access": "Official environment",
+    "accessZh": "官方环境",
+    "rating": 5,
+    "verdict": "可干预因果操作",
+    "verdictEn": "Interventional causal manipulation",
+    "wmNote": "显式干预适合因果世界模型。",
+    "wmNoteEn": "Explicit interventions suit causal world models.",
+    "links": {
+      "homepage": "https://sites.google.com/view/causal-world",
+      "paper": "https://arxiv.org/abs/2010.04296",
+      "code": "https://github.com/rr-learning/CausalWorld"
+    }
   },
   {
     "id": "clevrer",
@@ -2626,9 +3249,7 @@
     "wmNote": "适合杂乱场景几何状态估计。",
     "wmNoteEn": "Supports geometric state estimation in clutter.",
     "links": {
-      "homepage": "https://hope-dataset.github.io/",
-      "paper": "https://arxiv.org/abs/2003.09111",
-      "code": "https://github.com/swatyam/hope-dataset"
+      "paper": "https://arxiv.org/abs/2003.09111"
     }
   },
   {
@@ -2775,6 +3396,52 @@
     }
   },
   {
+    "id": "ravens",
+    "name": "Ravens",
+    "shortName": "Ravens",
+    "year": 2020,
+    "summary": "具有程序化任务和演示轨迹的桌面机器人操作基准。",
+    "summaryEn": "A tabletop robot manipulation benchmark with procedural tasks and demonstration trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Simulation State"
+    ],
+    "structure": [
+      "Demonstration Trajectories",
+      "Procedural Tasks"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "10 manipulation tasks with generated demonstrations",
+    "scaleZh": "10 项操作任务及生成演示",
+    "organizations": "Google Research",
+    "organizationsZh": "Google Research",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Official code and generation tools",
+    "accessZh": "官方代码和生成工具",
+    "rating": 4,
+    "verdict": "程序化桌面操作",
+    "verdictEn": "Procedural tabletop manipulation",
+    "wmNote": "任务变体适合组合泛化。",
+    "wmNoteEn": "Task variation supports compositional generalization.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2003.08927",
+      "code": "https://github.com/google-research/ravens"
+    }
+  },
+  {
     "id": "rlbench",
     "name": "RLBench",
     "shortName": "RLBench",
@@ -2917,6 +3584,102 @@
     }
   },
   {
+    "id": "robothor",
+    "name": "RoboTHOR",
+    "shortName": "RoboTHOR",
+    "year": 2020,
+    "summary": "面向仿真到真实导航的室内机器人环境和轨迹基准。",
+    "summaryEn": "An indoor robot environment and trajectory benchmark for sim-to-real navigation.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Agent Pose",
+      "Maps"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Navigation Episodes"
+    ],
+    "source": [
+      "Simulation",
+      "Real-world"
+    ],
+    "scale": "89 simulated apartments with real counterparts",
+    "scaleZh": "89 套具有真实对应场景的仿真公寓",
+    "organizations": "Allen Institute for AI",
+    "organizationsZh": "艾伦人工智能研究所",
+    "license": "Official terms apply",
+    "licenseZh": "适用官方条款",
+    "access": "Official challenge and simulator",
+    "accessZh": "官方挑战赛和仿真器",
+    "rating": 4,
+    "verdict": "仿真到真实导航",
+    "verdictEn": "Sim-to-real navigation",
+    "wmNote": "支持跨域空间世界建模。",
+    "wmNoteEn": "Supports cross-domain spatial world modeling.",
+    "links": {
+      "homepage": "https://ai2thor.allenai.org/robothor/",
+      "paper": "https://arxiv.org/abs/2004.06799"
+    }
+  },
+  {
+    "id": "virtual-kitti-2",
+    "name": "Virtual KITTI 2",
+    "shortName": "Virtual KITTI 2",
+    "year": 2020,
+    "summary": "带有深度、光流、场景流和三维标注的逼真合成驾驶视频数据集。",
+    "summaryEn": "A photorealistic synthetic driving-video dataset with depth, optical flow, scene flow, and 3D annotations.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Autonomous Driving",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "Synthetic Video",
+      "Depth",
+      "Optical Flow",
+      "3D Boxes",
+      "Segmentation"
+    ],
+    "structure": [
+      "Driving Sequences",
+      "Simulation Rollouts"
+    ],
+    "source": [
+      "Simulation",
+      "Synthetic"
+    ],
+    "scale": "21,260 frames across cloned and varied driving sequences",
+    "scaleZh": "克隆和变化驾驶序列共 21260 帧",
+    "organizations": "Meta AI and collaborators",
+    "organizationsZh": "Meta AI 及合作团队",
+    "license": "Dataset terms documented online",
+    "licenseZh": "在线注明数据条款",
+    "access": "Official download",
+    "accessZh": "官方下载",
+    "rating": 4,
+    "verdict": "可控合成驾驶视频",
+    "verdictEn": "Controllable synthetic driving videos",
+    "wmNote": "受控变化适合因果和域泛化研究。",
+    "wmNoteEn": "Controlled variations support causal and domain-generalization studies.",
+    "links": {
+      "homepage": "https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/",
+      "paper": "https://arxiv.org/abs/2001.10773"
+    }
+  },
+  {
     "id": "amass",
     "name": "AMASS",
     "shortName": "AMASS",
@@ -3009,6 +3772,54 @@
       "homepage": "https://www.argoverse.org/av1.html",
       "paper": "https://arxiv.org/abs/1911.02620",
       "code": "https://github.com/argoverse/argoverse-api"
+    }
+  },
+  {
+    "id": "babyai",
+    "name": "BabyAI",
+    "shortName": "BabyAI",
+    "year": 2019,
+    "summary": "可生成语言指令、网格环境和专家轨迹的具身学习平台。",
+    "summaryEn": "An embodied-learning platform generating language instructions, grid environments, and expert trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Language",
+      "Simulation State"
+    ],
+    "structure": [
+      "Procedural Tasks",
+      "Expert Trajectories"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "Millions of procedurally generated instruction trajectories",
+    "scaleZh": "数百万条程序化语言指令轨迹",
+    "organizations": "Meta AI",
+    "organizationsZh": "Meta AI",
+    "license": "BSD-3-Clause",
+    "licenseZh": "BSD-3-Clause",
+    "access": "Official environment and generator",
+    "accessZh": "官方环境和生成器",
+    "rating": 4,
+    "verdict": "程序化语言任务",
+    "verdictEn": "Procedural language tasks",
+    "wmNote": "可控制任务复杂度和数据规模。",
+    "wmNoteEn": "Controls task complexity and data scale.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1810.08272",
+      "code": "https://github.com/mila-iqia/babyai"
     }
   },
   {
@@ -3149,6 +3960,54 @@
     "wmNoteEn": "Long driving videos and environmental diversity support future-observation prediction and robustness studies, while action and 3D-state signals are limited.",
     "links": {
       "paper": "https://arxiv.org/abs/1904.01975"
+    }
+  },
+  {
+    "id": "franka-kitchen",
+    "name": "Franka Kitchen",
+    "shortName": "Franka Kitchen",
+    "year": 2019,
+    "summary": "厨房场景中的长时机器人操作环境和人类演示轨迹。",
+    "summaryEn": "A long-horizon kitchen robot manipulation environment with human demonstration trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Object State"
+    ],
+    "structure": [
+      "Demonstration Trajectories",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation",
+      "Human Demonstration"
+    ],
+    "scale": "Multitask kitchen manipulation demonstrations",
+    "scaleZh": "多任务厨房操作演示",
+    "organizations": "University of California, Berkeley",
+    "organizationsZh": "加州大学伯克利分校",
+    "license": "D4RL and source terms apply",
+    "licenseZh": "适用 D4RL 和来源条款",
+    "access": "Official environment and offline data",
+    "accessZh": "官方环境和离线数据",
+    "rating": 5,
+    "verdict": "长时厨房操作",
+    "verdictEn": "Long-horizon kitchen manipulation",
+    "wmNote": "组合子任务适合长期规划。",
+    "wmNoteEn": "Compositional subtasks support long-horizon planning.",
+    "links": {
+      "paper": "https://arxiv.org/abs/1910.11956",
+      "code": "https://github.com/Farama-Foundation/D4RL"
     }
   },
   {
@@ -4790,6 +5649,104 @@
     }
   },
   {
+    "id": "ai2-thor",
+    "name": "AI2-THOR",
+    "shortName": "AI2-THOR",
+    "year": 2017,
+    "summary": "可交互室内场景仿真环境，可生成导航、操作和状态变化轨迹。",
+    "summaryEn": "An interactive indoor simulator generating navigation, manipulation, and state-change trajectories.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB-D",
+      "Action",
+      "Simulation State",
+      "Object State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "120+ interactive indoor scenes",
+    "scaleZh": "120 余个可交互室内场景",
+    "organizations": "Allen Institute for AI",
+    "organizationsZh": "艾伦人工智能研究所",
+    "license": "Apache-2.0 code; asset terms apply",
+    "licenseZh": "代码 Apache-2.0；资源另有条款",
+    "access": "Official simulator",
+    "accessZh": "官方仿真器",
+    "rating": 5,
+    "verdict": "交互式室内动力学",
+    "verdictEn": "Interactive indoor dynamics",
+    "wmNote": "可生成动作条件状态转移。",
+    "wmNoteEn": "Generates action-conditioned state transitions.",
+    "links": {
+      "homepage": "https://ai2thor.allenai.org/",
+      "paper": "https://arxiv.org/abs/1712.05474",
+      "code": "https://github.com/allenai/ai2thor"
+    }
+  },
+  {
+    "id": "carla",
+    "name": "CARLA",
+    "shortName": "CARLA",
+    "year": 2017,
+    "summary": "开放自动驾驶仿真器，可生成多传感器驾驶、交通参与者和控制轨迹。",
+    "summaryEn": "An open autonomous-driving simulator generating multisensor driving, traffic-agent, and control trajectories.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Autonomous Driving",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "RADAR",
+      "Action",
+      "Simulation State"
+    ],
+    "structure": [
+      "Simulation Rollouts",
+      "Driving Sequences"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural Generation"
+    ],
+    "scale": "Configurable towns, traffic, weather, and sensors",
+    "scaleZh": "可配置城镇、交通、天气和传感器",
+    "organizations": "Computer Vision Center and collaborators",
+    "organizationsZh": "计算机视觉中心及合作团队",
+    "license": "MIT code; assets under project terms",
+    "licenseZh": "代码 MIT；资源适用项目条款",
+    "access": "Official simulator",
+    "accessZh": "官方仿真器",
+    "rating": 5,
+    "verdict": "开放驾驶世界仿真",
+    "verdictEn": "Open driving-world simulation",
+    "wmNote": "可控制动作和环境因素生成闭环数据。",
+    "wmNoteEn": "Generates closed-loop data under controlled actions and environments.",
+    "links": {
+      "homepage": "https://carla.org/",
+      "paper": "https://arxiv.org/abs/1711.03938",
+      "code": "https://github.com/carla-simulator/carla"
+    }
+  },
+  {
     "id": "ddd17",
     "name": "DDD17",
     "shortName": "DDD17",
@@ -5704,8 +6661,7 @@
     "wmNote": "适合动作识别基线和视频表征预训练。",
     "wmNoteEn": "Useful for action baselines and video representation pretraining.",
     "links": {
-      "homepage": "https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/",
-      "paper": "https://www.di.ens.fr/~laptev/hmdb51.html"
+      "homepage": "https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/"
     }
   },
   {

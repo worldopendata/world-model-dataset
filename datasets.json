@@ -83,7 +83,8 @@
     "wmNote": "适合世界模型训练或诊断；实际开放范围需按官方发布核验。",
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
-      "paper": "https://arxiv.org/abs/2608.21075"
+      "paper": "https://arxiv.org/abs/2608.21075",
+      "code": "https://github.com/Luizerko/AudioWorldSim"
     }
   },
   {
@@ -469,7 +470,8 @@
     "wmNote": "适合世界模型训练或诊断；实际开放范围需按官方发布核验。",
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
-      "paper": "https://arxiv.org/abs/2608.11051"
+      "paper": "https://arxiv.org/abs/2608.11051",
+      "homepage": "https://hucebot.github.io/hui360"
     }
   },
   {
@@ -555,7 +557,8 @@
     "wmNote": "适合世界模型训练或诊断；实际开放范围需按官方发布核验。",
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
-      "paper": "https://arxiv.org/abs/2608.13552"
+      "paper": "https://arxiv.org/abs/2608.13552",
+      "code": "https://github.com/kxding/PlayWorld"
     }
   },
   {
@@ -769,7 +772,8 @@
     "wmNote": "适合世界模型训练或诊断；实际开放范围需按官方发布核验。",
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.21071"
+      "paper": "https://arxiv.org/abs/2607.21071",
+      "homepage": "https://dualtransparency.github.io/TransBiolab/"
     }
   },
   {
@@ -855,7 +859,8 @@
     "wmNote": "适合世界模型训练或诊断；实际开放范围需按官方发布核验。",
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
-      "paper": "https://arxiv.org/abs/2607.22530"
+      "paper": "https://arxiv.org/abs/2607.22530",
+      "homepage": "https://vitacworld.github.io/"
     }
   },
   {
@@ -939,7 +944,8 @@
     "wmNote": "适合近期世界模型或具身智能研究；使用前需核验官方发布范围。",
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
-      "paper": "https://arxiv.org/abs/2504.08541"
+      "paper": "https://arxiv.org/abs/2504.08541",
+      "homepage": "https://www.projectaria.com/datasets/dtc/"
     }
   },
   {
@@ -1107,7 +1113,8 @@
     "wmNote": "适合近期世界模型或具身智能研究；使用前需核验官方发布范围。",
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
-      "paper": "https://arxiv.org/abs/2505.09698"
+      "paper": "https://arxiv.org/abs/2505.09698",
+      "homepage": "https://manipbench.github.io/"
     }
   },
   {
@@ -1359,7 +1366,8 @@
     "wmNote": "适合近期世界模型或具身智能研究；使用前需核验官方发布范围。",
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
-      "paper": "https://arxiv.org/abs/2505.15860"
+      "paper": "https://arxiv.org/abs/2505.15860",
+      "code": "https://github.com/song4399/RadarRGBD"
     }
   },
   {
@@ -1527,7 +1535,8 @@
     "wmNote": "适合近期世界模型或具身智能研究；使用前需核验官方发布范围。",
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
-      "paper": "https://arxiv.org/abs/2502.16856"
+      "paper": "https://arxiv.org/abs/2502.16856",
+      "code": "https://github.com/HKUST-Aerial-Robotics/SLABIM"
     }
   },
   {
@@ -1611,7 +1620,8 @@
     "wmNote": "适合近期世界模型或具身智能研究；使用前需核验官方发布范围。",
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
-      "paper": "https://arxiv.org/abs/2506.11302"
+      "paper": "https://arxiv.org/abs/2506.11302",
+      "homepage": "https://huggingface.co/datasets/Tera-AI/STRIDE"
     }
   },
   {

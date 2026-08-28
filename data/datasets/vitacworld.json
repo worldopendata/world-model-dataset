@@ -1,1 +1,46 @@
-{"id":"vitacworld","name":"ViTacWorld","shortName":"ViTacWorld","year":2026,"summary":"面向接触丰富操作的视觉、触觉和动作轨迹数据资源。","summaryEn":"A visuo-tactile-action trajectory resource for contact-rich manipulation.","primaryTask":"Action-Conditioned Dynamics","primaryTaskZh":"动作条件动力学","secondaryTasks":[],"domain":["Robotics / Embodied AI","Physics / Science"],"modalities":["RGB Video","Action","Robot State"],"structure":["Dataset / Benchmark"],"source":["Real-world","Simulation"],"scale":"Real and simulated visuo-tactile trajectories","scaleZh":"Real and simulated visuo-tactile trajectories","organizations":"Authors and collaborators","organizationsZh":"作者及合作团队","license":"Not confirmed from the paper entry","licenseZh":"论文入口未确认许可","access":"Paper entry; release status requires verification","accessZh":"论文入口；发布状态待核验","rating":4,"verdict":"面向接触丰富操作的视觉、触觉和动作轨迹数据资源","verdictEn":"A visuo-tactile-action trajectory resource for contact-rich manipulation","wmNote":"适合世界模型训练或诊断；实际开放范围需按官方发布核验。","wmNoteEn":"Useful for world-model training or diagnosis; verify the released scope from official sources.","links":{"paper":"https://arxiv.org/abs/2607.22530"}}
+{
+    "id":  "vitacworld",
+    "name":  "ViTacWorld",
+    "shortName":  "ViTacWorld",
+    "year":  2026,
+    "summary":  "面向接触丰富操作的视觉、触觉和动作轨迹数据资源。",
+    "summaryEn":  "A visuo-tactile-action trajectory resource for contact-rich manipulation.",
+    "primaryTask":  "Action-Conditioned Dynamics",
+    "primaryTaskZh":  "动作条件动力学",
+    "secondaryTasks":  [
+
+                       ],
+    "domain":  [
+                   "Robotics / Embodied AI",
+                   "Physics / Science"
+               ],
+    "modalities":  [
+                       "RGB Video",
+                       "Action",
+                       "Robot State"
+                   ],
+    "structure":  [
+                      "Dataset / Benchmark"
+                  ],
+    "source":  [
+                   "Real-world",
+                   "Simulation"
+               ],
+    "scale":  "Real and simulated visuo-tactile trajectories",
+    "scaleZh":  "Real and simulated visuo-tactile trajectories",
+    "organizations":  "Authors and collaborators",
+    "organizationsZh":  "作者及合作团队",
+    "license":  "Not confirmed from the paper entry",
+    "licenseZh":  "论文入口未确认许可",
+    "access":  "Paper entry; release status requires verification",
+    "accessZh":  "论文入口；发布状态待核验",
+    "rating":  4,
+    "verdict":  "面向接触丰富操作的视觉、触觉和动作轨迹数据资源",
+    "verdictEn":  "A visuo-tactile-action trajectory resource for contact-rich manipulation",
+    "wmNote":  "适合世界模型训练或诊断；实际开放范围需按官方发布核验。",
+    "wmNoteEn":  "Useful for world-model training or diagnosis; verify the released scope from official sources.",
+    "links":  {
+                  "paper":  "https://arxiv.org/abs/2607.22530",
+                  "homepage":  "https://vitacworld.github.io/"
+              }
+}

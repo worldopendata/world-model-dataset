@@ -208,7 +208,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **ViTacWorld** · 2026
   A visuo-tactile-action trajectory resource for contact-rich manipulation.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Robot State`
-  [Paper](https://arxiv.org/abs/2607.22530) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2607.22530) · [Homepage](https://vitacworld.github.io/) · Access: Paper entry; release status requires verification
 
 - **DrivingDojo** · 2024
   A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.
@@ -322,7 +322,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **HUI360** · 2026
   A 360-degree robot-egocentric dataset for anticipating human-robot interactions.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Agent Pose` · `Segmentation`
-  [Paper](https://arxiv.org/abs/2608.11051) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2608.11051) · [Homepage](https://hucebot.github.io/hui360) · Access: Paper entry; release status requires verification
 
 - **TableVerse-100K** · 2026
   One hundred thousand interactive tabletop environments reconstructed from real imagery with manipulation trajectories.
@@ -581,27 +581,27 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **AudioWorldSim** · 2026
   An open simulation platform for generating binaural-audio world-model trajectories.
   `Robotics / Embodied AI` · `Physics / Science` · `Audio` · `Agent Pose` · `Simulation State`
-  [Paper](https://arxiv.org/abs/2608.21075) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2608.21075) · [Code](https://github.com/Luizerko/AudioWorldSim) · Access: Paper entry; release status requires verification
 
 - **TransBiolab** · 2026
   A real multiview RGB-D dataset of cluttered transparent biomedical objects.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB-D` · `3D Boxes` · `Segmentation` · `Camera Pose`
-  [Paper](https://arxiv.org/abs/2607.21071) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2607.21071) · [Homepage](https://dualtransparency.github.io/TransBiolab/) · Access: Paper entry; release status requires verification
 
 - **Digital Twin Catalog** · 2025
   A photorealistic 3D digital-twin dataset with multilight image sequences of real objects.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
-  [Paper](https://arxiv.org/abs/2504.08541) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2504.08541) · [Homepage](https://www.projectaria.com/datasets/dtc/) · Access: Paper entry; release status requires verification
 
 - **RadarRGBD** · 2025
   An indoor-outdoor perception dataset with RGB-D, mmWave point clouds, and raw radar matrices.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
-  [Paper](https://arxiv.org/abs/2505.15860) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2505.15860) · [Code](https://github.com/song4399/RadarRGBD) · Access: Paper entry; release status requires verification
 
 - **SLABIM** · 2025
   An indoor dataset coupling SLAM sensor data with building information models.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
-  [Paper](https://arxiv.org/abs/2502.16856) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2502.16856) · [Code](https://github.com/HKUST-Aerial-Robotics/SLABIM) · Access: Paper entry; release status requires verification
 
 - **SPICE-HL3** · 2025
   A single-photon, inertial, stereo, and odometry dataset in simulated high-latitude lunar conditions.
@@ -611,7 +611,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **STRIDE** · 2025
   A spatiotemporal autonomy dataset organizing panoramic road imagery into observation, state, and action nodes.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
-  [Paper](https://arxiv.org/abs/2506.11302) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2506.11302) · [Homepage](https://huggingface.co/datasets/Tera-AI/STRIDE) · Access: Paper entry; release status requires verification
 
 - **Ego-Exo4D** · 2024
   A synchronized first- and third-person dataset of human skills across sports, music, and cooking, with 3D, language, and camera information.
@@ -904,7 +904,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **PlayWorld** · 2026
   An interactive world-model benchmark using agent players to pursue long-horizon objectives.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Simulation State`
-  [Paper](https://arxiv.org/abs/2608.13552) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2608.13552) · [Code](https://github.com/kxding/PlayWorld) · Access: Paper entry; release status requires verification
 
 - **Sci-VBench** · 2026
   An expert-annotated benchmark for knowledge- and reasoning-intensive scientific video generation.
@@ -929,7 +929,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 - **ManipBench** · 2025
   A benchmark for low-level robot-manipulation reasoning in vision-language models.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
-  [Paper](https://arxiv.org/abs/2505.09698) · Access: Paper entry; release status requires verification
+  [Paper](https://arxiv.org/abs/2505.09698) · [Homepage](https://manipbench.github.io/) · Access: Paper entry; release status requires verification
 
 - **MMR** · 2025
   A multi-target, multi-granularity object-and-part reasoning segmentation dataset.

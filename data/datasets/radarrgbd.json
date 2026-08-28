@@ -1,1 +1,45 @@
-{"id":"radarrgbd","name":"RadarRGBD","shortName":"RadarRGBD","year":2025,"summary":"同步 RGB-D、毫米波雷达点云与原始雷达矩阵的室内外感知数据集。","summaryEn":"An indoor-outdoor perception dataset with RGB-D, mmWave point clouds, and raw radar matrices.","primaryTask":"Spatial & Spatiotemporal World Modeling","primaryTaskZh":"空间与时空世界建模","secondaryTasks":[],"domain":["Robotics / Embodied AI"],"modalities":["RGB Video","Action","Scene Metadata"],"structure":["Dataset / Benchmark"],"source":["Real-world","Simulation"],"scale":"Indoor, outdoor, and low-light scenes","scaleZh":"Indoor, outdoor, and low-light scenes","organizations":"Authors and collaborators","organizationsZh":"作者及合作团队","license":"Not confirmed from the paper entry","licenseZh":"论文入口未确认许可","access":"Paper entry; release status requires verification","accessZh":"论文入口；发布状态待核验","rating":4,"verdict":"同步 RGB-D、毫米波雷达点云与原始雷达矩阵的室内外感知数据集","verdictEn":"An indoor-outdoor perception dataset with RGB-D, mmWave point clouds, and raw radar matrices","wmNote":"适合近期世界模型或具身智能研究；使用前需核验官方发布范围。","wmNoteEn":"Relevant to recent world-model or embodied-AI research; verify the official released scope before use.","links":{"paper":"https://arxiv.org/abs/2505.15860"}}
+{
+    "id":  "radarrgbd",
+    "name":  "RadarRGBD",
+    "shortName":  "RadarRGBD",
+    "year":  2025,
+    "summary":  "同步 RGB-D、毫米波雷达点云与原始雷达矩阵的室内外感知数据集。",
+    "summaryEn":  "An indoor-outdoor perception dataset with RGB-D, mmWave point clouds, and raw radar matrices.",
+    "primaryTask":  "Spatial \u0026 Spatiotemporal World Modeling",
+    "primaryTaskZh":  "空间与时空世界建模",
+    "secondaryTasks":  [
+
+                       ],
+    "domain":  [
+                   "Robotics / Embodied AI"
+               ],
+    "modalities":  [
+                       "RGB Video",
+                       "Action",
+                       "Scene Metadata"
+                   ],
+    "structure":  [
+                      "Dataset / Benchmark"
+                  ],
+    "source":  [
+                   "Real-world",
+                   "Simulation"
+               ],
+    "scale":  "Indoor, outdoor, and low-light scenes",
+    "scaleZh":  "Indoor, outdoor, and low-light scenes",
+    "organizations":  "Authors and collaborators",
+    "organizationsZh":  "作者及合作团队",
+    "license":  "Not confirmed from the paper entry",
+    "licenseZh":  "论文入口未确认许可",
+    "access":  "Paper entry; release status requires verification",
+    "accessZh":  "论文入口；发布状态待核验",
+    "rating":  4,
+    "verdict":  "同步 RGB-D、毫米波雷达点云与原始雷达矩阵的室内外感知数据集",
+    "verdictEn":  "An indoor-outdoor perception dataset with RGB-D, mmWave point clouds, and raw radar matrices",
+    "wmNote":  "适合近期世界模型或具身智能研究；使用前需核验官方发布范围。",
+    "wmNoteEn":  "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
+    "links":  {
+                  "paper":  "https://arxiv.org/abs/2505.15860",
+                  "code":  "https://github.com/song4399/RadarRGBD"
+              }
+}

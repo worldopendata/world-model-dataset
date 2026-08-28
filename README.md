@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-183-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-203-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 183 | 6 | 6 | 45 |
+| 203 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (24)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (20)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (54)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (40)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (19)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (26)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (24)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (20)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (54)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (40)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (19)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (46)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -879,7 +879,22 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (26)
+### World Model Evaluation & Diagnostics (46)
+
+- **4DSynth** · 2026
+  A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.26947) · Access: Paper entry; data access requires verification
+
+- **AeroGround** · 2026
+  A multimodal aerial-ground collaborative observation and spatial-reasoning benchmark.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.14721) · Access: Paper entry; data access requires verification
+
+- **AlloEgo-View** · 2026
+  An image-query dataset disambiguating egocentric and allocentric reference frames.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.15605) · Access: Paper entry; data access requires verification
 
 - **CaliBench** · 2026
   An interpretable benchmark for calibration of stochastic physical outcomes in video world models.
@@ -891,6 +906,36 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Camera Pose`
   [Paper](https://arxiv.org/abs/2608.18710) · Access: Paper entry; release status requires verification
 
+- **CodecArena** · 2026
+  A preference dataset and human-ranked benchmark for content fidelity in video coding.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.09139) · Access: Paper entry; data access requires verification
+
+- **Complex-Scene Multi-Person Motion Forecasting** · 2026
+  A dataset and benchmark for forecasting multiple people in complex scenes.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.27039) · Access: Paper entry; data access requires verification
+
+- **Embodied Scene Rearrangement Planning** · 2026
+  An embodied scene-rearrangement planning benchmark with tasks and environment states.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.27371) · [Homepage](https://pie-lab.cn/ESRP/) · Access: Official project and paper entries available
+
+- **FloodReasonBench** · 2026
+  A real-flood-scene reasoning-segmentation dataset and edge benchmark for embodied response.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.15410) · Access: Paper entry; data access requires verification
+
+- **Game2World** · 2026
+  A paired-video, in-the-wild clip, and UI-asset dataset for gameplay cleanup and world-model training.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.24680) · [Homepage](https://github.com/Dongping-Chen/Game2World) · Access: Official project and paper entries available
+
+- **GeoCon-Bench** · 2026
+  A scene dataset and metric benchmark for cross-frame geometric consistency in generated video.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.09594) · Access: Paper entry; data access requires verification
+
 - **H2R-Bench** · 2026
   A benchmark for human-to-robot cross-embodiment manipulation video generation.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action Labels` · `Object State`
@@ -901,10 +946,35 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Text` · `QA`
   [Paper](https://arxiv.org/abs/2608.16859) · Access: Paper entry; release status requires verification
 
+- **MILO HOI Benchmark** · 2026
+  A 3D human-object interaction reconstruction dataset and benchmark.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.27407) · [Homepage](https://ac5113.github.io/MILO) · Access: Official project and paper entries available
+
+- **Natural-Input Failure Discovery Benchmark** · 2026
+  Reproducible test cases for discovering catastrophic world-model failures under valid natural inputs.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.22421) · Access: Paper entry; data access requires verification
+
+- **PAWBench** · 2026
+  A benchmark for probabilistic alignment between generated and real world dynamics.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.27345) · Access: Paper entry; data access requires verification
+
+- **PersonaShot** · 2026
+  A thousand-segment, 16-metric benchmark for person-centric narrative continuity in multi-shot video.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.16717) · Access: Paper entry; data access requires verification
+
 - **PlayWorld** · 2026
   An interactive world-model benchmark using agent players to pursue long-horizon objectives.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.13552) · [Code](https://github.com/kxding/PlayWorld) · Access: Paper entry; release status requires verification
+
+- **R2M-Bench** · 2026
+  A benchmark for revisit memory and relative consistency in interactive video world models.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.27328) · Access: Paper entry; data access requires verification
 
 - **Sci-VBench** · 2026
   An expert-annotated benchmark for knowledge- and reasoning-intensive scientific video generation.
@@ -916,10 +986,40 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Text`
   [Paper](https://arxiv.org/abs/2608.17426) · Access: Paper entry; release status requires verification
 
+- **SpatialCrafter Benchmark** · 2026
+  An evaluation resource for generating explorable 3D proxy worlds from a single image.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.27073) · [Homepage](https://fangchuan.github.io/SpatialCrafter/) · Access: Official project and paper entries available
+
+- **SurgWMBench** · 2026
+  A benchmark for short-horizon surgical instrument motion planning and rollout stability.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.08070) · Access: Paper entry; data access requires verification
+
+- **Teaching Monster Challenge** · 2026
+  An instructional-video generation benchmark with learner-persona adaptation and human judgments.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.08852) · Access: Paper entry; data access requires verification
+
+- **TrapVLA Benchmark** · 2026
+  A robot benchmark with configurable failure modes for vision-language-action models.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.26578) · [Homepage](https://john-liua.github.io/TrapVLA/) · Access: Official project and paper entries available
+
+- **VBVR-Pro** · 2026
+  A suite of 300 procedurally generated, verifiable native visual-reasoning tasks.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.26105) · Access: Paper entry; data access requires verification
+
 - **VGI-Bench** · 2026
   A 27-task benchmark probing visual reasoning in video generation models.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Text` · `QA`
   [Paper](https://arxiv.org/abs/2608.19583) · Access: Paper entry; release status requires verification
+
+- **VideoArgus-Bench** · 2026
+  A frozen-rubric benchmark for unified video generation and editing evaluation.
+  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
+  [Paper](https://arxiv.org/abs/2608.05485) · [Homepage](https://zzzmyyzeng.github.io/VideoArgus) · Access: Official project and paper entries available
 
 - **DriveAction** · 2025
   A human-like driving-decision benchmark grounded in real driver action labels.

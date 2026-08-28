@@ -1,5 +1,49 @@
 [
   {
+    "id": "4dsynth",
+    "name": "4DSynth",
+    "shortName": "4DSynth",
+    "year": 2026,
+    "summary": "面向动态具身仿真的可控程序化四维世界合成资源。",
+    "summaryEn": "A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "面向动态具身仿真的可控程序化四维世界合成资源",
+    "verdictEn": "A controllable procedural 4D-world synthesis resource for dynamic embodied simulation",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.26947"
+    }
+  },
+  {
     "id": "ace-data-0",
     "name": "ACE-Data-0",
     "shortName": "ACE-Data-0",
@@ -41,6 +85,94 @@
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
       "paper": "https://arxiv.org/abs/2607.28625"
+    }
+  },
+  {
+    "id": "aeroground",
+    "name": "AeroGround",
+    "shortName": "AeroGround",
+    "year": 2026,
+    "summary": "空地协同多模态观测与空间推理问答基准。",
+    "summaryEn": "A multimodal aerial-ground collaborative observation and spatial-reasoning benchmark.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "空地协同多模态观测与空间推理问答基准",
+    "verdictEn": "A multimodal aerial-ground collaborative observation and spatial-reasoning benchmark",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.14721"
+    }
+  },
+  {
+    "id": "alloego-view",
+    "name": "AlloEgo-View",
+    "shortName": "AlloEgo-View",
+    "year": 2026,
+    "summary": "区分自我中心和客体中心参考系的图像问答数据集。",
+    "summaryEn": "An image-query dataset disambiguating egocentric and allocentric reference frames.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "区分自我中心和客体中心参考系的图像问答数据集",
+    "verdictEn": "An image-query dataset disambiguating egocentric and allocentric reference frames",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.15605"
     }
   },
   {
@@ -256,6 +388,272 @@
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
       "paper": "https://arxiv.org/abs/2607.26452"
+    }
+  },
+  {
+    "id": "codecarena",
+    "name": "CodecArena",
+    "shortName": "CodecArena",
+    "year": 2026,
+    "summary": "面向视频编码内容保真度的偏好训练集与人工排序基准。",
+    "summaryEn": "A preference dataset and human-ranked benchmark for content fidelity in video coding.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "面向视频编码内容保真度的偏好训练集与人工排序基准",
+    "verdictEn": "A preference dataset and human-ranked benchmark for content fidelity in video coding",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.09139"
+    }
+  },
+  {
+    "id": "multi-person-motion-forecasting",
+    "name": "Complex-Scene Multi-Person Motion Forecasting",
+    "shortName": "Complex-Scene Multi-Person Motion Forecasting",
+    "year": 2026,
+    "summary": "复杂场景多人运动轨迹预测数据与基准。",
+    "summaryEn": "A dataset and benchmark for forecasting multiple people in complex scenes.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "复杂场景多人运动轨迹预测数据与基准",
+    "verdictEn": "A dataset and benchmark for forecasting multiple people in complex scenes",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27039"
+    }
+  },
+  {
+    "id": "esrp",
+    "name": "Embodied Scene Rearrangement Planning",
+    "shortName": "Embodied Scene Rearrangement Planning",
+    "year": 2026,
+    "summary": "具身场景重排规划任务、环境状态和评测基准。",
+    "summaryEn": "An embodied scene-rearrangement planning benchmark with tasks and environment states.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Official project and paper entries available",
+    "accessZh": "提供官方项目和论文入口",
+    "rating": 4,
+    "verdict": "具身场景重排规划任务、环境状态和评测基准",
+    "verdictEn": "An embodied scene-rearrangement planning benchmark with tasks and environment states",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27371",
+      "homepage": "https://pie-lab.cn/ESRP/"
+    }
+  },
+  {
+    "id": "floodreasonbench",
+    "name": "FloodReasonBench",
+    "shortName": "FloodReasonBench",
+    "year": 2026,
+    "summary": "真实洪灾场景具身响应推理分割数据集与边缘评测基准。",
+    "summaryEn": "A real-flood-scene reasoning-segmentation dataset and edge benchmark for embodied response.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "真实洪灾场景具身响应推理分割数据集与边缘评测基准",
+    "verdictEn": "A real-flood-scene reasoning-segmentation dataset and edge benchmark for embodied response",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.15410"
+    }
+  },
+  {
+    "id": "game2world",
+    "name": "Game2World",
+    "shortName": "Game2World",
+    "year": 2026,
+    "summary": "游戏界面去除和世界模型训练的成对视频、野外片段及 UI 资产数据集。",
+    "summaryEn": "A paired-video, in-the-wild clip, and UI-asset dataset for gameplay cleanup and world-model training.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Official project and paper entries available",
+    "accessZh": "提供官方项目和论文入口",
+    "rating": 4,
+    "verdict": "游戏界面去除和世界模型训练的成对视频、野外片段及 UI 资产数据集",
+    "verdictEn": "A paired-video, in-the-wild clip, and UI-asset dataset for gameplay cleanup and world-model training",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.24680",
+      "homepage": "https://github.com/Dongping-Chen/Game2World"
+    }
+  },
+  {
+    "id": "geocon-bench",
+    "name": "GeoCon-Bench",
+    "shortName": "GeoCon-Bench",
+    "year": 2026,
+    "summary": "评测生成视频跨帧几何一致性的场景数据与指标基准。",
+    "summaryEn": "A scene dataset and metric benchmark for cross-frame geometric consistency in generated video.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "评测生成视频跨帧几何一致性的场景数据与指标基准",
+    "verdictEn": "A scene dataset and metric benchmark for cross-frame geometric consistency in generated video",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.09594"
     }
   },
   {
@@ -475,6 +873,183 @@
     }
   },
   {
+    "id": "milo-hoi",
+    "name": "MILO HOI Benchmark",
+    "shortName": "MILO HOI Benchmark",
+    "year": 2026,
+    "summary": "人-物交互三维重建数据与评测资源。",
+    "summaryEn": "A 3D human-object interaction reconstruction dataset and benchmark.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Official project and paper entries available",
+    "accessZh": "提供官方项目和论文入口",
+    "rating": 4,
+    "verdict": "人-物交互三维重建数据与评测资源",
+    "verdictEn": "A 3D human-object interaction reconstruction dataset and benchmark",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27407",
+      "homepage": "https://ac5113.github.io/MILO"
+    }
+  },
+  {
+    "id": "basinlens-cases",
+    "name": "Natural-Input Failure Discovery Benchmark",
+    "shortName": "Natural-Input Failure Discovery Benchmark",
+    "year": 2026,
+    "summary": "用于发现世界模型自然输入灾难性失效的可复现测试案例。",
+    "summaryEn": "Reproducible test cases for discovering catastrophic world-model failures under valid natural inputs.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "用于发现世界模型自然输入灾难性失效的可复现测试案例",
+    "verdictEn": "Reproducible test cases for discovering catastrophic world-model failures under valid natural inputs",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.22421"
+    }
+  },
+  {
+    "id": "pawbench",
+    "name": "PAWBench",
+    "shortName": "PAWBench",
+    "year": 2026,
+    "summary": "评测概率分布与世界动态对齐程度的世界模型基准。",
+    "summaryEn": "A benchmark for probabilistic alignment between generated and real world dynamics.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "评测概率分布与世界动态对齐程度的世界模型基准",
+    "verdictEn": "A benchmark for probabilistic alignment between generated and real world dynamics",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27345"
+    }
+  },
+  {
+    "id": "personashot",
+    "name": "PersonaShot",
+    "shortName": "PersonaShot",
+    "year": 2026,
+    "summary": "面向多镜头人物叙事连续性的千段视频和 16 项指标基准。",
+    "summaryEn": "A thousand-segment, 16-metric benchmark for person-centric narrative continuity in multi-shot video.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "面向多镜头人物叙事连续性的千段视频和 16 项指标基准",
+    "verdictEn": "A thousand-segment, 16-metric benchmark for person-centric narrative continuity in multi-shot video",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.16717"
+    }
+  },
+  {
     "id": "phycheck",
     "name": "PhyCheck",
     "shortName": "PhyCheck",
@@ -559,6 +1134,50 @@
     "links": {
       "paper": "https://arxiv.org/abs/2608.13552",
       "code": "https://github.com/kxding/PlayWorld"
+    }
+  },
+  {
+    "id": "r2m-bench",
+    "name": "R2M-Bench",
+    "shortName": "R2M-Bench",
+    "year": 2026,
+    "summary": "评测交互式视频世界模型重访记忆和相对一致性的基准。",
+    "summaryEn": "A benchmark for revisit memory and relative consistency in interactive video world models.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "评测交互式视频世界模型重访记忆和相对一致性的基准",
+    "verdictEn": "A benchmark for revisit memory and relative consistency in interactive video world models",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27328"
     }
   },
   {
@@ -689,6 +1308,95 @@
     }
   },
   {
+    "id": "spatialcrafter-benchmark",
+    "name": "SpatialCrafter Benchmark",
+    "shortName": "SpatialCrafter Benchmark",
+    "year": 2026,
+    "summary": "从单图生成可探索三维代理世界的评测资源。",
+    "summaryEn": "An evaluation resource for generating explorable 3D proxy worlds from a single image.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Official project and paper entries available",
+    "accessZh": "提供官方项目和论文入口",
+    "rating": 4,
+    "verdict": "从单图生成可探索三维代理世界的评测资源",
+    "verdictEn": "An evaluation resource for generating explorable 3D proxy worlds from a single image",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.27073",
+      "homepage": "https://fangchuan.github.io/SpatialCrafter/"
+    }
+  },
+  {
+    "id": "surgwmbench",
+    "name": "SurgWMBench",
+    "shortName": "SurgWMBench",
+    "year": 2026,
+    "summary": "外科器械短时运动规划与连续 rollout 稳定性评测基准。",
+    "summaryEn": "A benchmark for short-horizon surgical instrument motion planning and rollout stability.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "外科器械短时运动规划与连续 rollout 稳定性评测基准",
+    "verdictEn": "A benchmark for short-horizon surgical instrument motion planning and rollout stability",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.08070"
+    }
+  },
+  {
     "id": "tableverse",
     "name": "TableVerse-100K",
     "shortName": "TableVerse-100K",
@@ -729,6 +1437,50 @@
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
       "paper": "https://arxiv.org/abs/2607.21017"
+    }
+  },
+  {
+    "id": "teaching-monster",
+    "name": "Teaching Monster Challenge",
+    "shortName": "Teaching Monster Challenge",
+    "year": 2026,
+    "summary": "面向学习者画像适配的教学视频生成基准及人工判断集。",
+    "summaryEn": "An instructional-video generation benchmark with learner-persona adaptation and human judgments.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "面向学习者画像适配的教学视频生成基准及人工判断集",
+    "verdictEn": "An instructional-video generation benchmark with learner-persona adaptation and human judgments",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.08852"
     }
   },
   {
@@ -777,6 +1529,95 @@
     }
   },
   {
+    "id": "trapvla",
+    "name": "TrapVLA Benchmark",
+    "shortName": "TrapVLA Benchmark",
+    "year": 2026,
+    "summary": "可配置视觉语言动作模型失效模式的机器人评测集。",
+    "summaryEn": "A robot benchmark with configurable failure modes for vision-language-action models.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Official project and paper entries available",
+    "accessZh": "提供官方项目和论文入口",
+    "rating": 4,
+    "verdict": "可配置视觉语言动作模型失效模式的机器人评测集",
+    "verdictEn": "A robot benchmark with configurable failure modes for vision-language-action models",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.26578",
+      "homepage": "https://john-liua.github.io/TrapVLA/"
+    }
+  },
+  {
+    "id": "vbvr-pro",
+    "name": "VBVR-Pro",
+    "shortName": "VBVR-Pro",
+    "year": 2026,
+    "summary": "包含 300 个程序化可验证视觉推理任务的数据与评测套件。",
+    "summaryEn": "A suite of 300 procedurally generated, verifiable native visual-reasoning tasks.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Paper entry; data access requires verification",
+    "accessZh": "论文入口；数据访问待核验",
+    "rating": 4,
+    "verdict": "包含 300 个程序化可验证视觉推理任务的数据与评测套件",
+    "verdictEn": "A suite of 300 procedurally generated, verifiable native visual-reasoning tasks",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.26105"
+    }
+  },
+  {
     "id": "vgi-bench",
     "name": "VGI-Bench",
     "shortName": "VGI-Bench",
@@ -817,6 +1658,51 @@
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
       "paper": "https://arxiv.org/abs/2608.19583"
+    }
+  },
+  {
+    "id": "videoargus-bench",
+    "name": "VideoArgus-Bench",
+    "shortName": "VideoArgus-Bench",
+    "year": 2026,
+    "summary": "统一视频生成与编辑评测的冻结 rubric 数据集。",
+    "summaryEn": "A frozen-rubric benchmark for unified video generation and editing evaluation.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Task-specific 2026 benchmark resource",
+    "scaleZh": "2026 年任务专用基准资源",
+    "organizations": "Authors and collaborators",
+    "organizationsZh": "作者及合作团队",
+    "license": "Not confirmed from available official entries",
+    "licenseZh": "现有官方入口未确认许可",
+    "access": "Official project and paper entries available",
+    "accessZh": "提供官方项目和论文入口",
+    "rating": 4,
+    "verdict": "统一视频生成与编辑评测的冻结 rubric 数据集",
+    "verdictEn": "A frozen-rubric benchmark for unified video generation and editing evaluation",
+    "wmNote": "用于诊断近期世界模型或具身系统能力；具体下载范围需按官方发布核验。",
+    "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.05485",
+      "homepage": "https://zzzmyyzeng.github.io/VideoArgus"
     }
   },
   {

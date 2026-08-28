@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-183-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-203-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 183 | 6 | 6 | 45 |
+| 203 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (24)](#predictive-generative-dynamics) · [动作条件动力学 (20)](#action-conditioned-dynamics) · [决策与智能体轨迹 (54)](#decision-making-agent-trajectories) · [空间与时空世界建模 (40)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (19)](#physical-causal-reasoning) · [世界模型评测与诊断 (26)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (24)](#predictive-generative-dynamics) · [动作条件动力学 (20)](#action-conditioned-dynamics) · [决策与智能体轨迹 (54)](#decision-making-agent-trajectories) · [空间与时空世界建模 (40)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (19)](#physical-causal-reasoning) · [世界模型评测与诊断 (46)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -879,7 +879,22 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（26）
+### 世界模型评测与诊断（46）
+
+- **4DSynth** · 2026
+  面向动态具身仿真的可控程序化四维世界合成资源。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.26947) · 访问方式：论文入口；数据访问待核验
+
+- **AeroGround** · 2026
+  空地协同多模态观测与空间推理问答基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.14721) · 访问方式：论文入口；数据访问待核验
+
+- **AlloEgo-View** · 2026
+  区分自我中心和客体中心参考系的图像问答数据集。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.15605) · 访问方式：论文入口；数据访问待核验
 
 - **CaliBench** · 2026
   检验视频世界模型随机物理结果校准程度的可解释基准。
@@ -891,6 +906,36 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `相机位姿`
   [论文](https://arxiv.org/abs/2608.18710) · 访问方式：论文入口；发布状态待核验
 
+- **CodecArena** · 2026
+  面向视频编码内容保真度的偏好训练集与人工排序基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.09139) · 访问方式：论文入口；数据访问待核验
+
+- **Complex-Scene Multi-Person Motion Forecasting** · 2026
+  复杂场景多人运动轨迹预测数据与基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.27039) · 访问方式：论文入口；数据访问待核验
+
+- **Embodied Scene Rearrangement Planning** · 2026
+  具身场景重排规划任务、环境状态和评测基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.27371) · [主页](https://pie-lab.cn/ESRP/) · 访问方式：提供官方项目和论文入口
+
+- **FloodReasonBench** · 2026
+  真实洪灾场景具身响应推理分割数据集与边缘评测基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.15410) · 访问方式：论文入口；数据访问待核验
+
+- **Game2World** · 2026
+  游戏界面去除和世界模型训练的成对视频、野外片段及 UI 资产数据集。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.24680) · [主页](https://github.com/Dongping-Chen/Game2World) · 访问方式：提供官方项目和论文入口
+
+- **GeoCon-Bench** · 2026
+  评测生成视频跨帧几何一致性的场景数据与指标基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.09594) · 访问方式：论文入口；数据访问待核验
+
 - **H2R-Bench** · 2026
   评测人类操作视频向机器人操作视频跨本体生成的基准。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `动作标签` · `物体状态`
@@ -901,10 +946,35 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `文本` · `问答`
   [论文](https://arxiv.org/abs/2608.16859) · 访问方式：论文入口；发布状态待核验
 
+- **MILO HOI Benchmark** · 2026
+  人-物交互三维重建数据与评测资源。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.27407) · [主页](https://ac5113.github.io/MILO) · 访问方式：提供官方项目和论文入口
+
+- **Natural-Input Failure Discovery Benchmark** · 2026
+  用于发现世界模型自然输入灾难性失效的可复现测试案例。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.22421) · 访问方式：论文入口；数据访问待核验
+
+- **PAWBench** · 2026
+  评测概率分布与世界动态对齐程度的世界模型基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.27345) · 访问方式：论文入口；数据访问待核验
+
+- **PersonaShot** · 2026
+  面向多镜头人物叙事连续性的千段视频和 16 项指标基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.16717) · 访问方式：论文入口；数据访问待核验
+
 - **PlayWorld** · 2026
   由智能体玩家完成长时目标的交互式世界模型评测基准。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `动作` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.13552) · [代码](https://github.com/kxding/PlayWorld) · 访问方式：论文入口；发布状态待核验
+
+- **R2M-Bench** · 2026
+  评测交互式视频世界模型重访记忆和相对一致性的基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.27328) · 访问方式：论文入口；数据访问待核验
 
 - **Sci-VBench** · 2026
   跨科学领域评测知识与因果推理视频生成的专家标注基准。
@@ -916,10 +986,40 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `文本`
   [论文](https://arxiv.org/abs/2608.17426) · 访问方式：论文入口；发布状态待核验
 
+- **SpatialCrafter Benchmark** · 2026
+  从单图生成可探索三维代理世界的评测资源。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.27073) · [主页](https://fangchuan.github.io/SpatialCrafter/) · 访问方式：提供官方项目和论文入口
+
+- **SurgWMBench** · 2026
+  外科器械短时运动规划与连续 rollout 稳定性评测基准。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.08070) · 访问方式：论文入口；数据访问待核验
+
+- **Teaching Monster Challenge** · 2026
+  面向学习者画像适配的教学视频生成基准及人工判断集。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.08852) · 访问方式：论文入口；数据访问待核验
+
+- **TrapVLA Benchmark** · 2026
+  可配置视觉语言动作模型失效模式的机器人评测集。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.26578) · [主页](https://john-liua.github.io/TrapVLA/) · 访问方式：提供官方项目和论文入口
+
+- **VBVR-Pro** · 2026
+  包含 300 个程序化可验证视觉推理任务的数据与评测套件。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.26105) · 访问方式：论文入口；数据访问待核验
+
 - **VGI-Bench** · 2026
   评测视频生成模型视觉推理能力的 27 项任务基准。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `文本` · `问答`
   [论文](https://arxiv.org/abs/2608.19583) · 访问方式：论文入口；发布状态待核验
+
+- **VideoArgus-Bench** · 2026
+  统一视频生成与编辑评测的冻结 rubric 数据集。
+  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
+  [论文](https://arxiv.org/abs/2608.05485) · [主页](https://zzzmyyzeng.github.io/VideoArgus) · 访问方式：提供官方项目和论文入口
 
 - **DriveAction** · 2025
   基于真实驾驶操作标注的人类式驾驶决策问答基准。

@@ -570,6 +570,144 @@
     }
   },
   {
+    "id": "drivinggen",
+    "name": "DrivingGen",
+    "shortName": "DrivingGen",
+    "year": 2026,
+    "summary": "从视觉质量和机器人轨迹物理合理性两方面评测自动驾驶生成式视频世界模型的基准。",
+    "summaryEn": "A benchmark evaluating generative driving video world models through both visual quality and physical plausibility of vehicle trajectories.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Curated"
+    ],
+    "scale": "Diverse driving evaluation set; 14 model families benchmarked",
+    "scaleZh": "多样化驾驶评测集，论文评测 14 个模型系列",
+    "organizations": "DrivingGen project team",
+    "organizationsZh": "DrivingGen 项目团队",
+    "license": "Apache-2.0 code; see dataset terms",
+    "licenseZh": "代码采用 Apache-2.0；数据许可见发布页",
+    "access": "Dataset available on Hugging Face",
+    "accessZh": "数据集已在 Hugging Face 提供",
+    "rating": 5,
+    "verdict": "同时衡量驾驶视频观感与轨迹物理一致性的生成基准",
+    "verdictEn": "A generative driving benchmark covering visual and trajectory-level physical consistency",
+    "wmNote": "将视频指标与轨迹恢复指标结合，适合诊断驾驶世界模型。",
+    "wmNoteEn": "Combines video metrics with recovered trajectory metrics to diagnose driving world models.",
+    "links": {
+      "homepage": "https://drivinggen-bench.github.io/",
+      "paper": "https://arxiv.org/abs/2601.01528",
+      "code": "https://github.com/youngzhou1999/DrivingGen"
+    }
+  },
+  {
+    "id": "ebim-benchmark",
+    "name": "EBiM Benchmark",
+    "shortName": "EBiM",
+    "year": 2026,
+    "summary": "面向移动双臂操作的具身基准环境，包含任务场景、仿真配置和轨迹采集入口。",
+    "summaryEn": "An embodied mobile-bimanual manipulation benchmark with task environments, simulation setups, and trajectory-collection entry points.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Object State",
+      "Trajectories"
+    ],
+    "structure": [
+      "Benchmark / Environment"
+    ],
+    "source": [
+      "Simulation",
+      "Real-world"
+    ],
+    "scale": "Multiple mobile-bimanual competition tasks",
+    "scaleZh": "多个移动双臂竞赛任务",
+    "organizations": "EBiM Benchmark team",
+    "organizationsZh": "EBiM Benchmark 团队",
+    "license": "Apache-2.0 repository; third-party asset terms apply",
+    "licenseZh": "仓库采用 Apache-2.0；第三方素材适用各自条款",
+    "access": "Task environments and starter kits available in official repositories",
+    "accessZh": "官方仓库提供任务环境和入门工具",
+    "rating": 4,
+    "verdict": "可产生双臂长时操作轨迹的标准化具身任务环境",
+    "verdictEn": "Standardized embodied tasks capable of producing long-horizon bimanual trajectories",
+    "wmNote": "接触丰富的双臂任务适合动作条件状态转移和闭环策略评测。",
+    "wmNoteEn": "Contact-rich bimanual tasks support action-conditioned transition learning and closed-loop policy evaluation.",
+    "links": {
+      "homepage": "https://ebim-benchmark.github.io/",
+      "code": "https://github.com/EBiM-Benchmark/benchmark"
+    }
+  },
+  {
+    "id": "egosafetybench",
+    "name": "EgoSafetyBench",
+    "shortName": "EgoSafetyBench",
+    "year": 2026,
+    "summary": "评测具身视觉语言模型能否根据第一人称视频在运行时识别危险并提供安全防护的诊断基准。",
+    "summaryEn": "A diagnostic egocentric-video benchmark testing whether embodied VLMs can identify hazards and act as runtime safety guards.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Egocentric / Human",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Action Labels"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Curated",
+      "Generated"
+    ],
+    "scale": "Frozen benchmark with 36 bundled preview examples",
+    "scaleZh": "冻结版基准，仓库内含 36 个预览示例",
+    "organizations": "AIM Intelligence",
+    "organizationsZh": "AIM Intelligence",
+    "license": "Apache-2.0 repository; see source-data terms",
+    "licenseZh": "仓库采用 Apache-2.0；源数据条款见发布页",
+    "access": "Dataset available on Hugging Face",
+    "accessZh": "数据集已在 Hugging Face 提供",
+    "rating": 4,
+    "verdict": "面向具身智能体运行时风险预测的第一人称视频基准",
+    "verdictEn": "An egocentric-video benchmark for runtime risk prediction in embodied agents",
+    "wmNote": "从早期视觉状态判断后续安全风险，与预测式世界建模直接相关。",
+    "wmNoteEn": "Inferring future safety risks from early visual state directly relates to predictive world modeling.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2607.00218",
+      "code": "https://github.com/AIM-Intelligence/EgoSafetyBench"
+    }
+  },
+  {
     "id": "esrp",
     "name": "Embodied Scene Rearrangement Planning",
     "shortName": "Embodied Scene Rearrangement Planning",
@@ -615,6 +753,53 @@
     }
   },
   {
+    "id": "espire",
+    "name": "ESPIRE",
+    "shortName": "ESPIRE",
+    "year": 2026,
+    "summary": "在可程序化生成的模拟物理环境中诊断视觉语言模型具身空间推理能力的基准。",
+    "summaryEn": "A diagnostic benchmark for embodied spatial reasoning of vision-language models in procedurally generated simulated physical environments.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Action",
+      "Object State"
+    ],
+    "structure": [
+      "Benchmark / Environment"
+    ],
+    "source": [
+      "Simulation",
+      "Procedural"
+    ],
+    "scale": "148 task types, 65 instruction families, and 3 difficulty levels",
+    "scaleZh": "148 种任务、65 个指令系列和 3 个难度级别",
+    "organizations": "Spatigen project team",
+    "organizationsZh": "Spatigen 项目团队",
+    "license": "License terms pending verification",
+    "licenseZh": "许可条款待核验",
+    "access": "Generation framework and evaluation code available",
+    "accessZh": "环境生成框架和评测代码可用",
+    "rating": 4,
+    "verdict": "可生成不同杂乱度场景和指令的具身空间推理环境",
+    "verdictEn": "A generative embodied spatial-reasoning environment with varied clutter and instructions",
+    "wmNote": "程序化环境能产生可复现的空间状态、动作和任务条件。",
+    "wmNoteEn": "Procedural environments provide reproducible spatial states, actions, and task conditions.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.13033",
+      "code": "https://github.com/spatigen/espire"
+    }
+  },
+  {
     "id": "evo-rl-data",
     "name": "Evo-RL Real-World Dataset",
     "shortName": "Evo-RL Real-World Dataset",
@@ -647,15 +832,15 @@
     "organizationsZh": "官方项目团队",
     "license": "See official repository and dataset terms",
     "licenseZh": "见官方仓库和数据条款",
-    "access": "Official project, code, and data entry available: https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset",
-    "accessZh": "提供官方项目、代码和数据入口：https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset",
+    "access": "Official code and data entries available: https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset",
+    "accessZh": "提供官方代码和数据入口：https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset",
     "rating": 5,
     "verdict": "面向 SO-101 和 AgileX PiPER 的开放真实机器人离线强化学习数据集",
     "verdictEn": "An open real-robot offline-RL dataset for SO-101 and AgileX PiPER platforms",
     "wmNote": "具有非论文官方入口，适合近期世界模型或具身研究；具体数据许可仍以发布页为准。",
     "wmNoteEn": "Provides non-paper official entry points for recent world-model or embodied research; dataset-specific terms remain authoritative.",
     "links": {
-      "homepage": "https://MINT-SJTU.github.io/Evo-RL/",
+      "homepage": "https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset",
       "code": "https://github.com/MINT-SJTU/Evo-RL"
     }
   },
@@ -749,6 +934,53 @@
     }
   },
   {
+    "id": "gauge",
+    "name": "GAUGE",
+    "shortName": "GAUGE",
+    "year": 2026,
+    "summary": "以真实测量轨迹和物理属性为依据，评测物理引擎与视频世界模型物理保真度的基准。",
+    "summaryEn": "A measurement-grounded benchmark evaluating physical fidelity in numerical physics engines and generative video world models.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Physics / Science",
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Trajectories",
+      "Object State",
+      "3D Metadata"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Approximately 1,560 motion-capture trials",
+    "scaleZh": "约 1,560 次动作捕捉实验",
+    "organizations": "InternRobotics",
+    "organizationsZh": "InternRobotics",
+    "license": "MIT code; see dataset terms",
+    "licenseZh": "代码采用 MIT；数据许可见发布页",
+    "access": "Benchmark dataset available on Hugging Face",
+    "accessZh": "基准数据集已在 Hugging Face 提供",
+    "rating": 5,
+    "verdict": "用带不确定度的真实测量检验仿真和生成模型物理保真度",
+    "verdictEn": "Tests simulation and generative-model fidelity against real measurements with uncertainty",
+    "wmNote": "同一测量基准覆盖数值引擎和视频模型，便于识别物理偏差。",
+    "wmNoteEn": "A shared measurement reference across engines and video models helps identify physical bias.",
+    "links": {
+      "homepage": "https://internrobotics.github.io/GAUGE/",
+      "paper": "https://arxiv.org/abs/2608.05948",
+      "code": "https://github.com/InternRobotics/GAUGE"
+    }
+  },
+  {
     "id": "geocon-bench",
     "name": "GeoCon-Bench",
     "shortName": "GeoCon-Bench",
@@ -790,6 +1022,51 @@
     "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
     "links": {
       "paper": "https://arxiv.org/abs/2608.09594"
+    }
+  },
+  {
+    "id": "gigabrain-world-model-track",
+    "name": "GigaBrain Challenge 2026 World Models Track Dataset",
+    "shortName": "GigaBrain WM Track",
+    "year": 2026,
+    "summary": "用于轨迹条件视频生成和闭环 VLA 交互评测的多任务、多视角视频与状态轨迹数据。",
+    "summaryEn": "Multi-task, multi-view video and state-trajectory data for trajectory-conditioned video generation and closed-loop VLA evaluation.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "Multi-view RGB Video",
+      "Trajectories",
+      "Robot State",
+      "Depth"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Multiple tasks with train, video-quality, and evaluator splits",
+    "scaleZh": "多个任务，包含训练、视频质量和评测器划分",
+    "organizations": "Open GigaAI",
+    "organizationsZh": "Open GigaAI",
+    "license": "Apache-2.0 repository; see dataset terms",
+    "licenseZh": "仓库采用 Apache-2.0；数据许可见发布页",
+    "access": "Dataset and leaderboard available on Hugging Face",
+    "accessZh": "数据集和排行榜已在 Hugging Face 提供",
+    "rating": 5,
+    "verdict": "同时覆盖训练、开放环生成和闭环交互评测的数据基准",
+    "verdictEn": "A dataset benchmark spanning training, open-loop generation, and closed-loop interaction",
+    "wmNote": "拆分设计便于区分视频生成质量与闭环智能体能力。",
+    "wmNoteEn": "Its splits separate video-generation quality from closed-loop agent capability.",
+    "links": {
+      "homepage": "https://gigaai-research.github.io/GigaBrain-Challenge-2026/guide/world-model.html",
+      "code": "https://github.com/open-gigaai/CVPR-2026-Workshop-WM-Track"
     }
   },
   {
@@ -1054,6 +1331,53 @@
     }
   },
   {
+    "id": "kungfuathletebot",
+    "name": "KungFuAthleteBot Motion Dataset",
+    "shortName": "KungFuAthleteBot",
+    "year": 2026,
+    "summary": "由武术训练视频提取并重定向到人形机器人的高动态动作数据集，覆盖地面和跳跃动作。",
+    "summaryEn": "A high-dynamics humanoid motion dataset extracted from martial-arts training videos, with ground and jumping motions retargeted to robots.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Trajectories",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset"
+    ],
+    "source": [
+      "Real-world",
+      "Derived"
+    ],
+    "scale": "992 motion samples from 197 source video clips",
+    "scaleZh": "来自 197 个源视频片段的 992 个动作样本",
+    "organizations": "KungFuAthleteBot project team",
+    "organizationsZh": "KungFuAthleteBot 项目团队",
+    "license": "MIT code; see dataset terms",
+    "licenseZh": "代码采用 MIT；数据许可见发布页",
+    "access": "Dataset available through Hugging Face and official download links",
+    "accessZh": "可通过 Hugging Face 和官方下载入口访问",
+    "rating": 4,
+    "verdict": "面向人形机器人高动态控制的可追踪动作轨迹资源",
+    "verdictEn": "Traceable high-dynamics motion trajectories for humanoid control",
+    "wmNote": "可用于学习人形机器人动作动力学、预测和控制。",
+    "wmNoteEn": "Supports learning humanoid motion dynamics, prediction, and control.",
+    "links": {
+      "homepage": "https://kungfuathletebot.github.io/",
+      "paper": "https://arxiv.org/abs/2602.13656",
+      "code": "https://github.com/NPCLEI/KungFuAthleteBot"
+    }
+  },
+  {
     "id": "milo-hoi",
     "name": "MILO HOI Benchmark",
     "shortName": "MILO HOI Benchmark",
@@ -1140,6 +1464,96 @@
     "wmNoteEn": "Diagnoses recent world-model or embodied-system capabilities; verify the official downloadable scope.",
     "links": {
       "paper": "https://arxiv.org/abs/2608.22421"
+    }
+  },
+  {
+    "id": "omni-behavior",
+    "name": "OmniBehavior",
+    "shortName": "OmniBehavior",
+    "year": 2026,
+    "summary": "用于长时、跨场景人类行为模拟的真实用户交互轨迹数据集，提供中英文版本。",
+    "summaryEn": "A real-user interaction-trace dataset for long-horizon, cross-scenario human behavior simulation, released in Chinese and English.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "Action",
+      "Trajectories",
+      "Text"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Long-horizon heterogeneous behavior traces from multiple usage scenarios",
+    "scaleZh": "来自多种使用场景的长时异构行为轨迹",
+    "organizations": "Institute of Computing Technology, Chinese Academy of Sciences",
+    "organizationsZh": "中国科学院计算技术研究所",
+    "license": "CC BY-NC-SA 4.0",
+    "licenseZh": "CC BY-NC-SA 4.0",
+    "access": "Full bilingual dataset available on Hugging Face",
+    "accessZh": "完整中英文数据集已在 Hugging Face 提供",
+    "rating": 4,
+    "verdict": "记录跨应用长期行为状态转移的真实交互轨迹数据",
+    "verdictEn": "Real interaction trajectories capturing long-term behavioral transitions across applications",
+    "wmNote": "可用于用户行为世界模型和长时序动作预测，但需遵守隐私与非商业条款。",
+    "wmNoteEn": "Supports user-behavior world models and long-horizon action prediction, subject to privacy and noncommercial terms.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/jiawei-ucas/OmniBehavior",
+      "paper": "https://arxiv.org/abs/2604.08362",
+      "code": "https://github.com/icip-cas/OmniBehavior"
+    }
+  },
+  {
+    "id": "orbis-tabletop",
+    "name": "Orbis-Tabletop",
+    "shortName": "Orbis-Tabletop",
+    "year": 2026,
+    "summary": "面向机器人仿真、具身智能和视觉研究的高质量桌面尺度三维场景数据集。",
+    "summaryEn": "A high-quality tabletop-scale 3D scene dataset for robotics simulation, embodied AI, and computer vision.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "3D Mesh",
+      "3D Metadata",
+      "Object Metadata"
+    ],
+    "structure": [
+      "Dataset / Environment Assets"
+    ],
+    "source": [
+      "Captured",
+      "Reconstructed"
+    ],
+    "scale": "Curated tabletop subset of the Orbis 3D scene collection",
+    "scaleZh": "Orbis 三维场景集合的精选桌面子集",
+    "organizations": "IntimeAI",
+    "organizationsZh": "IntimeAI",
+    "license": "See repository and individual asset terms",
+    "licenseZh": "见仓库及各素材许可条款",
+    "access": "Scene assets and documentation available through the official repository",
+    "accessZh": "官方仓库提供场景素材和文档入口",
+    "rating": 4,
+    "verdict": "可作为具身桌面交互仿真世界资产的三维场景集合",
+    "verdictEn": "A 3D scene collection usable as embodied tabletop simulation world assets",
+    "wmNote": "三维场景资产本身不是轨迹，但可作为生成动作条件交互数据的环境。",
+    "wmNoteEn": "The assets are not trajectories themselves but can serve as environments for generating action-conditioned interactions.",
+    "links": {
+      "code": "https://github.com/IntimeAI/Orbis-Tabletop"
     }
   },
   {
@@ -1274,6 +1688,53 @@
     }
   },
   {
+    "id": "physeditworld",
+    "name": "PhysEditWorld",
+    "shortName": "PhysEditWorld",
+    "year": 2026,
+    "summary": "通过在相同场景、初态和动作序列下改变重力参数生成的物理规则可编辑世界模型数据集。",
+    "summaryEn": "A physics-editable world-model dataset generated by varying gravity while holding scenes, initial states, and action sequences fixed.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Games / Virtual Environments",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Game State",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Dataset"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "100+ hours; 60M+ rollout frames",
+    "scaleZh": "超过 100 小时、超过 6,000 万轨迹帧",
+    "organizations": "PhysEditWorld project team",
+    "organizationsZh": "PhysEditWorld 项目团队",
+    "license": "See ModelScope dataset and asset terms",
+    "licenseZh": "见 ModelScope 数据集和素材条款",
+    "access": "Public dataset entry on ModelScope",
+    "accessZh": "ModelScope 提供公开数据入口",
+    "rating": 5,
+    "verdict": "利用配对反事实轨迹研究可编辑物理规律的数据集",
+    "verdictEn": "Paired counterfactual rollouts for studying editable physical laws",
+    "wmNote": "控制其他因素并改变重力，有利于物理因果和反事实预测。",
+    "wmNoteEn": "Changing gravity while controlling other factors supports physical-causal and counterfactual prediction.",
+    "links": {
+      "homepage": "https://yizhiqianbi.github.io/physeditworld/",
+      "paper": "https://arxiv.org/abs/2606.26694",
+      "code": "https://github.com/yizhiqianbi/physeditworld"
+    }
+  },
+  {
     "id": "playworld",
     "name": "PlayWorld",
     "shortName": "PlayWorld",
@@ -1362,6 +1823,53 @@
     }
   },
   {
+    "id": "rescuebench",
+    "name": "RescueBench",
+    "shortName": "RescueBench",
+    "year": 2026,
+    "summary": "基于 Unreal Engine 的开放世界搜救具身智能基准，提供多阶段任务、渐进难度和专家轨迹采集工具。",
+    "summaryEn": "An Unreal Engine open-world search-and-rescue benchmark with multi-stage tasks, progressive difficulty, and expert-trajectory collection tools.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Language",
+      "Reward",
+      "Trajectories"
+    ],
+    "structure": [
+      "Benchmark / Environment"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Four-stage benchmark; approximately 400K expert steps planned",
+    "scaleZh": "四阶段基准；计划发布约 40 万专家步骤",
+    "organizations": "UnrealZoo",
+    "organizationsZh": "UnrealZoo",
+    "license": "Apache-2.0 code; dataset terms pending",
+    "licenseZh": "代码采用 Apache-2.0；数据许可待公布",
+    "access": "Benchmark environment and trajectory collection tools available; dataset release planned",
+    "accessZh": "基准环境和轨迹采集工具可用，数据发布仍在计划中",
+    "rating": 4,
+    "verdict": "可生成具身搜救交互轨迹的多阶段开放世界环境",
+    "verdictEn": "A multi-stage open-world environment capable of generating embodied rescue trajectories",
+    "wmNote": "顺序依赖任务适合研究长期规划、状态转移和错误恢复。",
+    "wmNoteEn": "Sequentially dependent tasks support research on long-horizon planning, transitions, and recovery.",
+    "links": {
+      "homepage": "https://github.com/UnrealZoo/RescueBench",
+      "code": "https://github.com/UnrealZoo/RescueBench"
+    }
+  },
+  {
     "id": "rigidbench",
     "name": "RigidBench",
     "shortName": "RigidBench",
@@ -1405,6 +1913,52 @@
     }
   },
   {
+    "id": "robostressbench",
+    "name": "RoboStressBench",
+    "shortName": "RoboStressBench",
+    "year": 2026,
+    "summary": "评测视觉语言模型在具身场景物理视觉扰动下鲁棒性的诊断数据集与基准。",
+    "summaryEn": "A diagnostic dataset and benchmark for VLM robustness under physical visual stress in embodied scenes.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Scene Metadata"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Curated",
+      "Generated"
+    ],
+    "scale": "Manifest-based records with per-sample metadata",
+    "scaleZh": "基于清单的样本记录与逐样本元数据",
+    "organizations": "RoboStressBench project team",
+    "organizationsZh": "RoboStressBench 项目团队",
+    "license": "Apache-2.0 code; dataset-specific terms apply",
+    "licenseZh": "代码采用 Apache-2.0；数据适用单独条款",
+    "access": "Official Hugging Face dataset entry and evaluation code available",
+    "accessZh": "提供官方 Hugging Face 数据入口和评测代码",
+    "rating": 4,
+    "verdict": "系统测试具身视觉推理面对物理视觉压力时的稳健性",
+    "verdictEn": "Systematically tests embodied visual reasoning under physical visual stress",
+    "wmNote": "扰动前后配对场景可用于诊断世界状态表征的脆弱性。",
+    "wmNoteEn": "Paired stressed scenes help diagnose brittleness in world-state representations.",
+    "links": {
+      "homepage": "https://yuevii.github.io/robostressbench-page/",
+      "paper": "https://arxiv.org/abs/2606.00828",
+      "code": "https://github.com/YUEVII/RoboStressBench"
+    }
+  },
+  {
     "id": "sci-vbench",
     "name": "Sci-VBench",
     "shortName": "Sci-VBench",
@@ -1444,6 +1998,52 @@
     "wmNoteEn": "Useful for world-model training or diagnosis; verify the released scope from official sources.",
     "links": {
       "paper": "https://arxiv.org/abs/2608.09873"
+    }
+  },
+  {
+    "id": "sekai2",
+    "name": "Sekai2",
+    "shortName": "Sekai2",
+    "year": 2026,
+    "summary": "面向交互式世界模型的真实第一人称长时视频数据集，配有相机轨迹和时间对齐描述。",
+    "summaryEn": "A real-world long-horizon egocentric video dataset for interactive world models with camera trajectories and temporally grounded captions.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Camera Pose",
+      "Language",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "2,826 hours; 128,892 clips",
+    "scaleZh": "2,826 小时、128,892 个片段",
+    "organizations": "Sekai2 project team",
+    "organizationsZh": "Sekai2 项目团队",
+    "license": "License terms pending verification",
+    "licenseZh": "许可条款待核验",
+    "access": "Official dataset page announced; full release pending",
+    "accessZh": "已公布官方数据入口，完整发布尚待完成",
+    "rating": 5,
+    "verdict": "覆盖多种移动方式的长时真实世界探索视频数据",
+    "verdictEn": "Long-horizon real-world exploration video spanning multiple modes of movement",
+    "wmNote": "相机轨迹和时间描述可支持可控视角生成及空间记忆评测。",
+    "wmNoteEn": "Camera trajectories and temporal captions support controllable generation and spatial-memory evaluation.",
+    "links": {
+      "homepage": "https://kangverse.github.io/sekai2-project/",
+      "paper": "https://arxiv.org/abs/2608.09449",
+      "code": "https://github.com/kangverse/Sekai2-Dataset"
     }
   },
   {
@@ -1531,6 +2131,51 @@
     "links": {
       "paper": "https://arxiv.org/abs/2608.27073",
       "homepage": "https://fangchuan.github.io/SpatialCrafter/"
+    }
+  },
+  {
+    "id": "stone-dataset",
+    "name": "STONE Dataset",
+    "shortName": "STONE",
+    "year": 2026,
+    "summary": "面向非结构化越野导航和三维可通行性预测的环视多模态机器人数据集。",
+    "summaryEn": "A surround-view multimodal robotics dataset for off-road navigation and voxel-level 3D traversability prediction.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "Multi-view RGB Video",
+      "LiDAR",
+      "3D Annotations",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Voxel-level four-class traversability annotations",
+    "scaleZh": "体素级四类别可通行性标注",
+    "organizations": "Konyang University project team",
+    "organizationsZh": "建阳大学项目团队",
+    "license": "License terms pending verification",
+    "licenseZh": "许可条款待核验",
+    "access": "Official release announced; download access is pending",
+    "accessZh": "已公布官方发布计划，下载入口尚待开放",
+    "rating": 4,
+    "verdict": "连接环视感知、三维地图和机器人可通行性的越野数据",
+    "verdictEn": "Off-road data linking surround perception, 3D mapping, and robot traversability",
+    "wmNote": "可用于学习导航世界状态和与机器人能力相关的空间动力学。",
+    "wmNoteEn": "Supports learning navigational world state and embodiment-dependent spatial dynamics.",
+    "links": {
+      "homepage": "https://konyul.github.io/STONE-dataset/",
+      "code": "https://github.com/konyul/STONE"
     }
   },
   {
@@ -1887,6 +2532,96 @@
     }
   },
   {
+    "id": "viewbench",
+    "name": "ViewBench",
+    "shortName": "ViewBench",
+    "year": 2026,
+    "summary": "用于评测相机条件长时视频世界模型视角一致性和闭环回访一致性的数据集与诊断基准。",
+    "summaryEn": "A dataset and diagnostic benchmark for view consistency and loop closure in camera-conditioned long-horizon video world models.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Depth",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "1,059 UE5 sequences; about 500K frames across 10 environments",
+    "scaleZh": "1,059 条 UE5 序列，约 50 万帧，覆盖 10 个环境",
+    "organizations": "ViewBench project team",
+    "organizationsZh": "ViewBench 项目团队",
+    "license": "Dataset license pending verification",
+    "licenseZh": "数据许可待核验",
+    "access": "Training split available on Hugging Face and ModelScope",
+    "accessZh": "训练划分已在 Hugging Face 和 ModelScope 提供",
+    "rating": 5,
+    "verdict": "专门诊断视频世界模型回到旧视角时是否保持世界状态",
+    "verdictEn": "Diagnoses whether video world models preserve world state when revisiting views",
+    "wmNote": "闭环相机轨迹直接测试持久空间记忆和场景一致性。",
+    "wmNoteEn": "Loop-closure camera paths directly test persistent spatial memory and scene consistency.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/JEdward/viewbench-dataset",
+      "paper": "https://arxiv.org/abs/2602.07854",
+      "code": "https://github.com/jedward225/viewbench-dataset"
+    }
+  },
+  {
+    "id": "vistouch",
+    "name": "VisTouch",
+    "shortName": "VisTouch",
+    "year": 2026,
+    "summary": "机器人滑动接触场景下同步采集视觉、触觉力和接触音频的大规模多模态数据集。",
+    "summaryEn": "A large-scale synchronized vision, force-tactile, and contact-audio dataset of robotic sliding interactions.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Audio",
+      "Robot State",
+      "Action"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Synchronized clips, frames, tactile force, audio, and material labels",
+    "scaleZh": "同步片段、视频帧、触觉力、音频和材料标签",
+    "organizations": "VisTouch project team",
+    "organizationsZh": "VisTouch 项目团队",
+    "license": "CC-BY-4.0 data; MIT code",
+    "licenseZh": "数据采用 CC-BY-4.0，代码采用 MIT",
+    "access": "Official repository provides metadata, loaders, benchmarks, and download instructions",
+    "accessZh": "官方仓库提供元数据、加载器、基准和下载说明",
+    "rating": 4,
+    "verdict": "适合学习接触动力学和跨模态物理状态的同步数据",
+    "verdictEn": "Synchronized data for contact dynamics and cross-modal physical-state learning",
+    "wmNote": "视觉、声音和力反馈的同步信号有助于接触状态预测。",
+    "wmNoteEn": "Synchronized vision, sound, and force signals support contact-state prediction.",
+    "links": {
+      "code": "https://github.com/liangnjupt/VisTouch"
+    }
+  },
+  {
     "id": "vitacworld",
     "name": "ViTacWorld",
     "shortName": "ViTacWorld",
@@ -1928,6 +2663,98 @@
     "links": {
       "paper": "https://arxiv.org/abs/2607.22530",
       "homepage": "https://vitacworld.github.io/"
+    }
+  },
+  {
+    "id": "wbench",
+    "name": "WBench",
+    "shortName": "WBench",
+    "year": 2026,
+    "summary": "评测交互式视频世界模型多轮动作响应、视觉质量和长期一致性的综合基准。",
+    "summaryEn": "A comprehensive multi-turn benchmark for evaluating action response, visual quality, and long-horizon consistency in interactive video world models.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Text"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation",
+      "Curated"
+    ],
+    "scale": "Multi-turn interactive cases with released data and evaluation weights",
+    "scaleZh": "多轮交互案例，并发布数据和评测权重",
+    "organizations": "Meituan LongCat",
+    "organizationsZh": "美团 LongCat",
+    "license": "See repository and dataset terms",
+    "licenseZh": "见仓库和数据集条款",
+    "access": "Dataset available on Hugging Face",
+    "accessZh": "数据集已在 Hugging Face 提供",
+    "rating": 5,
+    "verdict": "针对多轮交互视频世界模型的动作条件综合评测",
+    "verdictEn": "Comprehensive action-conditioned evaluation for multi-turn interactive video world models",
+    "wmNote": "多轮设定比单段视频指标更能检验误差累积和状态持久性。",
+    "wmNoteEn": "Multi-turn evaluation exposes error accumulation and state persistence beyond single-clip metrics.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/meituan-longcat/WBench",
+      "code": "https://github.com/meituan-longcat/WBench"
+    }
+  },
+  {
+    "id": "wildworld",
+    "name": "WildWorld",
+    "shortName": "WildWorld",
+    "year": 2026,
+    "summary": "面向可交互生成式角色扮演世界模型的大规模动作条件游戏数据集，带显式角色状态、相机位姿和深度标注。",
+    "summaryEn": "A large-scale action-conditioned game dataset for interactive generative world models, with explicit character state, camera pose, and depth annotations.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Depth",
+      "Camera Pose",
+      "Game State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "108M+ frames; first released part contains 574 hours",
+    "scaleZh": "超过 1.08 亿帧；首批已发布部分为 574 小时",
+    "organizations": "AlayaLab",
+    "organizationsZh": "AlayaLab",
+    "license": "See dataset and repository terms",
+    "licenseZh": "见数据集与仓库条款",
+    "access": "Part 1 available on Hugging Face; later parts are planned",
+    "accessZh": "第一部分已在 Hugging Face 提供，后续部分计划发布",
+    "rating": 5,
+    "verdict": "具有动作、状态和视觉观测的超大规模交互世界建模数据",
+    "verdictEn": "Large-scale interactive world-modeling data with actions, states, and visual observations",
+    "wmNote": "显式状态与固定动作接口适合研究动作条件预测和长期一致性。",
+    "wmNoteEn": "Explicit states and action interfaces support action-conditioned prediction and long-horizon consistency research.",
+    "links": {
+      "homepage": "https://alaya-studio.github.io/wildworld-project/",
+      "paper": "https://arxiv.org/abs/2603.23497",
+      "code": "https://github.com/AlayaLab/WildWorld"
     }
   },
   {
@@ -1974,6 +2801,98 @@
       "homepage": "https://huggingface.co/spaces/WorldArena/WorldArena",
       "paper": "https://arxiv.org/abs/2607.29302",
       "code": "https://github.com/boundless-large-model/boundless-world-model"
+    }
+  },
+  {
+    "id": "worldmark",
+    "name": "WorldMark",
+    "shortName": "WorldMark",
+    "year": 2026,
+    "summary": "覆盖多视角和多领域动作序列的交互式视频世界模型统一评测套件。",
+    "summaryEn": "A unified benchmark suite for interactive video world models across multiple views, domains, and action sequences.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Curated",
+      "Generated"
+    ],
+    "scale": "500 generation conditions across four view-domain settings",
+    "scaleZh": "四种视角与领域设置下共 500 个生成条件",
+    "organizations": "AlayaLab",
+    "organizationsZh": "AlayaLab",
+    "license": "MIT repository; see benchmark asset terms",
+    "licenseZh": "仓库采用 MIT；基准素材条款见发布页",
+    "access": "Official prompts, action sequences, and evaluation code available",
+    "accessZh": "官方提示、动作序列和评测代码可用",
+    "rating": 5,
+    "verdict": "统一测量交互视频世界模型动作响应与时空质量的套件",
+    "verdictEn": "A unified suite measuring action response and spatiotemporal quality in interactive video world models",
+    "wmNote": "固定图像与动作条件使不同生成模型可在相同交互协议下比较。",
+    "wmNoteEn": "Fixed images and action conditions enable reproducible evaluation under a shared interaction protocol.",
+    "links": {
+      "homepage": "https://alayalab.github.io/WorldMark/",
+      "paper": "https://arxiv.org/abs/2604.21686",
+      "code": "https://github.com/AlayaLab/WorldMark"
+    }
+  },
+  {
+    "id": "wrbench",
+    "name": "WRBench",
+    "shortName": "WRBench",
+    "year": 2026,
+    "summary": "诊断相机运动过程中视频世界模型是否保持持久世界状态的相机可控生成基准。",
+    "summaryEn": "A camera-controlled generation benchmark diagnosing whether video world models maintain persistent world state during camera motion.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Camera Pose",
+      "Text"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Curated",
+      "Generated"
+    ],
+    "scale": "Natural-25 prompts plus videos, scores, and human annotations",
+    "scaleZh": "Natural-25 提示集，以及视频、评分和人工标注",
+    "organizations": "WRBench project team",
+    "organizationsZh": "WRBench 项目团队",
+    "license": "Apache-2.0 code; see artifact terms",
+    "licenseZh": "代码采用 Apache-2.0；数据条款见发布页",
+    "access": "Datasets, artifacts, and leaderboard available on Hugging Face",
+    "accessZh": "Hugging Face 提供数据、评测产物和排行榜",
+    "rating": 5,
+    "verdict": "从六个维度检测世界状态持久性的相机运动诊断基准",
+    "verdictEn": "A six-dimension camera-motion diagnostic for persistent world state",
+    "wmNote": "包含首帧、相机范围、视频、人工标注与冻结结果，复现链条完整。",
+    "wmNoteEn": "First frames, camera scopes, videos, annotations, and frozen results provide a strong reproducibility chain.",
+    "links": {
+      "homepage": "https://jinplu.github.io/WRBench/",
+      "paper": "https://arxiv.org/abs/2606.20545",
+      "code": "https://github.com/JinPLu/WRBench"
     }
   },
   {

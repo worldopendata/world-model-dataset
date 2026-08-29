@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-208-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-228-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 208 | 6 | 6 | 45 |
+| 228 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (25)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (20)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (57)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (40)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (19)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (47)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (25)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (22)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (60)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (44)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (22)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (55)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -203,17 +203,27 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (20)
+### Action-Conditioned Dynamics (22)
 
 - **HandEdit** · 2026
   A large egocentric dataset for editing human hands into dexterous robot embodiments.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `3D Metadata` · `Text`
   [Paper](https://arxiv.org/abs/2608.12122) · Access: Paper entry; release status requires verification
 
+- **KungFuAthleteBot Motion Dataset** · 2026
+  A high-dynamics humanoid motion dataset extracted from martial-arts training videos, with ground and jumping motions retargeted to robots.
+  `Robotics / Embodied AI` · `Egocentric / Human` · `RGB Video` · `Trajectories` · `Robot State`
+  [Homepage](https://kungfuathletebot.github.io/) · [Paper](https://arxiv.org/abs/2602.13656) · [Code](https://github.com/NPCLEI/KungFuAthleteBot) · Access: Dataset available through Hugging Face and official download links
+
 - **ViTacWorld** · 2026
   A visuo-tactile-action trajectory resource for contact-rich manipulation.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Robot State`
   [Paper](https://arxiv.org/abs/2607.22530) · [Homepage](https://vitacworld.github.io/) · Access: Paper entry; release status requires verification
+
+- **WildWorld** · 2026
+  A large-scale action-conditioned game dataset for interactive generative world models, with explicit character state, camera pose, and depth annotations.
+  `Games / Virtual Environments` · `RGB Video` · `Action` · `Depth` · `Camera Pose` · `Game State`
+  [Homepage](https://alaya-studio.github.io/wildworld-project/) · [Paper](https://arxiv.org/abs/2603.23497) · [Code](https://github.com/AlayaLab/WildWorld) · Access: Part 1 available on Hugging Face; later parts are planned
 
 - **DrivingDojo** · 2024
   A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.
@@ -307,7 +317,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (57)
+### Decision-Making & Agent Trajectories (60)
 
 - **ACE-Data-0** · 2026
   A synchronized home-interaction dataset with multiview video, body, hands, objects, audio, and touch.
@@ -329,10 +339,15 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
   [Homepage](https://dreamdojo-world.github.io/) · [Paper](https://arxiv.org/abs/2602.06949) · [Code](https://github.com/NVIDIA/DreamDojo) · Access: Official project, code, and data entry available: https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-Teleop-GR1
 
+- **EBiM Benchmark** · 2026
+  An embodied mobile-bimanual manipulation benchmark with task environments, simulation setups, and trajectory-collection entry points.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Object State` · `Trajectories`
+  [Homepage](https://ebim-benchmark.github.io/) · [Code](https://github.com/EBiM-Benchmark/benchmark) · Access: Task environments and starter kits available in official repositories
+
 - **Evo-RL Real-World Dataset** · 2026
   An open real-robot offline-RL dataset for SO-101 and AgileX PiPER platforms.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
-  [Homepage](https://MINT-SJTU.github.io/Evo-RL/) · [Code](https://github.com/MINT-SJTU/Evo-RL) · Access: Official project, code, and data entry available: https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset
+  [Homepage](https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset) · [Code](https://github.com/MINT-SJTU/Evo-RL) · Access: Official code and data entries available: https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset
 
 - **HiPHI** · 2026
   A high-precision whole-body human-motion and object-interaction dataset.
@@ -343,6 +358,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A 360-degree robot-egocentric dataset for anticipating human-robot interactions.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Agent Pose` · `Segmentation`
   [Paper](https://arxiv.org/abs/2608.11051) · [Homepage](https://hucebot.github.io/hui360) · Access: Paper entry; release status requires verification
+
+- **OmniBehavior** · 2026
+  A real-user interaction-trace dataset for long-horizon, cross-scenario human behavior simulation, released in Chinese and English.
+  `Egocentric / Human` · `Action` · `Trajectories` · `Text`
+  [Homepage](https://huggingface.co/datasets/jiawei-ucas/OmniBehavior) · [Paper](https://arxiv.org/abs/2604.08362) · [Code](https://github.com/icip-cas/OmniBehavior) · Access: Full bilingual dataset available on Hugging Face
+
+- **RescueBench** · 2026
+  An Unreal Engine open-world search-and-rescue benchmark with multi-stage tasks, progressive difficulty, and expert-trajectory collection tools.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Language` · `Reward` · `Trajectories`
+  [Homepage](https://github.com/UnrealZoo/RescueBench) · [Code](https://github.com/UnrealZoo/RescueBench) · Access: Benchmark environment and trajectory collection tools available; dataset release planned
 
 - **TableVerse-100K** · 2026
   One hundred thousand interactive tabletop environments reconstructed from real imagery with manipulation trajectories.
@@ -596,12 +621,32 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (40)
+### Spatial & Spatiotemporal World Modeling (44)
 
 - **AudioWorldSim** · 2026
   An open simulation platform for generating binaural-audio world-model trajectories.
   `Robotics / Embodied AI` · `Physics / Science` · `Audio` · `Agent Pose` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.21075) · [Code](https://github.com/Luizerko/AudioWorldSim) · Access: Paper entry; release status requires verification
+
+- **ESPIRE** · 2026
+  A diagnostic benchmark for embodied spatial reasoning of vision-language models in procedurally generated simulated physical environments.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Language` · `Action` · `Object State`
+  [Paper](https://arxiv.org/abs/2603.13033) · [Code](https://github.com/spatigen/espire) · Access: Generation framework and evaluation code available
+
+- **Orbis-Tabletop** · 2026
+  A high-quality tabletop-scale 3D scene dataset for robotics simulation, embodied AI, and computer vision.
+  `Robotics / Embodied AI` · `Urban / 3D Scene` · `3D Mesh` · `3D Metadata` · `Object Metadata`
+  [Code](https://github.com/IntimeAI/Orbis-Tabletop) · Access: Scene assets and documentation available through the official repository
+
+- **Sekai2** · 2026
+  A real-world long-horizon egocentric video dataset for interactive world models with camera trajectories and temporally grounded captions.
+  `Egocentric / Human` · `RGB Video` · `Camera Pose` · `Language` · `Trajectories`
+  [Homepage](https://kangverse.github.io/sekai2-project/) · [Paper](https://arxiv.org/abs/2608.09449) · [Code](https://github.com/kangverse/Sekai2-Dataset) · Access: Official dataset page announced; full release pending
+
+- **STONE Dataset** · 2026
+  A surround-view multimodal robotics dataset for off-road navigation and voxel-level 3D traversability prediction.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `LiDAR` · `3D Annotations` · `Robot State`
+  [Homepage](https://konyul.github.io/STONE-dataset/) · [Code](https://github.com/konyul/STONE) · Access: Official release announced; download access is pending
 
 - **TransBiolab** · 2026
   A real multiview RGB-D dataset of cluttered transparent biomedical objects.
@@ -800,22 +845,37 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="physical-causal-reasoning"></a>
 
-### Physical & Causal Reasoning (19)
+### Physical & Causal Reasoning (22)
 
 - **CG-World** · 2026
   A large computer-graphics world-state dataset explicitly recording states, events, relations, and counterfactual branches.
   `Robotics / Embodied AI` · `Physics / Science` · `Synthetic Video` · `3D State` · `Action` · `Scene Metadata`
   [Paper](https://arxiv.org/abs/2607.26452) · Access: Paper entry; release status requires verification
 
+- **GAUGE** · 2026
+  A measurement-grounded benchmark evaluating physical fidelity in numerical physics engines and generative video world models.
+  `Physics / Science` · `Robotics / Embodied AI` · `RGB Video` · `Trajectories` · `Object State` · `3D Metadata`
+  [Homepage](https://internrobotics.github.io/GAUGE/) · [Paper](https://arxiv.org/abs/2608.05948) · [Code](https://github.com/InternRobotics/GAUGE) · Access: Benchmark dataset available on Hugging Face
+
 - **PhyCheck** · 2026
   A fine-grained evidence-grounded video-QA dataset for physical-law understanding.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `QA` · `Text`
   [Paper](https://arxiv.org/abs/2608.02150) · Access: Paper entry; release status requires verification
 
+- **PhysEditWorld** · 2026
+  A physics-editable world-model dataset generated by varying gravity while holding scenes, initial states, and action sequences fixed.
+  `Games / Virtual Environments` · `Physics / Science` · `RGB Video` · `Action` · `Game State` · `Camera Pose`
+  [Homepage](https://yizhiqianbi.github.io/physeditworld/) · [Paper](https://arxiv.org/abs/2606.26694) · [Code](https://github.com/yizhiqianbi/physeditworld) · Access: Public dataset entry on ModelScope
+
 - **RigidBench** · 2026
   A rigid-body physics video-generation benchmark with exact simulator state.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Depth` · `3D State`
   [Paper](https://arxiv.org/abs/2608.15555) · Access: Paper entry; release status requires verification
+
+- **VisTouch** · 2026
+  A large-scale synchronized vision, force-tactile, and contact-audio dataset of robotic sliding interactions.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Audio` · `Robot State` · `Action`
+  [Code](https://github.com/liangnjupt/VisTouch) · Access: Official repository provides metadata, loaders, benchmarks, and download instructions
 
 - **CausalVQA** · 2025
   A real-video physical-causal VQA benchmark for counterfactuals, hypotheses, anticipation, and planning.
@@ -899,7 +959,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (47)
+### World Model Evaluation & Diagnostics (55)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -936,6 +996,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.27039) · Access: Paper entry; data access requires verification
 
+- **DrivingGen** · 2026
+  A benchmark evaluating generative driving video world models through both visual quality and physical plausibility of vehicle trajectories.
+  `Autonomous Driving` · `RGB Video` · `Trajectories`
+  [Homepage](https://drivinggen-bench.github.io/) · [Paper](https://arxiv.org/abs/2601.01528) · [Code](https://github.com/youngzhou1999/DrivingGen) · Access: Dataset available on Hugging Face
+
+- **EgoSafetyBench** · 2026
+  A diagnostic egocentric-video benchmark testing whether embodied VLMs can identify hazards and act as runtime safety guards.
+  `Egocentric / Human` · `Robotics / Embodied AI` · `RGB Video` · `Language` · `Action Labels`
+  [Paper](https://arxiv.org/abs/2607.00218) · [Code](https://github.com/AIM-Intelligence/EgoSafetyBench) · Access: Dataset available on Hugging Face
+
 - **Embodied Scene Rearrangement Planning** · 2026
   An embodied scene-rearrangement planning benchmark with tasks and environment states.
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
@@ -955,6 +1025,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A scene dataset and metric benchmark for cross-frame geometric consistency in generated video.
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.09594) · Access: Paper entry; data access requires verification
+
+- **GigaBrain Challenge 2026 World Models Track Dataset** · 2026
+  Multi-task, multi-view video and state-trajectory data for trajectory-conditioned video generation and closed-loop VLA evaluation.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `Trajectories` · `Robot State` · `Depth`
+  [Homepage](https://gigaai-research.github.io/GigaBrain-Challenge-2026/guide/world-model.html) · [Code](https://github.com/open-gigaai/CVPR-2026-Workshop-WM-Track) · Access: Dataset and leaderboard available on Hugging Face
 
 - **H2R-Bench** · 2026
   A benchmark for human-to-robot cross-embodiment manipulation video generation.
@@ -995,6 +1070,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A benchmark for revisit memory and relative consistency in interactive video world models.
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.27328) · Access: Paper entry; data access requires verification
+
+- **RoboStressBench** · 2026
+  A diagnostic dataset and benchmark for VLM robustness under physical visual stress in embodied scenes.
+  `Robotics / Embodied AI` · `RGB Video` · `Language` · `Scene Metadata`
+  [Homepage](https://yuevii.github.io/robostressbench-page/) · [Paper](https://arxiv.org/abs/2606.00828) · [Code](https://github.com/YUEVII/RoboStressBench) · Access: Official Hugging Face dataset entry and evaluation code available
 
 - **Sci-VBench** · 2026
   An expert-annotated benchmark for knowledge- and reasoning-intensive scientific video generation.
@@ -1041,10 +1121,30 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.05485) · [Homepage](https://zzzmyyzeng.github.io/VideoArgus) · Access: Official project and paper entries available
 
+- **ViewBench** · 2026
+  A dataset and diagnostic benchmark for view consistency and loop closure in camera-conditioned long-horizon video world models.
+  `Games / Virtual Environments` · `RGB Video` · `Depth` · `Camera Pose`
+  [Homepage](https://huggingface.co/datasets/JEdward/viewbench-dataset) · [Paper](https://arxiv.org/abs/2602.07854) · [Code](https://github.com/jedward225/viewbench-dataset) · Access: Training split available on Hugging Face and ModelScope
+
+- **WBench** · 2026
+  A comprehensive multi-turn benchmark for evaluating action response, visual quality, and long-horizon consistency in interactive video world models.
+  `Games / Virtual Environments` · `RGB Video` · `Action` · `Text`
+  [Homepage](https://huggingface.co/datasets/meituan-longcat/WBench) · [Code](https://github.com/meituan-longcat/WBench) · Access: Dataset available on Hugging Face
+
 - **WorldArena** · 2026
   A public benchmark and leaderboard for action-conditioned robot world models and data engines.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
   [Homepage](https://huggingface.co/spaces/WorldArena/WorldArena) · [Paper](https://arxiv.org/abs/2607.29302) · [Code](https://github.com/boundless-large-model/boundless-world-model) · Access: Official project and code entries available
+
+- **WorldMark** · 2026
+  A unified benchmark suite for interactive video world models across multiple views, domains, and action sequences.
+  `Games / Virtual Environments` · `RGB Video` · `Action` · `Camera Pose`
+  [Homepage](https://alayalab.github.io/WorldMark/) · [Paper](https://arxiv.org/abs/2604.21686) · [Code](https://github.com/AlayaLab/WorldMark) · Access: Official prompts, action sequences, and evaluation code available
+
+- **WRBench** · 2026
+  A camera-controlled generation benchmark diagnosing whether video world models maintain persistent world state during camera motion.
+  `Games / Virtual Environments` · `RGB Video` · `Camera Pose` · `Text`
+  [Homepage](https://jinplu.github.io/WRBench/) · [Paper](https://arxiv.org/abs/2606.20545) · [Code](https://github.com/JinPLu/WRBench) · Access: Datasets, artifacts, and leaderboard available on Hugging Face
 
 - **DriveAction** · 2025
   A human-like driving-decision benchmark grounded in real driver action labels.

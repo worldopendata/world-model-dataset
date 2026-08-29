@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-203-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-208-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 203 | 6 | 6 | 45 |
+| 208 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,11 +70,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (24)](#predictive-generative-dynamics) · [动作条件动力学 (20)](#action-conditioned-dynamics) · [决策与智能体轨迹 (54)](#decision-making-agent-trajectories) · [空间与时空世界建模 (40)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (19)](#physical-causal-reasoning) · [世界模型评测与诊断 (46)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (25)](#predictive-generative-dynamics) · [动作条件动力学 (20)](#action-conditioned-dynamics) · [决策与智能体轨迹 (57)](#decision-making-agent-trajectories) · [空间与时空世界建模 (40)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (19)](#physical-causal-reasoning) · [世界模型评测与诊断 (47)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（24）
+### 预测与生成式动力学（25）
+
+- **Kimodo Motion Data** · 2026
+  用于人体与人形机器人动作生成的 700 小时商业友好型光学动作捕捉数据资源。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
+  [主页](https://research.nvidia.com/labs/sil/projects/kimodo/) · [代码](https://github.com/nv-tlabs/kimodo) · 访问方式：提供官方项目和代码入口
 
 - **OpenS2V-Nexus** · 2025
   主体到视频生成的五百万规模训练集与细粒度评测集。
@@ -302,7 +307,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="decision-making-agent-trajectories"></a>
 
-### 决策与智能体轨迹（54）
+### 决策与智能体轨迹（57）
 
 - **ACE-Data-0** · 2026
   同步多视角、全身、手部、物体、音频和触觉的家庭交互数据集。
@@ -313,6 +318,21 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   社区驱动的浏览器遥操作机器人数据引擎与基准。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `动作` · `机器人状态`
   [论文](https://arxiv.org/abs/2607.21588) · 访问方式：论文入口；发布状态待核验
+
+- **CARLA-Air** · 2026
+  在同一 CARLA 世界中统一城市驾驶与多旋翼飞行的空地具身仿真基础设施。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
+  [论文](https://arxiv.org/abs/2603.28032) · [代码](https://github.com/louiszengCN/CarlaAir) · 访问方式：提供官方项目、代码和数据入口：https://huggingface.co/tianlezeng/CarlaAIr-v0.1.7
+
+- **DreamDojo Data** · 2026
+  用于通用机器人世界模型预训练的 4.4 万小时第一人称人类视频及机器人后训练数据。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
+  [主页](https://dreamdojo-world.github.io/) · [论文](https://arxiv.org/abs/2602.06949) · [代码](https://github.com/NVIDIA/DreamDojo) · 访问方式：提供官方项目、代码和数据入口：https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-Teleop-GR1
+
+- **Evo-RL Real-World Dataset** · 2026
+  面向 SO-101 和 AgileX PiPER 的开放真实机器人离线强化学习数据集。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
+  [主页](https://MINT-SJTU.github.io/Evo-RL/) · [代码](https://github.com/MINT-SJTU/Evo-RL) · 访问方式：提供官方项目、代码和数据入口：https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset
 
 - **HiPHI** · 2026
   高精度全身人体运动与物体交互数据集。
@@ -879,7 +899,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（46）
+### 世界模型评测与诊断（47）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1020,6 +1040,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   统一视频生成与编辑评测的冻结 rubric 数据集。
   `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.05485) · [主页](https://zzzmyyzeng.github.io/VideoArgus) · 访问方式：提供官方项目和论文入口
+
+- **WorldArena** · 2026
+  评测动作条件机器人世界模型和数据引擎能力的公开排行榜与基准。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
+  [主页](https://huggingface.co/spaces/WorldArena/WorldArena) · [论文](https://arxiv.org/abs/2607.29302) · [代码](https://github.com/boundless-large-model/boundless-world-model) · 访问方式：提供官方项目和代码入口
 
 - **DriveAction** · 2025
   基于真实驾驶操作标注的人类式驾驶决策问答基准。

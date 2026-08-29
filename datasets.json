@@ -347,6 +347,51 @@
     }
   },
   {
+    "id": "carla-air",
+    "name": "CARLA-Air",
+    "shortName": "CARLA-Air",
+    "year": 2026,
+    "summary": "在同一 CARLA 世界中统一城市驾驶与多旋翼飞行的空地具身仿真基础设施。",
+    "summaryEn": "An air-ground embodied simulation infrastructure unifying urban driving and multirotor flight in one CARLA world.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Configurable air-ground simulation rollouts",
+    "scaleZh": "Configurable air-ground simulation rollouts",
+    "organizations": "Official project team",
+    "organizationsZh": "官方项目团队",
+    "license": "See official repository and dataset terms",
+    "licenseZh": "见官方仓库和数据条款",
+    "access": "Official project, code, and data entry available: https://huggingface.co/tianlezeng/CarlaAIr-v0.1.7",
+    "accessZh": "提供官方项目、代码和数据入口：https://huggingface.co/tianlezeng/CarlaAIr-v0.1.7",
+    "rating": 5,
+    "verdict": "在同一 CARLA 世界中统一城市驾驶与多旋翼飞行的空地具身仿真基础设施",
+    "verdictEn": "An air-ground embodied simulation infrastructure unifying urban driving and multirotor flight in one CARLA world",
+    "wmNote": "具有非论文官方入口，适合近期世界模型或具身研究；具体数据许可仍以发布页为准。",
+    "wmNoteEn": "Provides non-paper official entry points for recent world-model or embodied research; dataset-specific terms remain authoritative.",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.28032",
+      "code": "https://github.com/louiszengCN/CarlaAir"
+    }
+  },
+  {
     "id": "cg-world",
     "name": "CG-World",
     "shortName": "CG-World",
@@ -479,6 +524,52 @@
     }
   },
   {
+    "id": "dreamdojo-data",
+    "name": "DreamDojo Data",
+    "shortName": "DreamDojo Data",
+    "year": 2026,
+    "summary": "用于通用机器人世界模型预训练的 4.4 万小时第一人称人类视频及机器人后训练数据。",
+    "summaryEn": "A 44K-hour egocentric human-video corpus plus robot post-training data for generalist robot world models.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "44K hours of egocentric video",
+    "scaleZh": "44K hours of egocentric video",
+    "organizations": "Official project team",
+    "organizationsZh": "官方项目团队",
+    "license": "See official repository and dataset terms",
+    "licenseZh": "见官方仓库和数据条款",
+    "access": "Official project, code, and data entry available: https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-Teleop-GR1",
+    "accessZh": "提供官方项目、代码和数据入口：https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-Teleop-GR1",
+    "rating": 5,
+    "verdict": "用于通用机器人世界模型预训练的 4.4 万小时第一人称人类视频及机器人后训练数据",
+    "verdictEn": "A 44K-hour egocentric human-video corpus plus robot post-training data for generalist robot world models",
+    "wmNote": "具有非论文官方入口，适合近期世界模型或具身研究；具体数据许可仍以发布页为准。",
+    "wmNoteEn": "Provides non-paper official entry points for recent world-model or embodied research; dataset-specific terms remain authoritative.",
+    "links": {
+      "homepage": "https://dreamdojo-world.github.io/",
+      "paper": "https://arxiv.org/abs/2602.06949",
+      "code": "https://github.com/NVIDIA/DreamDojo"
+    }
+  },
+  {
     "id": "esrp",
     "name": "Embodied Scene Rearrangement Planning",
     "shortName": "Embodied Scene Rearrangement Planning",
@@ -521,6 +612,51 @@
     "links": {
       "paper": "https://arxiv.org/abs/2608.27371",
       "homepage": "https://pie-lab.cn/ESRP/"
+    }
+  },
+  {
+    "id": "evo-rl-data",
+    "name": "Evo-RL Real-World Dataset",
+    "shortName": "Evo-RL Real-World Dataset",
+    "year": 2026,
+    "summary": "面向 SO-101 和 AgileX PiPER 的开放真实机器人离线强化学习数据集。",
+    "summaryEn": "An open real-robot offline-RL dataset for SO-101 and AgileX PiPER platforms.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Real-world offline RL trajectories",
+    "scaleZh": "Real-world offline RL trajectories",
+    "organizations": "Official project team",
+    "organizationsZh": "官方项目团队",
+    "license": "See official repository and dataset terms",
+    "licenseZh": "见官方仓库和数据条款",
+    "access": "Official project, code, and data entry available: https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset",
+    "accessZh": "提供官方项目、代码和数据入口：https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset",
+    "rating": 5,
+    "verdict": "面向 SO-101 和 AgileX PiPER 的开放真实机器人离线强化学习数据集",
+    "verdictEn": "An open real-robot offline-RL dataset for SO-101 and AgileX PiPER platforms",
+    "wmNote": "具有非论文官方入口，适合近期世界模型或具身研究；具体数据许可仍以发布页为准。",
+    "wmNoteEn": "Provides non-paper official entry points for recent world-model or embodied research; dataset-specific terms remain authoritative.",
+    "links": {
+      "homepage": "https://MINT-SJTU.github.io/Evo-RL/",
+      "code": "https://github.com/MINT-SJTU/Evo-RL"
     }
   },
   {
@@ -870,6 +1006,51 @@
     "links": {
       "paper": "https://arxiv.org/abs/2608.11051",
       "homepage": "https://hucebot.github.io/hui360"
+    }
+  },
+  {
+    "id": "kimodo-motion-data",
+    "name": "Kimodo Motion Data",
+    "shortName": "Kimodo Motion Data",
+    "year": 2026,
+    "summary": "用于人体与人形机器人动作生成的 700 小时商业友好型光学动作捕捉数据资源。",
+    "summaryEn": "A 700-hour commercially friendly optical motion-capture resource for human and humanoid motion generation.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "700 hours of optical motion capture",
+    "scaleZh": "700 hours of optical motion capture",
+    "organizations": "Official project team",
+    "organizationsZh": "官方项目团队",
+    "license": "See official repository and dataset terms",
+    "licenseZh": "见官方仓库和数据条款",
+    "access": "Official project and code entries available",
+    "accessZh": "提供官方项目和代码入口",
+    "rating": 5,
+    "verdict": "用于人体与人形机器人动作生成的 700 小时商业友好型光学动作捕捉数据资源",
+    "verdictEn": "A 700-hour commercially friendly optical motion-capture resource for human and humanoid motion generation",
+    "wmNote": "具有非论文官方入口，适合近期世界模型或具身研究；具体数据许可仍以发布页为准。",
+    "wmNoteEn": "Provides non-paper official entry points for recent world-model or embodied research; dataset-specific terms remain authoritative.",
+    "links": {
+      "homepage": "https://research.nvidia.com/labs/sil/projects/kimodo/",
+      "code": "https://github.com/nv-tlabs/kimodo"
     }
   },
   {
@@ -1747,6 +1928,52 @@
     "links": {
       "paper": "https://arxiv.org/abs/2607.22530",
       "homepage": "https://vitacworld.github.io/"
+    }
+  },
+  {
+    "id": "worldarena",
+    "name": "WorldArena",
+    "shortName": "WorldArena",
+    "year": 2026,
+    "summary": "评测动作条件机器人世界模型和数据引擎能力的公开排行榜与基准。",
+    "summaryEn": "A public benchmark and leaderboard for action-conditioned robot world models and data engines.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "World-model and data-engine evaluation tracks",
+    "scaleZh": "World-model and data-engine evaluation tracks",
+    "organizations": "Official project team",
+    "organizationsZh": "官方项目团队",
+    "license": "See official repository and dataset terms",
+    "licenseZh": "见官方仓库和数据条款",
+    "access": "Official project and code entries available",
+    "accessZh": "提供官方项目和代码入口",
+    "rating": 5,
+    "verdict": "评测动作条件机器人世界模型和数据引擎能力的公开排行榜与基准",
+    "verdictEn": "A public benchmark and leaderboard for action-conditioned robot world models and data engines",
+    "wmNote": "具有非论文官方入口，适合近期世界模型或具身研究；具体数据许可仍以发布页为准。",
+    "wmNoteEn": "Provides non-paper official entry points for recent world-model or embodied research; dataset-specific terms remain authoritative.",
+    "links": {
+      "homepage": "https://huggingface.co/spaces/WorldArena/WorldArena",
+      "paper": "https://arxiv.org/abs/2607.29302",
+      "code": "https://github.com/boundless-large-model/boundless-world-model"
     }
   },
   {

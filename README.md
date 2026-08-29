@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-203-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-208-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 203 | 6 | 6 | 45 |
+| 208 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,11 +70,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (24)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (20)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (54)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (40)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (19)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (46)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (25)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (20)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (57)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (40)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (19)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (47)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (24)
+### Predictive & Generative Dynamics (25)
+
+- **Kimodo Motion Data** · 2026
+  A 700-hour commercially friendly optical motion-capture resource for human and humanoid motion generation.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
+  [Homepage](https://research.nvidia.com/labs/sil/projects/kimodo/) · [Code](https://github.com/nv-tlabs/kimodo) · Access: Official project and code entries available
 
 - **OpenS2V-Nexus** · 2025
   A five-million-scale subject-to-video training dataset and fine-grained benchmark.
@@ -302,7 +307,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (54)
+### Decision-Making & Agent Trajectories (57)
 
 - **ACE-Data-0** · 2026
   A synchronized home-interaction dataset with multiview video, body, hands, objects, audio, and touch.
@@ -313,6 +318,21 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A community-driven browser-teleoperation robot data engine and benchmark.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Robot State`
   [Paper](https://arxiv.org/abs/2607.21588) · Access: Paper entry; release status requires verification
+
+- **CARLA-Air** · 2026
+  An air-ground embodied simulation infrastructure unifying urban driving and multirotor flight in one CARLA world.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
+  [Paper](https://arxiv.org/abs/2603.28032) · [Code](https://github.com/louiszengCN/CarlaAir) · Access: Official project, code, and data entry available: https://huggingface.co/tianlezeng/CarlaAIr-v0.1.7
+
+- **DreamDojo Data** · 2026
+  A 44K-hour egocentric human-video corpus plus robot post-training data for generalist robot world models.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
+  [Homepage](https://dreamdojo-world.github.io/) · [Paper](https://arxiv.org/abs/2602.06949) · [Code](https://github.com/NVIDIA/DreamDojo) · Access: Official project, code, and data entry available: https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-GR00T-Teleop-GR1
+
+- **Evo-RL Real-World Dataset** · 2026
+  An open real-robot offline-RL dataset for SO-101 and AgileX PiPER platforms.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
+  [Homepage](https://MINT-SJTU.github.io/Evo-RL/) · [Code](https://github.com/MINT-SJTU/Evo-RL) · Access: Official project, code, and data entry available: https://huggingface.co/datasets/MINT-SJTU/RW-RL-Dataset
 
 - **HiPHI** · 2026
   A high-precision whole-body human-motion and object-interaction dataset.
@@ -879,7 +899,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (46)
+### World Model Evaluation & Diagnostics (47)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1020,6 +1040,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A frozen-rubric benchmark for unified video generation and editing evaluation.
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.05485) · [Homepage](https://zzzmyyzeng.github.io/VideoArgus) · Access: Official project and paper entries available
+
+- **WorldArena** · 2026
+  A public benchmark and leaderboard for action-conditioned robot world models and data engines.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
+  [Homepage](https://huggingface.co/spaces/WorldArena/WorldArena) · [Paper](https://arxiv.org/abs/2607.29302) · [Code](https://github.com/boundless-large-model/boundless-world-model) · Access: Official project and code entries available
 
 - **DriveAction** · 2025
   A human-like driving-decision benchmark grounded in real driver action labels.

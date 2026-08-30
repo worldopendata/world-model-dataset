@@ -1,6 +1,6 @@
 # Dataset Research TODO
 
-Scope: datasets first publicly released before 2026 (`year < 2026`) and directly relevant to world-model research.
+Scope: a strict catalog of datasets first publicly released before or during 2026 that directly expose world-state evolution, action-conditioned transitions, future observations, or dedicated world-model evaluation protocols.
 
 ## Workflow
 
@@ -43,7 +43,9 @@ Scope: datasets first publicly released before 2026 (`year < 2026`) and directly
 ## Review rules
 
 - Include datasets, benchmark datasets, and official generation toolkits with an identifiable data path
-- Require direct relevance to temporal dynamics, action-conditioned transitions, agent trajectories, spatial world modeling, physical/causal reasoning, or world-model evaluation
+- Require direct evidence of at least one strict criterion: (1) state/observation transitions over time, (2) actions or controls aligned to those transitions, (3) trajectories usable for world-state prediction, (4) counterfactual physical/causal rollouts, or (5) a benchmark explicitly designed to evaluate world models
+- Domain datasets such as robotics, autonomous driving, video, 3D, or simulation are not sufficient by themselves; their record must document the strict criterion above
+- Exclude ordinary static perception, classification, detection, segmentation, generic VQA, and model-only resources even when they are used by embodied systems
 - Require at least one traceable entry point: paper, official homepage, official repository, data page, or generation toolkit
 - A paper-only entry may be included, but its access status must remain unverified unless the paper identifies a data channel
 - Keep uncertain license or access details explicit; do not infer openness from a paper alone

@@ -3355,6 +3355,139 @@
     }
   },
   {
+    "id": "aircopbench",
+    "name": "AirCopBench",
+    "shortName": "AirCopBench",
+    "year": 2025,
+    "summary": "面向多无人机协同具身感知与推理的空中机器人基准。",
+    "summaryEn": "A benchmark for multi-drone collaborative embodied perception and reasoning.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Trajectories",
+      "Language"
+    ],
+    "structure": [
+      "Dataset / Benchmark / Environment"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Multi-drone collaborative perception scenarios",
+    "scaleZh": "多无人机协同感知场景",
+    "organizations": "AirCopBench project team",
+    "organizationsZh": "AirCopBench 项目团队",
+    "license": "See repository and environment terms",
+    "licenseZh": "见仓库和环境条款",
+    "access": "Official evaluation code and project resources available",
+    "accessZh": "官方评测代码和项目资源可用",
+    "rating": 4,
+    "verdict": "研究多智能体视角协同和空中导航决策的基准",
+    "verdictEn": "A benchmark for multi-agent view coordination and aerial navigation decisions",
+    "wmNote": "多无人机观测融合可用于协同世界状态估计。",
+    "wmNoteEn": "Multi-drone observation fusion supports collaborative world-state estimation.",
+    "links": {
+      "code": "https://github.com/zhajirong/AirCopBench"
+    }
+  },
+  {
+    "id": "bear-benchmark",
+    "name": "BEAR",
+    "shortName": "BEAR",
+    "year": 2025,
+    "summary": "评测多模态模型原子级具身能力的基准。",
+    "summaryEn": "A benchmark for atomic embodied capabilities in multimodal language models.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Action"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation",
+      "Curated"
+    ],
+    "scale": "Atomic embodied capability tasks",
+    "scaleZh": "原子级具身能力任务",
+    "organizations": "BEAR project team",
+    "organizationsZh": "BEAR 项目团队",
+    "license": "See repository and dataset terms",
+    "licenseZh": "见仓库和数据集条款",
+    "access": "Official repository and benchmark resources available",
+    "accessZh": "官方仓库和基准资源可用",
+    "rating": 4,
+    "verdict": "拆解并评测具身智能体基础能力的基准",
+    "verdictEn": "A benchmark decomposing foundational embodied-agent capabilities",
+    "wmNote": "原子动作和状态理解可作为世界模型能力诊断单元。",
+    "wmNoteEn": "Atomic action and state understanding provide world-model diagnostic units.",
+    "links": {
+      "code": "https://github.com/yqi19/BEAR-official"
+    }
+  },
+  {
+    "id": "bluerov2-dynamics",
+    "name": "BlueROV2 Dynamics Dataset",
+    "shortName": "BlueROV2 Dynamics",
+    "year": 2025,
+    "summary": "包含水下机器人动力学数据、训练脚本和学习与物理模型的资源。",
+    "summaryEn": "Underwater robot dynamics data with training scripts and learned and physics-based models.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "Action",
+      "Robot State",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Toolkit"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "BlueROV2 underwater dynamics trajectories",
+    "scaleZh": "BlueROV2 水下动力学轨迹",
+    "organizations": "BlueROV2 project team",
+    "organizationsZh": "BlueROV2 项目团队",
+    "license": "See repository terms",
+    "licenseZh": "见仓库条款",
+    "access": "Official datasets and training code available",
+    "accessZh": "官方数据和训练代码可用",
+    "rating": 3,
+    "verdict": "面向水下机器人动作到状态动力学学习的数据",
+    "verdictEn": "Data for action-to-state dynamics learning in underwater robots",
+    "wmNote": "真实动力学轨迹适合研究控制条件下的状态预测。",
+    "wmNoteEn": "Real dynamics trajectories support control-conditioned state prediction.",
+    "links": {
+      "code": "https://github.com/ViktorNfa/bluerov2_dynamics"
+    }
+  },
+  {
     "id": "causalvqa",
     "name": "CausalVQA",
     "shortName": "CausalVQA",
@@ -3394,6 +3527,50 @@
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
       "paper": "https://arxiv.org/abs/2506.09943"
+    }
+  },
+  {
+    "id": "cu-multi",
+    "name": "CU-MULTI",
+    "shortName": "CU-MULTI",
+    "year": 2025,
+    "summary": "由地面机器人采集的多机器人户外长序列数据集。",
+    "summaryEn": "A multi-robot outdoor dataset with long sequences collected by a ground robot.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "IMU / GPS",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Two large-scale outdoor campus sequences",
+    "scaleZh": "两条大规模校园户外序列",
+    "organizations": "ARPG University of Colorado Boulder",
+    "organizationsZh": "科罗拉多大学博尔德分校 ARPG",
+    "license": "See repository terms",
+    "licenseZh": "见仓库条款",
+    "access": "Official repository and sequence documentation available",
+    "accessZh": "官方仓库和序列文档可用",
+    "rating": 4,
+    "verdict": "适合多机器人空间状态与定位研究的户外序列",
+    "verdictEn": "Outdoor sequences for multi-robot spatial-state and localization research",
+    "wmNote": "长序列位姿和环境变化支持时空记忆建模。",
+    "wmNoteEn": "Long poses and environment changes support spatiotemporal memory modeling.",
+    "links": {
+      "code": "https://github.com/arpg/CU-Multi"
     }
   },
   {
@@ -3530,6 +3707,50 @@
     }
   },
   {
+    "id": "emmoe",
+    "name": "EMMOE",
+    "shortName": "EMMOE",
+    "year": 2025,
+    "summary": "面向开放环境移动操作机器人的综合具身评测基准。",
+    "summaryEn": "A comprehensive benchmark for embodied mobile manipulation in open environments.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Object State"
+    ],
+    "structure": [
+      "Dataset / Benchmark / Environment"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Mobile manipulation tasks in open environments",
+    "scaleZh": "开放环境移动操作任务",
+    "organizations": "EMMOE project team",
+    "organizationsZh": "EMMOE 项目团队",
+    "license": "Apache-2.0 code; see assets terms",
+    "licenseZh": "代码采用 Apache-2.0；素材条款见发布页",
+    "access": "Official benchmark code available",
+    "accessZh": "官方基准代码可用",
+    "rating": 4,
+    "verdict": "覆盖移动、导航和操作联动的具身任务环境",
+    "verdictEn": "Embodied tasks combining mobility, navigation, and manipulation",
+    "wmNote": "长时移动操作回合可用于学习动作条件状态转移。",
+    "wmNoteEn": "Long-horizon mobile-manipulation episodes support action-conditioned transitions.",
+    "links": {
+      "code": "https://github.com/silence143/EMMOE"
+    }
+  },
+  {
     "id": "eoc-bench",
     "name": "EOC-Bench",
     "shortName": "EOC-Bench",
@@ -3575,6 +3796,53 @@
       "homepage": "https://circleradon.github.io/EOCBench/",
       "paper": "https://arxiv.org/abs/2506.05287",
       "code": "https://github.com/alibaba-damo-academy/EOCBench"
+    }
+  },
+  {
+    "id": "express-bench",
+    "name": "EXPRESS-Bench",
+    "shortName": "EXPRESS-Bench",
+    "year": 2025,
+    "summary": "评测具身问答智能体在连续视觉观察中记忆、定位和推理能力的基准。",
+    "summaryEn": "An embodied question-answering benchmark for memory, localization, and reasoning over continuous visual observations.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB Video",
+      "QA",
+      "Language",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation",
+      "Curated"
+    ],
+    "scale": "Embodied QA tasks across navigation and interaction settings",
+    "scaleZh": "覆盖导航和交互场景的具身问答任务",
+    "organizations": "HCPLab SYSU",
+    "organizationsZh": "中山大学 HCPLab",
+    "license": "See benchmark terms",
+    "licenseZh": "见基准条款",
+    "access": "Official project page and benchmark code available",
+    "accessZh": "官方项目页和基准代码可用",
+    "rating": 4,
+    "verdict": "以连续观察测试具身智能体的空间记忆和推理",
+    "verdictEn": "Tests embodied spatial memory and reasoning over continuous observations",
+    "wmNote": "问答结果依赖历史观测，可诊断世界状态记忆。",
+    "wmNoteEn": "Answers depend on observation history, exposing world-state memory.",
+    "links": {
+      "homepage": "https://hcplab-sysu.github.io/EXPRESS-Bench/",
+      "code": "https://github.com/HCPLab-SYSU/EXPRESS-Bench"
     }
   },
   {
@@ -3667,6 +3935,142 @@
     }
   },
   {
+    "id": "grip",
+    "name": "GRIP Dataset",
+    "shortName": "GRIP",
+    "year": 2025,
+    "summary": "面向可变形与刚体耦合抓取的通用机器人增量势接触仿真数据集。",
+    "summaryEn": "A robotic incremental-potential contact simulation dataset for coupled deformable-rigid grasping.",
+    "primaryTask": "Physical & Causal Reasoning",
+    "primaryTaskZh": "物理与因果推理",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Object State",
+      "3D State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Unified deformable-rigid grasping simulation scenarios",
+    "scaleZh": "统一可变形与刚体抓取仿真场景",
+    "organizations": "GRIP project team",
+    "organizationsZh": "GRIP 项目团队",
+    "license": "See repository and asset terms",
+    "licenseZh": "见仓库和素材条款",
+    "access": "Project page and official repository available",
+    "accessZh": "项目页和官方仓库可用",
+    "rating": 4,
+    "verdict": "用于接触动力学和耦合物体状态预测的抓取数据",
+    "verdictEn": "Grasping data for contact dynamics and coupled object-state prediction",
+    "wmNote": "物理接触状态与动作序列支持可解释动力学学习。",
+    "wmNoteEn": "Contact states and action sequences support interpretable dynamics learning.",
+    "links": {
+      "homepage": "https://bell0o.github.io/GRIP/",
+      "code": "https://github.com/BeLl0o/GRIP_Dataset"
+    }
+  },
+  {
+    "id": "i2nav-robot",
+    "name": "i2Nav-Robot",
+    "shortName": "i2Nav-Robot",
+    "year": 2025,
+    "summary": "面向室内外多传感器融合导航与建图的大规模机器人数据集。",
+    "summaryEn": "A large-scale indoor-outdoor robot dataset for multisensor-fusion navigation and mapping.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "IMU / GPS",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Indoor and outdoor multisensor robot sequences",
+    "scaleZh": "室内外多传感器机器人序列",
+    "organizations": "Wuhan University i2Nav Lab",
+    "organizationsZh": "武汉大学 i2Nav 实验室",
+    "license": "GPL-3.0 code; see dataset terms",
+    "licenseZh": "代码采用 GPL-3.0；数据许可见发布页",
+    "access": "Official repository and baseline code available",
+    "accessZh": "官方仓库和基线代码可用",
+    "rating": 4,
+    "verdict": "覆盖室内外连续导航状态的机器人数据",
+    "verdictEn": "Robot data covering continuous indoor-outdoor navigation states",
+    "wmNote": "多传感器时序适合导航世界状态和轨迹预测。",
+    "wmNoteEn": "Multisensor sequences support navigational world-state and trajectory prediction.",
+    "links": {
+      "code": "https://github.com/i2Nav-WHU/i2Nav-Robot"
+    }
+  },
+  {
+    "id": "iilabs3d",
+    "name": "iilab Indoor LiDAR SLAM Dataset",
+    "shortName": "iilab-3D",
+    "year": 2025,
+    "summary": "用于室内激光雷达 SLAM、定位和三维重建的真实机器人序列数据集工具包。",
+    "summaryEn": "Real-robot indoor LiDAR sequences and toolkit for SLAM, localization, and 3D reconstruction.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "LiDAR",
+      "IMU",
+      "Camera Pose",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Toolkit"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Indoor LiDAR-based SLAM sequences",
+    "scaleZh": "室内激光雷达 SLAM 序列",
+    "organizations": "iilab project team",
+    "organizationsZh": "iilab 项目团队",
+    "license": "See official dataset terms",
+    "licenseZh": "见官方数据集条款",
+    "access": "Official toolkit and DOI-backed dataset entry available",
+    "accessZh": "提供官方工具包和 DOI 数据入口",
+    "rating": 3,
+    "verdict": "面向室内三维世界重建和定位的激光雷达数据",
+    "verdictEn": "LiDAR data for indoor 3D world reconstruction and localization",
+    "wmNote": "连续扫描和位姿轨迹支持空间世界状态估计。",
+    "wmNoteEn": "Continuous scans and pose trajectories support spatial world-state estimation.",
+    "links": {
+      "homepage": "https://doi.org/10.25747/VHNJ-WM80",
+      "code": "https://github.com/JorgeDFR/iilabs3d-toolkit"
+    }
+  },
+  {
     "id": "labutopia",
     "name": "LabUtopia",
     "shortName": "LabUtopia",
@@ -3706,6 +4110,50 @@
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
       "paper": "https://arxiv.org/abs/2505.22634"
+    }
+  },
+  {
+    "id": "m3dgr",
+    "name": "M3DGR",
+    "shortName": "M3DGR",
+    "year": 2025,
+    "summary": "面向地面机器人的多传感器、多场景大规模 SLAM 数据集。",
+    "summaryEn": "A multisensor, multiscenario SLAM dataset for ground robots.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "IMU / GPS",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Multiscenario ground-robot sequences",
+    "scaleZh": "多场景地面机器人序列",
+    "organizations": "Shanghai Jiao Tong University",
+    "organizationsZh": "上海交通大学",
+    "license": "MIT code; see dataset terms",
+    "licenseZh": "代码采用 MIT；数据许可见发布页",
+    "access": "Official dataset repository and benchmark code available",
+    "accessZh": "官方数据仓库和基准代码可用",
+    "rating": 4,
+    "verdict": "多传感器地面机器人空间状态估计数据",
+    "verdictEn": "Multisensor ground-robot data for spatial-state estimation",
+    "wmNote": "连续位姿和环境观测可用于定位与时空建模。",
+    "wmNoteEn": "Continuous poses and observations support localization and spatiotemporal modeling.",
+    "links": {
+      "code": "https://github.com/sjtuyinjie/M3DGR"
     }
   },
   {
@@ -3794,6 +4242,50 @@
     }
   },
   {
+    "id": "mineinsight",
+    "name": "MineInsight",
+    "shortName": "MineInsight",
+    "year": 2025,
+    "summary": "面向越野人道排雷机器人的多光谱环境数据集。",
+    "summaryEn": "A multispectral dataset for humanitarian-demining robots in off-road environments.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "3D Annotations",
+      "Scene Metadata"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Multispectral off-road demining scenes",
+    "scaleZh": "多光谱越野排雷场景",
+    "organizations": "MineInsight project team",
+    "organizationsZh": "MineInsight 项目团队",
+    "license": "See dataset terms",
+    "licenseZh": "见数据集条款",
+    "access": "Official repository and project resources available",
+    "accessZh": "官方仓库和项目资源可用",
+    "rating": 4,
+    "verdict": "面向复杂越野环境感知和导航的机器人数据",
+    "verdictEn": "Robot data for perception and navigation in complex off-road environments",
+    "wmNote": "多光谱与地形状态有助于风险感知世界模型。",
+    "wmNoteEn": "Multispectral and terrain states support risk-aware world models.",
+    "links": {
+      "code": "https://github.com/mariomlz99/MineInsight"
+    }
+  },
+  {
     "id": "mmr-reasoning",
     "name": "MMR",
     "shortName": "MMR",
@@ -3836,6 +4328,51 @@
     }
   },
   {
+    "id": "mrcd",
+    "name": "MRCD",
+    "shortName": "MRCD",
+    "year": 2025,
+    "summary": "面向户外移动机器人 ROS2 感知与导航的公开数据集。",
+    "summaryEn": "An outdoor mobile-robot dataset for ROS2 perception and navigation.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "IMU / GPS",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Outdoor mobile-robot ROS2 sequences",
+    "scaleZh": "户外移动机器人 ROS2 序列",
+    "organizations": "MRCD project team",
+    "organizationsZh": "MRCD 项目团队",
+    "license": "See official terms",
+    "licenseZh": "见官方条款",
+    "access": "Project page and repository available",
+    "accessZh": "项目页和仓库可用",
+    "rating": 3,
+    "verdict": "用于户外移动机器人状态估计和导航的序列数据",
+    "verdictEn": "Sequence data for outdoor mobile-robot state estimation and navigation",
+    "wmNote": "ROS2 传感器流可用于实时状态转移建模。",
+    "wmNoteEn": "ROS2 sensor streams support real-time transition modeling.",
+    "links": {
+      "homepage": "https://sm20598.github.io/MRCD/",
+      "code": "https://github.com/SM20598/MRCD"
+    }
+  },
+  {
     "id": "muble",
     "name": "MuBlE / SHOP-VRB2",
     "shortName": "MuBlE / SHOP-VRB2",
@@ -3875,6 +4412,99 @@
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
       "paper": "https://arxiv.org/abs/2503.02834"
+    }
+  },
+  {
+    "id": "multimodal-amr",
+    "name": "Multimodal AMR Dataset",
+    "shortName": "Multimodal AMR",
+    "year": 2025,
+    "summary": "工业室内与城市室外自主移动机器人采集的多模态时序数据集。",
+    "summaryEn": "A multimodal temporal dataset from an autonomous mobile robot in industrial indoor and urban outdoor settings.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB Video",
+      "LiDAR",
+      "RADAR",
+      "Depth",
+      "Scene Metadata"
+    ],
+    "structure": [
+      "Dataset"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Indoor-industrial and outdoor-urban recorded scenes",
+    "scaleZh": "工业室内和城市室外采集场景",
+    "organizations": "SEW-Eurodrive Open Source",
+    "organizationsZh": "SEW-Eurodrive 开源团队",
+    "license": "CC-BY-4.0",
+    "licenseZh": "CC-BY-4.0",
+    "access": "Official documentation and repository available",
+    "accessZh": "官方文档和仓库可用",
+    "rating": 4,
+    "verdict": "覆盖多传感器移动机器人环境状态的开放数据",
+    "verdictEn": "Open multisensor data for mobile-robot environment states",
+    "wmNote": "雷达、ToF 和激光时序可支持鲁棒空间状态估计。",
+    "wmNoteEn": "Radar, ToF, and laser sequences support robust spatial-state estimation.",
+    "links": {
+      "code": "https://github.com/SEW-Eurodrive-Open-Source/Multimodal_AMR_dataset"
+    }
+  },
+  {
+    "id": "nextbestpath",
+    "name": "NextBestPath",
+    "shortName": "NextBestPath",
+    "year": 2025,
+    "summary": "用于未知环境高效三维建图和主动探索路径规划的数据与基准。",
+    "summaryEn": "Data and benchmarks for efficient 3D mapping and active exploration in unseen environments.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Depth",
+      "Camera Pose",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation",
+      "Real-world"
+    ],
+    "scale": "Unseen-environment mapping trajectories",
+    "scaleZh": "未知环境建图轨迹",
+    "organizations": "NextBestPath project team",
+    "organizationsZh": "NextBestPath 项目团队",
+    "license": "See repository terms",
+    "licenseZh": "见仓库条款",
+    "access": "Official project page and code available",
+    "accessZh": "官方项目页和代码可用",
+    "rating": 4,
+    "verdict": "把主动探索动作与三维世界重建结合的路径基准",
+    "verdictEn": "A path-planning benchmark coupling active exploration with 3D reconstruction",
+    "wmNote": "下一最佳视点动作直接作用于世界状态可观测性。",
+    "wmNoteEn": "Next-best-view actions directly affect world-state observability.",
+    "links": {
+      "homepage": "https://shiyao-li.github.io/nbp/",
+      "code": "https://github.com/shiyao-li/NextBestPath"
     }
   },
   {
@@ -4065,6 +4695,96 @@
       "homepage": "https://yangzhou24.github.io/OmniWorld/",
       "paper": "https://arxiv.org/abs/2509.12201",
       "code": "https://github.com/yangzhou24/OmniWorld"
+    }
+  },
+  {
+    "id": "open-h-embodiment",
+    "name": "Open-H-Embodiment",
+    "shortName": "Open-H-Embodiment",
+    "year": 2025,
+    "summary": "面向医疗机器人通用视觉语言动作模型的社区驱动开放数据计划。",
+    "summaryEn": "A community-driven open dataset initiative for generalist vision-language-action models in healthcare robotics.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Language"
+    ],
+    "structure": [
+      "Dataset / Initiative"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Community-contributed healthcare robot episodes",
+    "scaleZh": "社区贡献的医疗机器人回合",
+    "organizations": "Open-H Embodiment community",
+    "organizationsZh": "Open-H-Embodiment 社区",
+    "license": "See contribution and dataset terms",
+    "licenseZh": "见贡献指南和数据条款",
+    "access": "Official project repository and contribution entry available",
+    "accessZh": "官方项目仓库和贡献入口可用",
+    "rating": 4,
+    "verdict": "面向医疗机器人动作条件学习的开放数据生态",
+    "verdictEn": "An open ecosystem for action-conditioned learning in healthcare robotics",
+    "wmNote": "真实医疗交互轨迹可扩展具身世界模型的任务分布。",
+    "wmNoteEn": "Real healthcare interaction trajectories broaden embodied world-model task distributions.",
+    "links": {
+      "code": "https://github.com/open-h/open-h-embodiment"
+    }
+  },
+  {
+    "id": "open3d-vqa",
+    "name": "Open3D-VQA",
+    "shortName": "Open3D-VQA",
+    "year": 2025,
+    "summary": "在开放三维空间中评测多模态模型具身空间推理能力的问答基准。",
+    "summaryEn": "A VQA benchmark for embodied spatial reasoning in open 3D spaces.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB Video",
+      "3D Metadata",
+      "QA",
+      "Language"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation",
+      "Curated"
+    ],
+    "scale": "Open-space 3D embodied reasoning questions",
+    "scaleZh": "开放空间三维具身推理问答",
+    "organizations": "EmbodiedCity",
+    "organizationsZh": "EmbodiedCity",
+    "license": "Apache-2.0 code; see dataset terms",
+    "licenseZh": "代码采用 Apache-2.0；数据许可见发布页",
+    "access": "Official code and benchmark resources available",
+    "accessZh": "官方代码和基准资源可用",
+    "rating": 4,
+    "verdict": "用三维场景和语言问题检验具身空间关系推理",
+    "verdictEn": "Tests embodied spatial-relation reasoning with 3D scenes and language questions",
+    "wmNote": "三维场景元数据可诊断空间世界表征。",
+    "wmNoteEn": "3D scene metadata diagnoses spatial world representations.",
+    "links": {
+      "code": "https://github.com/EmbodiedCity/Open3D-VQA.code"
     }
   },
   {
@@ -4374,6 +5094,143 @@
     }
   },
   {
+    "id": "rovi-book",
+    "name": "RoVI-Book",
+    "shortName": "RoVI-Book",
+    "year": 2025,
+    "summary": "聚焦机器人操作和视觉理解的机器人视觉指令数据集。",
+    "summaryEn": "A dataset focused on robotic manipulation and visual understanding for robotic visual instruction.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Language",
+      "Robot State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Curated"
+    ],
+    "scale": "Visual-instruction manipulation examples",
+    "scaleZh": "视觉指令操作样本",
+    "organizations": "RoVI-Book project team",
+    "organizationsZh": "RoVI-Book 项目团队",
+    "license": "See official dataset terms",
+    "licenseZh": "见官方数据集条款",
+    "access": "Official project page and repository available",
+    "accessZh": "官方项目页和仓库可用",
+    "rating": 3,
+    "verdict": "连接视觉指令、机器人动作和操作状态的数据资源",
+    "verdictEn": "A resource connecting visual instructions, robot actions, and manipulation states",
+    "wmNote": "语言条件动作序列可用于指令驱动世界模型。",
+    "wmNoteEn": "Language-conditioned action sequences support instruction-driven world models.",
+    "links": {
+      "homepage": "https://robotic-visual-instruction.github.io/",
+      "code": "https://github.com/robotic-visual-instruction/RoVI-Book"
+    }
+  },
+  {
+    "id": "rovr-open-dataset",
+    "name": "ROVR Open Dataset",
+    "shortName": "ROVR",
+    "year": 2025,
+    "summary": "面向自动驾驶、机器人和四维感知的大规模开放三维数据集。",
+    "summaryEn": "A large-scale open 3D dataset for autonomous driving, robotics, and 4D perception.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Predictive & Generative Dynamics"
+    ],
+    "domain": [
+      "Autonomous Driving",
+      "Urban / 3D Scene"
+    ],
+    "modalities": [
+      "RGB Video",
+      "3D Annotations",
+      "LiDAR",
+      "Camera Pose"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Large-scale open 3D and 4D perception collection",
+    "scaleZh": "大规模开放三维与四维感知集合",
+    "organizations": "ROVR Network",
+    "organizationsZh": "ROVR Network",
+    "license": "See official dataset terms",
+    "licenseZh": "见官方数据集条款",
+    "access": "Official dataset portal available",
+    "accessZh": "官方数据门户可用",
+    "rating": 4,
+    "verdict": "连接自动驾驶三维场景与四维世界建模的开放数据",
+    "verdictEn": "Open 3D data connecting autonomous-driving scenes with 4D world modeling",
+    "wmNote": "时空标注可用于场景状态重建和未来观测预测。",
+    "wmNoteEn": "Spatiotemporal annotations support scene-state reconstruction and future observation prediction.",
+    "links": {
+      "homepage": "https://rovr.network/#/dataset",
+      "code": "https://github.com/rovr-network/ROVR-Open-Dataset"
+    }
+  },
+  {
+    "id": "shrec",
+    "name": "SHREC",
+    "shortName": "SHREC",
+    "year": 2025,
+    "summary": "用于社会性人机对话智能体研究的多模态人机交互视频数据集。",
+    "summaryEn": "A multimodal human-robot interaction video dataset for socially intelligent embodied agents.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Audio",
+      "Language",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Multimodal human-robot conversation episodes",
+    "scaleZh": "多模态人机对话回合",
+    "organizations": "MIT Media Lab",
+    "organizationsZh": "麻省理工学院媒体实验室",
+    "license": "See official dataset terms",
+    "licenseZh": "见官方数据集条款",
+    "access": "Official project repository and data documentation available",
+    "accessZh": "官方项目仓库和数据文档可用",
+    "rating": 4,
+    "verdict": "面向社会交互和对话状态建模的人机视频数据",
+    "verdictEn": "Human-robot video data for social interaction and dialogue-state modeling",
+    "wmNote": "对话、视觉和动作时序可用于社会具身状态预测。",
+    "wmNoteEn": "Dialogue, vision, and action sequences support social embodied-state prediction.",
+    "links": {
+      "code": "https://github.com/mitmedialab/SHREC"
+    }
+  },
+  {
     "id": "simworld-benchmark",
     "name": "SimWorld Benchmark",
     "shortName": "SimWorld Benchmark",
@@ -4583,6 +5440,50 @@
     "wmNoteEn": "Relevant to recent world-model or embodied-AI research; verify the official released scope before use.",
     "links": {
       "paper": "https://arxiv.org/abs/2505.02148"
+    }
+  },
+  {
+    "id": "tpt-bench",
+    "name": "TPT-Bench",
+    "shortName": "TPT-Bench",
+    "year": 2025,
+    "summary": "用于长期机器人第一人称目标人物跟踪的规模化数据集与基准。",
+    "summaryEn": "A large-scale, long-term robot-egocentric dataset and benchmark for target-person tracking.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Spatial & Spatiotemporal World Modeling"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Trajectories",
+      "3D Annotations"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "Long-term robot-egocentric tracking sequences",
+    "scaleZh": "长期机器人第一人称跟踪序列",
+    "organizations": "TPT-Bench project team",
+    "organizationsZh": "TPT-Bench 项目团队",
+    "license": "See dataset terms",
+    "licenseZh": "见数据集条款",
+    "access": "Official benchmark tools and project repository available",
+    "accessZh": "官方基准工具和项目仓库可用",
+    "rating": 4,
+    "verdict": "检验长时人物身份和空间状态持久性的跟踪基准",
+    "verdictEn": "A tracking benchmark for long-term identity and spatial-state persistence",
+    "wmNote": "长时遮挡和运动要求世界模型保持目标状态记忆。",
+    "wmNoteEn": "Long-term occlusion and motion require persistent target-state memory.",
+    "links": {
+      "code": "https://github.com/MedlarTea/TPT-BENCH-TOOLS"
     }
   },
   {

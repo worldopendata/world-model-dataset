@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-228-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-248-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 228 | 6 | 6 | 45 |
+| 248 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,16 +70,21 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (25)](#predictive-generative-dynamics) · [动作条件动力学 (22)](#action-conditioned-dynamics) · [决策与智能体轨迹 (60)](#decision-making-agent-trajectories) · [空间与时空世界建模 (44)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (22)](#physical-causal-reasoning) · [世界模型评测与诊断 (55)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (26)](#action-conditioned-dynamics) · [决策与智能体轨迹 (64)](#decision-making-agent-trajectories) · [空间与时空世界建模 (49)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (25)](#physical-causal-reasoning) · [世界模型评测与诊断 (58)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（25）
+### 预测与生成式动力学（26）
 
 - **Kimodo Motion Data** · 2026
   用于人体与人形机器人动作生成的 700 小时商业友好型光学动作捕捉数据资源。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
   [主页](https://research.nvidia.com/labs/sil/projects/kimodo/) · [代码](https://github.com/nv-tlabs/kimodo) · 访问方式：提供官方项目和代码入口
+
+- **Scaling Laws for Motion Corpus** · 2026
+  经过视觉、物理质量和安全筛选的大规模人体动作语料，用于研究动作生成的缩放规律。
+  `第一人称 / 人类活动` · `轨迹` · `三维状态` · `RGB 视频`
+  [主页](https://getcartwheel.com/blog/scaling-laws) · [代码](https://github.com/Cartwhl/scaling-laws-for-motion) · 访问方式：提供官方仓库和技术报告，语料发布条款仍需核验
 
 - **OpenS2V-Nexus** · 2025
   主体到视频生成的五百万规模训练集与细粒度评测集。
@@ -203,17 +208,27 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（22）
+### 动作条件动力学（26）
 
 - **HandEdit** · 2026
   将第一人称人手图像编辑为多种灵巧机器人本体的大规模数据集。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `三维元数据` · `文本`
   [论文](https://arxiv.org/abs/2608.12122) · 访问方式：论文入口；发布状态待核验
 
+- **kine2go** · 2026
+  将动物与四足动作捕捉重定向为 Unitree Go2 可执行参考轨迹并生成策略回放的数据集。
+  `机器人 / 具身智能` · `轨迹` · `机器人状态` · `动作` · `RGB 视频`
+  [主页](https://nomagiclab.github.io/kine2go-pipeline/) · [论文](https://arxiv.org/abs/2606.14433) · [代码](https://github.com/nomagiclab/kine2go-pipeline) · 访问方式：数据产物已在 Hugging Face 提供
+
 - **KungFuAthleteBot Motion Dataset** · 2026
   由武术训练视频提取并重定向到人形机器人的高动态动作数据集，覆盖地面和跳跃动作。
   `机器人 / 具身智能` · `第一人称 / 人类活动` · `RGB 视频` · `轨迹` · `机器人状态`
   [主页](https://kungfuathletebot.github.io/) · [论文](https://arxiv.org/abs/2602.13656) · [代码](https://github.com/NPCLEI/KungFuAthleteBot) · 访问方式：可通过 Hugging Face 和官方下载入口访问
+
+- **Open Locomotion Skills Dataset** · 2026
+  统一不同形态腿式机器人的运动轨迹、地形元数据和仿真到现实工具的数据集。
+  `机器人 / 具身智能` · `轨迹` · `机器人状态` · `动作` · `场景元数据`
+  [主页](https://kanishqgandharv219.github.io/open-locomotion-dataset/) · [代码](https://github.com/KanishqGandharv219/open-locomotion-dataset) · 访问方式：统一模式、导入器、校验和基准工具可用
 
 - **ViTacWorld** · 2026
   面向接触丰富操作的视觉、触觉和动作轨迹数据资源。
@@ -224,6 +239,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向可交互生成式角色扮演世界模型的大规模动作条件游戏数据集，带显式角色状态、相机位姿和深度标注。
   `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `深度` · `相机位姿` · `游戏状态`
   [主页](https://alaya-studio.github.io/wildworld-project/) · [论文](https://arxiv.org/abs/2603.23497) · [代码](https://github.com/AlayaLab/WildWorld) · 访问方式：第一部分已在 Hugging Face 提供，后续部分计划发布
+
+- **PHUMA** · 2025
+  通过物理约束筛选和重定向构建的高质量人形机器人运动数据集。
+  `机器人 / 具身智能` · `轨迹` · `机器人状态` · `三维状态`
+  [主页](https://davian-robotics.github.io/PHUMA/) · [论文](https://arxiv.org/abs/2510.26236) · [代码](https://github.com/DAVIAN-Robotics/PHUMA) · 访问方式：可通过官方下载脚本和 Hugging Face 获取预构建数据
+
+- **RoboVerse** · 2025
+  统一机器人学习仿真平台、任务数据和评测协议的可扩展具身资源。
+  `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `机器人状态` · `物体状态` · `轨迹`
+  [主页](https://roboverse.wiki/) · [论文](https://arxiv.org/abs/2504.18904) · [代码](https://github.com/RoboVerseOrg/RoboVerse) · 访问方式：平台、任务和基准代码已公开
 
 - **DrivingDojo** · 2024
   专为交互式驾驶世界模型构建的视频数据集，覆盖完整驾驶操作、多智能体交互和开放世界驾驶知识，并提供动作指令跟随评测。
@@ -317,7 +342,12 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="decision-making-agent-trajectories"></a>
 
-### 决策与智能体轨迹（60）
+### 决策与智能体轨迹（64）
+
+- **AbstainEQA** · 2026
+  评测具身问答智能体在证据不足时能否正确拒答的轨迹与问答基准。
+  `机器人 / 具身智能` · `城市 / 三维场景` · `RGB 视频` · `问答` · `轨迹` · `相机位姿`
+  [代码](https://github.com/gibrantaowu/AbstainEQA) · 访问方式：问答文件和帧提取工具可用，源素材需分别申请访问
 
 - **ACE-Data-0** · 2026
   同步多视角、全身、手部、物体、音频和触觉的家庭交互数据集。
@@ -374,6 +404,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `物理 / 科学` · `RGB-D` · `动作` · `仿真状态`
   [论文](https://arxiv.org/abs/2607.21017) · 访问方式：论文入口；发布状态待核验
 
+- **UniETP** · 2026
+  统一 AI2-THOR、VirtualHome、Habitat 和 BEHAVIOR 的具身任务规划与自动任务生成基准。
+  `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `场景元数据` · `语言` · `轨迹`
+  [代码](https://github.com/woyut/UniETP) · 访问方式：统一环境和任务生成代码可用
+
 - **FLAME** · 2025
   面向联邦机器人操作学习的大规模仿真演示基准。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
@@ -393,6 +428,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   结合 MuJoCo 与 Blender 的长时物理操作环境和推理基准。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2503.02834) · 访问方式：论文入口；发布状态待核验
+
+- **NVIDIA Physical AI Autonomous Vehicles Dataset** · 2025
+  面向端到端自动驾驶和物理智能研究的大规模、多地区、多传感器驾驶数据集。
+  `自动驾驶` · `多视角 RGB 视频` · `激光雷达` · `毫米波雷达` · `GPS / 惯性测量单元` · `轨迹`
+  [主页](https://huggingface.co/datasets/nvidia/PhysicalAI-Autonomous-Vehicles) · [代码](https://github.com/NVlabs/physical_ai_av) · 访问方式：接受数据条款后可通过 Hugging Face 访问
+
+- **OceanGym** · 2025
+  用于水下具身智能体感知、连续控制导航和决策的高保真海洋仿真环境与数据集。
+  `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `轨迹` · `场景元数据`
+  [主页](https://oceangpt.github.io/OceanGym/) · [论文](https://arxiv.org/abs/2509.26536) · [代码](https://github.com/OceanGPT/OceanGym) · 访问方式：环境数据和轨迹已在 Hugging Face 提供
 
 - **PartInstruct** · 2025
   具有部件级指令、三维标注和专家演示的精细机器人操作基准。
@@ -621,12 +666,17 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### 空间与时空世界建模（44）
+### 空间与时空世界建模（49）
 
 - **AudioWorldSim** · 2026
   用于生成双耳音频世界模型轨迹的开放仿真平台。
   `机器人 / 具身智能` · `物理 / 科学` · `音频` · `智能体位姿` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.21075) · [代码](https://github.com/Luizerko/AudioWorldSim) · 访问方式：论文入口；发布状态待核验
+
+- **EPIC-Bench** · 2026
+  面向定位、导航感知和操作感知的细粒度具身视觉掩码定位基准。
+  `机器人 / 具身智能` · `RGB 视频` · `分割标注` · `语言`
+  [主页](https://epic-bench.github.io/EPIC-Bench/) · [论文](https://arxiv.org/abs/2605.17070) · [代码](https://github.com/rxc205/EPIC-Bench-Eval) · 访问方式：数据集已在 Hugging Face 和 ModelScope 提供
 
 - **ESPIRE** · 2026
   在可程序化生成的模拟物理环境中诊断视觉语言模型具身空间推理能力的基准。
@@ -658,6 +708,21 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2504.08541) · [主页](https://www.projectaria.com/datasets/dtc/) · 访问方式：论文入口；发布状态待核验
 
+- **EOC-Bench** · 2025
+  系统评测动态第一人称场景中物体中心具身认知能力的数据集。
+  `第一人称 / 人类活动` · `机器人 / 具身智能` · `RGB 视频` · `物体状态` · `问答` · `语言`
+  [主页](https://circleradon.github.io/EOCBench/) · [论文](https://arxiv.org/abs/2506.05287) · [代码](https://github.com/alibaba-damo-academy/EOCBench) · 访问方式：基准数据集和项目页已公开
+
+- **GrandTour Dataset** · 2025
+  在真实复杂环境中采集的腿式机器人多传感器长程轨迹数据集。
+  `机器人 / 具身智能` · `RGB 视频` · `激光雷达` · `惯性测量单元 / GPS` · `轨迹` · `机器人状态`
+  [主页](https://grand-tour.leggedrobotics.com/dataset) · [论文](https://arxiv.org/abs/2602.18164) · [代码](https://github.com/leggedrobotics/grand_tour_dataset) · 访问方式：提供数据页、Hugging Face 仓库和定位基准
+
+- **OmniWorld** · 2025
+  覆盖游戏、城市行走、人机交互和机器人轨迹的多领域多模态四维世界建模数据集。
+  `游戏 / 虚拟环境` · `第一人称 / 人类活动` · `机器人 / 具身智能` · `RGB 视频` · `深度` · `相机位姿` · `光流` · `文本`
+  [主页](https://yangzhou24.github.io/OmniWorld/) · [论文](https://arxiv.org/abs/2509.12201) · [代码](https://github.com/yangzhou24/OmniWorld) · 访问方式：多个子集已在 Hugging Face 和 ModelScope 提供
+
 - **RadarRGBD** · 2025
   同步 RGB-D、毫米波雷达点云与原始雷达矩阵的室内外感知数据集。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
@@ -677,6 +742,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   将全景道路图像组织为观测、状态和动作节点的时空自主数据集。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2506.11302) · [主页](https://huggingface.co/datasets/Tera-AI/STRIDE) · 访问方式：论文入口；发布状态待核验
+
+- **UrbanVideo-Bench** · 2025
+  利用城市空间连续第一人称视频评测回忆、感知、推理和导航能力的具身基准。
+  `第一人称 / 人类活动` · `城市 / 三维场景` · `RGB 视频` · `语言` · `轨迹` · `问答`
+  [主页](https://huggingface.co/datasets/EmbodiedCity/UrbanVideo-Bench) · [代码](https://github.com/EmbodiedCity/UrbanVideo-Bench.code) · 访问方式：数据集和生成代码已公开
 
 - **Ego-Exo4D** · 2024
   同步采集第一人称与第三人称视角的人类技能数据集，覆盖体育、音乐、烹饪等活动，并提供三维、语言和相机信息，支持跨视角世界状态理解与技能学习。
@@ -845,7 +915,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="physical-causal-reasoning"></a>
 
-### 物理与因果推理（22）
+### 物理与因果推理（25）
 
 - **CG-World** · 2026
   显式记录状态、事件、关系和反事实分支的大规模计算机图形世界状态数据集。
@@ -857,10 +927,20 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `物理 / 科学` · `机器人 / 具身智能` · `RGB 视频` · `轨迹` · `物体状态` · `三维元数据`
   [主页](https://internrobotics.github.io/GAUGE/) · [论文](https://arxiv.org/abs/2608.05948) · [代码](https://github.com/InternRobotics/GAUGE) · 访问方式：基准数据集已在 Hugging Face 提供
 
+- **KinDER** · 2026
+  面向机器人学习与规划的物理推理基准，提供任务环境、示范数据和模型资源。
+  `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `动作` · `物体状态` · `轨迹`
+  [主页](https://huggingface.co/datasets/kinder-bench/kinder-datasets) · [代码](https://github.com/Princeton-Robot-Planning-and-Learning/kindergarden) · 访问方式：示范数据已在 Hugging Face 提供
+
 - **PhyCheck** · 2026
   面向视频模型物理规律理解的细粒度证据问答数据集。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `问答` · `文本`
   [论文](https://arxiv.org/abs/2608.02150) · 访问方式：论文入口；发布状态待核验
+
+- **PhyGround** · 2026
+  通过文本、首帧和生成视频评测生成式世界模型物理合理性的基准。
+  `物理 / 科学` · `RGB 视频` · `文本` · `物体状态`
+  [主页](https://phyground.github.io/) · [论文](https://arxiv.org/abs/2605.10806) · [代码](https://github.com/NU-World-Model-Embodied-AI/PhyGround) · 访问方式：提示和首帧图像已在 Hugging Face 提供
 
 - **PhysEditWorld** · 2026
   通过在相同场景、初态和动作序列下改变重力参数生成的物理规则可编辑世界模型数据集。
@@ -881,6 +961,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向现实视频反事实、假设、预判与规划的物理因果问答基准。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2506.09943) · 访问方式：论文入口；发布状态待核验
+
+- **OmniEmbodied / EAR-Bench** · 2025
+  评测智能体对物理交互、工具使用和多智能体协调推理能力的文本具身场景基准。
+  `机器人 / 具身智能` · `文本` · `动作` · `物体状态` · `轨迹`
+  [主页](https://zju-real.github.io/OmniEmbodied/) · [论文](https://arxiv.org/abs/2508.05614) · [代码](https://github.com/ZJU-REAL/OmniEmbodied) · 访问方式：仓库提供基准数据，Hugging Face 提供专家轨迹
 
 - **PokeFlex** · 2024
   面向可变形物体机器人操作的真实世界试验数据集，通过机器人戳动采集完整 360 度三维网格形变及对应力和力矩。
@@ -959,7 +1044,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（55）
+### 世界模型评测与诊断（58）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1076,6 +1161,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `语言` · `场景元数据`
   [主页](https://yuevii.github.io/robostressbench-page/) · [论文](https://arxiv.org/abs/2606.00828) · [代码](https://github.com/YUEVII/RoboStressBench) · 访问方式：提供官方 Hugging Face 数据入口和评测代码
 
+- **RoboVista** · 2026
+  由机器人专家标注、覆盖真实机器人决策点的视觉问答基准。
+  `机器人 / 具身智能` · `RGB 视频` · `问答` · `语言`
+  [主页](https://berkeleyautomation.github.io/robovista/) · [代码](https://github.com/ehehee/robovista) · 访问方式：数据集、浏览器和排行榜均已公开
+
 - **Sci-VBench** · 2026
   跨科学领域评测知识与因果推理视频生成的专家标注基准。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `文本`
@@ -1090,6 +1180,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   从单图生成可探索三维代理世界的评测资源。
   `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.27073) · [主页](https://fangchuan.github.io/SpatialCrafter/) · 访问方式：提供官方项目和论文入口
+
+- **ST-BiBench** · 2026
+  系统评测多模态模型在双臂具身任务中多流时空协调能力的分层基准。
+  `机器人 / 具身智能` · `多视角 RGB 视频` · `动作` · `机器人状态` · `语言`
+  [论文](https://arxiv.org/abs/2602.08392) · [代码](https://github.com/stbibench/ST-BiBench) · 访问方式：评测代码和基准素材已提供
 
 - **SurgWMBench** · 2026
   外科器械短时运动规划与连续 rollout 稳定性评测基准。
@@ -1150,6 +1245,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   基于真实驾驶操作标注的人类式驾驶决策问答基准。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2506.05667) · 访问方式：论文入口；发布状态待核验
+
+- **EmbodiedBench** · 2025
+  跨导航、操作、ALFRED 和 Habitat 环境评测多模态模型作为具身智能体能力的综合基准。
+  `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `语言` · `轨迹`
+  [主页](https://embodiedbench.github.io/) · [论文](https://arxiv.org/abs/2502.09560) · [代码](https://github.com/EmbodiedBench/EmbodiedBench) · 访问方式：基准数据和生成轨迹已在 Hugging Face 提供
 
 - **ManipBench** · 2025
   评测视觉语言模型低层机器人操作推理的基准。

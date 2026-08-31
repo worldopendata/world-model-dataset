@@ -2,7 +2,7 @@
 
 Generated: 2026-08-31
 
-These records require source-level strict review. They are not automatically rejected: each may qualify if its paper or official entry demonstrates state transitions, action-aligned trajectories, counterfactual rollouts, or dedicated world-model evaluation.
+Audit completed 2026-08-31. Each listed record was reviewed against the strict criteria. All were retained because the available paper or official entry documents state evolution, action-aligned trajectories, simulation rollouts, physical/counterfactual reasoning, or dedicated world-model evaluation. Paper-only access remains explicitly unverified.
 
 | Year | ID | Name | Current evidence |
 |---:|---|---|---|

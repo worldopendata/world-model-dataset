@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-265-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-263-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 265 | 6 | 6 | 45 |
+| 263 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (29)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (69)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (58)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (57)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (29)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (69)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (56)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -706,7 +706,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (58)
+### Spatial & Spatiotemporal World Modeling (57)
 
 - **AudioWorldSim** · 2026
   An open simulation platform for generating binaural-audio world-model trajectories.
@@ -747,11 +747,6 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A multi-robot outdoor dataset with long sequences collected by a ground robot.
   `Robotics / Embodied AI` · `RGB Video` · `LiDAR` · `IMU / GPS` · `Trajectories`
   [Code](https://github.com/arpg/CU-Multi) · Access: Official repository and sequence documentation available
-
-- **Digital Twin Catalog** · 2025
-  A photorealistic 3D digital-twin dataset with multilight image sequences of real objects.
-  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
-  [Paper](https://arxiv.org/abs/2504.08541) · [Homepage](https://www.projectaria.com/datasets/dtc/) · Access: Paper entry; release status requires verification
 
 - **EOC-Bench** · 2025
   A benchmark systematically evaluating object-centric embodied cognition in dynamic egocentric scenarios.
@@ -1134,7 +1129,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (57)
+### World Model Evaluation & Diagnostics (56)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1170,11 +1165,6 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   An embodied scene-rearrangement planning benchmark with tasks and environment states.
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.27371) · [Homepage](https://pie-lab.cn/ESRP/) · Access: Official project and paper entries available
-
-- **FloodReasonBench** · 2026
-  A real-flood-scene reasoning-segmentation dataset and edge benchmark for embodied response.
-  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
-  [Paper](https://arxiv.org/abs/2608.15410) · Access: Paper entry; data access requires verification
 
 - **Game2World** · 2026
   A paired-video, in-the-wild clip, and UI-asset dataset for gameplay cleanup and world-model training.

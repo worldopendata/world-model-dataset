@@ -55,6 +55,7 @@ Scope: a strict catalog of datasets first publicly released before or during 202
 ## Strict audit log
 
 - 2026 batch 1: reviewed 20 records; retained 17 and removed 3 (CodecArena, AlloEgo-View, AeroGround) for lacking world-state transitions, action-aligned trajectories, or dedicated world-model evaluation evidence.
+- 2026/2017-2025 batch 2: reviewed 20 records; retained 18 and removed 2 (Digital Twin Catalog, FloodReasonBench) because they were static digital-twin imagery or ordinary flood-scene perception without strict world-model evidence.
 
 ## Current status
 

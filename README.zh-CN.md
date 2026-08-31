@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-265-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-263-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 265 | 6 | 6 | 45 |
+| 263 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (29)](#action-conditioned-dynamics) · [决策与智能体轨迹 (69)](#decision-making-agent-trajectories) · [空间与时空世界建模 (58)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (57)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (29)](#action-conditioned-dynamics) · [决策与智能体轨迹 (69)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (56)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -706,7 +706,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### 空间与时空世界建模（58）
+### 空间与时空世界建模（57）
 
 - **AudioWorldSim** · 2026
   用于生成双耳音频世界模型轨迹的开放仿真平台。
@@ -747,11 +747,6 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   由地面机器人采集的多机器人户外长序列数据集。
   `机器人 / 具身智能` · `RGB 视频` · `激光雷达` · `惯性测量单元 / GPS` · `轨迹`
   [代码](https://github.com/arpg/CU-Multi) · 访问方式：官方仓库和序列文档可用
-
-- **Digital Twin Catalog** · 2025
-  真实物体高保真三维数字孪生及多光照图像序列数据集。
-  `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
-  [论文](https://arxiv.org/abs/2504.08541) · [主页](https://www.projectaria.com/datasets/dtc/) · 访问方式：论文入口；发布状态待核验
 
 - **EOC-Bench** · 2025
   系统评测动态第一人称场景中物体中心具身认知能力的数据集。
@@ -1134,7 +1129,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（57）
+### 世界模型评测与诊断（56）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1170,11 +1165,6 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   具身场景重排规划任务、环境状态和评测基准。
   `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.27371) · [主页](https://pie-lab.cn/ESRP/) · 访问方式：提供官方项目和论文入口
-
-- **FloodReasonBench** · 2026
-  真实洪灾场景具身响应推理分割数据集与边缘评测基准。
-  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
-  [论文](https://arxiv.org/abs/2608.15410) · 访问方式：论文入口；数据访问待核验
 
 - **Game2World** · 2026
   游戏界面去除和世界模型训练的成对视频、野外片段及 UI 资产数据集。

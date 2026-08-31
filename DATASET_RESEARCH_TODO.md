@@ -52,6 +52,10 @@ Scope: a strict catalog of datasets first publicly released before or during 202
 - Exclude model-only repositories, ordinary static perception datasets, personal mirrors without provenance, and duplicate releases
 - Never claim exhaustive coverage until every source and year batch above has been processed
 
+## Strict audit log
+
+- 2026 batch 1: reviewed 20 records; retained 17 and removed 3 (CodecArena, AlloEgo-View, AeroGround) for lacking world-state transitions, action-aligned trajectories, or dedicated world-model evaluation evidence.
+
 ## Current status
 
 - Formal catalog: 52 datasets

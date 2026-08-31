@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-268-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-265-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 268 | 6 | 6 | 45 |
+| 265 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (29)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (69)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (58)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (60)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (29)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (69)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (58)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (57)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -1134,22 +1134,12 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (60)
+### World Model Evaluation & Diagnostics (57)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.26947) · Access: Paper entry; data access requires verification
-
-- **AeroGround** · 2026
-  A multimodal aerial-ground collaborative observation and spatial-reasoning benchmark.
-  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
-  [Paper](https://arxiv.org/abs/2608.14721) · Access: Paper entry; data access requires verification
-
-- **AlloEgo-View** · 2026
-  An image-query dataset disambiguating egocentric and allocentric reference frames.
-  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
-  [Paper](https://arxiv.org/abs/2608.15605) · Access: Paper entry; data access requires verification
 
 - **CaliBench** · 2026
   An interpretable benchmark for calibration of stochastic physical outcomes in video world models.
@@ -1160,11 +1150,6 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A human-rated perceptual-quality benchmark for camera-controlled world-video generation.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Camera Pose`
   [Paper](https://arxiv.org/abs/2608.18710) · Access: Paper entry; release status requires verification
-
-- **CodecArena** · 2026
-  A preference dataset and human-ranked benchmark for content fidelity in video coding.
-  `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
-  [Paper](https://arxiv.org/abs/2608.09139) · Access: Paper entry; data access requires verification
 
 - **Complex-Scene Multi-Person Motion Forecasting** · 2026
   A dataset and benchmark for forecasting multiple people in complex scenes.

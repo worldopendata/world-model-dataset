@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-268-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-265-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 268 | 6 | 6 | 45 |
+| 265 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (29)](#action-conditioned-dynamics) · [决策与智能体轨迹 (69)](#decision-making-agent-trajectories) · [空间与时空世界建模 (58)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (60)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (29)](#action-conditioned-dynamics) · [决策与智能体轨迹 (69)](#decision-making-agent-trajectories) · [空间与时空世界建模 (58)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (57)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -1134,22 +1134,12 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（60）
+### 世界模型评测与诊断（57）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
   `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.26947) · 访问方式：论文入口；数据访问待核验
-
-- **AeroGround** · 2026
-  空地协同多模态观测与空间推理问答基准。
-  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
-  [论文](https://arxiv.org/abs/2608.14721) · 访问方式：论文入口；数据访问待核验
-
-- **AlloEgo-View** · 2026
-  区分自我中心和客体中心参考系的图像问答数据集。
-  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
-  [论文](https://arxiv.org/abs/2608.15605) · 访问方式：论文入口；数据访问待核验
 
 - **CaliBench** · 2026
   检验视频世界模型随机物理结果校准程度的可解释基准。
@@ -1160,11 +1150,6 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   相机控制世界视频生成的人工感知质量评测集。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `相机位姿`
   [论文](https://arxiv.org/abs/2608.18710) · 访问方式：论文入口；发布状态待核验
-
-- **CodecArena** · 2026
-  面向视频编码内容保真度的偏好训练集与人工排序基准。
-  `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
-  [论文](https://arxiv.org/abs/2608.09139) · 访问方式：论文入口；数据访问待核验
 
 - **Complex-Scene Multi-Person Motion Forecasting** · 2026
   复杂场景多人运动轨迹预测数据与基准。

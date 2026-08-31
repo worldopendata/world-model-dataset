@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-263-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-267-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 263 | 6 | 6 | 45 |
+| 267 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (29)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (69)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (56)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (29)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (70)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (59)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -357,7 +357,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (69)
+### Decision-Making & Agent Trajectories (70)
 
 - **AbstainEQA** · 2026
   An embodied question-answering benchmark testing whether agents abstain appropriately when trajectory evidence is insufficient.
@@ -438,6 +438,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A large simulated demonstration benchmark for federated robot manipulation learning.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
   [Paper](https://arxiv.org/abs/2503.01729) · Access: Paper entry; release status requires verification
+
+- **HINT-Bench** · 2025
+  A benchmark for early human-intention prediction in shared environments using LiDAR, skeleton, and robot-state trajectories.
+  `Robotics / Embodied AI` · `Egocentric / Human` · `LiDAR` · `Agent Pose` · `Robot State` · `Trajectories`
+  [Code](https://github.com/valerio-bo/HINT-Bench) · Access: Benchmark data and simulation generator publicly available
 
 - **LabUtopia** · 2025
   A scientific-lab suite with multiphysics simulation, procedural scenes, and hierarchical embodied tasks.
@@ -1129,7 +1134,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (56)
+### World Model Evaluation & Diagnostics (59)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1321,6 +1326,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Language` · `Trajectories`
   [Homepage](https://embodiedbench.github.io/) · [Paper](https://arxiv.org/abs/2502.09560) · [Code](https://github.com/EmbodiedBench/EmbodiedBench) · Access: Benchmark datasets and generated trajectories available on Hugging Face
 
+- **ENACT** · 2025
+  An egocentric-interaction benchmark for forward and inverse world modeling with QA, replay, and HDF5 data.
+  `Robotics / Embodied AI` · `Egocentric / Human` · `RGB Video` · `Action` · `Object State` · `Trajectories`
+  [Homepage](https://huggingface.co/datasets/MLL-Lab/ENACT) · [Code](https://github.com/mll-lab-nu/ENACT) · Access: ENACT QA, HDF5, replay, and segmented datasets available
+
 - **EXPRESS-Bench** · 2025
   An embodied question-answering benchmark for memory, localization, and reasoning over continuous visual observations.
   `Robotics / Embodied AI` · `Urban / 3D Scene` · `RGB Video` · `QA` · `Language` · `Trajectories`
@@ -1335,6 +1345,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A multi-target, multi-granularity object-and-part reasoning segmentation dataset.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
   [Paper](https://arxiv.org/abs/2503.13881) · Access: Paper entry; release status requires verification
+
+- **ORAD-3D** · 2025
+  A multi-weather, multi-terrain 3D off-road driving dataset with world-model and trajectory-planning benchmarks.
+  `Autonomous Driving` · `RGB Video` · `3D Annotations` · `Trajectories` · `GPS / IMU`
+  [Homepage](https://modelscope.cn/datasets/Georgehhhh/ORAD-3D) · [Paper](https://arxiv.org/abs/2510.16500) · [Code](https://github.com/chaytonmin/ORAD-3D-Dataset-For-Off-Road-AD) · Access: Public release on ModelScope and Baidu Cloud
 
 - **Robo2VLM-1** · 2025
   A spatial, goal, and interaction reasoning VQA dataset generated from real robot trajectories.
@@ -1355,6 +1370,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A world-model environment for safe evaluation of real-robot policies.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
   [Paper](https://arxiv.org/abs/2506.00613) · Access: Paper entry; release status requires verification
+
+- **WoWBench** · 2025
+  A benchmark sample set for physical consistency and causal reasoning in robot-interaction world models.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Robot State` · `Text`
+  [Homepage](https://huggingface.co/datasets/WoW-world-model/WoW-1-Benchmark-Samples) · [Code](https://github.com/wow-world-model/wow-world-model) · Access: WoW benchmark samples publicly available on Hugging Face
 
 - **AeroVerse** · 2024
   A UAV embodied-world-model benchmark suite describing real and simulated pretraining data, five instruction-tuning datasets, and evaluation across perception, reasoning, navigation, planning, and action.

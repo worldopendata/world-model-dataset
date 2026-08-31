@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-263-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-267-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 263 | 6 | 6 | 45 |
+| 267 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (29)](#action-conditioned-dynamics) · [决策与智能体轨迹 (69)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (56)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (29)](#action-conditioned-dynamics) · [决策与智能体轨迹 (70)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (59)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -357,7 +357,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="decision-making-agent-trajectories"></a>
 
-### 决策与智能体轨迹（69）
+### 决策与智能体轨迹（70）
 
 - **AbstainEQA** · 2026
   评测具身问答智能体在证据不足时能否正确拒答的轨迹与问答基准。
@@ -438,6 +438,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向联邦机器人操作学习的大规模仿真演示基准。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2503.01729) · 访问方式：论文入口；发布状态待核验
+
+- **HINT-Bench** · 2025
+  在共享环境中利用激光雷达、骨架和机器人状态轨迹评测早期人类意图预测的基准。
+  `机器人 / 具身智能` · `第一人称 / 人类活动` · `激光雷达` · `智能体位姿` · `机器人状态` · `轨迹`
+  [代码](https://github.com/valerio-bo/HINT-Bench) · 访问方式：基准数据和仿真生成器已公开
 
 - **LabUtopia** · 2025
   科学实验室多物理仿真、程序化场景与分层具身任务基准。
@@ -1129,7 +1134,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（56）
+### 世界模型评测与诊断（59）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1321,6 +1326,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `语言` · `轨迹`
   [主页](https://embodiedbench.github.io/) · [论文](https://arxiv.org/abs/2502.09560) · [代码](https://github.com/EmbodiedBench/EmbodiedBench) · 访问方式：基准数据和生成轨迹已在 Hugging Face 提供
 
+- **ENACT** · 2025
+  从第一人称交互评测具身认知的前向与逆向世界建模基准，提供问答、回放和 HDF5 数据。
+  `机器人 / 具身智能` · `第一人称 / 人类活动` · `RGB 视频` · `动作` · `物体状态` · `轨迹`
+  [主页](https://huggingface.co/datasets/MLL-Lab/ENACT) · [代码](https://github.com/mll-lab-nu/ENACT) · 访问方式：ENACT 问答、HDF5、回放和分段数据可用
+
 - **EXPRESS-Bench** · 2025
   评测具身问答智能体在连续视觉观察中记忆、定位和推理能力的基准。
   `机器人 / 具身智能` · `城市 / 三维场景` · `RGB 视频` · `问答` · `语言` · `轨迹`
@@ -1335,6 +1345,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   多目标、多粒度对象及部件推理分割数据集。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2503.13881) · 访问方式：论文入口；发布状态待核验
+
+- **ORAD-3D** · 2025
+  面向越野自动驾驶的多天气、多地形三维数据集，并包含越野世界模型和轨迹规划基准。
+  `自动驾驶` · `RGB 视频` · `三维标注` · `轨迹` · `GPS / 惯性测量单元`
+  [主页](https://modelscope.cn/datasets/Georgehhhh/ORAD-3D) · [论文](https://arxiv.org/abs/2510.16500) · [代码](https://github.com/chaytonmin/ORAD-3D-Dataset-For-Off-Road-AD) · 访问方式：已在 ModelScope 和百度云公开发布
 
 - **Robo2VLM-1** · 2025
   从真实机器人轨迹生成的空间、目标和交互推理问答数据集。
@@ -1355,6 +1370,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   使用动作条件世界模型进行真实机器人策略安全评测的环境。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2506.00613) · 访问方式：论文入口；发布状态待核验
+
+- **WoWBench** · 2025
+  用于评测物理一致性和因果推理的机器人交互世界模型基准样本。
+  `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `动作` · `机器人状态` · `文本`
+  [主页](https://huggingface.co/datasets/WoW-world-model/WoW-1-Benchmark-Samples) · [代码](https://github.com/wow-world-model/wow-world-model) · 访问方式：WoW 基准样本已在 Hugging Face 公开
 
 - **AeroVerse** · 2024
   面向无人机具身世界模型的综合基准套件，论文描述了真实与仿真的预训练数据、五类指令微调数据以及覆盖感知、推理、导航、规划和动作的评测。

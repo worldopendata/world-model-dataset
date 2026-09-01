@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-275-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-282-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 275 | 6 | 6 | 45 |
+| 282 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (28)](#predictive-generative-dynamics) · [动作条件动力学 (31)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (62)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (28)](#predictive-generative-dynamics) · [动作条件动力学 (34)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (66)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -218,7 +218,12 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（31）
+### 动作条件动力学（34）
+
+- **AgiBot World 2026** · 2026
+  真实场景多视角机器人操作数据，带步骤、成功帧、错误原因和失败恢复标注。
+  `机器人 / 具身智能` · `多视角 RGB 视频` · `机器人状态` · `动作` · `语言` · `奖励`
+  [主页](https://agibot-world.com) · [代码](https://huggingface.co/datasets/agibot-world/AgiBotWorld2026) · 访问方式：数据集已在 Hugging Face 和官方网站提供
 
 - **HandEdit** · 2026
   将第一人称人手图像编辑为多种灵巧机器人本体的大规模数据集。
@@ -239,6 +244,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   统一不同形态腿式机器人的运动轨迹、地形元数据和仿真到现实工具的数据集。
   `机器人 / 具身智能` · `轨迹` · `机器人状态` · `动作` · `场景元数据`
   [主页](https://kanishqgandharv219.github.io/open-locomotion-dataset/) · [代码](https://github.com/KanishqGandharv219/open-locomotion-dataset) · 访问方式：统一模式、导入器、校验和基准工具可用
+
+- **REBOOT26 Recovery Trajectories** · 2026
+  双臂 WidowX 机器人恢复轨迹集合，覆盖移除、安装和故障恢复任务。
+  `机器人 / 具身智能` · `RGB 视频` · `机器人状态` · `动作` · `轨迹`
+  [主页](https://huggingface.co/REBOOT26) · 访问方式：恢复数据集已通过 Hugging Face 组织提供
 
 - **Robo-ValueRL** · 2026
   面向真实机器人操作的离线到在线强化学习数据集，包含历史条件价值、逐帧进度和动作质量标签。
@@ -304,6 +314,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   真实机器人双臂操作数据集，包含多视角 RGB-D、力觉和机器人状态。
   `机器人 / 具身智能` · `RGB-D` · `动作` · `机器人状态`
   [主页](https://rh20t.github.io/) · [论文](https://arxiv.org/abs/2307.00770) · [代码](https://github.com/rh20t/rh20t_api) · 访问方式：官方项目和下载入口
+
+- **TriFinger RL Dataset** · 2023
+  TriFinger 真实机器人 Push/Lift 离线强化学习数据，包含多质量策略的状态、动作和奖励。
+  `机器人 / 具身智能` · `机器人状态` · `动作` · `奖励` · `RGB 视频` · `轨迹`
+  [主页](https://doi.org/10.17617/3.DXZ7TL) · [代码](https://webdav.tuebingen.mpg.de/trifinger-rl/docs/datasets/index.html) · 访问方式：官方 DOI 和数据文档可用
 
 - **H2O** · 2022
   第一人称手-物交互数据集，提供双手和物体的三维姿态。
@@ -1159,7 +1174,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（62）
+### 世界模型评测与诊断（66）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1241,10 +1256,20 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.16717) · 访问方式：论文入口；数据访问待核验
 
+- **PhAIL** · 2026
+  Franka FR3 真机 VLA 评测数据，包含多视角视频、遥测、动作结果和安全停止回放。
+  `机器人 / 具身智能` · `多视角 RGB 视频` · `机器人状态` · `动作` · `奖励` · `轨迹`
+  [主页](https://phail.ai/releases/v1.0) · [论文](https://arxiv.org/abs/2605.29710) · 访问方式：官方发布包含视频、遥测和结果
+
 - **PlayWorld** · 2026
   由智能体玩家完成长时目标的交互式世界模型评测基准。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `动作` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.13552) · [代码](https://github.com/kxding/PlayWorld) · 访问方式：论文入口；发布状态待核验
+
+- **PRIMO-R1 Process Reasoning Dataset** · 2026
+  面向机器人过程进度推理的 SFT、RL 和基准数据，包含失败检测与进度链式标注。
+  `机器人 / 具身智能` · `RGB 视频` · `语言` · `奖励` · `动作标签`
+  [主页](https://huggingface.co/datasets/LeonOverload/primo-bench-json) · [论文](https://arxiv.org/abs/2603.28545) · 访问方式：基准 JSON 和模型/数据集合已在 Hugging Face 提供
 
 - **R2M-Bench** · 2026
   评测交互式视频世界模型重访记忆和相对一致性的基准。
@@ -1376,6 +1401,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `城市 / 三维场景` · `RGB 视频` · `问答` · `语言` · `轨迹`
   [主页](https://hcplab-sysu.github.io/EXPRESS-Bench/) · [代码](https://github.com/HCPLab-SYSU/EXPRESS-Bench) · 访问方式：官方项目页和基准代码可用
 
+- **Guardian FailCoT / RoboFail** · 2025
+  机器人失败推理与 OOD 失败评测数据，包含规划失败、执行失败和子任务标注。
+  `机器人 / 具身智能` · `多视角 RGB 视频` · `语言` · `物体状态` · `动作标签`
+  [主页](https://huggingface.co/datasets/paulpacaud/Guardian-FailCoT-OOD-datasets) · 访问方式：失败数据集已在 Hugging Face 提供
+
 - **ManipBench** · 2025
   评测视觉语言模型低层机器人操作推理的基准。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
@@ -1395,6 +1425,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   从真实机器人轨迹生成的空间、目标和交互推理问答数据集。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `场景元数据`
   [论文](https://arxiv.org/abs/2505.15517) · 访问方式：论文入口；发布状态待核验
+
+- **RoboArena** · 2025
+  分布式真机策略评测数据集，包含成功与失败回放、偏好反馈和动作状态日志。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `奖励` · `轨迹`
+  [主页](https://robo-arena.github.io/) · [代码](https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026) · 访问方式：评测回放和反馈已在 Hugging Face 提供
 
 - **SimWorld Benchmark** · 2025
   仿真条件自动驾驶场景生成数据与评测基准。

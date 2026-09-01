@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-275-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-282-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 275 | 6 | 6 | 45 |
+| 282 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (28)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (31)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (62)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (28)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (34)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (66)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -218,7 +218,12 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (31)
+### Action-Conditioned Dynamics (34)
+
+- **AgiBot World 2026** · 2026
+  A real-scene multiview robot-manipulation dataset with step, success-frame, error-cause, and recovery annotations.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `Robot State` · `Action` · `Language` · `Reward`
+  [Homepage](https://agibot-world.com) · [Code](https://huggingface.co/datasets/agibot-world/AgiBotWorld2026) · Access: Dataset available on Hugging Face and official site
 
 - **HandEdit** · 2026
   A large egocentric dataset for editing human hands into dexterous robot embodiments.
@@ -239,6 +244,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A unified dataset of locomotion trajectories, terrain metadata, and sim-to-real tools across legged robot morphologies.
   `Robotics / Embodied AI` · `Trajectories` · `Robot State` · `Action` · `Scene Metadata`
   [Homepage](https://kanishqgandharv219.github.io/open-locomotion-dataset/) · [Code](https://github.com/KanishqGandharv219/open-locomotion-dataset) · Access: Schema, ingestors, validation, and benchmark tools available
+
+- **REBOOT26 Recovery Trajectories** · 2026
+  Bimanual WidowX robot recovery trajectories covering removal, installation, and fault-recovery tasks.
+  `Robotics / Embodied AI` · `RGB Video` · `Robot State` · `Action` · `Trajectories`
+  [Homepage](https://huggingface.co/REBOOT26) · Access: Recovery datasets available through Hugging Face organization
 
 - **Robo-ValueRL** · 2026
   An offline-to-online real-robot manipulation dataset with history-conditioned values, frame-level progress, and action-quality labels.
@@ -304,6 +314,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A real-world bimanual manipulation dataset with multiview RGB-D, force sensing, and robot state.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Robot State`
   [Homepage](https://rh20t.github.io/) · [Paper](https://arxiv.org/abs/2307.00770) · [Code](https://github.com/rh20t/rh20t_api) · Access: Official project and download entry
+
+- **TriFinger RL Dataset** · 2023
+  An offline-RL dataset of real TriFinger Push/Lift tasks with states, actions, rewards, and behavior of varying quality.
+  `Robotics / Embodied AI` · `Robot State` · `Action` · `Reward` · `RGB Video` · `Trajectories`
+  [Homepage](https://doi.org/10.17617/3.DXZ7TL) · [Code](https://webdav.tuebingen.mpg.de/trifinger-rl/docs/datasets/index.html) · Access: Official DOI and dataset documentation available
 
 - **H2O** · 2022
   An egocentric hand-object interaction dataset with 3D poses of both hands and objects.
@@ -1159,7 +1174,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (62)
+### World Model Evaluation & Diagnostics (66)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1241,10 +1256,20 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.16717) · Access: Paper entry; data access requires verification
 
+- **PhAIL** · 2026
+  A real-world Franka FR3 VLA evaluation dataset with multiview video, telemetry, action outcomes, and safety-stop rollouts.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `Robot State` · `Action` · `Reward` · `Trajectories`
+  [Homepage](https://phail.ai/releases/v1.0) · [Paper](https://arxiv.org/abs/2605.29710) · Access: Official release with videos, telemetry, and results
+
 - **PlayWorld** · 2026
   An interactive world-model benchmark using agent players to pursue long-horizon objectives.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.13552) · [Code](https://github.com/kxding/PlayWorld) · Access: Paper entry; release status requires verification
+
+- **PRIMO-R1 Process Reasoning Dataset** · 2026
+  SFT, RL, and benchmark data for robot process-progress reasoning with failure detection and chain-of-thought progress labels.
+  `Robotics / Embodied AI` · `RGB Video` · `Language` · `Reward` · `Action Labels`
+  [Homepage](https://huggingface.co/datasets/LeonOverload/primo-bench-json) · [Paper](https://arxiv.org/abs/2603.28545) · Access: Benchmark JSON and model/data collection available on Hugging Face
 
 - **R2M-Bench** · 2026
   A benchmark for revisit memory and relative consistency in interactive video world models.
@@ -1376,6 +1401,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Urban / 3D Scene` · `RGB Video` · `QA` · `Language` · `Trajectories`
   [Homepage](https://hcplab-sysu.github.io/EXPRESS-Bench/) · [Code](https://github.com/HCPLab-SYSU/EXPRESS-Bench) · Access: Official project page and benchmark code available
 
+- **Guardian FailCoT / RoboFail** · 2025
+  Robot-failure reasoning and OOD evaluation data with planning failures, execution failures, and subtask annotations.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `Language` · `Object State` · `Action Labels`
+  [Homepage](https://huggingface.co/datasets/paulpacaud/Guardian-FailCoT-OOD-datasets) · Access: Failure datasets available on Hugging Face
+
 - **ManipBench** · 2025
   A benchmark for low-level robot-manipulation reasoning in vision-language models.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
@@ -1395,6 +1425,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A spatial, goal, and interaction reasoning VQA dataset generated from real robot trajectories.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Scene Metadata`
   [Paper](https://arxiv.org/abs/2505.15517) · Access: Paper entry; release status requires verification
+
+- **RoboArena** · 2025
+  A distributed real-robot policy-evaluation dataset with successful and failed rollouts, preference feedback, and action-state logs.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Reward` · `Trajectories`
+  [Homepage](https://robo-arena.github.io/) · [Code](https://huggingface.co/datasets/RoboArena/DataDump_07-17-2026) · Access: Evaluation rollouts and feedback available on Hugging Face
 
 - **SimWorld Benchmark** · 2025
   A simulator-conditioned autonomous-driving scene-generation dataset and benchmark.

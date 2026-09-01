@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-271-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-275-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 271 | 6 | 6 | 45 |
+| 275 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,11 +70,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (31)](#action-conditioned-dynamics) · [决策与智能体轨迹 (70)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (61)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (28)](#predictive-generative-dynamics) · [动作条件动力学 (31)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (62)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（26）
+### 预测与生成式动力学（28）
+
+- **DenseReward Dataset** · 2026
+  为机器人与人类操作视频提供逐帧稠密进度、阶段和失败恢复标注的数据集。
+  `机器人 / 具身智能` · `第一人称 / 人类活动` · `RGB 视频` · `语言` · `奖励` · `动作标签`
+  [主页](https://dense-reward.github.io/) · [代码](https://github.com/dense-reward/DenseReward) · 访问方式：官方项目和已发布基准资源可用
 
 - **Kimodo Motion Data** · 2026
   用于人体与人形机器人动作生成的 700 小时商业友好型光学动作捕捉数据资源。
@@ -85,6 +90,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   经过视觉、物理质量和安全筛选的大规模人体动作语料，用于研究动作生成的缩放规律。
   `第一人称 / 人类活动` · `轨迹` · `三维状态` · `RGB 视频`
   [主页](https://getcartwheel.com/blog/scaling-laws) · [代码](https://github.com/Cartwhl/scaling-laws-for-motion) · 访问方式：提供官方仓库和技术报告，语料发布条款仍需核验
+
+- **Dopamine-Reward / GRM Dataset** · 2025
+  以 BEFORE/AFTER 相对进度监督构建的大规模机器人、人类与仿真操作轨迹数据集。
+  `机器人 / 具身智能` · `第一人称 / 人类活动` · `多视角 RGB 视频` · `语言` · `奖励` · `轨迹`
+  [主页](https://huggingface.co/datasets/tanhuajie2001/Robo-Dopamine-GRM-Dataset) · 访问方式：可通过 Hugging Face 申请访问受限数据集
 
 - **OpenS2V-Nexus** · 2025
   主体到视频生成的五百万规模训练集与细粒度评测集。
@@ -367,7 +377,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="decision-making-agent-trajectories"></a>
 
-### 决策与智能体轨迹（70）
+### 决策与智能体轨迹（71）
 
 - **AbstainEQA** · 2026
   评测具身问答智能体在证据不足时能否正确拒答的轨迹与问答基准。
@@ -413,6 +423,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   移动机器人采集的 360 度第一人称人机交互预判数据集。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `智能体位姿` · `分割标注`
   [论文](https://arxiv.org/abs/2608.11051) · [主页](https://hucebot.github.io/hui360) · 访问方式：论文入口；发布状态待核验
+
+- **ManipArena Dataset** · 2026
+  覆盖推理导向真机操作任务的多视角专家轨迹数据集和评测基准。
+  `机器人 / 具身智能` · `多视角 RGB 视频` · `动作` · `机器人状态` · `语言`
+  [主页](https://huggingface.co/datasets/ManipArena/maniparena-dataset) · 访问方式：可通过 Hugging Face 受限访问获取数据
 
 - **OmniBehavior** · 2026
   用于长时、跨场景人类行为模拟的真实用户交互轨迹数据集，提供中英文版本。
@@ -1144,7 +1159,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（61）
+### 世界模型评测与诊断（62）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1240,6 +1255,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   面向真机机器人任务的远程评测基准，提供任务配置、仿真环境和结果产物。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `场景元数据`
   [主页](https://robodojo-benchmark.com/) · [代码](https://github.com/RoboDojo-Benchmark/RoboDojo) · 访问方式：官方网页和仓库可用；完整真机回放仍待核验
+
+- **RoboReward** · 2026
+  面向机器人任务进度与成功判断的真实回放数据集和奖励模型基准。
+  `机器人 / 具身智能` · `RGB 视频` · `语言` · `奖励` · `轨迹`
+  [主页](https://huggingface.co/datasets/teetone/RoboReward) · [代码](https://crfm.stanford.edu/helm/robo-reward-bench/) · 访问方式：数据集已在 Hugging Face 提供，基准可通过 HELM 访问
 
 - **RoboStressBench** · 2026
   评测视觉语言模型在具身场景物理视觉扰动下鲁棒性的诊断数据集与基准。

@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-271-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-275-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 271 | 6 | 6 | 45 |
+| 275 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,11 +70,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (31)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (70)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (61)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (28)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (31)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (62)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (26)
+### Predictive & Generative Dynamics (28)
+
+- **DenseReward Dataset** · 2026
+  A robot and human manipulation-video dataset with frame-level dense progress, stage, and failure-recovery annotations.
+  `Robotics / Embodied AI` · `Egocentric / Human` · `RGB Video` · `Language` · `Reward` · `Action Labels`
+  [Homepage](https://dense-reward.github.io/) · [Code](https://github.com/dense-reward/DenseReward) · Access: Official project and released benchmark resources available
 
 - **Kimodo Motion Data** · 2026
   A 700-hour commercially friendly optical motion-capture resource for human and humanoid motion generation.
@@ -85,6 +90,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A large human-motion corpus filtered for visual quality, physical validity, and safety to study scaling laws in motion generation.
   `Egocentric / Human` · `Trajectories` · `3D State` · `RGB Video`
   [Homepage](https://getcartwheel.com/blog/scaling-laws) · [Code](https://github.com/Cartwhl/scaling-laws-for-motion) · Access: Official repository and technical report available; corpus release terms require verification
+
+- **Dopamine-Reward / GRM Dataset** · 2025
+  A large robot, human, and simulated manipulation-trajectory dataset supervised with BEFORE/AFTER relative progress.
+  `Robotics / Embodied AI` · `Egocentric / Human` · `Multi-view RGB Video` · `Language` · `Reward` · `Trajectories`
+  [Homepage](https://huggingface.co/datasets/tanhuajie2001/Robo-Dopamine-GRM-Dataset) · Access: Gated dataset available through Hugging Face application
 
 - **OpenS2V-Nexus** · 2025
   A five-million-scale subject-to-video training dataset and fine-grained benchmark.
@@ -367,7 +377,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (70)
+### Decision-Making & Agent Trajectories (71)
 
 - **AbstainEQA** · 2026
   An embodied question-answering benchmark testing whether agents abstain appropriately when trajectory evidence is insufficient.
@@ -413,6 +423,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A 360-degree robot-egocentric dataset for anticipating human-robot interactions.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Agent Pose` · `Segmentation`
   [Paper](https://arxiv.org/abs/2608.11051) · [Homepage](https://hucebot.github.io/hui360) · Access: Paper entry; release status requires verification
+
+- **ManipArena Dataset** · 2026
+  A multiview expert-trajectory dataset and benchmark for reasoning-oriented real-robot manipulation tasks.
+  `Robotics / Embodied AI` · `Multi-view RGB Video` · `Action` · `Robot State` · `Language`
+  [Homepage](https://huggingface.co/datasets/ManipArena/maniparena-dataset) · Access: Dataset available through gated Hugging Face access
 
 - **OmniBehavior** · 2026
   A real-user interaction-trace dataset for long-horizon, cross-scenario human behavior simulation, released in Chinese and English.
@@ -1144,7 +1159,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (61)
+### World Model Evaluation & Diagnostics (62)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1240,6 +1255,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A real-robot evaluation benchmark with task configurations, simulation environments, and result artifacts.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Scene Metadata`
   [Homepage](https://robodojo-benchmark.com/) · [Code](https://github.com/RoboDojo-Benchmark/RoboDojo) · Access: Official website and repository available; bulk real rollouts require verification
+
+- **RoboReward** · 2026
+  A real robot-rollout dataset and reward-model benchmark for task progress and success assessment.
+  `Robotics / Embodied AI` · `RGB Video` · `Language` · `Reward` · `Trajectories`
+  [Homepage](https://huggingface.co/datasets/teetone/RoboReward) · [Code](https://crfm.stanford.edu/helm/robo-reward-bench/) · Access: Dataset available on Hugging Face; benchmark available through HELM
 
 - **RoboStressBench** · 2026
   A diagnostic dataset and benchmark for VLM robustness under physical visual stress in embodied scenes.

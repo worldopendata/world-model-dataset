@@ -438,6 +438,54 @@
     }
   },
   {
+    "id": "densereward",
+    "name": "DenseReward Dataset",
+    "shortName": "DenseReward",
+    "year": 2026,
+    "summary": "为机器人与人类操作视频提供逐帧稠密进度、阶段和失败恢复标注的数据集。",
+    "summaryEn": "A robot and human manipulation-video dataset with frame-level dense progress, stage, and failure-recovery annotations.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Reward",
+      "Action Labels"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation",
+      "Generated"
+    ],
+    "scale": "26,579 episodes and 7.56M densely labeled frames",
+    "scaleZh": "26,579 个回合和 756 万个稠密标注帧",
+    "organizations": "DenseReward project team",
+    "organizationsZh": "DenseReward 项目团队",
+    "license": "See official dataset terms",
+    "licenseZh": "见官方数据集条款",
+    "access": "Official project and released benchmark resources available",
+    "accessZh": "官方项目和已发布基准资源可用",
+    "rating": 5,
+    "verdict": "刻画操作过程推进、碰撞、失败和恢复的稠密时序数据",
+    "verdictEn": "Dense temporal data capturing manipulation progress, collisions, failures, and recovery",
+    "wmNote": "逐帧状态进度直接支持过程世界模型和失败预测。",
+    "wmNoteEn": "Frame-level state progress directly supports process world models and failure prediction.",
+    "links": {
+      "homepage": "https://dense-reward.github.io/",
+      "code": "https://github.com/dense-reward/DenseReward"
+    }
+  },
+  {
     "id": "dreamdojo-data",
     "name": "DreamDojo Data",
     "shortName": "DreamDojo Data",
@@ -1386,6 +1434,51 @@
     }
   },
   {
+    "id": "maniparena",
+    "name": "ManipArena Dataset",
+    "shortName": "ManipArena",
+    "year": 2026,
+    "summary": "覆盖推理导向真机操作任务的多视角专家轨迹数据集和评测基准。",
+    "summaryEn": "A multiview expert-trajectory dataset and benchmark for reasoning-oriented real-robot manipulation tasks.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "Multi-view RGB Video",
+      "Action",
+      "Robot State",
+      "Language"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "10,812 trajectories, 13.5M frames, about 188 hours across 20 tasks",
+    "scaleZh": "20 个任务、10,812 条轨迹、1,350 万帧，约 188 小时",
+    "organizations": "ManipArena project team",
+    "organizationsZh": "ManipArena 项目团队",
+    "license": "Gated dataset; see Hugging Face terms",
+    "licenseZh": "受限数据集；见 Hugging Face 条款",
+    "access": "Dataset available through gated Hugging Face access",
+    "accessZh": "可通过 Hugging Face 受限访问获取数据",
+    "rating": 5,
+    "verdict": "面向复杂真机操作推理的动作状态轨迹数据",
+    "verdictEn": "Action-state trajectories for reasoning-oriented real-robot manipulation",
+    "wmNote": "多视角观测、动作和机器人状态可直接训练具身世界模型。",
+    "wmNoteEn": "Multiview observations, actions, and robot states directly support embodied world-model training.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/ManipArena/maniparena-dataset"
+    }
+  },
+  {
     "id": "milo-hoi",
     "name": "MILO HOI Benchmark",
     "shortName": "MILO HOI Benchmark",
@@ -2103,6 +2196,52 @@
     "links": {
       "homepage": "https://robodojo-benchmark.com/",
       "code": "https://github.com/RoboDojo-Benchmark/RoboDojo"
+    }
+  },
+  {
+    "id": "roboreward",
+    "name": "RoboReward",
+    "shortName": "RoboReward",
+    "year": 2026,
+    "summary": "面向机器人任务进度与成功判断的真实回放数据集和奖励模型基准。",
+    "summaryEn": "A real robot-rollout dataset and reward-model benchmark for task progress and success assessment.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Reward",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Generated"
+    ],
+    "scale": "54,135 examples including 45,072 training examples",
+    "scaleZh": "54,135 个样本，其中 45,072 个训练样本",
+    "organizations": "RoboReward project team",
+    "organizationsZh": "RoboReward 项目团队",
+    "license": "See Hugging Face dataset terms",
+    "licenseZh": "见 Hugging Face 数据条款",
+    "access": "Dataset available on Hugging Face; benchmark available through HELM",
+    "accessZh": "数据集已在 Hugging Face 提供，基准可通过 HELM 访问",
+    "rating": 5,
+    "verdict": "以成功、近失和失败回放诊断机器人过程状态的基准",
+    "verdictEn": "A benchmark diagnosing robot process state from success, near-miss, and failure rollouts",
+    "wmNote": "回放级进度分数可用于世界模型结果预测和价值估计。",
+    "wmNoteEn": "Rollout-level progress scores support world-model outcome prediction and value estimation.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/teetone/RoboReward",
+      "code": "https://crfm.stanford.edu/helm/robo-reward-bench/"
     }
   },
   {
@@ -3578,6 +3717,52 @@
     "wmNoteEn": "Long poses and environment changes support spatiotemporal memory modeling.",
     "links": {
       "code": "https://github.com/arpg/CU-Multi"
+    }
+  },
+  {
+    "id": "dopamine-reward-grm",
+    "name": "Dopamine-Reward / GRM Dataset",
+    "shortName": "Dopamine-Reward",
+    "year": 2025,
+    "summary": "以 BEFORE/AFTER 相对进度监督构建的大规模机器人、人类与仿真操作轨迹数据集。",
+    "summaryEn": "A large robot, human, and simulated manipulation-trajectory dataset supervised with BEFORE/AFTER relative progress.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Egocentric / Human"
+    ],
+    "modalities": [
+      "Multi-view RGB Video",
+      "Language",
+      "Reward",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "34.6M samples, 3,400+ hours, and 100K+ trajectories",
+    "scaleZh": "3,460 万个样本、3,400+ 小时和 10 万+ 条轨迹",
+    "organizations": "Dopamine-Reward project team",
+    "organizationsZh": "Dopamine-Reward 项目团队",
+    "license": "Gated dataset; see Hugging Face terms",
+    "licenseZh": "受限数据集；见 Hugging Face 条款",
+    "access": "Gated dataset available through Hugging Face application",
+    "accessZh": "可通过 Hugging Face 申请访问受限数据集",
+    "rating": 5,
+    "verdict": "用相对进度连接前后世界状态的大规模操作轨迹数据",
+    "verdictEn": "Large manipulation trajectories linking before-and-after world states through relative progress",
+    "wmNote": "成对状态和进度监督适合学习操作状态转移与价值变化。",
+    "wmNoteEn": "Paired states and progress supervision support manipulation transition and value learning.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/tanhuajie2001/Robo-Dopamine-GRM-Dataset"
     }
   },
   {

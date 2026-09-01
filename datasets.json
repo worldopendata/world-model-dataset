@@ -2014,6 +2014,98 @@
     }
   },
   {
+    "id": "robo-valuerl",
+    "name": "Robo-ValueRL",
+    "shortName": "Robo-ValueRL",
+    "year": 2026,
+    "summary": "面向真实机器人操作的离线到在线强化学习数据集，包含历史条件价值、逐帧进度和动作质量标签。",
+    "summaryEn": "An offline-to-online real-robot manipulation dataset with history-conditioned values, frame-level progress, and action-quality labels.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Reward",
+      "Trajectories"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "240 hours offline data plus 3K+ online rollouts",
+    "scaleZh": "240 小时离线数据及 3,000+ 条在线回放",
+    "organizations": "Open-X Humanoid",
+    "organizationsZh": "Open-X Humanoid",
+    "license": "See Hugging Face dataset terms",
+    "licenseZh": "见 Hugging Face 数据条款",
+    "access": "LeRobot dataset publicly available on Hugging Face",
+    "accessZh": "LeRobot 数据集已在 Hugging Face 公开",
+    "rating": 5,
+    "verdict": "用进度价值和失败回放支持机器人世界状态学习的数据集",
+    "verdictEn": "Robot world-state learning data with progress values and failure rollouts",
+    "wmNote": "历史观测、动作质量和在线回放直接支持长时状态与结果预测。",
+    "wmNoteEn": "History, action quality, and online rollouts support long-horizon state and outcome prediction.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL",
+      "code": "https://github.com/Open-X-Humanoid/Robo-ValueRL"
+    }
+  },
+  {
+    "id": "robodojo",
+    "name": "RoboDojo RealEval",
+    "shortName": "RoboDojo",
+    "year": 2026,
+    "summary": "面向真机机器人任务的远程评测基准，提供任务配置、仿真环境和结果产物。",
+    "summaryEn": "A real-robot evaluation benchmark with task configurations, simulation environments, and result artifacts.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Scene Metadata"
+    ],
+    "structure": [
+      "Dataset / Benchmark / Environment"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "18 real-robot tasks across three embodiments",
+    "scaleZh": "三种机器人形态下的 18 个真机任务",
+    "organizations": "RoboDojo Benchmark",
+    "organizationsZh": "RoboDojo Benchmark",
+    "license": "Non-Commercial Research License",
+    "licenseZh": "非商业研究许可",
+    "access": "Official website and repository available; bulk real rollouts require verification",
+    "accessZh": "官方网页和仓库可用；完整真机回放仍待核验",
+    "rating": 4,
+    "verdict": "统一评测真机策略在不同任务和形态下表现的基准",
+    "verdictEn": "A unified benchmark for real-robot policies across tasks and embodiments",
+    "wmNote": "任务状态和评测结果可用于比较闭环策略与世界模型交互能力。",
+    "wmNoteEn": "Task states and evaluation artifacts support comparison of closed-loop policy and world-model interaction.",
+    "links": {
+      "homepage": "https://robodojo-benchmark.com/",
+      "code": "https://github.com/RoboDojo-Benchmark/RoboDojo"
+    }
+  },
+  {
     "id": "robostressbench",
     "name": "RoboStressBench",
     "shortName": "RoboStressBench",
@@ -2946,6 +3038,97 @@
     "links": {
       "paper": "https://arxiv.org/abs/2607.22530",
       "homepage": "https://vitacworld.github.io/"
+    }
+  },
+  {
+    "id": "vla-replica",
+    "name": "VLA-REPLICA",
+    "shortName": "VLA-REPLICA",
+    "year": 2026,
+    "summary": "低成本 SO-101 机器人视觉语言动作复现实验数据集，包含示范、动作状态和场景参考。",
+    "summaryEn": "A low-cost SO-101 vision-language-action replication dataset with demonstrations, action-state streams, and reference scenes.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Robot State",
+      "Language"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world"
+    ],
+    "scale": "10 tasks, 500 demonstrations, and 90 scene references",
+    "scaleZh": "10 个任务、500 条示范和 90 个场景参考",
+    "organizations": "IRVL UT Dallas",
+    "organizationsZh": "德州大学达拉斯分校 IRVL",
+    "license": "See Hugging Face dataset terms",
+    "licenseZh": "见 Hugging Face 数据条款",
+    "access": "SFT data available on Hugging Face with official code",
+    "accessZh": "SFT 数据已在 Hugging Face 提供，并有官方代码",
+    "rating": 4,
+    "verdict": "可复现实机动作条件策略和场景泛化的机器人数据",
+    "verdictEn": "Robot data for reproducible action-conditioned policies and scene generalization",
+    "wmNote": "示范中的动作、状态和语言条件可用于具身世界模型训练。",
+    "wmNoteEn": "Action, state, and language conditions in demonstrations support embodied world-model training.",
+    "links": {
+      "code": "https://github.com/IRVLUTD/VLAReplica",
+      "homepage": "https://huggingface.co/datasets/HenryZhang/VLAReplica_SFT_data"
+    }
+  },
+  {
+    "id": "vlac-cut",
+    "name": "VLAC-Cut Benchmark",
+    "shortName": "VLAC-Cut",
+    "year": 2026,
+    "summary": "对机器人回放视频进行非单调进度估计和失败恢复分段的过程级轨迹基准。",
+    "summaryEn": "A process-level robot-rollout benchmark for non-monotonic progress estimation and failure-recovery segmentation.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Language",
+      "Reward",
+      "Action"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Real-world",
+      "Simulation"
+    ],
+    "scale": "Full-data release with expert/nonexpert and seen/unseen splits",
+    "scaleZh": "包含专家/非专家及已见/未见划分的完整数据发布",
+    "organizations": "InternRobotics",
+    "organizationsZh": "InternRobotics",
+    "license": "MIT code; see benchmark dataset terms",
+    "licenseZh": "代码采用 MIT；基准数据条款见发布页",
+    "access": "Benchmark and full data available on Hugging Face",
+    "accessZh": "基准和完整数据已在 Hugging Face 提供",
+    "rating": 5,
+    "verdict": "直接刻画机器人回放进度、退化和恢复的过程数据",
+    "verdictEn": "Process data directly modeling robot rollout progress, degradation, and recovery",
+    "wmNote": "非单调进度标签可用于诊断世界模型对失败和恢复状态的预测。",
+    "wmNoteEn": "Non-monotonic progress labels diagnose prediction of failure and recovery states.",
+    "links": {
+      "homepage": "https://huggingface.co/datasets/InternRobotics/VLAC-Cut-Benchmark",
+      "code": "https://github.com/InternRobotics/VLAC-Cut"
     }
   },
   {

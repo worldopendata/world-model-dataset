@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-267-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-271-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 267 | 6 | 6 | 45 |
+| 271 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (29)](#action-conditioned-dynamics) · [决策与智能体轨迹 (70)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (59)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (26)](#predictive-generative-dynamics) · [动作条件动力学 (31)](#action-conditioned-dynamics) · [决策与智能体轨迹 (70)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (61)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -208,7 +208,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（29）
+### 动作条件动力学（31）
 
 - **HandEdit** · 2026
   将第一人称人手图像编辑为多种灵巧机器人本体的大规模数据集。
@@ -230,10 +230,20 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `轨迹` · `机器人状态` · `动作` · `场景元数据`
   [主页](https://kanishqgandharv219.github.io/open-locomotion-dataset/) · [代码](https://github.com/KanishqGandharv219/open-locomotion-dataset) · 访问方式：统一模式、导入器、校验和基准工具可用
 
+- **Robo-ValueRL** · 2026
+  面向真实机器人操作的离线到在线强化学习数据集，包含历史条件价值、逐帧进度和动作质量标签。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `奖励` · `轨迹`
+  [主页](https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL) · [代码](https://github.com/Open-X-Humanoid/Robo-ValueRL) · 访问方式：LeRobot 数据集已在 Hugging Face 公开
+
 - **ViTacWorld** · 2026
   面向接触丰富操作的视觉、触觉和动作轨迹数据资源。
   `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `动作` · `机器人状态`
   [论文](https://arxiv.org/abs/2607.22530) · [主页](https://vitacworld.github.io/) · 访问方式：论文入口；发布状态待核验
+
+- **VLA-REPLICA** · 2026
+  低成本 SO-101 机器人视觉语言动作复现实验数据集，包含示范、动作状态和场景参考。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `语言`
+  [代码](https://github.com/IRVLUTD/VLAReplica) · [主页](https://huggingface.co/datasets/HenryZhang/VLAReplica_SFT_data) · 访问方式：SFT 数据已在 Hugging Face 提供，并有官方代码
 
 - **WildWorld** · 2026
   面向可交互生成式角色扮演世界模型的大规模动作条件游戏数据集，带显式角色状态、相机位姿和深度标注。
@@ -1134,7 +1144,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（59）
+### 世界模型评测与诊断（61）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1226,6 +1236,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `RGB 视频` · `文本` · `仿真状态`
   [论文](https://arxiv.org/abs/2608.27328) · 访问方式：论文入口；数据访问待核验
 
+- **RoboDojo RealEval** · 2026
+  面向真机机器人任务的远程评测基准，提供任务配置、仿真环境和结果产物。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `场景元数据`
+  [主页](https://robodojo-benchmark.com/) · [代码](https://github.com/RoboDojo-Benchmark/RoboDojo) · 访问方式：官方网页和仓库可用；完整真机回放仍待核验
+
 - **RoboStressBench** · 2026
   评测视觉语言模型在具身场景物理视觉扰动下鲁棒性的诊断数据集与基准。
   `机器人 / 具身智能` · `RGB 视频` · `语言` · `场景元数据`
@@ -1290,6 +1305,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   用于评测相机条件长时视频世界模型视角一致性和闭环回访一致性的数据集与诊断基准。
   `游戏 / 虚拟环境` · `RGB 视频` · `深度` · `相机位姿`
   [主页](https://huggingface.co/datasets/JEdward/viewbench-dataset) · [论文](https://arxiv.org/abs/2602.07854) · [代码](https://github.com/jedward225/viewbench-dataset) · 访问方式：训练划分已在 Hugging Face 和 ModelScope 提供
+
+- **VLAC-Cut Benchmark** · 2026
+  对机器人回放视频进行非单调进度估计和失败恢复分段的过程级轨迹基准。
+  `机器人 / 具身智能` · `RGB 视频` · `语言` · `奖励` · `动作`
+  [主页](https://huggingface.co/datasets/InternRobotics/VLAC-Cut-Benchmark) · [代码](https://github.com/InternRobotics/VLAC-Cut) · 访问方式：基准和完整数据已在 Hugging Face 提供
 
 - **WBench** · 2026
   评测交互式视频世界模型多轮动作响应、视觉质量和长期一致性的综合基准。

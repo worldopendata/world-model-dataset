@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-267-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-271-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 267 | 6 | 6 | 45 |
+| 271 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (29)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (70)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (59)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (26)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (31)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (70)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (61)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -208,7 +208,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (29)
+### Action-Conditioned Dynamics (31)
 
 - **HandEdit** · 2026
   A large egocentric dataset for editing human hands into dexterous robot embodiments.
@@ -230,10 +230,20 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `Trajectories` · `Robot State` · `Action` · `Scene Metadata`
   [Homepage](https://kanishqgandharv219.github.io/open-locomotion-dataset/) · [Code](https://github.com/KanishqGandharv219/open-locomotion-dataset) · Access: Schema, ingestors, validation, and benchmark tools available
 
+- **Robo-ValueRL** · 2026
+  An offline-to-online real-robot manipulation dataset with history-conditioned values, frame-level progress, and action-quality labels.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Reward` · `Trajectories`
+  [Homepage](https://huggingface.co/datasets/X-Humanoid/Robo-ValueRL) · [Code](https://github.com/Open-X-Humanoid/Robo-ValueRL) · Access: LeRobot dataset publicly available on Hugging Face
+
 - **ViTacWorld** · 2026
   A visuo-tactile-action trajectory resource for contact-rich manipulation.
   `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Action` · `Robot State`
   [Paper](https://arxiv.org/abs/2607.22530) · [Homepage](https://vitacworld.github.io/) · Access: Paper entry; release status requires verification
+
+- **VLA-REPLICA** · 2026
+  A low-cost SO-101 vision-language-action replication dataset with demonstrations, action-state streams, and reference scenes.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Language`
+  [Code](https://github.com/IRVLUTD/VLAReplica) · [Homepage](https://huggingface.co/datasets/HenryZhang/VLAReplica_SFT_data) · Access: SFT data available on Hugging Face with official code
 
 - **WildWorld** · 2026
   A large-scale action-conditioned game dataset for interactive generative world models, with explicit character state, camera pose, and depth annotations.
@@ -1134,7 +1144,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (59)
+### World Model Evaluation & Diagnostics (61)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1226,6 +1236,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Text` · `Simulation State`
   [Paper](https://arxiv.org/abs/2608.27328) · Access: Paper entry; data access requires verification
 
+- **RoboDojo RealEval** · 2026
+  A real-robot evaluation benchmark with task configurations, simulation environments, and result artifacts.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Scene Metadata`
+  [Homepage](https://robodojo-benchmark.com/) · [Code](https://github.com/RoboDojo-Benchmark/RoboDojo) · Access: Official website and repository available; bulk real rollouts require verification
+
 - **RoboStressBench** · 2026
   A diagnostic dataset and benchmark for VLM robustness under physical visual stress in embodied scenes.
   `Robotics / Embodied AI` · `RGB Video` · `Language` · `Scene Metadata`
@@ -1290,6 +1305,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A dataset and diagnostic benchmark for view consistency and loop closure in camera-conditioned long-horizon video world models.
   `Games / Virtual Environments` · `RGB Video` · `Depth` · `Camera Pose`
   [Homepage](https://huggingface.co/datasets/JEdward/viewbench-dataset) · [Paper](https://arxiv.org/abs/2602.07854) · [Code](https://github.com/jedward225/viewbench-dataset) · Access: Training split available on Hugging Face and ModelScope
+
+- **VLAC-Cut Benchmark** · 2026
+  A process-level robot-rollout benchmark for non-monotonic progress estimation and failure-recovery segmentation.
+  `Robotics / Embodied AI` · `RGB Video` · `Language` · `Reward` · `Action`
+  [Homepage](https://huggingface.co/datasets/InternRobotics/VLAC-Cut-Benchmark) · [Code](https://github.com/InternRobotics/VLAC-Cut) · Access: Benchmark and full data available on Hugging Face
 
 - **WBench** · 2026
   A comprehensive multi-turn benchmark for evaluating action response, visual quality, and long-horizon consistency in interactive video world models.

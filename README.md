@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-282-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-284-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 282 | 6 | 6 | 45 |
+| 284 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,11 +70,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (28)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (34)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (66)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (30)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (34)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (66)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (28)
+### Predictive & Generative Dynamics (30)
 
 - **DenseReward Dataset** · 2026
   A robot and human manipulation-video dataset with frame-level dense progress, stage, and failure-recovery annotations.
@@ -85,6 +85,16 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A 700-hour commercially friendly optical motion-capture resource for human and humanoid motion generation.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State`
   [Homepage](https://research.nvidia.com/labs/sil/projects/kimodo/) · [Code](https://github.com/nv-tlabs/kimodo) · Access: Official project and code entries available
+
+- **Mini Moving Shapes** · 2026
+  A synthetic multimodal next-state prediction dataset with discrete action controls and symbolic state descriptions for multi-step imagination rollouts.
+  `Games / Virtual Environments` · `Physics / Science` · `RGB Video` · `Text` · `Action` · `Simulation State`
+  [Code](https://github.com/andrew-jeremy/Spectral-World-Models) · Access: Dataset bundled in the official repository and regenerable by script
+
+- **Procgen Action-Conditioned World Model Dataset** · 2026
+  Offline frames, actions, and termination signals generated from Procgen Atari environments for action-conditioned next-frame prediction and rollout evaluation.
+  `Games / Virtual Environments` · `RGB Video` · `Action` · `Game State`
+  [Code](https://github.com/Mayavan/world_model) · Access: Dataset generation code and rollout evaluation available
 
 - **Scaling Laws for Motion Corpus** · 2026
   A large human-motion corpus filtered for visual quality, physical validity, and safety to study scaling laws in motion generation.

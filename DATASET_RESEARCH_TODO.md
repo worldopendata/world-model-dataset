@@ -58,6 +58,7 @@ Scope: a strict catalog of datasets first publicly released before or during 202
 - 2026/2017-2025 batch 2: reviewed 20 records; retained 18 and removed 2 (Digital Twin Catalog, FloodReasonBench) because they were static digital-twin imagery or ordinary flood-scene perception without strict world-model evidence.
 - Remaining queue review (2026-08-31): reviewed the remaining 43 flagged records across 2016-2026. All retained records document at least one strict signal (state evolution, action/trajectory alignment, simulation rollouts, physical/counterfactual reasoning, or explicit world-model evaluation). Records with paper-only access remain marked as access-unverified; no additional removals were justified from the available evidence.
 - 2026-09-01 discovery: added six strict robot rollout/failure datasets with official data portals (RoboArena, PhAIL, PRIMO-R1, AgiBot World 2026, REBOOT26, Guardian FailCoT/RoboFail) and one 2023 offline-RL dataset (TriFinger RL).
+- 2026-09-02 discovery: added Mini Moving Shapes and Procgen Action-Conditioned World Model Dataset; both include action-aligned next-state/frame prediction and rollout evaluation.
 
 ## Current status
 

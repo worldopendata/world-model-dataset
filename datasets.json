@@ -1570,6 +1570,52 @@
     }
   },
   {
+    "id": "mini-moving-shapes",
+    "name": "Mini Moving Shapes",
+    "shortName": "Mini Moving Shapes",
+    "year": 2026,
+    "summary": "带离散动作控制和符号状态描述的合成多模态下一状态预测数据集，支持多步想象回放。",
+    "summaryEn": "A synthetic multimodal next-state prediction dataset with discrete action controls and symbolic state descriptions for multi-step imagination rollouts.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Games / Virtual Environments",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Action",
+      "Simulation State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Synthetic",
+      "Procedural"
+    ],
+    "scale": "Bundled sequence dataset with moving squares and circles",
+    "scaleZh": "内置移动方块和圆形序列数据集",
+    "organizations": "Spectral World Models project",
+    "organizationsZh": "Spectral World Models 项目",
+    "license": "MIT",
+    "licenseZh": "MIT",
+    "access": "Dataset bundled in the official repository and regenerable by script",
+    "accessZh": "数据集随官方仓库提供，并可通过脚本重新生成",
+    "rating": 4,
+    "verdict": "最小化但完整的动作条件下一状态预测基准",
+    "verdictEn": "A minimal but complete action-conditioned next-state prediction benchmark",
+    "wmNote": "每个序列包含图像、文本状态和离散动作，并评估五步滚动误差。",
+    "wmNoteEn": "Each sequence includes image, text state, and discrete actions with five-step rollout error evaluation.",
+    "links": {
+      "code": "https://github.com/andrew-jeremy/Spectral-World-Models"
+    }
+  },
+  {
     "id": "basinlens-cases",
     "name": "Natural-Input Failure Discovery Benchmark",
     "shortName": "Natural-Input Failure Discovery Benchmark",
@@ -2108,6 +2154,50 @@
     "links": {
       "homepage": "https://huggingface.co/datasets/LeonOverload/primo-bench-json",
       "paper": "https://arxiv.org/abs/2603.28545"
+    }
+  },
+  {
+    "id": "procgen-action-world-model",
+    "name": "Procgen Action-Conditioned World Model Dataset",
+    "shortName": "Procgen World Model",
+    "year": 2026,
+    "summary": "由 Procgen Atari 环境生成的离线帧、动作和终止信号数据，专门用于动作条件下一帧预测与滚动评测。",
+    "summaryEn": "Offline frames, actions, and termination signals generated from Procgen Atari environments for action-conditioned next-frame prediction and rollout evaluation.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Game State"
+    ],
+    "structure": [
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation",
+      "Generated"
+    ],
+    "scale": "Configurable offline Procgen rollouts with sharded frame/action arrays",
+    "scaleZh": "可配置的 Procgen 离线回放，按帧、动作数组分片存储",
+    "organizations": "Mayavan",
+    "organizationsZh": "Mayavan 项目",
+    "license": "See repository terms",
+    "licenseZh": "见仓库条款",
+    "access": "Dataset generation code and rollout evaluation available",
+    "accessZh": "数据生成代码和回放评测可用",
+    "rating": 4,
+    "verdict": "直接用于动作条件视频世界模型训练和误差累积研究",
+    "verdictEn": "Directly targets action-conditioned video world-model training and compounding-error analysis",
+    "wmNote": "离线数据窗口与开放环滚动评测对应世界模型核心工作流。",
+    "wmNoteEn": "Offline windows and open-loop rollout evaluation match the core world-model workflow.",
+    "links": {
+      "code": "https://github.com/Mayavan/world_model"
     }
   },
   {

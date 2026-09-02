@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-282-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-284-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 282 | 6 | 6 | 45 |
+| 284 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,11 +70,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (28)](#predictive-generative-dynamics) · [动作条件动力学 (34)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (66)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (30)](#predictive-generative-dynamics) · [动作条件动力学 (34)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (66)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（28）
+### 预测与生成式动力学（30）
 
 - **DenseReward Dataset** · 2026
   为机器人与人类操作视频提供逐帧稠密进度、阶段和失败恢复标注的数据集。
@@ -85,6 +85,16 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   用于人体与人形机器人动作生成的 700 小时商业友好型光学动作捕捉数据资源。
   `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态`
   [主页](https://research.nvidia.com/labs/sil/projects/kimodo/) · [代码](https://github.com/nv-tlabs/kimodo) · 访问方式：提供官方项目和代码入口
+
+- **Mini Moving Shapes** · 2026
+  带离散动作控制和符号状态描述的合成多模态下一状态预测数据集，支持多步想象回放。
+  `游戏 / 虚拟环境` · `物理 / 科学` · `RGB 视频` · `文本` · `动作` · `仿真状态`
+  [代码](https://github.com/andrew-jeremy/Spectral-World-Models) · 访问方式：数据集随官方仓库提供，并可通过脚本重新生成
+
+- **Procgen Action-Conditioned World Model Dataset** · 2026
+  由 Procgen Atari 环境生成的离线帧、动作和终止信号数据，专门用于动作条件下一帧预测与滚动评测。
+  `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `游戏状态`
+  [代码](https://github.com/Mayavan/world_model) · 访问方式：数据生成代码和回放评测可用
 
 - **Scaling Laws for Motion Corpus** · 2026
   经过视觉、物理质量和安全筛选的大规模人体动作语料，用于研究动作生成的缩放规律。

@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-286-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-291-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 286 | 6 | 6 | 45 |
+| 291 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,11 +70,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (30)](#predictive-generative-dynamics) · [动作条件动力学 (35)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (67)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (32)](#predictive-generative-dynamics) · [动作条件动力学 (38)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (67)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### 预测与生成式动力学（30）
+### 预测与生成式动力学（32）
 
 - **DenseReward Dataset** · 2026
   为机器人与人类操作视频提供逐帧稠密进度、阶段和失败恢复标注的数据集。
@@ -130,6 +130,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   用于生成带精确三维、光流、深度和分割标注的视频数据管线。
   `物理 / 科学` · `游戏 / 虚拟环境` · `合成视频` · `深度` · `光流` · `分割标注` · `三维状态`
   [主页](https://kubric.readthedocs.io/) · [论文](https://arxiv.org/abs/2203.03570) · [代码](https://github.com/google-research/kubric) · 访问方式：官方生成工具
+
+- **Atari 100K Dataset** · 2020
+  在 Atari 游戏中记录有限交互预算下的帧、动作、奖励和终止信号，用于模型式强化学习。
+  `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `奖励` · `游戏状态`
+  [代码](https://github.com/mila-iqia/atari-dqn) · 访问方式：官方基准实现和数据加载器可用
 
 - **BDD100K** · 2020
   覆盖多城市、天气与时段的大规模驾驶视频数据集，提供目标检测、车道线、可行驶区域、跟踪等多任务标注，适合研究视觉动态表示和复杂道路分布泛化。
@@ -191,6 +196,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `第一人称 / 人类活动` · `RGB 视频` · `动作标签` · `文本模板`
   [论文](https://arxiv.org/abs/1706.04261) · 访问方式：需注册
 
+- **World Models CarRacing Rollouts** · 2018
+  World Models 项目中的 CarRacing 视觉观测、动作和潜变量回放数据。
+  `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `奖励` · `仿真状态`
+  [代码](https://github.com/ctallec/world-models) · 访问方式：官方仓库提供数据生成和训练流程
+
 - **YouTube-VOS** · 2018
   大规模视频目标分割数据集，提供跨帧目标掩码和长时跟踪场景。
   `第一人称 / 人类活动` · `RGB 视频` · `分割标注` · `物体元数据`
@@ -228,7 +238,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（35）
+### 动作条件动力学（38）
 
 - **AgiBot World 2026** · 2026
   真实场景多视角机器人操作数据，带步骤、成功帧、错误原因和失败恢复标注。
@@ -370,10 +380,20 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   `机器人 / 具身智能` · `游戏 / 虚拟环境` · `RGB-D` · `动作` · `仿真状态` · `物体状态`
   [主页](https://svl.stanford.edu/igibson/) · [论文](https://arxiv.org/abs/2012.02924) · [代码](https://github.com/StanfordVL/iGibson) · 访问方式：官方仿真器
 
+- **D4RL** · 2020
+  用于离线强化学习的标准化环境数据集，包含状态、动作、奖励和终止信号。
+  `机器人 / 具身智能` · `游戏 / 虚拟环境` · `仿真状态` · `动作` · `奖励` · `轨迹`
+  [代码](https://github.com/Farama-Foundation/D4RL) · 访问方式：官方仓库和环境加载器可用
+
 - **InterHand2.6M** · 2020
   大规模双手三维姿态数据集，包含真实和合成的手部交互序列。
   `第一人称 / 人类活动` · `机器人 / 具身智能` · `RGB 视频` · `智能体位姿` · `三维网格`
   [主页](https://mks.ue.tsinghua.edu.cn/InterHand2.6M/) · [论文](https://arxiv.org/abs/2008.09309) · 访问方式：官方项目页
+
+- **RL Unplugged** · 2020
+  覆盖 Atari、DeepMind Control 和机器人等环境的离线强化学习轨迹集合。
+  `游戏 / 虚拟环境` · `机器人 / 具身智能` · `仿真状态` · `动作` · `奖励` · `轨迹`
+  [代码](https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged) · 访问方式：可通过 TensorFlow Datasets 和官方代码访问
 
 - **RoboNet** · 2020
   汇集多所实验室机器人交互视频的跨平台数据集，通过不同机械臂、视角、物体和实验设置提供视觉动力学训练信号，重点考察视频预测与控制的跨机器人泛化。
@@ -389,6 +409,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   真实机器人推动动力学数据集，记录不同物体、桌面环境和推动动作下的 RGB-D 视频及状态变化，用于学习可迁移的视觉动力学。
   `机器人 / 具身智能` · `RGB-D` · `动作` · `物体状态` · `轨迹`
   [论文](https://arxiv.org/abs/1910.00618) · [代码](https://github.com/MIT-Omnipush/video-prediction) · 访问方式：开放项目访问
+
+- **DeepMind Control Suite** · 2018
+  连续控制物理环境集合，可生成带状态、动作、奖励和视觉观测的世界模型轨迹。
+  `机器人 / 具身智能` · `物理 / 科学` · `RGB 视频` · `仿真状态` · `动作` · `奖励`
+  [代码](https://github.com/google-deepmind/dm_control) · 访问方式：开源环境，可复现生成轨迹
 
 - **AI2-THOR** · 2017
   可交互室内场景仿真环境，可生成导航、操作和状态变化轨迹。

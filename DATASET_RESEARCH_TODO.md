@@ -61,6 +61,7 @@ Scope: a strict catalog of datasets first publicly released before or during 202
 - 2026-09-02 discovery: added Mini Moving Shapes and Procgen Action-Conditioned World Model Dataset; both include action-aligned next-state/frame prediction and rollout evaluation.
 - 2026-09-02 discovery: added GigaWorld-1 / WMBench, a closed-loop robot-policy world-model benchmark with documented rollout artifacts and evaluation metrics.
 - 2026-09-02 pre-2026 discovery: added RetroAct, an annotated 974-environment action-conditioned dataset used by GenieRedux world-model training and exploration.
+- 2026-09-02 pre-2026 discovery: added D4RL, Atari 100K, DeepMind Control Suite, RL Unplugged, and World Models CarRacing rollouts as historical state-action world-model resources.
 
 ## Current status
 

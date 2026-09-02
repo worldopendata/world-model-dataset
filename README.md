@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-284-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-285-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 284 | 6 | 6 | 45 |
+| 285 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (30)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (34)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (66)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (30)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (34)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (67)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -1184,7 +1184,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (66)
+### World Model Evaluation & Diagnostics (67)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1235,6 +1235,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   Multi-task, multi-view video and state-trajectory data for trajectory-conditioned video generation and closed-loop VLA evaluation.
   `Robotics / Embodied AI` · `Multi-view RGB Video` · `Trajectories` · `Robot State` · `Depth`
   [Homepage](https://gigaai-research.github.io/GigaBrain-Challenge-2026/guide/world-model.html) · [Code](https://github.com/open-gigaai/CVPR-2026-Workshop-WM-Track) · Access: Dataset and leaderboard available on Hugging Face
+
+- **GigaWorld-1 / WMBench** · 2026
+  A world-model benchmark for robot-policy evaluation covering closed-loop control, out-of-distribution rollouts, and long-horizon data from multiple sources.
+  `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Trajectories` · `Reward`
+  [Code](https://github.com/Yvonne-OH/Giga-World-1-projectpage) · Access: Official project repository includes closed-loop and OOD rollout artifacts; full data access requires verification
 
 - **H2R-Bench** · 2026
   A benchmark for human-to-robot cross-embodiment manipulation video generation.

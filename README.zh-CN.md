@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-284-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-285-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 284 | 6 | 6 | 45 |
+| 285 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (30)](#predictive-generative-dynamics) · [动作条件动力学 (34)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (66)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (30)](#predictive-generative-dynamics) · [动作条件动力学 (34)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (67)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -1184,7 +1184,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### 世界模型评测与诊断（66）
+### 世界模型评测与诊断（67）
 
 - **4DSynth** · 2026
   面向动态具身仿真的可控程序化四维世界合成资源。
@@ -1235,6 +1235,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   用于轨迹条件视频生成和闭环 VLA 交互评测的多任务、多视角视频与状态轨迹数据。
   `机器人 / 具身智能` · `多视角 RGB 视频` · `轨迹` · `机器人状态` · `深度`
   [主页](https://gigaai-research.github.io/GigaBrain-Challenge-2026/guide/world-model.html) · [代码](https://github.com/open-gigaai/CVPR-2026-Workshop-WM-Track) · 访问方式：数据集和排行榜已在 Hugging Face 提供
+
+- **GigaWorld-1 / WMBench** · 2026
+  面向机器人策略评测的世界模型基准，覆盖闭环控制、分布外回放和多源长时数据。
+  `机器人 / 具身智能` · `RGB 视频` · `动作` · `机器人状态` · `轨迹` · `奖励`
+  [代码](https://github.com/Yvonne-OH/Giga-World-1-projectpage) · 访问方式：官方仓库包含闭环和 OOD 回放产物，完整数据访问待核验
 
 - **H2R-Bench** · 2026
   评测人类操作视频向机器人操作视频跨本体生成的基准。

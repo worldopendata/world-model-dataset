@@ -10,7 +10,7 @@ _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
 
-[浏览网站](https://worldopendata.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
+[浏览网站](https://aiworldmodel.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
 
 ---
 

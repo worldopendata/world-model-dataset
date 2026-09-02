@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-285-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-286-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 285 | 6 | 6 | 45 |
+| 286 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (30)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (34)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (67)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (30)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (35)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (67)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -228,7 +228,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (34)
+### Action-Conditioned Dynamics (35)
 
 - **AgiBot World 2026** · 2026
   A real-scene multiview robot-manipulation dataset with step, success-frame, error-cause, and recovery annotations.
@@ -309,6 +309,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A video dataset tailored to interactive driving world models, covering driving maneuvers, multi-agent interplay, open-world knowledge, and an action-instruction-following benchmark.
   `Autonomous Driving` · `RGB Video` · `Action` · `Language` · `Scene Metadata`
   [Paper](https://arxiv.org/abs/2410.10738) · [Code](https://github.com/Robertwyq/Drivingdojo) · Access: Paper and official project repository available; dataset access terms require verification
+
+- **RetroAct** · 2024
+  An annotated retro-game environment dataset for generative interactive environments and action-conditioned world models, with behavior, camera, motion-axis, and control metadata.
+  `Games / Virtual Environments` · `RGB Video` · `Action` · `Simulation State` · `Camera Pose`
+  [Homepage](https://nsavov.github.io/GenieRedux/) · [Code](https://github.com/insait-institute/GenieRedux) · Access: Official repository includes environment annotations, data-generation, training, and evaluation code
 
 - **RoboCasa** · 2024
   A large-scale simulation environment and task suite for household robot learning, with diverse kitchens, objects, language tasks, and generated visual-action trajectories.

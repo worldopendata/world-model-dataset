@@ -5,7 +5,7 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-285-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-286-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 285 | 6 | 6 | 45 |
+| 286 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (30)](#predictive-generative-dynamics) · [动作条件动力学 (34)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (67)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (30)](#predictive-generative-dynamics) · [动作条件动力学 (35)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (67)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -228,7 +228,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（34）
+### 动作条件动力学（35）
 
 - **AgiBot World 2026** · 2026
   真实场景多视角机器人操作数据，带步骤、成功帧、错误原因和失败恢复标注。
@@ -309,6 +309,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   专为交互式驾驶世界模型构建的视频数据集，覆盖完整驾驶操作、多智能体交互和开放世界驾驶知识，并提供动作指令跟随评测。
   `自动驾驶` · `RGB 视频` · `动作` · `语言` · `场景元数据`
   [论文](https://arxiv.org/abs/2410.10738) · [代码](https://github.com/Robertwyq/Drivingdojo) · 访问方式：提供论文和官方项目仓库；数据访问条款待核验
+
+- **RetroAct** · 2024
+  为生成式交互环境和动作条件世界模型标注的复古游戏环境数据集，含行为、视角、运动轴和控制信息。
+  `游戏 / 虚拟环境` · `RGB 视频` · `动作` · `仿真状态` · `相机位姿`
+  [主页](https://nsavov.github.io/GenieRedux/) · [代码](https://github.com/insait-institute/GenieRedux) · 访问方式：官方仓库提供环境标注、数据生成、训练和评测代码
 
 - **RoboCasa** · 2024
   面向家庭厨房机器人学习的大规模仿真环境和任务套件，提供多样化场景、物体、语言任务及可生成的视觉动作轨迹。

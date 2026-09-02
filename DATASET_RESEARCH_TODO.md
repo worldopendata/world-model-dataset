@@ -65,5 +65,5 @@ Scope: a strict catalog of datasets first publicly released before or during 202
 
 - Formal catalog: 52 datasets
 - Completed source checks: arXiv, GitHub Repository Search, Hugging Face Datasets, Papers with Code migration
-- Current focus: pre-2020 historical datasets
+- Current focus: strict datasets first publicly released before 2026; defer 2026 additions until the pre-2026 pass is complete
 - Known limitation: Semantic Scholar API and Parallel Search backend are not currently configured

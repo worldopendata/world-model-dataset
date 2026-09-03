@@ -4,13 +4,13 @@
 
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
-[![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://aiworldmodel.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-291-16a34a)](#dataset-catalog)
+[![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
+[![Datasets](https://img.shields.io/badge/datasets-292-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
-[![website](https://github.com/aiworldmodel/world-model-dataset/blob/main/images/cover.jpg)](https://aiworldmodel.github.io/world-model-dataset)
+[![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
 
-[Explore the website](https://aiworldmodel.github.io/world-model-dataset/) · [Browse datasets](#dataset-catalog) · [Contribute](#contributing-and-corrections)
+[Explore the website](https://worldopendata.github.io/world-model-dataset/) · [Browse datasets](#dataset-catalog) · [Contribute](#contributing-and-corrections)
 
 ---
 
@@ -22,7 +22,7 @@ WorldModel Data Atlas helps researchers answer a practical question:
 
 Unlike chronological paper lists, this catalog organizes datasets by the world-model capability they primarily support. Domain, modality, structure, source, access, and licensing metadata provide additional context without duplicating datasets across sections.
 
-The GitHub README is the browsable community catalog. The [interactive website](https://aiworldmodel.github.io/world-model-dataset/) adds search, filtering, bilingual display, and detailed comparisons.
+The GitHub README is the browsable community catalog. The [interactive website](https://worldopendata.github.io/world-model-dataset/) adds search, filtering, bilingual display, and detailed comparisons.
 
 ## Why this catalog
 
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 291 | 6 | 6 | 45 |
+| 292 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (32)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (38)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (67)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (32)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (39)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (67)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -238,7 +238,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="action-conditioned-dynamics"></a>
 
-### Action-Conditioned Dynamics (38)
+### Action-Conditioned Dynamics (39)
 
 - **AgiBot World 2026** · 2026
   A real-scene multiview robot-manipulation dataset with step, success-frame, error-cause, and recovery annotations.
@@ -409,6 +409,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A real-robot pushing-dynamics dataset with RGB-D video and state changes across objects, surfaces, and pushing actions for transferable visual dynamics learning.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Object State` · `Trajectory`
   [Paper](https://arxiv.org/abs/1910.00618) · [Code](https://github.com/MIT-Omnipush/video-prediction) · Access: Open project access
+
+- **Adroit Demonstrations** · 2018
+  Demonstration trajectories for dexterous-hand manipulation.
+  `Robotics / Embodied AI` · `Simulation State` · `Action` · `Reward` · `Trajectories`
+  [Code](https://github.com/Farama-Foundation/Gymnasium-Robotics) · Access: Open-source environment and offline datasets
 
 - **DeepMind Control Suite** · 2018
   A suite of continuous-control physics environments that generate trajectories with states, actions, rewards, and visual observations.

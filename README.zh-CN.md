@@ -5,12 +5,12 @@
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
 [![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
-[![数据集](https://img.shields.io/badge/数据集-291-16a34a)](#数据集目录)
+[![数据集](https://img.shields.io/badge/数据集-292-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
 
-[浏览网站](https://aiworldmodel.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
+[浏览网站](https://worldopendata.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
 
 ---
 
@@ -39,7 +39,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 | 数据集 | 一级任务 | 研究领域 | 数据模态 |
 | ---: | ---: | ---: | ---: |
-| 291 | 6 | 6 | 45 |
+| 292 | 6 | 6 | 45 |
 
 ## 分类体系
 
@@ -70,7 +70,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <!-- DATASET_CATALOG_START -->
 
-[预测与生成式动力学 (32)](#predictive-generative-dynamics) · [动作条件动力学 (38)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (67)](#world-model-evaluation-diagnostics)
+[预测与生成式动力学 (32)](#predictive-generative-dynamics) · [动作条件动力学 (39)](#action-conditioned-dynamics) · [决策与智能体轨迹 (71)](#decision-making-agent-trajectories) · [空间与时空世界建模 (57)](#spatial-spatiotemporal-world-modeling) · [物理与因果推理 (26)](#physical-causal-reasoning) · [世界模型评测与诊断 (67)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -238,7 +238,7 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
 
 <a id="action-conditioned-dynamics"></a>
 
-### 动作条件动力学（38）
+### 动作条件动力学（39）
 
 - **AgiBot World 2026** · 2026
   真实场景多视角机器人操作数据，带步骤、成功帧、错误原因和失败恢复标注。
@@ -409,6 +409,11 @@ GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互�
   真实机器人推动动力学数据集，记录不同物体、桌面环境和推动动作下的 RGB-D 视频及状态变化，用于学习可迁移的视觉动力学。
   `机器人 / 具身智能` · `RGB-D` · `动作` · `物体状态` · `轨迹`
   [论文](https://arxiv.org/abs/1910.00618) · [代码](https://github.com/MIT-Omnipush/video-prediction) · 访问方式：开放项目访问
+
+- **Adroit Demonstrations** · 2018
+  灵巧手操作示范轨迹。
+  `机器人 / 具身智能` · `仿真状态` · `动作` · `奖励` · `轨迹`
+  [代码](https://github.com/Farama-Foundation/Gymnasium-Robotics) · 访问方式：开源环境和离线数据
 
 - **DeepMind Control Suite** · 2018
   连续控制物理环境集合，可生成带状态、动作、奖励和视觉观测的世界模型轨迹。

@@ -11411,6 +11411,51 @@
     }
   },
   {
+    "id": "adroit",
+    "name": "Adroit Demonstrations",
+    "shortName": "Adroit",
+    "year": 2018,
+    "summary": "灵巧手操作示范轨迹。",
+    "summaryEn": "Demonstration trajectories for dexterous-hand manipulation.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "Simulation State",
+      "Action",
+      "Reward",
+      "Trajectories"
+    ],
+    "structure": [
+      "Interaction Episodes",
+      "Motion Trajectories"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "MuJoCo dexterous manipulation tasks",
+    "scaleZh": "MuJoCo 灵巧操作任务",
+    "organizations": "OpenAI and Farama",
+    "organizationsZh": "OpenAI 与 Farama",
+    "license": "MIT / environment terms",
+    "licenseZh": "MIT / 环境条款",
+    "access": "Open-source environment and offline datasets",
+    "accessZh": "开源环境和离线数据",
+    "rating": 4,
+    "verdict": "灵巧手状态动作轨迹",
+    "verdictEn": "Dexterous-hand state-action trajectories",
+    "wmNote": "连续状态和动作可用于动力学预测。",
+    "wmNoteEn": "Continuous states and actions support dynamics prediction.",
+    "links": {
+      "code": "https://github.com/Farama-Foundation/Gymnasium-Robotics"
+    }
+  },
+  {
     "id": "apolloscape",
     "name": "ApolloScape",
     "shortName": "ApolloScape",

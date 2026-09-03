@@ -4,13 +4,13 @@
 
 _一个以任务为核心、重视证据的世界模型开放数据集目录。_
 
-[![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://worldopendata.github.io/world-model-dataset/)
+[![在线目录](https://img.shields.io/badge/浏览-在线目录-2563eb)](https://aiworldmodel.github.io/world-model-dataset/)
 [![数据集](https://img.shields.io/badge/数据集-{{DATASET_COUNT}}-16a34a)](#数据集目录)
 [![一级任务](https://img.shields.io/badge/一级任务-6-7c3aed)](#分类体系)
 
-[![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
+[![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://aiworldmodel.github.io/world-model-dataset)
 
-[浏览网站](https://worldopendata.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
+[浏览网站](https://aiworldmodel.github.io/world-model-dataset/) · [查看数据集](#数据集目录) · [参与贡献](#贡献与修正)
 
 ---
 
@@ -22,7 +22,7 @@ WorldModel Data Atlas 希望帮助研究者回答一个实际问题：
 
 与按论文时间堆叠链接的列表不同，本目录按照数据集主要支持的世界模型能力进行组织，并通过领域、模态、结构、来源、访问方式和许可信息提供补充背景，避免同一数据集在多个章节重复出现。
 
-GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互式网站](https://worldopendata.github.io/world-model-dataset/)进一步提供搜索、筛选、中英文切换和详细比较。
+GitHub README 是便于浏览、搜索和社区协作的数据目录；[交互式网站](https://aiworldmodel.github.io/world-model-dataset/)进一步提供搜索、筛选、中英文切换和详细比较。
 
 ## 项目特点
 

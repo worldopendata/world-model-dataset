@@ -4,13 +4,13 @@
 
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
-[![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://worldopendata.github.io/world-model-dataset/)
+[![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://aiworldmodel.github.io/world-model-dataset/)
 [![Datasets](https://img.shields.io/badge/datasets-{{DATASET_COUNT}}-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
-[![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://worldopendata.github.io/world-model-dataset)
+[![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://aiworldmodel.github.io/world-model-dataset)
 
-[Explore the website](https://worldopendata.github.io/world-model-dataset/) · [Browse datasets](#dataset-catalog) · [Contribute](#contributing-and-corrections)
+[Explore the website](https://aiworldmodel.github.io/world-model-dataset/) · [Browse datasets](#dataset-catalog) · [Contribute](#contributing-and-corrections)
 
 ---
 
@@ -22,7 +22,7 @@ WorldModel Data Atlas helps researchers answer a practical question:
 
 Unlike chronological paper lists, this catalog organizes datasets by the world-model capability they primarily support. Domain, modality, structure, source, access, and licensing metadata provide additional context without duplicating datasets across sections.
 
-The GitHub README is the browsable community catalog. The [interactive website](https://worldopendata.github.io/world-model-dataset/) adds search, filtering, bilingual display, and detailed comparisons.
+The GitHub README is the browsable community catalog. The [interactive website](https://aiworldmodel.github.io/world-model-dataset/) adds search, filtering, bilingual display, and detailed comparisons.
 
 ## Why this catalog
 

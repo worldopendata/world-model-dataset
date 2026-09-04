@@ -8292,6 +8292,52 @@
     }
   },
   {
+    "id": "magent2",
+    "name": "MAgent2",
+    "shortName": "MAgent2",
+    "year": 2022,
+    "summary": "大规模多智能体网格世界环境，提供并行动作、观测和群体状态轨迹。",
+    "summaryEn": "Large-scale multi-agent grid-world environments with parallel actions, observations, and population-state trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Game State",
+      "Action",
+      "Reward"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Thousands of simultaneous agents in grid worlds",
+    "scaleZh": "网格世界中可同时运行数千智能体",
+    "organizations": "Farama Foundation",
+    "organizationsZh": "Farama 基金会",
+    "license": "MIT",
+    "licenseZh": "MIT",
+    "access": "Open-source environment",
+    "accessZh": "开源环境",
+    "rating": 4,
+    "verdict": "多智能体状态演化环境",
+    "verdictEn": "Multi-agent state-evolution environments",
+    "wmNote": "群体交互轨迹适合研究社会动力学和反事实预测。",
+    "wmNoteEn": "Population interaction trajectories support social-dynamics and counterfactual prediction.",
+    "links": {
+      "code": "https://github.com/Farama-Foundation/MAgent2",
+      "paper": "https://arxiv.org/abs/2109.07807"
+    }
+  },
+  {
     "id": "maniskill",
     "name": "ManiSkill",
     "shortName": "ManiSkill",
@@ -8913,12 +8959,12 @@
     }
   },
   {
-    "id": "igibson",
-    "name": "iGibson",
-    "shortName": "iGibson",
+    "id": "isaac-gym",
+    "name": "Isaac Gym",
+    "shortName": "Isaac Gym",
     "year": 2021,
-    "summary": "高保真交互式三维场景仿真器，可生成具身导航和操作轨迹。",
-    "summaryEn": "A high-fidelity interactive 3D simulator generating embodied navigation and manipulation trajectories.",
+    "summary": "GPU 加速物理仿真环境，可生成机器人状态、动作和视觉轨迹。",
+    "summaryEn": "GPU-accelerated physics environments that generate robot states, actions, and visual trajectories.",
     "primaryTask": "Action-Conditioned Dynamics",
     "primaryTaskZh": "动作条件动力学",
     "secondaryTasks": [
@@ -8926,38 +8972,37 @@
     ],
     "domain": [
       "Robotics / Embodied AI",
-      "Games / Virtual Environments"
+      "Physics / Science"
     ],
     "modalities": [
-      "RGB-D",
-      "Action",
+      "RGB Video",
       "Simulation State",
-      "Object State"
+      "Action",
+      "Reward"
     ],
     "structure": [
-      "Simulation Rollouts",
-      "Interaction Episodes"
+      "Environment / Benchmark",
+      "Motion Trajectories"
     ],
     "source": [
       "Simulation"
     ],
-    "scale": "Interactive scanned indoor scenes",
-    "scaleZh": "可交互扫描室内场景",
-    "organizations": "Stanford University",
-    "organizationsZh": "斯坦福大学",
-    "license": "Apache-2.0 code; dataset terms vary",
-    "licenseZh": "代码 Apache-2.0；数据条款各异",
-    "access": "Official simulator",
-    "accessZh": "官方仿真器",
-    "rating": 5,
-    "verdict": "高保真交互仿真",
-    "verdictEn": "High-fidelity interactive simulation",
-    "wmNote": "适合接触和对象状态变化建模。",
-    "wmNoteEn": "Supports contact and object-state modeling.",
+    "scale": "Parallel GPU simulation for thousands of environments",
+    "scaleZh": "可并行仿真数千个环境",
+    "organizations": "NVIDIA",
+    "organizationsZh": "NVIDIA",
+    "license": "NVIDIA software license",
+    "licenseZh": "NVIDIA 软件许可",
+    "access": "Official repository and release",
+    "accessZh": "官方仓库和发行版",
+    "rating": 4,
+    "verdict": "大规模 GPU 物理轨迹生成",
+    "verdictEn": "Large-scale GPU physics trajectory generation",
+    "wmNote": "可控动作和状态接口适合动力学模型训练。",
+    "wmNoteEn": "Controllable action and state interfaces support dynamics-model training.",
     "links": {
-      "homepage": "https://svl.stanford.edu/igibson/",
-      "paper": "https://arxiv.org/abs/2012.02924",
-      "code": "https://github.com/StanfordVL/iGibson"
+      "code": "https://github.com/isaac-sim/IsaacGymEnvs",
+      "paper": "https://arxiv.org/abs/2108.10470"
     }
   },
   {
@@ -9384,6 +9429,52 @@
     "organizationsZh": "加州大学伯克利分校",
     "accessZh": "需注册",
     "licenseZh": "适用 BDD100K 许可；包含非商业研究用途条件"
+  },
+  {
+    "id": "bsuite",
+    "name": "bsuite",
+    "shortName": "bsuite",
+    "year": 2020,
+    "summary": "用于分析强化学习核心能力的可复现实验环境和轨迹基准。",
+    "summaryEn": "A reproducible suite of reinforcement-learning environments and trajectory benchmarks for core capabilities.",
+    "primaryTask": "World Model Evaluation & Diagnostics",
+    "primaryTaskZh": "世界模型评测与诊断",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "Game State",
+      "Action",
+      "Reward",
+      "Trajectories"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Dataset / Benchmark"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Bandits, memory, exploration, and generalization tasks",
+    "scaleZh": "涵盖 bandit、记忆、探索和泛化任务",
+    "organizations": "DeepMind",
+    "organizationsZh": "DeepMind",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Open-source benchmark",
+    "accessZh": "开源基准",
+    "rating": 4,
+    "verdict": "强化学习能力诊断基准",
+    "verdictEn": "RL capability diagnostic benchmark",
+    "wmNote": "可用于评估记忆、探索和状态预测能力。",
+    "wmNoteEn": "Evaluates memory, exploration, and state-prediction capabilities.",
+    "links": {
+      "code": "https://github.com/google-deepmind/bsuite",
+      "paper": "https://arxiv.org/abs/1908.03568"
+    }
   },
   {
     "id": "cater",
@@ -10610,6 +10701,53 @@
     }
   },
   {
+    "id": "igibson",
+    "name": "iGibson",
+    "shortName": "iGibson",
+    "year": 2019,
+    "summary": "室内具身智能仿真平台，提供视觉、触觉、动作和物理状态轨迹。",
+    "summaryEn": "An indoor embodied-AI simulation platform providing visual, tactile, action, and physical-state trajectories.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Action-Conditioned Dynamics"
+    ],
+    "domain": [
+      "Robotics / Embodied AI"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Depth",
+      "Simulation State",
+      "Action"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Interactive indoor scenes with physics simulation",
+    "scaleZh": "带物理仿真的交互式室内场景",
+    "organizations": "University of Southern California",
+    "organizationsZh": "南加州大学",
+    "license": "See project license",
+    "licenseZh": "见项目许可",
+    "access": "Open-source simulator and assets",
+    "accessZh": "开源模拟器与资源",
+    "rating": 4,
+    "verdict": "室内物理交互仿真",
+    "verdictEn": "Indoor physical-interaction simulation",
+    "wmNote": "支持具身状态演化和动作条件观测预测。",
+    "wmNoteEn": "Supports embodied state evolution and action-conditioned observation prediction.",
+    "links": {
+      "homepage": "https://svl.stanford.edu/igibson/",
+      "code": "https://github.com/StanfordVL/iGibson",
+      "paper": "https://arxiv.org/abs/1810.03993"
+    }
+  },
+  {
     "id": "interaction-dataset",
     "name": "INTERACTION Dataset",
     "shortName": "INTERACTION Dataset",
@@ -10840,6 +10978,52 @@
     "organizationsZh": "卡内基梅隆大学及合作机构",
     "accessZh": "开放下载",
     "licenseZh": "代码采用 MIT 许可；同时适用 Minecraft EULA 和数据集条款"
+  },
+  {
+    "id": "miniwob-plus-plus",
+    "name": "MiniWoB++",
+    "shortName": "MiniWoB++",
+    "year": 2019,
+    "summary": "网页交互环境集合，提供动作、页面状态和任务轨迹用于智能体建模。",
+    "summaryEn": "A suite of web-interaction environments providing actions, page states, and task trajectories for agent modeling.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Action",
+      "Text",
+      "Reward"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "100+ procedurally generated web tasks",
+    "scaleZh": "100 多个程序生成网页任务",
+    "organizations": "Stanford University and collaborators",
+    "organizationsZh": "斯坦福大学及合作团队",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Open-source benchmark",
+    "accessZh": "开源基准",
+    "rating": 4,
+    "verdict": "网页智能体交互轨迹基准",
+    "verdictEn": "Web-agent interaction trajectory benchmark",
+    "wmNote": "页面状态和动作序列支持长时决策预测。",
+    "wmNoteEn": "Page states and action sequences support long-horizon prediction.",
+    "links": {
+      "code": "https://github.com/Farama-Foundation/miniwob-plusplus",
+      "paper": "https://arxiv.org/abs/1905.04362"
+    }
   },
   {
     "id": "nuscenes",

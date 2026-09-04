@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://aiworldmodel.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-292-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-296-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://aiworldmodel.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 292 | 6 | 6 | 45 |
+| 296 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,7 +70,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (32)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (39)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (71)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (57)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (67)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (32)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (39)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (73)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (58)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (68)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
@@ -375,10 +375,10 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Egocentric / Human` · `Robotics / Embodied AI` · `RGB-D` · `3D Mesh` · `Agent Pose` · `Object State`
   [Homepage](https://dex-ycb.github.io/) · [Paper](https://arxiv.org/abs/2104.04631) · [Code](https://github.com/NVlabs/dex-ycb-toolkit) · Access: Official download
 
-- **iGibson** · 2021
-  A high-fidelity interactive 3D simulator generating embodied navigation and manipulation trajectories.
-  `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB-D` · `Action` · `Simulation State` · `Object State`
-  [Homepage](https://svl.stanford.edu/igibson/) · [Paper](https://arxiv.org/abs/2012.02924) · [Code](https://github.com/StanfordVL/iGibson) · Access: Official simulator
+- **Isaac Gym** · 2021
+  GPU-accelerated physics environments that generate robot states, actions, and visual trajectories.
+  `Robotics / Embodied AI` · `Physics / Science` · `RGB Video` · `Simulation State` · `Action` · `Reward`
+  [Code](https://github.com/isaac-sim/IsaacGymEnvs) · [Paper](https://arxiv.org/abs/2108.10470) · Access: Official repository and release
 
 - **D4RL** · 2020
   A standardized offline-RL dataset suite with states, actions, rewards, and termination signals.
@@ -437,7 +437,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (71)
+### Decision-Making & Agent Trajectories (73)
 
 - **AbstainEQA** · 2026
   An embodied question-answering benchmark testing whether agents abstain appropriately when trajectory evidence is insufficient.
@@ -669,6 +669,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Language` · `Robot State`
   [Paper](https://arxiv.org/abs/2210.06407) · [Code](https://github.com/google-research/language-table) · Access: Official dataset and code
 
+- **MAgent2** · 2022
+  Large-scale multi-agent grid-world environments with parallel actions, observations, and population-state trajectories.
+  `Games / Virtual Environments` · `RGB Video` · `Game State` · `Action` · `Reward`
+  [Code](https://github.com/Farama-Foundation/MAgent2) · [Paper](https://arxiv.org/abs/2109.07807) · Access: Open-source environment
+
 - **ProcTHOR** · 2022
   A procedural framework for generating arbitrarily large, diverse, customizable interactive environments for embodied-agent training and evaluation, with an official 10,000-house sample.
   `Robotics / Embodied AI` · `Games / Virtual Environments` · `RGB Video` · `Action` · `Simulation State` · `Scene Metadata`
@@ -744,6 +749,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Games / Virtual Environments` · `RGB Video` · `Action` · `Game State` · `Reward`
   [Homepage](https://minerl.io/) · [Paper](https://arxiv.org/abs/1907.13440) · [Code](https://github.com/minerllabs/minerl) · Access: Open download
 
+- **MiniWoB++** · 2019
+  A suite of web-interaction environments providing actions, page states, and task trajectories for agent modeling.
+  `Games / Virtual Environments` · `RGB Video` · `Action` · `Text` · `Reward`
+  [Code](https://github.com/Farama-Foundation/miniwob-plusplus) · [Paper](https://arxiv.org/abs/1905.04362) · Access: Open-source benchmark
+
 - **OffWorld Gym** · 2019
   An open physical robotics environment and benchmark for real-world reinforcement learning with sensor observations, actions, rewards, and interaction episodes.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Reward`
@@ -796,7 +806,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="spatial-spatiotemporal-world-modeling"></a>
 
-### Spatial & Spatiotemporal World Modeling (57)
+### Spatial & Spatiotemporal World Modeling (58)
 
 - **AudioWorldSim** · 2026
   An open simulation platform for generating binaural-audio world-model trajectories.
@@ -992,6 +1002,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A large-scale 5D semantic autonomous-driving benchmark combining video, 3D objects, trajectories, maps, and time for dynamic traffic-scene modeling.
   `Autonomous Driving` · `Urban / 3D Scene` · `RGB Video` · `3D Boxes` · `Trajectories` · `Maps` · `Semantic Labels`
   [Paper](https://arxiv.org/abs/1903.06405) · [Code](https://github.com/VCCIV/BLVD) · Access: Official repository available
+
+- **iGibson** · 2019
+  An indoor embodied-AI simulation platform providing visual, tactile, action, and physical-state trajectories.
+  `Robotics / Embodied AI` · `RGB Video` · `Depth` · `Simulation State` · `Action`
+  [Homepage](https://svl.stanford.edu/igibson/) · [Code](https://github.com/StanfordVL/iGibson) · [Paper](https://arxiv.org/abs/1810.03993) · Access: Open-source simulator and assets
 
 - **Lyft Level 5 Dataset** · 2019
   A multimodal autonomous-driving dataset with LiDAR, cameras, maps, and trajectory annotations.
@@ -1219,7 +1234,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (67)
+### World Model Evaluation & Diagnostics (68)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1535,6 +1550,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A procedurally generated robot-manipulation benchmark driven by multimodal prompts.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Language` · `Object Metadata`
   [Homepage](https://vimalabs.github.io/) · [Paper](https://arxiv.org/abs/2210.03094) · [Code](https://github.com/vimalabs/VIMA) · Access: Official benchmark code
+
+- **bsuite** · 2020
+  A reproducible suite of reinforcement-learning environments and trajectory benchmarks for core capabilities.
+  `Games / Virtual Environments` · `Game State` · `Action` · `Reward` · `Trajectories`
+  [Code](https://github.com/google-deepmind/bsuite) · [Paper](https://arxiv.org/abs/1908.03568) · Access: Open-source benchmark
 
 - **CLEVRER** · 2020
   A synthetic benchmark for video-based physical and causal reasoning. Collision scenarios test descriptive, explanatory, predictive, and counterfactual reasoning with structured annotations.

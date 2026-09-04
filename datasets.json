@@ -6564,6 +6564,53 @@
     "licenseZh": "Ego-Exo4D 许可协议；需通过审核方可访问"
   },
   {
+    "id": "isaac-lab",
+    "name": "Isaac Lab",
+    "shortName": "Isaac Lab",
+    "year": 2024,
+    "summary": "面向机器人学习的 GPU 物理仿真框架，可生成大规模状态—动作轨迹。",
+    "summaryEn": "A GPU physics-simulation framework for robot learning that generates large-scale state-action trajectories.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Simulation State",
+      "Action",
+      "Reward"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Motion Trajectories"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Parallel simulated robot environments",
+    "scaleZh": "并行机器人仿真环境",
+    "organizations": "NVIDIA",
+    "organizationsZh": "NVIDIA",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Open-source repository",
+    "accessZh": "开源仓库",
+    "rating": 4,
+    "verdict": "机器人学习物理轨迹生成",
+    "verdictEn": "Physics trajectory generation for robot learning",
+    "wmNote": "支持动作条件视觉预测和反事实控制。",
+    "wmNoteEn": "Supports action-conditioned visual prediction and counterfactual control.",
+    "links": {
+      "code": "https://github.com/isaac-sim/IsaacLab",
+      "paper": "https://arxiv.org/abs/2309.07137"
+    }
+  },
+  {
     "id": "mmworld",
     "name": "MMWorld",
     "shortName": "MMWorld",
@@ -7724,6 +7771,54 @@
     }
   },
   {
+    "id": "webarena",
+    "name": "WebArena",
+    "shortName": "WebArena",
+    "year": 2023,
+    "summary": "可复现的真实网站交互环境，提供浏览器状态、动作和任务轨迹。",
+    "summaryEn": "A reproducible real-website interaction environment with browser states, actions, and task trajectories.",
+    "primaryTask": "Decision-Making & Agent Trajectories",
+    "primaryTaskZh": "决策与智能体轨迹",
+    "secondaryTasks": [
+      "World Model Evaluation & Diagnostics"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Text",
+      "Action",
+      "Reward"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation",
+      "Real-world"
+    ],
+    "scale": "Four self-hosted web applications and multi-step tasks",
+    "scaleZh": "四个自托管网站和多步任务",
+    "organizations": "Carnegie Mellon University",
+    "organizationsZh": "卡内基梅隆大学",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Open-source benchmark and deployment",
+    "accessZh": "开源基准与部署工具",
+    "rating": 4,
+    "verdict": "网页智能体长时交互基准",
+    "verdictEn": "Long-horizon web-agent interaction benchmark",
+    "wmNote": "页面状态变化与操作序列可用于任务世界模型评测。",
+    "wmNoteEn": "Page-state changes and action sequences support task-world-model evaluation.",
+    "links": {
+      "homepage": "https://webarena.dev/",
+      "code": "https://github.com/web-arena-x/webarena",
+      "paper": "https://arxiv.org/abs/2307.13854"
+    }
+  },
+  {
     "id": "assembly101",
     "name": "Assembly101",
     "shortName": "Assembly101",
@@ -8481,6 +8576,53 @@
     "organizationsZh": "Google Research",
     "accessZh": "开放下载",
     "licenseZh": "生成器采用 Apache-2.0；已发布数据集遵循项目条款"
+  },
+  {
+    "id": "myosuite",
+    "name": "MyoSuite",
+    "shortName": "MyoSuite",
+    "year": 2022,
+    "summary": "肌肉骨骼机器人 MuJoCo 环境，提供高维身体状态、动作和运动轨迹。",
+    "summaryEn": "MuJoCo musculoskeletal environments with high-dimensional body states, actions, and motion trajectories.",
+    "primaryTask": "Action-Conditioned Dynamics",
+    "primaryTaskZh": "动作条件动力学",
+    "secondaryTasks": [
+      "Physical & Causal Reasoning"
+    ],
+    "domain": [
+      "Robotics / Embodied AI",
+      "Physics / Science"
+    ],
+    "modalities": [
+      "Simulation State",
+      "Action",
+      "Reward",
+      "Trajectories"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Motion Trajectories"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Muscle-actuated manipulation and locomotion tasks",
+    "scaleZh": "肌肉驱动操作与运动任务",
+    "organizations": "University of Washington",
+    "organizationsZh": "华盛顿大学",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Open-source benchmark",
+    "accessZh": "开源基准",
+    "rating": 4,
+    "verdict": "肌肉骨骼动力学环境",
+    "verdictEn": "Musculoskeletal dynamics environments",
+    "wmNote": "高维身体状态适合研究具身动力学模型。",
+    "wmNoteEn": "High-dimensional body states support embodied-dynamics models.",
+    "links": {
+      "code": "https://github.com/facebookresearch/myosuite",
+      "paper": "https://arxiv.org/abs/2205.13608"
+    }
   },
   {
     "id": "procthor",
@@ -12985,6 +13127,52 @@
     }
   },
   {
+    "id": "deepmind-lab",
+    "name": "DeepMind Lab",
+    "shortName": "DeepMind Lab",
+    "year": 2016,
+    "summary": "第一人称 3D 导航与交互环境，提供视觉观测、动作和游戏状态轨迹。",
+    "summaryEn": "First-person 3D navigation and interaction environments with visual observations, actions, and game-state trajectories.",
+    "primaryTask": "Spatial & Spatiotemporal World Modeling",
+    "primaryTaskZh": "空间与时空世界建模",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Game State",
+      "Action",
+      "Reward"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "3D maze and navigation tasks",
+    "scaleZh": "3D 迷宫与导航任务",
+    "organizations": "DeepMind",
+    "organizationsZh": "DeepMind",
+    "license": "Apache-2.0",
+    "licenseZh": "Apache-2.0",
+    "access": "Open-source environment",
+    "accessZh": "开源环境",
+    "rating": 4,
+    "verdict": "第一人称 3D 世界建模环境",
+    "verdictEn": "First-person 3D world-modeling environment",
+    "wmNote": "连续视觉和动作序列可用于导航世界模型。",
+    "wmNoteEn": "Continuous visual-action sequences support navigation world models.",
+    "links": {
+      "code": "https://github.com/google-deepmind/lab",
+      "paper": "https://arxiv.org/abs/1612.03801"
+    }
+  },
+  {
     "id": "mit-planar-pushing",
     "name": "MIT Planar Pushing Dataset",
     "shortName": "MIT Planar Pushing",
@@ -13260,6 +13448,53 @@
     "links": {
       "homepage": "https://europe.naverlabs.com/research/computer-vision/proxy-virtual-worlds-vkitti-1/",
       "paper": "https://arxiv.org/abs/1605.06457"
+    }
+  },
+  {
+    "id": "vizdoom",
+    "name": "ViZDoom",
+    "shortName": "ViZDoom",
+    "year": 2016,
+    "summary": "基于 Doom 的第一人称视觉强化学习环境，提供可控动作和帧序列。",
+    "summaryEn": "A Doom-based first-person visual RL environment with controllable actions and frame sequences.",
+    "primaryTask": "Predictive & Generative Dynamics",
+    "primaryTaskZh": "预测与生成式动力学",
+    "secondaryTasks": [
+      "Decision-Making & Agent Trajectories"
+    ],
+    "domain": [
+      "Games / Virtual Environments"
+    ],
+    "modalities": [
+      "RGB Video",
+      "Game State",
+      "Action",
+      "Reward"
+    ],
+    "structure": [
+      "Environment / Benchmark",
+      "Interaction Episodes"
+    ],
+    "source": [
+      "Simulation"
+    ],
+    "scale": "Multiple configurable first-person scenarios",
+    "scaleZh": "多个可配置第一人称场景",
+    "organizations": "Nicolaus Copernicus University",
+    "organizationsZh": "哥白尼大学",
+    "license": "MIT",
+    "licenseZh": "MIT",
+    "access": "Open-source engine and scenarios",
+    "accessZh": "开源引擎与场景",
+    "rating": 4,
+    "verdict": "视觉动作预测游戏环境",
+    "verdictEn": "Visual-action prediction game environment",
+    "wmNote": "像素观测与动作接口适合学习环境转移。",
+    "wmNoteEn": "Pixel observations and action APIs support transition learning.",
+    "links": {
+      "homepage": "https://vizdoom.cs.put.poznan.pl/",
+      "code": "https://github.com/Farama-Foundation/ViZDoom",
+      "paper": "https://arxiv.org/abs/1605.02097"
     }
   },
   {

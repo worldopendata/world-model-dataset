@@ -5,7 +5,7 @@
 _A task-first, evidence-aware catalog of open datasets for world-model research._
 
 [![Live catalog](https://img.shields.io/badge/explore-live_catalog-2563eb)](https://aiworldmodel.github.io/world-model-dataset/)
-[![Datasets](https://img.shields.io/badge/datasets-301-16a34a)](#dataset-catalog)
+[![Datasets](https://img.shields.io/badge/datasets-306-16a34a)](#dataset-catalog)
 [![Primary tasks](https://img.shields.io/badge/primary_tasks-6-7c3aed)](#taxonomy)
 
 [![website](https://github.com/worldopendata/world-model-dataset/blob/main/images/cover.jpg)](https://aiworldmodel.github.io/world-model-dataset)
@@ -39,7 +39,7 @@ This is a curated research resource, not a ranking. Detailed suitability notes o
 
 | Datasets | Primary tasks | Domains | Modalities |
 | ---: | ---: | ---: | ---: |
-| 301 | 6 | 6 | 45 |
+| 306 | 6 | 6 | 45 |
 
 ## Taxonomy
 
@@ -70,11 +70,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <!-- DATASET_CATALOG_START -->
 
-[Predictive & Generative Dynamics (33)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (41)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (74)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (59)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (26)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (68)](#world-model-evaluation-diagnostics)
+[Predictive & Generative Dynamics (34)](#predictive-generative-dynamics) · [Action-Conditioned Dynamics (41)](#action-conditioned-dynamics) · [Decision-Making & Agent Trajectories (76)](#decision-making-agent-trajectories) · [Spatial & Spatiotemporal World Modeling (59)](#spatial-spatiotemporal-world-modeling) · [Physical & Causal Reasoning (27)](#physical-causal-reasoning) · [World Model Evaluation & Diagnostics (69)](#world-model-evaluation-diagnostics)
 
 <a id="predictive-generative-dynamics"></a>
 
-### Predictive & Generative Dynamics (33)
+### Predictive & Generative Dynamics (34)
 
 - **DenseReward Dataset** · 2026
   A robot and human manipulation-video dataset with frame-level dense progress, stage, and failure-recovery annotations.
@@ -140,6 +140,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A large driving-video dataset spanning cities, weather, and time of day, with annotations for detection, lanes, drivable areas, and tracking.
   `Autonomous Driving` · `RGB Video` · `2D Boxes` · `Segmentation` · `Lane Markings`
   [Homepage](https://bdd-data.berkeley.edu/) · [Paper](https://arxiv.org/abs/1805.04687) · [Code](https://github.com/bdd100k/bdd100k) · Access: Registration required
+
+- **Procgen Benchmark** · 2020
+  Procedurally generated visual RL environments with controllable actions, observations, and level-state trajectories.
+  `Games / Virtual Environments` · `RGB Video` · `Game State` · `Action` · `Reward`
+  [Code](https://github.com/openai/procgen) · [Paper](https://arxiv.org/abs/1912.01588) · Access: Open-source environments
 
 - **Virtual KITTI 2** · 2020
   A photorealistic synthetic driving-video dataset with depth, optical flow, scene flow, and 3D annotations.
@@ -452,7 +457,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="decision-making-agent-trajectories"></a>
 
-### Decision-Making & Agent Trajectories (74)
+### Decision-Making & Agent Trajectories (76)
 
 - **AbstainEQA** · 2026
   An embodied question-answering benchmark testing whether agents abstain appropriately when trajectory evidence is insufficient.
@@ -704,6 +709,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Language` · `Object State`
   [Homepage](https://teachingalfred.github.io/) · [Paper](https://arxiv.org/abs/2110.00534) · [Code](https://github.com/alexa/teach) · Access: Official benchmark and code
 
+- **ALFWorld** · 2021
+  An interactive benchmark aligning text tasks with indoor embodied environments and task-state trajectories.
+  `Robotics / Embodied AI` · `Games / Virtual Environments` · `Text` · `RGB Video` · `Action` · `Game State`
+  [Code](https://github.com/alfworld/alfworld) · [Paper](https://arxiv.org/abs/2010.03768) · Access: Open-source benchmark
+
 - **nuPlan** · 2021
   A large-scale real-world planning dataset and benchmark with sensor logs, maps, trajectories, and closed-loop evaluation tools for autonomous driving.
   `Autonomous Driving` · `RGB Video` · `LiDAR` · `Maps` · `Trajectories` · `GPS / IMU`
@@ -798,6 +808,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A robot block-stacking demonstration dataset with visual observations, actions, and workspace constraints for compositional skill learning.
   `Robotics / Embodied AI` · `RGB Video` · `Action` · `Robot State` · `Object State`
   [Paper](https://arxiv.org/abs/1810.11714) · Access: Paper entry only; data access unverified
+
+- **Gym Retro** · 2018
+  Classic-game emulator environments with pixel observations, discrete actions, and game-state trajectories.
+  `Games / Virtual Environments` · `RGB Video` · `Game State` · `Action` · `Reward`
+  [Code](https://github.com/openai/retro) · [Paper](https://arxiv.org/abs/1710.02298) · Access: Open-source emulator integration
 
 - **RoboTurk** · 2018
   A real-robot demonstration dataset collected through crowdsourced teleoperation, with vision, actions, and robot state for scalable imitation learning.
@@ -1125,7 +1140,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="physical-causal-reasoning"></a>
 
-### Physical & Causal Reasoning (26)
+### Physical & Causal Reasoning (27)
 
 - **CG-World** · 2026
   A large computer-graphics world-state dataset explicitly recording states, events, relations, and counterfactual branches.
@@ -1242,6 +1257,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   `Physics / Science` · `Synthetic Video` · `3D State` · `Object Metadata` · `Simulation State`
   [Paper](https://arxiv.org/abs/1804.08018) · [Code](https://github.com/ogroth/shapestacks) · Access: Open generation toolkit
 
+- **TextWorld** · 2018
+  A text-based interactive-world generator with language observations, actions, and hidden-state transitions.
+  `Games / Virtual Environments` · `Text` · `Game State` · `Action` · `Reward`
+  [Code](https://github.com/microsoft/ TextWorld) · [Paper](https://arxiv.org/abs/1806.11532) · Access: Open-source generator and games
+
 - **MIT Planar Pushing Dataset** · 2016
   A high-fidelity planar pushing dataset recording actions and object motion across shapes, contacts, pushing directions, and friction conditions.
   `Robotics / Embodied AI` · `Physics / Science` · `Action` · `Object State` · `Trajectory` · `Robot State`
@@ -1259,7 +1279,7 @@ Entries are grouped by primary task and sorted by year within each group. The RE
 
 <a id="world-model-evaluation-diagnostics"></a>
 
-### World Model Evaluation & Diagnostics (68)
+### World Model Evaluation & Diagnostics (69)
 
 - **4DSynth** · 2026
   A controllable procedural 4D-world synthesis resource for dynamic embodied simulation.
@@ -1575,6 +1595,11 @@ Entries are grouped by primary task and sorted by year within each group. The RE
   A procedurally generated robot-manipulation benchmark driven by multimodal prompts.
   `Robotics / Embodied AI` · `RGB-D` · `Action` · `Language` · `Object Metadata`
   [Homepage](https://vimalabs.github.io/) · [Paper](https://arxiv.org/abs/2210.03094) · [Code](https://github.com/vimalabs/VIMA) · Access: Official benchmark code
+
+- **MiniHack** · 2021
+  Composable NetHack-based environments for planning, memory, and long-horizon state evolution.
+  `Games / Virtual Environments` · `Game State` · `Action` · `Text` · `Reward`
+  [Code](https://github.com/facebookresearch/minihack) · [Paper](https://arxiv.org/abs/2109.13202) · Access: Open-source benchmark
 
 - **bsuite** · 2020
   A reproducible suite of reinforcement-learning environments and trajectory benchmarks for core capabilities.
